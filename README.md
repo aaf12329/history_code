@@ -1,59 +1,78 @@
-# DeepSeek_port v1.0（重构版）
+# DeepSeek_port v1.5
 
-> 首次系统性重构：从"能聊"到"有结构"
+> 记忆系统成型：记忆目录化 + 双提示词 + 自动压缩
 
-![version](https://img.shields.io/badge/version-v1.0-blue)
+![version](https://img.shields.io/badge/version-v1.5-blue)
 ![status](https://img.shields.io/badge/状态-已归档-lightgrey)
 
 ## 📖 简介
 
-对 v0.1 雏形完成第一次完整重构：单文件按职责拆分为清晰的函数结构，并把对话历史
-机制升级为**累积式 Markdown 记忆库**——AI 不再只是"翻聊天记录"，而是每轮都带着
-全部记忆回答。
+记忆机制全面升级：记忆与提示词从单文件拆分为独立的 **Menorise/** 目录；
+新增手搓的 **Compress_mudel 记忆压缩模块**，记忆库超限自动"瘦身"；
+系统提示词与个人私设分离，双 prompt 共同生效。脚本同时改用相对路径寻址，
+不再依赖启动时的工作目录。
+
+## 🧠 记忆系统工作原理
+
+```
+用户输入+时间戳 ──► 追加至 Menorise/Memory_Library.md
+                            │
+每轮对话：整份记忆库 + 用户输入 拼接为 user 消息
+          System_prompt.md + Personal_setting.md 拼接为 system 消息
+                            │
+                            ▼
+                    DeepSeek（流式 + 思考）
+                            │
+每轮结束：AI 回复写回记忆库
+          Memory_Library.md ≥ 2.5MB ? ──► Compress_mudel.control() 自动压缩
+```
 
 ## 🏗️ 架构
 
 | 函数 | 职责 |
 |------|------|
-| `Use()` | API 调用与参数控制（流式输出 + 思考模式 + high reasoning） |
-| `U_Input()` | 用户输入与文件上传解析 |
-| `Memory()` | 记忆库读写（Memory.md 追加 / 全量读取） |
-| `memoryfile_detect()` | 启动自检，记忆文件缺失自动创建 |
-| `control()` | 中控：输入 → 带记忆调用 → 回复写回记忆 |
+| `prompt_read()` | 读取提示词文件 |
+| `Memory()` | 指定路径的记忆读写 |
+| `Use()` | API 调用（流式 + 思考模式） |
+| `U_Input()` | 输入与三类文件上传 |
+| `memoryfile_detect()` | 记忆/提示词文件自检补建 |
+| `Memory_detect()` | 记忆库体积检测，≥2.5MB 触发压缩 |
+| `control()` | 中控 |
 
 ## ✨ 功能特性
 
-- **累积式记忆**：所有对话（带时间戳）追加进 `Memory.md`，每轮整份读出作为
-  system 提示词——AI 始终"带着全部记忆"回答
-- **三类文件上传**（`Code_Send:` 指令）：
-  - 文本类：.txt .md .csv .py .html .xml .log .yaml .json
-  - 二进制类：图片/音视频等，自动转 base64 附带发送
-  - Office 文档：docx 抽取段落文本、xlsx 转表格数据
-- 模型 deepseek-v4-flash，开启思考模式
+- **Menorise 记忆目录**：Memory_Library.md（记忆库）、System_prompt.md（系统提示词）、
+  Personal_setting.md（个人私设）
+- **双 prompt**：人设与私设分离维护，拼接后生效
+- **自动记忆压缩**：Compress_mudel 模块在记忆库超限时启动
+- 路径以脚本所在位置锚定，任意目录启动均可
 
 ## 🚀 快速开始
 
 ```bash
 pip install openai openpyxl pandas python-docx python-dotenv
-# .env 配置同 v0.1
-python "ds(重构后1.0).py"
+python "ds(1.5版本).py"
 ```
 
-## 💬 使用说明
+## 🏗️ 项目结构
 
-| 指令 | 作用 |
-|------|------|
-| 直接输入文字 | 对话（自动带时间戳并写入记忆） |
-| `Code_Send:` | 上传本地文件（按提示输入路径） |
-| `exit()` | 退出程序 |
+```
+DeepSeek_port/
+├── ds(1.5版本).py        # 主程序
+├── Compress_mudel.py     # 记忆压缩模块
+└── Menorise/
+    ├── Memory_Library.md     # 记忆库
+    ├── System_prompt.md      # 系统提示词
+    └── Personal_setting.md   # 个人私设
+```
 
-## 📌 与 v0.1 的差异
+## 📌 与 v1.0 的差异
 
-- 历史机制由 json 整体读写改为 **Markdown 记忆库累积追加**
-- 新增二进制 / Office 文件支持
-- 代码函数化重构，退出指令统一为 `exit()`
+- 记忆/prompt 从单文件 Memory.md 拆分为 Menorise/ 三文件
+- 新增双 prompt 与自动记忆压缩
+- 路径全部改为脚本位置锚定
 
 ## ⚠️ 已知问题
 
-- 记忆直接当系统提示词使用，没有独立的人设 prompt（v1.5 引入双 prompt）
-- 记忆无上限，长对话会持续膨胀（压缩机制将在 v1.5 引入）
+- 压缩阈值 2.5MB，触发时机偏晚
+- 仍是命令行交互，图形界面排期中
