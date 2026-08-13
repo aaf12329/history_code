@@ -1,0 +1,7 @@
+双击Engage.bat文件快速启动
+Menories里面是有三个东西分别对应
+Original_Memory.md(记忆库)
+Personal_setting(个人设定数据库)
+System_Prompt(系统提示词数据库)
+
+Personal_setting与System_Prompt都会作为系统提示词输入
