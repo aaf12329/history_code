@@ -1,38 +1,22 @@
-# DeepSeek_port v1.5.1
+# DeepSeek_port —— v2.0 重构预研（base_deepseek）
 
-> 工程化小步：虚拟环境 + 一键启动
+> 为下一代大重构打底：把 API 调用抽成公共基础层
 
-![version](https://img.shields.io/badge/version-v1.5.1-blue)
-![status](https://img.shields.io/badge/状态-已归档-lightgrey)
+![version](https://img.shields.io/badge/阶段-重构预研-yellow)
 
 ## 📖 简介
 
-功能性改动不大的一版，重点在**可分发**：配套 venv_light 虚拟环境，依赖一次装好，
-换机器、打包、分发免配置；启动脚本矩阵成型，双击即可运行。
+1.5.x 系列功能持续叠加，主脚本已接近 250 行，记忆、输入、调用、压缩全部挤在
+一个文件里。本阶段开始为 v2.0 大重构做预研：验证"**调用与业务分离**"的方向。
 
-## ✨ 本版改进
+## 📦 本阶段内容
 
-- 记忆库更名为 `Menorise/Original_Memory.md`（替代 Memory_Library.md）
-- `venv_light/` 虚拟环境随项目走，实现"一次性打包、一键启动"
-- 启动脚本矩阵：`Engage.bat`（CLI）、`Engage1.bat`、`GUI_Engage.bat`（GUI 预留）
+- `base_deepseek.py`：最小可用的 DeepSeek 调用基础层——
+  deepseek-v4-pro、非流式、thinking enabled + high reasoning，
+  作为后续所有版本共用的调用范式参考
+- 主对话程序仍为 1.5.x 版本，行为不变
 
-## 🚀 快速开始
+## 🎯 预研结论
 
-```bash
-# 方式一：双击 Engage.bat
-# 方式二：激活 venv_light 后运行
-python "ds(1.5.1).py"
-```
-
-## 📌 与 v1.5 的差异
-
-| 项目 | v1.5 | v1.5.1 |
-|------|------|--------|
-| 记忆库 | Menorise/Memory_Library.md | Menorise/Original_Memory.md |
-| 运行环境 | 需手动配依赖 | venv_light 一键启动 |
-| 启动方式 | python 直启 | Engage 脚本矩阵 |
-
-## ⚠️ 已知问题（作者备注）
-
-- "路径文件架构有点乱，在下一个版本会修复"
-- 记忆与提示词仍集中在 Menorise/，与代码耦合较深
+SDK 参数组合验证通过。v2.0 将按此思路把"API 调用 / 输入解析 / 记忆读写 /
+中控调度"拆成独立模块。
