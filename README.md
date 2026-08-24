@@ -1,22 +1,24 @@
-# DeepSeek_port —— v2.0 重构预研（base_deepseek）
+# DeepSeek_port 1.5.x 收官版（8 月 24 日）
 
-> 为下一代大重构打底：把 API 调用抽成公共基础层
+> 1.5 系列最后一版：检测函数规范化，旧记忆系统功成身退
 
-![version](https://img.shields.io/badge/阶段-重构预研-yellow)
+![version](https://img.shields.io/badge/version-1.5.x_final-blue)
+![status](https://img.shields.io/badge/状态-过渡快照-lightgrey)
 
 ## 📖 简介
 
-1.5.x 系列功能持续叠加，主脚本已接近 250 行，记忆、输入、调用、压缩全部挤在
-一个文件里。本阶段开始为 v2.0 大重构做预研：验证"**调用与业务分离**"的方向。
+1.5 系列的收官迭代：整理文件检测与记忆规模检测函数，并将服役一个月的
+旧记忆系统 **Menorise 整体存档**，为 v2.0 的 Memories/ + Prompt/ 新架构腾位。
 
-## 📦 本阶段内容
+## ✨ 本版改动
 
-- `base_deepseek.py`：最小可用的 DeepSeek 调用基础层——
-  deepseek-v4-pro、非流式、thinking enabled + high reasoning，
-  作为后续所有版本共用的调用范式参考
-- 主对话程序仍为 1.5.x 版本，行为不变
+- 自检与阈值检测函数规范化：
+  `memory_existence_file_detect()` / `Memory_Scale_detect()` / `control()`
+- Menorise 记忆系统（Memory_Library / Original_Memory、test_Memory 测试数据、
+  20MB 记忆全量备份）整体移入 `废案及历史版本/`
+- 记忆规模自动压缩逻辑保留，等待接入新架构
 
-## 🎯 预研结论
+## 🧭 定位
 
-SDK 参数组合验证通过。v2.0 将按此思路把"API 调用 / 输入解析 / 记忆读写 /
-中控调度"拆成独立模块。
+此版本是项目从"**单文件 + Menorise 目录**"向"**目录化架构**"过渡的快照，
+功能与 v1.5.1 基本一致，代码整洁度提升。
