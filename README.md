@@ -1,24 +1,34 @@
-# DeepSeek_port 1.5.x 收官版（8 月 24 日）
+# DeepSeek_port GUI 版
 
-> 1.5 系列最后一版：检测函数规范化，旧记忆系统功成身退
+> 双端入口达成：tkinter 图形界面上线
 
-![version](https://img.shields.io/badge/version-1.5.x_final-blue)
-![status](https://img.shields.io/badge/状态-过渡快照-lightgrey)
+![version](https://img.shields.io/badge/version-gui_v1-blueviolet)
+![GUI](https://img.shields.io/badge/GUI-tkinter-green)
 
 ## 📖 简介
 
-1.5 系列的收官迭代：整理文件检测与记忆规模检测函数，并将服役一个月的
-旧记忆系统 **Menorise 整体存档**，为 v2.0 的 Memories/ + Prompt/ 新架构腾位。
+对话助手第一次有了窗口：tkinter 深色主题 GUI 上线，与命令行共用同一套
+主程序逻辑与记忆系统。记忆压缩模块同步升级为正式版，隐私设置提示词加入
+双 prompt 体系。
 
-## ✨ 本版改动
+## ✨ 本版新增
 
-- 自检与阈值检测函数规范化：
-  `memory_existence_file_detect()` / `Memory_Scale_detect()` / `control()`
-- Menorise 记忆系统（Memory_Library / Original_Memory、test_Memory 测试数据、
-  20MB 记忆全量备份）整体移入 `废案及历史版本/`
-- 记忆规模自动压缩逻辑保留，等待接入新架构
+- **`GUI.py` 图形界面**：600×700 深色主题窗口，ScrolledText 对话显示区 +
+  底部输入框，`import ds` 直接复用主程序全部能力
+- **`GUI_Engage.bat`**：双击进入图形界面
+- **Compress_mudel.py 正式版**：
+  `Compress_control()`（读记忆 → v4-pro 压缩 → 覆盖写回）+
+  `Compress_mudel_link_test()` 连通性自测
+- **`Prompt/Privacy_Setting.md`**：隐私设置提示词，与 System_Prompt 拼接生效
 
-## 🧭 定位
+## 🖥️ 双端入口
 
-此版本是项目从"**单文件 + Menorise 目录**"向"**目录化架构**"过渡的快照，
-功能与 v1.5.1 基本一致，代码整洁度提升。
+| 入口 | 文件 | 启动方式 |
+|------|------|----------|
+| 命令行 | ds.py | 双击 `Engage.bat` |
+| 图形界面 | GUI.py | 双击 `GUI_Engage.bat` |
+
+## ⚠️ 已知问题
+
+- GUI 与 CLI 共用记忆库，可交替使用，但无并发保护
+- 窗口暂为简单轮询式，流式输出体验待优化
