@@ -1,0 +1,9 @@
+# DeepSeek_port 依赖清单
+openai
+python-dotenv
+openpyxl
+pandas
+python-docx
+
+# 以下为 SQL 记忆实验模块使用（SQL_Link.py）
+mysql-connector-python
