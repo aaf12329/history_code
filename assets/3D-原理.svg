@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 310" font-family="Microsoft YaHei, PingFang SC, Segoe UI, sans-serif">
+  <defs>
+    <marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f59e0b"/></marker>
+    <marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+  </defs>
+
+  <!-- 墙 -->
+  <rect x="560" y="30" width="24" height="235" rx="4" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+  <text x="572" y="292" text-anchor="middle" font-size="18" font-weight="bold" fill="#334155">墙</text>
+
+  <!-- player -->
+  <polygon points="70,128 70,172 112,150" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="88" y="202" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e40af">player</text>
+
+  <!-- 三根投射线 -->
+  <line x1="108" y1="150" x2="552" y2="80"  stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrO)"/>
+  <line x1="108" y1="150" x2="552" y2="150" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrO)"/>
+  <line x1="108" y1="150" x2="552" y2="220" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrO)"/>
+
+  <!-- 标注 -->
+  <text x="318" y="90"  font-size="15" font-style="italic" fill="#b45309">ray</text>
+  <text x="298" y="140" font-size="15" font-style="italic" fill="#b45309">视线</text>
+
+  <!-- 距离 d -->
+  <line x1="118" y1="272" x2="554" y2="272" stroke="#475569" stroke-width="1.5" marker-start="url(#arrG)" marker-end="url(#arrG)"/>
+  <text x="336" y="296" text-anchor="middle" font-size="15" fill="#334155">d（player 与墙的距离）</text>
+</svg>
