@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Microsoft YaHei, PingFang SC, Segoe UI, sans-serif">
+  <text x="340" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f2933">三个旋钮各管各的 —— 改 FOV 不再牵连列数</text>
+
+  <!-- 旋钮 1 : RES -->
+  <circle cx="140" cy="140" r="48" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+  <line x1="140" y1="140" x2="168" y2="106" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+  <text x="140" y="220" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">RES</text>
+  <text x="140" y="242" text-anchor="middle" font-size="13" fill="#334155">像素宽度（4—16）</text>
+  <text x="140" y="262" text-anchor="middle" font-size="13" fill="#64748b">管笔宽和 X 步进</text>
+
+  <!-- 旋钮 2 : scan line -->
+  <circle cx="340" cy="140" r="48" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+  <line x1="340" y1="140" x2="340" y2="94" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
+  <text x="340" y="220" text-anchor="middle" font-size="15" font-weight="bold" fill="#9a3412">scan line</text>
+  <text x="340" y="242" text-anchor="middle" font-size="13" fill="#334155">= 480 ÷ RES</text>
+  <text x="340" y="262" text-anchor="middle" font-size="13" fill="#64748b">管画几根线（列数）</text>
+
+  <!-- 旋钮 3 : FOV -->
+  <circle cx="540" cy="140" r="48" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+  <line x1="540" y1="140" x2="508" y2="108" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
+  <text x="540" y="220" text-anchor="middle" font-size="15" font-weight="bold" fill="#065f46">FOV</text>
+  <text x="540" y="242" text-anchor="middle" font-size="13" fill="#334155">视场角（默认 60°）</text>
+  <text x="540" y="262" text-anchor="middle" font-size="13" fill="#64748b">管步进角 = FOV ÷ scan line</text>
+
+  <!-- 底注 -->
+  <text x="340" y="300" text-anchor="middle" font-size="13" fill="#94a3b8">以前三者写死耦合（FOV=60 时碰巧成立）；引入 RES 后彻底解耦</text>
+</svg>
