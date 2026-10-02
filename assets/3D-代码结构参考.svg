@@ -1,0 +1,472 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2514" height="1145" viewBox="0 0 2514 1145" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+<rect width="2514" height="1145" fill="#EDF1F7"/>
+<text x="30" y="42" fill="#1F2A44" font-size="30" font-weight="700">Scratch 3D · 代码结构参考图</text>
+<text x="30" y="70" fill="#66738C" font-size="14">对应工程：Scratch 3D.sb3（提交 6c16bb3）· 配色/形状模仿 Scratch 3.0 积木 · 蓝=动作 紫=外观 黄=事件 橙=控制 青=画笔 橙红=变量 绿=运算 粉=自制积木 浅蓝=侦测</text>
+<rect x="30" y="100" width="16" height="16" rx="4" fill="#4C97FF"/>
+<text x="54" y="114" fill="#2B3A55" font-size="21" font-weight="700">player</text>
+<text x="54" y="134" fill="#66738C" font-size="13">绿旗初始化 → 每帧五步骨架</text>
+<path d="M 30 500 Q 30 494 36 494 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 266 Q 272 494 272 500 V 768 Q 272 774 266 774 H 36 Q 30 774 30 768 Z M 30 534 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 256 V 734 H 30 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="40" y="520.5" fill="#FFFFFF" font-size="14" font-weight="600">重复执行</text>
+<path d="M 30 700 Q 30 694 36 694 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 176 Q 182 694 182 700 V 728 Q 182 734 176 734 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 734 30 728 Z" fill="#FFBF00"/>
+<text x="40" y="720.5" fill="#FFFFFF" font-size="14" font-weight="600">广播 </text>
+<rect x="78.6" y="701" width="81.4" height="26" rx="13" fill="#CC9900"/>
+<text x="87.6" y="719.5" fill="#FFFFFF" font-size="13" font-weight="600">Paint</text>
+<path d="M 30 660 Q 30 654 36 654 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 225.2 Q 231.2 654 231.2 660 V 688 Q 231.2 694 225.2 694 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 694 30 688 Z" fill="#FFBF00"/>
+<text x="40" y="680.5" fill="#FFFFFF" font-size="14" font-weight="600">广播 </text>
+<rect x="78.6" y="661" width="130.6" height="26" rx="13" fill="#CC9900"/>
+<text x="87.6" y="679.5" fill="#FFFFFF" font-size="13" font-weight="600">Entity Tick</text>
+<path d="M 30 620 Q 30 614 36 614 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 192.4 Q 198.4 614 198.4 620 V 648 Q 198.4 654 192.4 654 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 654 30 648 Z" fill="#FFBF00"/>
+<text x="40" y="640.5" fill="#FFFFFF" font-size="14" font-weight="600">广播 </text>
+<rect x="78.6" y="621" width="97.8" height="26" rx="13" fill="#CC9900"/>
+<text x="87.6" y="639.5" fill="#FFFFFF" font-size="13" font-weight="600">Raycast</text>
+<path d="M 30 580 Q 30 574 36 574 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 236 Q 242 574 242 580 V 608 Q 242 614 236 614 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 614 30 608 Z" fill="#FF6680"/>
+<text x="40" y="600.5" fill="#FFFFFF" font-size="14" font-weight="600">lnitialise Raycaster</text>
+<path d="M 30 540 Q 30 534 36 534 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 155 Q 161 534 161 540 V 568 Q 161 574 155 574 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 574 30 568 Z" fill="#FF6680"/>
+<text x="40" y="560.5" fill="#FFFFFF" font-size="14" font-weight="600">Player tick</text>
+<path d="M 30 460 Q 30 454 36 454 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 267.6 Q 273.6 454 273.6 460 V 488 Q 273.6 494 267.6 494 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 494 30 488 Z" fill="#9966FF"/>
+<text x="40" y="480.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="63.8" y="461" width="68" height="26" rx="13" fill="#774DCB"/>
+<text x="72.8" y="479.5" fill="#FFFFFF" font-size="13" font-weight="600">幽灵</text>
+<text x="131.8" y="480.5" fill="#FFFFFF" font-size="14" font-weight="600"> 特效设为 </text>
+<rect x="209" y="461" width="42.6" height="26" rx="13" fill="#FFFFFF"/>
+<text x="217" y="479.5" fill="#575E75" font-size="13" font-weight="600">100</text>
+<path d="M 30 420 Q 30 414 36 414 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 243.4 Q 249.4 414 249.4 420 V 448 Q 249.4 454 243.4 454 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 454 30 448 Z" fill="#9966FF"/>
+<text x="40" y="440.5" fill="#FFFFFF" font-size="14" font-weight="600">将造型切换为 </text>
+<rect x="137.8" y="421" width="89.6" height="26" rx="13" fill="#774DCB"/>
+<text x="146.8" y="439.5" fill="#FFFFFF" font-size="13" font-weight="600">player</text>
+<path d="M 30 380 Q 30 374 36 374 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 264.2 Q 270.2 374 270.2 380 V 408 Q 270.2 414 264.2 414 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 414 30 408 Z" fill="#4C97FF"/>
+<text x="40" y="400.5" fill="#FFFFFF" font-size="14" font-weight="600">将旋转方式设为 </text>
+<rect x="152.6" y="381" width="95.6" height="26" rx="13" fill="#3373CC"/>
+<text x="161.6" y="399.5" fill="#FFFFFF" font-size="13" font-weight="600">任意方向</text>
+<path d="M 30 340 Q 30 334 36 334 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 204 Q 210 334 210 340 V 368 Q 210 374 204 374 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 374 30 368 Z" fill="#4C97FF"/>
+<text x="40" y="360.5" fill="#FFFFFF" font-size="14" font-weight="600">移到 x:</text>
+<rect x="96.6" y="341" width="30" height="26" rx="13" fill="#FFFFFF"/>
+<text x="104.6" y="359.5" fill="#575E75" font-size="13" font-weight="600">0</text>
+<text x="126.6" y="360.5" fill="#FFFFFF" font-size="14" font-weight="600"> y:</text>
+<rect x="153.6" y="341" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="161.6" y="359.5" fill="#575E75" font-size="13" font-weight="600">10</text>
+<path d="M 30 300 Q 30 294 36 294 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 181.6 Q 187.6 294 187.6 300 V 328 Q 187.6 334 181.6 334 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 334 30 328 Z" fill="#9966FF"/>
+<text x="40" y="320.5" fill="#FFFFFF" font-size="14" font-weight="600">将大小设为 </text>
+<rect x="123" y="301" width="42.6" height="26" rx="13" fill="#FFFFFF"/>
+<text x="131" y="319.5" fill="#575E75" font-size="13" font-weight="600">150</text>
+<path d="M 30 260 Q 30 254 36 254 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 222.4 Q 228.4 254 228.4 260 V 288 Q 228.4 294 222.4 294 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 294 30 288 Z" fill="#FF8C1A"/>
+<text x="40" y="280.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="63.8" y="261" width="65" height="26" rx="13" fill="#E0720A"/>
+<text x="72.8" y="279.5" fill="#FFFFFF" font-size="13" font-weight="600">RES</text>
+<text x="128.8" y="280.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="176.4" y="261" width="30" height="26" rx="13" fill="#FFFFFF"/>
+<text x="184.4" y="279.5" fill="#575E75" font-size="13" font-weight="600">8</text>
+<path d="M 30 220 Q 30 214 36 214 H 50 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 226.8 Q 232.8 214 232.8 220 V 248 Q 232.8 254 226.8 254 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 254 30 248 Z" fill="#FF8C1A"/>
+<text x="40" y="240.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="63.8" y="221" width="65" height="26" rx="13" fill="#E0720A"/>
+<text x="72.8" y="239.5" fill="#FFFFFF" font-size="13" font-weight="600">FOV</text>
+<text x="128.8" y="240.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="176.4" y="221" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="184.4" y="239.5" fill="#575E75" font-size="13" font-weight="600">60</text>
+<path d="M 30 174 C 30 161 37 156 52 156 H 88 C 103 156 110 161 110 174 H 162.2 Q 168.2 156 168.2 162 V 208 Q 168.2 214 162.2 214 H 76 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 36 Q 30 214 30 208 Z" fill="#FFBF00"/>
+<text x="40" y="200.5" fill="#FFFFFF" font-size="14" font-weight="600">当 ⚑ 被点击</text>
+<rect x="329.6" y="100" width="16" height="16" rx="4" fill="#4C97FF"/>
+<text x="353.6" y="114" fill="#2B3A55" font-size="21" font-weight="700">player · Player tick</text>
+<text x="353.6" y="134" fill="#66738C" font-size="13">键盘输入：平移 / 前后 / 转身</text>
+<path d="M 329.6 980 Q 329.6 974 335.6 974 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 541 Q 547 974 547 980 V 1088 Q 547 1094 541 1094 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 1094 329.6 1088 Z M 329.6 1014 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 531 V 1054 H 329.6 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="339.6" y="1000.5" fill="#FFFFFF" font-size="14" font-weight="600">如果 </text>
+<path d="M 378.2 994 L 387.2 981 H 481.4 L 490.4 994 L 481.4 1007 H 387.2 Z" fill="#5CB1D6"/>
+<text x="391.2" y="999.5" fill="#FFFFFF" font-size="13" font-weight="600">按 ← 键 ？</text>
+<text x="490.4" y="1000.5" fill="#FFFFFF" font-size="14" font-weight="600"> 那么</text>
+<path d="M 329.6 1020 Q 329.6 1014 335.6 1014 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 452.4 Q 458.4 1014 458.4 1020 V 1048 Q 458.4 1054 452.4 1054 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 1054 329.6 1048 Z" fill="#4C97FF"/>
+<text x="339.6" y="1040.5" fill="#FFFFFF" font-size="14" font-weight="600">左转 </text>
+<rect x="378.2" y="1021" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="386.2" y="1039.5" fill="#575E75" font-size="13" font-weight="600">15</text>
+<text x="412.6" y="1040.5" fill="#FFFFFF" font-size="14" font-weight="600"> 度</text>
+<path d="M 329.6 860 Q 329.6 854 335.6 854 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 541 Q 547 854 547 860 V 968 Q 547 974 541 974 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 974 329.6 968 Z M 329.6 894 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 531 V 934 H 329.6 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="339.6" y="880.5" fill="#FFFFFF" font-size="14" font-weight="600">如果 </text>
+<path d="M 378.2 874 L 387.2 861 H 481.4 L 490.4 874 L 481.4 887 H 387.2 Z" fill="#5CB1D6"/>
+<text x="391.2" y="879.5" fill="#FFFFFF" font-size="13" font-weight="600">按 → 键 ？</text>
+<text x="490.4" y="880.5" fill="#FFFFFF" font-size="14" font-weight="600"> 那么</text>
+<path d="M 329.6 900 Q 329.6 894 335.6 894 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 452.4 Q 458.4 894 458.4 900 V 928 Q 458.4 934 452.4 934 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 934 329.6 928 Z" fill="#4C97FF"/>
+<text x="339.6" y="920.5" fill="#FFFFFF" font-size="14" font-weight="600">右转 </text>
+<rect x="378.2" y="901" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="386.2" y="919.5" fill="#575E75" font-size="13" font-weight="600">15</text>
+<text x="412.6" y="920.5" fill="#FFFFFF" font-size="14" font-weight="600"> 度</text>
+<path d="M 329.6 740 Q 329.6 734 335.6 734 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 579.4 Q 585.4 734 585.4 740 V 848 Q 585.4 854 579.4 854 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 854 329.6 848 Z M 329.6 774 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 569.4 V 814 H 329.6 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="339.6" y="760.5" fill="#FFFFFF" font-size="14" font-weight="600">如果 </text>
+<path d="M 378.2 754 L 387.2 741 H 519.8 L 528.8 754 L 519.8 767 H 387.2 Z" fill="#5CB1D6"/>
+<text x="391.2" y="759.5" fill="#FFFFFF" font-size="13" font-weight="600">按 ↓ 或 s 键 ？</text>
+<text x="528.8" y="760.5" fill="#FFFFFF" font-size="14" font-weight="600"> 那么</text>
+<path d="M 329.6 780 Q 329.6 774 335.6 774 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 435 Q 441 774 441 780 V 808 Q 441 814 435 814 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 814 329.6 808 Z" fill="#FF6680"/>
+<text x="339.6" y="800.5" fill="#FFFFFF" font-size="14" font-weight="600">move </text>
+<rect x="384.6" y="781" width="34.4" height="26" rx="6" fill="#E5457C"/>
+<text x="392.6" y="799.5" fill="#FFFFFF" font-size="13" font-weight="600">-2</text>
+<path d="M 329.6 620 Q 329.6 614 335.6 614 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 579.4 Q 585.4 614 585.4 620 V 728 Q 585.4 734 579.4 734 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 734 329.6 728 Z M 329.6 654 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 569.4 V 694 H 329.6 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="339.6" y="640.5" fill="#FFFFFF" font-size="14" font-weight="600">如果 </text>
+<path d="M 378.2 634 L 387.2 621 H 519.8 L 528.8 634 L 519.8 647 H 387.2 Z" fill="#5CB1D6"/>
+<text x="391.2" y="639.5" fill="#FFFFFF" font-size="13" font-weight="600">按 ↑ 或 w 键 ？</text>
+<text x="528.8" y="640.5" fill="#FFFFFF" font-size="14" font-weight="600"> 那么</text>
+<path d="M 329.6 660 Q 329.6 654 335.6 654 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 426.8 Q 432.8 654 432.8 660 V 688 Q 432.8 694 426.8 694 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 694 329.6 688 Z" fill="#FF6680"/>
+<text x="339.6" y="680.5" fill="#FFFFFF" font-size="14" font-weight="600">move </text>
+<rect x="384.6" y="661" width="26.2" height="26" rx="6" fill="#E5457C"/>
+<text x="392.6" y="679.5" fill="#FFFFFF" font-size="13" font-weight="600">2</text>
+<path d="M 329.6 420 Q 329.6 414 335.6 414 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 579.4 Q 585.4 414 585.4 420 V 608 Q 585.4 614 579.4 614 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 614 329.6 608 Z M 329.6 454 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 569.4 V 574 H 329.6 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="339.6" y="440.5" fill="#FFFFFF" font-size="14" font-weight="600">如果 </text>
+<path d="M 378.2 434 L 387.2 421 H 519.8 L 528.8 434 L 519.8 447 H 387.2 Z" fill="#5CB1D6"/>
+<text x="391.2" y="439.5" fill="#FFFFFF" font-size="13" font-weight="600">按 → 或 d 键 ？</text>
+<text x="528.8" y="440.5" fill="#FFFFFF" font-size="14" font-weight="600"> 那么</text>
+<path d="M 329.6 540 Q 329.6 534 335.6 534 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 452.4 Q 458.4 534 458.4 540 V 568 Q 458.4 574 452.4 574 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 574 329.6 568 Z" fill="#4C97FF"/>
+<text x="339.6" y="560.5" fill="#FFFFFF" font-size="14" font-weight="600">左转 </text>
+<rect x="378.2" y="541" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="386.2" y="559.5" fill="#575E75" font-size="13" font-weight="600">90</text>
+<text x="412.6" y="560.5" fill="#FFFFFF" font-size="14" font-weight="600"> 度</text>
+<path d="M 329.6 500 Q 329.6 494 335.6 494 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 426.8 Q 432.8 494 432.8 500 V 528 Q 432.8 534 426.8 534 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 534 329.6 528 Z" fill="#FF6680"/>
+<text x="339.6" y="520.5" fill="#FFFFFF" font-size="14" font-weight="600">move </text>
+<rect x="384.6" y="501" width="26.2" height="26" rx="6" fill="#E5457C"/>
+<text x="392.6" y="519.5" fill="#FFFFFF" font-size="13" font-weight="600">2</text>
+<path d="M 329.6 460 Q 329.6 454 335.6 454 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 452.4 Q 458.4 454 458.4 460 V 488 Q 458.4 494 452.4 494 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 494 329.6 488 Z" fill="#4C97FF"/>
+<text x="339.6" y="480.5" fill="#FFFFFF" font-size="14" font-weight="600">右转 </text>
+<rect x="378.2" y="461" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="386.2" y="479.5" fill="#575E75" font-size="13" font-weight="600">90</text>
+<text x="412.6" y="480.5" fill="#FFFFFF" font-size="14" font-weight="600"> 度</text>
+<path d="M 329.6 220 Q 329.6 214 335.6 214 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 579.4 Q 585.4 214 585.4 220 V 408 Q 585.4 414 579.4 414 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 414 329.6 408 Z M 329.6 254 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 569.4 V 374 H 329.6 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="339.6" y="240.5" fill="#FFFFFF" font-size="14" font-weight="600">如果 </text>
+<path d="M 378.2 234 L 387.2 221 H 519.8 L 528.8 234 L 519.8 247 H 387.2 Z" fill="#5CB1D6"/>
+<text x="391.2" y="239.5" fill="#FFFFFF" font-size="13" font-weight="600">按 ← 或 a 键 ？</text>
+<text x="528.8" y="240.5" fill="#FFFFFF" font-size="14" font-weight="600"> 那么</text>
+<path d="M 329.6 340 Q 329.6 334 335.6 334 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 452.4 Q 458.4 334 458.4 340 V 368 Q 458.4 374 452.4 374 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 374 329.6 368 Z" fill="#4C97FF"/>
+<text x="339.6" y="360.5" fill="#FFFFFF" font-size="14" font-weight="600">右转 </text>
+<rect x="378.2" y="341" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="386.2" y="359.5" fill="#575E75" font-size="13" font-weight="600">90</text>
+<text x="412.6" y="360.5" fill="#FFFFFF" font-size="14" font-weight="600"> 度</text>
+<path d="M 329.6 300 Q 329.6 294 335.6 294 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 426.8 Q 432.8 294 432.8 300 V 328 Q 432.8 334 426.8 334 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 334 329.6 328 Z" fill="#FF6680"/>
+<text x="339.6" y="320.5" fill="#FFFFFF" font-size="14" font-weight="600">move </text>
+<rect x="384.6" y="301" width="26.2" height="26" rx="6" fill="#E5457C"/>
+<text x="392.6" y="319.5" fill="#FFFFFF" font-size="13" font-weight="600">2</text>
+<path d="M 329.6 260 Q 329.6 254 335.6 254 H 349.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 452.4 Q 458.4 254 458.4 260 V 288 Q 458.4 294 452.4 294 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 294 329.6 288 Z" fill="#4C97FF"/>
+<text x="339.6" y="280.5" fill="#FFFFFF" font-size="14" font-weight="600">左转 </text>
+<rect x="378.2" y="261" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="386.2" y="279.5" fill="#575E75" font-size="13" font-weight="600">90</text>
+<text x="412.6" y="280.5" fill="#FFFFFF" font-size="14" font-weight="600"> 度</text>
+<path d="M 329.6 174 C 329.6 161 336.6 156 351.6 156 H 387.6 C 402.6 156 409.6 161 409.6 174 H 513.2 Q 519.2 156 519.2 162 V 208 Q 519.2 214 513.2 214 H 375.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 335.6 Q 329.6 214 329.6 208 Z" fill="#FF6680"/>
+<text x="339.6" y="200.5" fill="#FFFFFF" font-size="14" font-weight="600">定义 </text>
+<text x="378.2" y="200.5" fill="#FFFFFF" font-size="14" font-weight="600">Player tick</text>
+<rect x="641.4" y="100" width="16" height="16" rx="4" fill="#4C97FF"/>
+<text x="665.4" y="114" fill="#2B3A55" font-size="21" font-weight="700">player · 移动与相机参数</text>
+<text x="665.4" y="134" fill="#66738C" font-size="13">分轴碰撞 · 针孔相机常数</text>
+<path d="M 641.4 420 Q 641.4 414 647.4 414 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 875.6 Q 881.6 414 881.6 420 V 448 Q 881.6 454 875.6 454 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 454 641.4 448 Z" fill="#4C97FF"/>
+<text x="651.4" y="440.5" fill="#FFFFFF" font-size="14" font-weight="600">将旋转方式设为 </text>
+<rect x="764" y="421" width="95.6" height="26" rx="13" fill="#3373CC"/>
+<text x="773" y="439.5" fill="#FFFFFF" font-size="13" font-weight="600">任意方向</text>
+<path d="M 641.4 380 Q 641.4 374 647.4 374 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 854.8 Q 860.8 374 860.8 380 V 408 Q 860.8 414 854.8 414 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 414 641.4 408 Z" fill="#9966FF"/>
+<text x="651.4" y="400.5" fill="#FFFFFF" font-size="14" font-weight="600">将造型切换为 </text>
+<rect x="749.2" y="381" width="89.6" height="26" rx="13" fill="#774DCB"/>
+<text x="758.2" y="399.5" fill="#FFFFFF" font-size="13" font-weight="600">player</text>
+<path d="M 641.4 340 Q 641.4 334 647.4 334 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 902.6 Q 908.6 334 908.6 340 V 368 Q 908.6 374 902.6 374 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 374 641.4 368 Z" fill="#FF6680"/>
+<text x="651.4" y="360.5" fill="#FFFFFF" font-size="14" font-weight="600">Try move </text>
+<rect x="732.4" y="341" width="154.2" height="26" rx="6" fill="#59C059"/>
+<text x="740.4" y="359.5" fill="#FFFFFF" font-size="13" font-weight="600">steps × cos(方向)</text>
+<path d="M 641.4 300 Q 641.4 294 647.4 294 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 902.6 Q 908.6 294 908.6 300 V 328 Q 908.6 334 902.6 334 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 334 641.4 328 Z" fill="#FF6680"/>
+<text x="651.4" y="320.5" fill="#FFFFFF" font-size="14" font-weight="600">Try move </text>
+<rect x="732.4" y="301" width="154.2" height="26" rx="6" fill="#59C059"/>
+<text x="740.4" y="319.5" fill="#FFFFFF" font-size="13" font-weight="600">steps × sin(方向)</text>
+<path d="M 641.4 260 Q 641.4 254 647.4 254 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 861.8 Q 867.8 254 867.8 260 V 288 Q 867.8 294 861.8 294 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 294 641.4 288 Z" fill="#4C97FF"/>
+<text x="651.4" y="280.5" fill="#FFFFFF" font-size="14" font-weight="600">将旋转方式设为 </text>
+<rect x="764" y="261" width="81.8" height="26" rx="13" fill="#3373CC"/>
+<text x="773" y="279.5" fill="#FFFFFF" font-size="13" font-weight="600">不旋转</text>
+<path d="M 641.4 220 Q 641.4 214 647.4 214 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 854.8 Q 860.8 214 860.8 220 V 248 Q 860.8 254 854.8 254 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 254 641.4 248 Z" fill="#9966FF"/>
+<text x="651.4" y="240.5" fill="#FFFFFF" font-size="14" font-weight="600">将造型切换为 </text>
+<rect x="749.2" y="221" width="89.6" height="26" rx="13" fill="#774DCB"/>
+<text x="758.2" y="239.5" fill="#FFFFFF" font-size="13" font-weight="600">hitbox</text>
+<path d="M 641.4 174 C 641.4 161 648.4 156 663.4 156 H 699.4 C 714.4 156 721.4 161 721.4 174 H 830 Q 836 156 836 162 V 208 Q 836 214 830 214 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 214 641.4 208 Z" fill="#FF6680"/>
+<text x="651.4" y="200.5" fill="#FFFFFF" font-size="14" font-weight="600">定义 </text>
+<text x="690" y="200.5" fill="#FFFFFF" font-size="14" font-weight="600">move </text>
+<rect x="735" y="181" width="59" height="26" rx="6" fill="#E5457C"/>
+<text x="743" y="199.5" fill="#FFFFFF" font-size="13" font-weight="600">steps</text>
+<path d="M 641.4 644 Q 641.4 638 647.4 638 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 877.4 Q 883.4 638 883.4 644 V 792 Q 883.4 798 877.4 798 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 798 641.4 792 Z M 641.4 678 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 867.4 V 758 H 641.4 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="651.4" y="664.5" fill="#FFFFFF" font-size="14" font-weight="600">如果 </text>
+<path d="M 690 658 L 699 645 H 817.8 L 826.8 658 L 817.8 671 H 699 Z" fill="#5CB1D6"/>
+<text x="703" y="663.5" fill="#FFFFFF" font-size="13" font-weight="600">碰到 level ？</text>
+<text x="826.8" y="664.5" fill="#FFFFFF" font-size="14" font-weight="600"> 那么</text>
+<path d="M 641.4 724 Q 641.4 718 647.4 718 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 846.6 Q 852.6 718 852.6 724 V 752 Q 852.6 758 846.6 758 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 758 641.4 752 Z" fill="#4C97FF"/>
+<text x="651.4" y="744.5" fill="#FFFFFF" font-size="14" font-weight="600">将 y 坐标增加 </text>
+<rect x="761.4" y="725" width="69.2" height="26" rx="6" fill="#59C059"/>
+<text x="769.4" y="743.5" fill="#FFFFFF" font-size="13" font-weight="600">0 − dy</text>
+<path d="M 641.4 684 Q 641.4 678 647.4 678 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 846.6 Q 852.6 678 852.6 684 V 712 Q 852.6 718 846.6 718 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 718 641.4 712 Z" fill="#4C97FF"/>
+<text x="651.4" y="704.5" fill="#FFFFFF" font-size="14" font-weight="600">将 x 坐标增加 </text>
+<rect x="761.4" y="685" width="69.2" height="26" rx="6" fill="#59C059"/>
+<text x="769.4" y="703.5" fill="#FFFFFF" font-size="13" font-weight="600">0 − dx</text>
+<path d="M 641.4 604 Q 641.4 598 647.4 598 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 811.8 Q 817.8 598 817.8 604 V 632 Q 817.8 638 811.8 638 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 638 641.4 632 Z" fill="#4C97FF"/>
+<text x="651.4" y="624.5" fill="#FFFFFF" font-size="14" font-weight="600">将 y 坐标增加 </text>
+<rect x="761.4" y="605" width="34.4" height="26" rx="6" fill="#E5457C"/>
+<text x="769.4" y="623.5" fill="#FFFFFF" font-size="13" font-weight="600">dy</text>
+<path d="M 641.4 564 Q 641.4 558 647.4 558 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 811.8 Q 817.8 558 817.8 564 V 592 Q 817.8 598 811.8 598 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 598 641.4 592 Z" fill="#4C97FF"/>
+<text x="651.4" y="584.5" fill="#FFFFFF" font-size="14" font-weight="600">将 x 坐标增加 </text>
+<rect x="761.4" y="565" width="34.4" height="26" rx="6" fill="#E5457C"/>
+<text x="769.4" y="583.5" fill="#FFFFFF" font-size="13" font-weight="600">dx</text>
+<path d="M 641.4 518 C 641.4 505 648.4 500 663.4 500 H 699.4 C 714.4 500 721.4 505 721.4 518 H 875.8 Q 881.8 500 881.8 506 V 552 Q 881.8 558 875.8 558 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 558 641.4 552 Z" fill="#FF6680"/>
+<text x="651.4" y="544.5" fill="#FFFFFF" font-size="14" font-weight="600">定义 </text>
+<text x="690" y="544.5" fill="#FFFFFF" font-size="14" font-weight="600">Try move </text>
+<rect x="771" y="525" width="34.4" height="26" rx="6" fill="#E5457C"/>
+<text x="779" y="543.5" fill="#FFFFFF" font-size="13" font-weight="600">dx</text>
+<rect x="805.4" y="525" width="34.4" height="26" rx="6" fill="#E5457C"/>
+<text x="813.4" y="543.5" fill="#FFFFFF" font-size="13" font-weight="600">dy</text>
+<path d="M 641.4 948 Q 641.4 942 647.4 942 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 963.2 Q 969.2 942 969.2 948 V 976 Q 969.2 982 963.2 982 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 982 641.4 976 Z" fill="#FF8C1A"/>
+<text x="651.4" y="968.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="675.2" y="949" width="56.8" height="26" rx="13" fill="#E0720A"/>
+<text x="684.2" y="967.5" fill="#FFFFFF" font-size="13" font-weight="600">DV</text>
+<text x="732" y="968.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="779.6" y="949" width="167.6" height="26" rx="6" fill="#59C059"/>
+<text x="787.6" y="967.5" fill="#FFFFFF" font-size="13" font-weight="600">240 ÷ tan(FOV ÷ 2)</text>
+<path d="M 641.4 908 Q 641.4 902 647.4 902 H 661.4 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 908.8 Q 914.8 902 914.8 908 V 936 Q 914.8 942 908.8 942 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 942 641.4 936 Z" fill="#FF8C1A"/>
+<text x="651.4" y="928.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="675.2" y="909" width="122.4" height="26" rx="13" fill="#E0720A"/>
+<text x="684.2" y="927.5" fill="#FFFFFF" font-size="13" font-weight="600">CAMERA DIR</text>
+<text x="797.6" y="928.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="845.2" y="909" width="47.6" height="26" rx="13" fill="#5CB1D6"/>
+<text x="853.2" y="927.5" fill="#FFFFFF" font-size="13" font-weight="600">方向</text>
+<path d="M 641.4 862 C 641.4 849 648.4 844 663.4 844 H 699.4 C 714.4 844 721.4 849 721.4 862 H 906 Q 912 844 912 850 V 896 Q 912 902 906 902 H 687.4 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 647.4 Q 641.4 902 641.4 896 Z" fill="#FF6680"/>
+<text x="651.4" y="888.5" fill="#FFFFFF" font-size="14" font-weight="600">定义 </text>
+<text x="690" y="888.5" fill="#FFFFFF" font-size="14" font-weight="600">lnitialise Raycaster</text>
+<rect x="1025.2" y="100" width="16" height="16" rx="4" fill="#0FBD8C"/>
+<text x="1049.2" y="114" fill="#2B3A55" font-size="21" font-weight="700">RayCaster</text>
+<text x="1049.2" y="134" fill="#66738C" font-size="13">接收广播 → 逐列扫描画墙</text>
+<path d="M 1025.2 340 Q 1025.2 334 1031.2 334 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1114.2 Q 1120.2 334 1120.2 340 V 368 Q 1120.2 374 1114.2 374 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 374 1025.2 368 Z" fill="#FF6680"/>
+<text x="1035.2" y="360.5" fill="#FFFFFF" font-size="14" font-weight="600">Raycast</text>
+<path d="M 1025.2 300 Q 1025.2 294 1031.2 294 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1284.2 Q 1290.2 294 1290.2 300 V 328 Q 1290.2 334 1284.2 334 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 334 1025.2 328 Z" fill="#0FBD8C"/>
+<text x="1035.2" y="320.5" fill="#FFFFFF" font-size="14" font-weight="600">将笔的 </text>
+<rect x="1088.6" y="301" width="68" height="26" rx="13" fill="#0B8A6F"/>
+<text x="1097.6" y="319.5" fill="#FFFFFF" font-size="13" font-weight="600">颜色</text>
+<text x="1156.6" y="320.5" fill="#FFFFFF" font-size="14" font-weight="600"> 参数设为 </text>
+<rect x="1233.8" y="301" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="1241.8" y="319.5" fill="#575E75" font-size="13" font-weight="600">53</text>
+<path d="M 1025.2 260 Q 1025.2 254 1031.2 254 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1208.4 Q 1214.4 254 1214.4 260 V 288 Q 1214.4 294 1208.4 294 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 294 1025.2 288 Z" fill="#0FBD8C"/>
+<text x="1035.2" y="280.5" fill="#FFFFFF" font-size="14" font-weight="600">将笔的粗细设为 </text>
+<rect x="1147.8" y="261" width="44.6" height="26" rx="13" fill="#FF8C1A"/>
+<text x="1156.8" y="279.5" fill="#FFFFFF" font-size="13" font-weight="600">RES</text>
+<path d="M 1025.2 220 Q 1025.2 214 1031.2 214 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1110.4 Q 1116.4 214 1116.4 220 V 248 Q 1116.4 254 1110.4 254 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 254 1025.2 248 Z" fill="#0FBD8C"/>
+<text x="1035.2" y="240.5" fill="#FFFFFF" font-size="14" font-weight="600">全部擦除</text>
+<path d="M 1025.2 174 C 1025.2 161 1032.2 156 1047.2 156 H 1083.2 C 1098.2 156 1105.2 161 1105.2 174 H 1237.2 Q 1243.2 156 1243.2 162 V 208 Q 1243.2 214 1237.2 214 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 214 1025.2 208 Z" fill="#FFBF00"/>
+<text x="1035.2" y="200.5" fill="#FFFFFF" font-size="14" font-weight="600">当接收到 </text>
+<rect x="1103.4" y="181" width="97.8" height="26" rx="13" fill="#CC9900"/>
+<text x="1112.4" y="199.5" fill="#FFFFFF" font-size="13" font-weight="600">Raycast</text>
+<path d="M 1025.2 564 Q 1025.2 558 1031.2 558 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1344.8 Q 1350.8 558 1350.8 564 V 752 Q 1350.8 758 1344.8 758 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 758 1025.2 752 Z M 1025.2 598 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1334.8 V 718 H 1025.2 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<rect x="1035.2" y="565" width="102" height="26" rx="13" fill="#FF8C1A"/>
+<text x="1044.2" y="583.5" fill="#FFFFFF" font-size="13" font-weight="600">scan lines</text>
+<path d="M 1025.2 684 Q 1025.2 678 1031.2 678 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1215.8 Q 1221.8 678 1221.8 684 V 712 Q 1221.8 718 1215.8 718 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 718 1025.2 712 Z" fill="#FF8C1A"/>
+<text x="1035.2" y="704.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1059" y="685" width="48.6" height="26" rx="13" fill="#E0720A"/>
+<text x="1068" y="703.5" fill="#FFFFFF" font-size="13" font-weight="600">X</text>
+<text x="1107.6" y="704.5" fill="#FFFFFF" font-size="14" font-weight="600"> 增加 </text>
+<rect x="1155.2" y="685" width="44.6" height="26" rx="13" fill="#FF8C1A"/>
+<text x="1164.2" y="703.5" fill="#FFFFFF" font-size="13" font-weight="600">RES</text>
+<path d="M 1025.2 644 Q 1025.2 638 1031.2 638 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1141.2 Q 1147.2 638 1147.2 644 V 672 Q 1147.2 678 1141.2 678 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 678 1025.2 672 Z" fill="#FF6680"/>
+<text x="1035.2" y="664.5" fill="#FFFFFF" font-size="14" font-weight="600">Singal Ray</text>
+<path d="M 1025.2 604 Q 1025.2 598 1031.2 598 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1314.8 Q 1320.8 598 1320.8 604 V 632 Q 1320.8 638 1314.8 638 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 638 1025.2 632 Z" fill="#4C97FF"/>
+<text x="1035.2" y="624.5" fill="#FFFFFF" font-size="14" font-weight="600">面向 </text>
+<rect x="1073.8" y="605" width="225" height="26" rx="6" fill="#59C059"/>
+<text x="1081.8" y="623.5" fill="#FFFFFF" font-size="13" font-weight="600">CAMERA DIR + atan(X ÷ DV)</text>
+<path d="M 1025.2 524 Q 1025.2 518 1031.2 518 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1338.8 Q 1344.8 518 1344.8 524 V 552 Q 1344.8 558 1338.8 558 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 558 1025.2 552 Z" fill="#FF8C1A"/>
+<text x="1035.2" y="544.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1059" y="525" width="122.4" height="26" rx="13" fill="#E0720A"/>
+<text x="1068" y="543.5" fill="#FFFFFF" font-size="13" font-weight="600">scan lines</text>
+<text x="1181.4" y="544.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="1229" y="525" width="93.8" height="26" rx="6" fill="#59C059"/>
+<text x="1237" y="543.5" fill="#FFFFFF" font-size="13" font-weight="600">480 ÷ RES</text>
+<path d="M 1025.2 484 Q 1025.2 478 1031.2 478 H 1045.2 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1297.8 Q 1303.8 478 1303.8 484 V 512 Q 1303.8 518 1297.8 518 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 518 1025.2 512 Z" fill="#FF8C1A"/>
+<text x="1035.2" y="504.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1059" y="485" width="48.6" height="26" rx="13" fill="#E0720A"/>
+<text x="1068" y="503.5" fill="#FFFFFF" font-size="13" font-weight="600">X</text>
+<text x="1107.6" y="504.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="1155.2" y="485" width="126.6" height="26" rx="6" fill="#59C059"/>
+<text x="1163.2" y="503.5" fill="#FFFFFF" font-size="13" font-weight="600">RES ÷ 2 − 240</text>
+<path d="M 1025.2 438 C 1025.2 425 1032.2 420 1047.2 420 H 1083.2 C 1098.2 420 1105.2 425 1105.2 438 H 1172.8 Q 1178.8 420 1178.8 426 V 472 Q 1178.8 478 1172.8 478 H 1071.2 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1031.2 Q 1025.2 478 1025.2 472 Z" fill="#FF6680"/>
+<text x="1035.2" y="464.5" fill="#FFFFFF" font-size="14" font-weight="600">定义 </text>
+<text x="1073.8" y="464.5" fill="#FFFFFF" font-size="14" font-weight="600">Raycast</text>
+<rect x="1406.8" y="100" width="16" height="16" rx="4" fill="#0FBD8C"/>
+<text x="1430.8" y="114" fill="#2B3A55" font-size="21" font-weight="700">RayCaster · Singal Ray</text>
+<text x="1430.8" y="134" fill="#66738C" font-size="13">单列渲染：测距 → 校正 → 投影 → 画线</text>
+<path d="M 1406.8 980 Q 1406.8 974 1412.8 974 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1462.4 Q 1468.4 974 1468.4 980 V 1008 Q 1468.4 1014 1462.4 1014 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 1014 1406.8 1008 Z" fill="#0FBD8C"/>
+<text x="1416.8" y="1000.5" fill="#FFFFFF" font-size="14" font-weight="600">抬笔</text>
+<path d="M 1406.8 940 Q 1406.8 934 1412.8 934 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1644.8 Q 1650.8 934 1650.8 940 V 968 Q 1650.8 974 1644.8 974 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 974 1406.8 968 Z" fill="#4C97FF"/>
+<text x="1416.8" y="960.5" fill="#FFFFFF" font-size="14" font-weight="600">将 y 坐标设为 </text>
+<rect x="1526.8" y="941" width="102" height="26" rx="6" fill="#59C059"/>
+<text x="1534.8" y="959.5" fill="#FFFFFF" font-size="13" font-weight="600">0 − height</text>
+<path d="M 1406.8 900 Q 1406.8 894 1412.8 894 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1462.4 Q 1468.4 894 1468.4 900 V 928 Q 1468.4 934 1462.4 934 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 934 1406.8 928 Z" fill="#0FBD8C"/>
+<text x="1416.8" y="920.5" fill="#FFFFFF" font-size="14" font-weight="600">落笔</text>
+<path d="M 1406.8 860 Q 1406.8 854 1412.8 854 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1613.8 Q 1619.8 854 1619.8 860 V 888 Q 1619.8 894 1613.8 894 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 894 1406.8 888 Z" fill="#4C97FF"/>
+<text x="1416.8" y="880.5" fill="#FFFFFF" font-size="14" font-weight="600">移到 x:</text>
+<rect x="1473.4" y="861" width="28.2" height="26" rx="13" fill="#FF8C1A"/>
+<text x="1482.4" y="879.5" fill="#FFFFFF" font-size="13" font-weight="600">X</text>
+<text x="1501.6" y="880.5" fill="#FFFFFF" font-size="14" font-weight="600"> y:</text>
+<rect x="1528.6" y="861" width="69.2" height="26" rx="13" fill="#FF8C1A"/>
+<text x="1537.6" y="879.5" fill="#FFFFFF" font-size="13" font-weight="600">height</text>
+<path d="M 1406.8 820 Q 1406.8 814 1412.8 814 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1761.4 Q 1767.4 814 1767.4 820 V 848 Q 1767.4 854 1761.4 854 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 854 1406.8 848 Z" fill="#FF8C1A"/>
+<text x="1416.8" y="840.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1440.6" y="821" width="89.6" height="26" rx="13" fill="#E0720A"/>
+<text x="1449.6" y="839.5" fill="#FFFFFF" font-size="13" font-weight="600">height</text>
+<text x="1530.2" y="840.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="1577.8" y="821" width="167.6" height="26" rx="6" fill="#59C059"/>
+<text x="1585.8" y="839.5" fill="#FFFFFF" font-size="13" font-weight="600">10 × DV ÷ distance</text>
+<path d="M 1406.8 780 Q 1406.8 774 1412.8 774 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1766.2 Q 1772.2 774 1772.2 780 V 808 Q 1772.2 814 1766.2 814 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 814 1406.8 808 Z" fill="#0FBD8C"/>
+<text x="1416.8" y="800.5" fill="#FFFFFF" font-size="14" font-weight="600">将笔的 </text>
+<rect x="1470.2" y="781" width="68" height="26" rx="13" fill="#0B8A6F"/>
+<text x="1479.2" y="799.5" fill="#FFFFFF" font-size="13" font-weight="600">亮度</text>
+<text x="1538.2" y="800.5" fill="#FFFFFF" font-size="14" font-weight="600"> 参数设为 </text>
+<rect x="1615.4" y="781" width="134.8" height="26" rx="6" fill="#59C059"/>
+<text x="1623.4" y="799.5" fill="#FFFFFF" font-size="13" font-weight="600">120 − distance</text>
+<path d="M 1406.8 740 Q 1406.8 734 1412.8 734 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1895.6 Q 1901.6 734 1901.6 740 V 768 Q 1901.6 774 1895.6 774 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 774 1406.8 768 Z" fill="#FF8C1A"/>
+<text x="1416.8" y="760.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1440.6" y="741" width="106" height="26" rx="13" fill="#E0720A"/>
+<text x="1449.6" y="759.5" fill="#FFFFFF" font-size="13" font-weight="600">distance</text>
+<text x="1546.6" y="760.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="1594.2" y="741" width="285.4" height="26" rx="6" fill="#59C059"/>
+<text x="1602.2" y="759.5" fill="#FFFFFF" font-size="13" font-weight="600">distance × cos(方向 − CAMERA DIR)</text>
+<path d="M 1406.8 700 Q 1406.8 694 1412.8 694 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1751 Q 1757 694 1757 700 V 728 Q 1757 734 1751 734 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 734 1406.8 728 Z" fill="#FF8C1A"/>
+<text x="1416.8" y="720.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1440.6" y="701" width="106" height="26" rx="13" fill="#E0720A"/>
+<text x="1449.6" y="719.5" fill="#FFFFFF" font-size="13" font-weight="600">distance</text>
+<text x="1546.6" y="720.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="1594.2" y="701" width="140.8" height="26" rx="13" fill="#5CB1D6"/>
+<text x="1602.2" y="719.5" fill="#FFFFFF" font-size="13" font-weight="600">到 player 的距离</text>
+<path d="M 1406.8 500 Q 1406.8 494 1412.8 494 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1695.8 Q 1701.8 494 1701.8 500 V 688 Q 1701.8 694 1695.8 694 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 694 1406.8 688 Z M 1406.8 534 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1685.8 V 574 H 1406.8 Z M 1406.8 614 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1685.8 V 654 H 1406.8 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="1416.8" y="520.5" fill="#FFFFFF" font-size="14" font-weight="600">如果 </text>
+<path d="M 1455.4 514 L 1464.4 501 H 1632.4 L 1641.4 514 L 1632.4 527 H 1464.4 Z" fill="#5CB1D6"/>
+<text x="1468.4" y="519.5" fill="#FFFFFF" font-size="13" font-weight="600">碰到 level color ？</text>
+<text x="1641.4" y="520.5" fill="#FFFFFF" font-size="14" font-weight="600"> 那么</text>
+<text x="1416.8" y="600.5" fill="#FFFFFF" font-size="14" font-weight="600">否则</text>
+<path d="M 1406.8 620 Q 1406.8 614 1412.8 614 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1665.8 Q 1671.8 614 1671.8 620 V 648 Q 1671.8 654 1665.8 654 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 654 1406.8 648 Z" fill="#0FBD8C"/>
+<text x="1416.8" y="640.5" fill="#FFFFFF" font-size="14" font-weight="600">将笔的 </text>
+<rect x="1470.2" y="621" width="68" height="26" rx="13" fill="#0B8A6F"/>
+<text x="1479.2" y="639.5" fill="#FFFFFF" font-size="13" font-weight="600">颜色</text>
+<text x="1538.2" y="640.5" fill="#FFFFFF" font-size="14" font-weight="600"> 参数设为 </text>
+<rect x="1615.4" y="621" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="1623.4" y="639.5" fill="#575E75" font-size="13" font-weight="600">53</text>
+<path d="M 1406.8 540 Q 1406.8 534 1412.8 534 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1665.8 Q 1671.8 534 1671.8 540 V 568 Q 1671.8 574 1665.8 574 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 574 1406.8 568 Z" fill="#0FBD8C"/>
+<text x="1416.8" y="560.5" fill="#FFFFFF" font-size="14" font-weight="600">将笔的 </text>
+<rect x="1470.2" y="541" width="68" height="26" rx="13" fill="#0B8A6F"/>
+<text x="1479.2" y="559.5" fill="#FFFFFF" font-size="13" font-weight="600">颜色</text>
+<text x="1538.2" y="560.5" fill="#FFFFFF" font-size="14" font-weight="600"> 参数设为 </text>
+<rect x="1615.4" y="541" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="1623.4" y="559.5" fill="#575E75" font-size="13" font-weight="600">58</text>
+<path d="M 1406.8 380 Q 1406.8 374 1412.8 374 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1677.2 Q 1683.2 374 1683.2 380 V 488 Q 1683.2 494 1677.2 494 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 494 1406.8 488 Z M 1406.8 414 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1667.2 V 454 H 1406.8 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="1416.8" y="400.5" fill="#FFFFFF" font-size="14" font-weight="600">重复执行直到 </text>
+<path d="M 1514.6 394 L 1523.6 381 H 1656.2 L 1665.2 394 L 1656.2 407 H 1523.6 Z" fill="#5CB1D6"/>
+<text x="1527.6" y="399.5" fill="#FFFFFF" font-size="13" font-weight="600">没碰到 level ？</text>
+<path d="M 1406.8 420 Q 1406.8 414 1412.8 414 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1546 Q 1552 414 1552 420 V 448 Q 1552 454 1546 454 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 454 1406.8 448 Z" fill="#4C97FF"/>
+<text x="1416.8" y="440.5" fill="#FFFFFF" font-size="14" font-weight="600">移动 </text>
+<rect x="1455.4" y="421" width="50.8" height="26" rx="13" fill="#FFFFFF"/>
+<text x="1463.4" y="439.5" fill="#575E75" font-size="13" font-weight="600">-0.5</text>
+<text x="1506.2" y="440.5" fill="#FFFFFF" font-size="14" font-weight="600"> 步</text>
+<path d="M 1406.8 260 Q 1406.8 254 1412.8 254 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1663.4 Q 1669.4 254 1669.4 260 V 368 Q 1669.4 374 1663.4 374 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 374 1406.8 368 Z M 1406.8 294 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1653.4 V 334 H 1406.8 Z" fill="#FFAB19" fill-rule="evenodd"/>
+<text x="1416.8" y="280.5" fill="#FFFFFF" font-size="14" font-weight="600">重复执行直到 </text>
+<path d="M 1514.6 274 L 1523.6 261 H 1642.4 L 1651.4 274 L 1642.4 287 H 1523.6 Z" fill="#5CB1D6"/>
+<text x="1527.6" y="279.5" fill="#FFFFFF" font-size="13" font-weight="600">碰到 level ？</text>
+<path d="M 1406.8 300 Q 1406.8 294 1412.8 294 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1525.2 Q 1531.2 294 1531.2 300 V 328 Q 1531.2 334 1525.2 334 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 334 1406.8 328 Z" fill="#4C97FF"/>
+<text x="1416.8" y="320.5" fill="#FFFFFF" font-size="14" font-weight="600">移动 </text>
+<rect x="1455.4" y="301" width="30" height="26" rx="13" fill="#FFFFFF"/>
+<text x="1463.4" y="319.5" fill="#575E75" font-size="13" font-weight="600">2</text>
+<text x="1485.4" y="320.5" fill="#FFFFFF" font-size="14" font-weight="600"> 步</text>
+<path d="M 1406.8 220 Q 1406.8 214 1412.8 214 H 1426.8 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 1561 Q 1567 214 1567 220 V 248 Q 1567 254 1561 254 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 254 1406.8 248 Z" fill="#4C97FF"/>
+<text x="1416.8" y="240.5" fill="#FFFFFF" font-size="14" font-weight="600">移到 </text>
+<rect x="1455.4" y="221" width="89.6" height="26" rx="13" fill="#3373CC"/>
+<text x="1464.4" y="239.5" fill="#FFFFFF" font-size="13" font-weight="600">player</text>
+<path d="M 1406.8 174 C 1406.8 161 1413.8 156 1428.8 156 H 1464.8 C 1479.8 156 1486.8 161 1486.8 174 H 1581.4 Q 1587.4 156 1587.4 162 V 208 Q 1587.4 214 1581.4 214 H 1452.8 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1412.8 Q 1406.8 214 1406.8 208 Z" fill="#FF6680"/>
+<text x="1416.8" y="200.5" fill="#FFFFFF" font-size="14" font-weight="600">定义 </text>
+<text x="1455.4" y="200.5" fill="#FFFFFF" font-size="14" font-weight="600">Singal Ray</text>
+<rect x="1957.6" y="100" width="16" height="16" rx="4" fill="#5CB1D6"/>
+<text x="1981.6" y="114" fill="#2B3A55" font-size="21" font-weight="700">Entities · Pen</text>
+<text x="1981.6" y="134" fill="#66738C" font-size="13">3D 实体：相机变换 → 广告牌绘制</text>
+<path d="M 1957.6 340 Q 1957.6 334 1963.6 334 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2178 Q 2184 334 2184 340 V 368 Q 2184 374 2178 374 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 374 1957.6 368 Z" fill="#5CB1D6"/>
+<text x="1967.6" y="360.5" fill="#FFFFFF" font-size="14" font-weight="600">将拖拽模式设为 </text>
+<rect x="2080.2" y="341" width="81.8" height="26" rx="13" fill="#2E8EB8"/>
+<text x="2089.2" y="359.5" fill="#FFFFFF" font-size="13" font-weight="600">可拖拽</text>
+<path d="M 1957.6 300 Q 1957.6 294 1963.6 294 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2136 Q 2142 294 2142 300 V 328 Q 2142 334 2136 334 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 334 1957.6 328 Z" fill="#4C97FF"/>
+<text x="1967.6" y="320.5" fill="#FFFFFF" font-size="14" font-weight="600">移到 x:</text>
+<rect x="2024.2" y="301" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="2032.2" y="319.5" fill="#575E75" font-size="13" font-weight="600">86</text>
+<text x="2058.6" y="320.5" fill="#FFFFFF" font-size="14" font-weight="600"> y:</text>
+<rect x="2085.6" y="301" width="34.4" height="26" rx="13" fill="#FFFFFF"/>
+<text x="2093.6" y="319.5" fill="#575E75" font-size="13" font-weight="600">96</text>
+<path d="M 1957.6 260 Q 1957.6 254 1963.6 254 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2109.2 Q 2115.2 254 2115.2 260 V 288 Q 2115.2 294 2109.2 294 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 294 1957.6 288 Z" fill="#9966FF"/>
+<text x="1967.6" y="280.5" fill="#FFFFFF" font-size="14" font-weight="600">将大小设为 </text>
+<rect x="2050.6" y="261" width="42.6" height="26" rx="13" fill="#FFFFFF"/>
+<text x="2058.6" y="279.5" fill="#575E75" font-size="13" font-weight="600">225</text>
+<path d="M 1957.6 220 Q 1957.6 214 1963.6 214 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2178 Q 2184 214 2184 220 V 248 Q 2184 254 2178 254 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 254 1957.6 248 Z" fill="#4C97FF"/>
+<text x="1967.6" y="240.5" fill="#FFFFFF" font-size="14" font-weight="600">将旋转方式设为 </text>
+<rect x="2080.2" y="221" width="81.8" height="26" rx="13" fill="#3373CC"/>
+<text x="2089.2" y="239.5" fill="#FFFFFF" font-size="13" font-weight="600">不旋转</text>
+<path d="M 1957.6 174 C 1957.6 161 1964.6 156 1979.6 156 H 2015.6 C 2030.6 156 2037.6 161 2037.6 174 H 2089.8 Q 2095.8 156 2095.8 162 V 208 Q 2095.8 214 2089.8 214 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 214 1957.6 208 Z" fill="#FFBF00"/>
+<text x="1967.6" y="200.5" fill="#FFFFFF" font-size="14" font-weight="600">当 ⚑ 被点击</text>
+<path d="M 1957.6 564 Q 1957.6 558 1963.6 558 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2160.4 Q 2166.4 558 2166.4 564 V 592 Q 2166.4 598 2160.4 598 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 598 1957.6 592 Z" fill="#FF6680"/>
+<text x="1967.6" y="584.5" fill="#FFFFFF" font-size="14" font-weight="600">Rotate View </text>
+<rect x="2075.6" y="565" width="34.4" height="26" rx="6" fill="#E5457C"/>
+<text x="2083.6" y="583.5" fill="#FFFFFF" font-size="13" font-weight="600">vx</text>
+<rect x="2110" y="565" width="34.4" height="26" rx="6" fill="#E5457C"/>
+<text x="2118" y="583.5" fill="#FFFFFF" font-size="13" font-weight="600">vy</text>
+<path d="M 1957.6 524 Q 1957.6 518 1963.6 518 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2323.8 Q 2329.8 518 2329.8 524 V 552 Q 2329.8 558 2323.8 558 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 558 1957.6 552 Z" fill="#FF8C1A"/>
+<text x="1967.6" y="544.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1991.4" y="525" width="56.8" height="26" rx="13" fill="#E0720A"/>
+<text x="2000.4" y="543.5" fill="#FFFFFF" font-size="13" font-weight="600">vy</text>
+<text x="2048.2" y="544.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="2095.8" y="525" width="212" height="26" rx="6" fill="#59C059"/>
+<text x="2103.8" y="543.5" fill="#FFFFFF" font-size="13" font-weight="600">y坐标 − (player 的 y位置)</text>
+<path d="M 1957.6 484 Q 1957.6 478 1963.6 478 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2323.8 Q 2329.8 478 2329.8 484 V 512 Q 2329.8 518 2323.8 518 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 518 1957.6 512 Z" fill="#FF8C1A"/>
+<text x="1967.6" y="504.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1991.4" y="485" width="56.8" height="26" rx="13" fill="#E0720A"/>
+<text x="2000.4" y="503.5" fill="#FFFFFF" font-size="13" font-weight="600">vx</text>
+<text x="2048.2" y="504.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="2095.8" y="485" width="212" height="26" rx="6" fill="#59C059"/>
+<text x="2103.8" y="503.5" fill="#FFFFFF" font-size="13" font-weight="600">x坐标 − (player 的 x位置)</text>
+<path d="M 1957.6 438 C 1957.6 425 1964.6 420 1979.6 420 H 2015.6 C 2030.6 420 2037.6 425 2037.6 438 H 2202.4 Q 2208.4 420 2208.4 426 V 472 Q 2208.4 478 2202.4 478 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 478 1957.6 472 Z" fill="#FFBF00"/>
+<text x="1967.6" y="464.5" fill="#FFFFFF" font-size="14" font-weight="600">当接收到 </text>
+<rect x="2035.8" y="445" width="130.6" height="26" rx="13" fill="#CC9900"/>
+<text x="2044.8" y="463.5" fill="#FFFFFF" font-size="13" font-weight="600">Entity Tick</text>
+<path d="M 1957.6 748 Q 1957.6 742 1963.6 742 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2468 Q 2474 742 2474 748 V 776 Q 2474 782 2468 782 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 782 1957.6 776 Z" fill="#FF8C1A"/>
+<text x="1967.6" y="768.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1991.4" y="749" width="56.8" height="26" rx="13" fill="#E0720A"/>
+<text x="2000.4" y="767.5" fill="#FFFFFF" font-size="13" font-weight="600">vy</text>
+<text x="2048.2" y="768.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="2095.8" y="749" width="356.2" height="26" rx="6" fill="#59C059"/>
+<text x="2103.8" y="767.5" fill="#FFFFFF" font-size="13" font-weight="600">x × sin(CAMERA DIR) + y × cos(CAMERA DIR)</text>
+<path d="M 1957.6 708 Q 1957.6 702 1963.6 702 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2468 Q 2474 702 2474 708 V 736 Q 2474 742 2468 742 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 742 1957.6 736 Z" fill="#FF8C1A"/>
+<text x="1967.6" y="728.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1991.4" y="709" width="56.8" height="26" rx="13" fill="#E0720A"/>
+<text x="2000.4" y="727.5" fill="#FFFFFF" font-size="13" font-weight="600">vx</text>
+<text x="2048.2" y="728.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="2095.8" y="709" width="356.2" height="26" rx="6" fill="#59C059"/>
+<text x="2103.8" y="727.5" fill="#FFFFFF" font-size="13" font-weight="600">x × cos(CAMERA DIR) − y × sin(CAMERA DIR)</text>
+<path d="M 1957.6 662 C 1957.6 649 1964.6 644 1979.6 644 H 2015.6 C 2030.6 644 2037.6 649 2037.6 662 H 2202.6 Q 2208.6 644 2208.6 650 V 696 Q 2208.6 702 2202.6 702 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 702 1957.6 696 Z" fill="#FF6680"/>
+<text x="1967.6" y="688.5" fill="#FFFFFF" font-size="14" font-weight="600">定义 </text>
+<text x="2006.2" y="688.5" fill="#FFFFFF" font-size="14" font-weight="600">Rotate View </text>
+<rect x="2114.2" y="669" width="26.2" height="26" rx="6" fill="#E5457C"/>
+<text x="2122.2" y="687.5" fill="#FFFFFF" font-size="13" font-weight="600">x</text>
+<rect x="2140.4" y="669" width="26.2" height="26" rx="6" fill="#E5457C"/>
+<text x="2148.4" y="687.5" fill="#FFFFFF" font-size="13" font-weight="600">y</text>
+<path d="M 1957.6 1012 Q 1957.6 1006 1963.6 1006 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2305.8 Q 2311.8 1006 2311.8 1012 V 1040 Q 2311.8 1046 2305.8 1046 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 1046 1957.6 1040 Z" fill="#4C97FF"/>
+<text x="1967.6" y="1032.5" fill="#FFFFFF" font-size="14" font-weight="600">移到 x:</text>
+<rect x="2024.2" y="1013" width="208.6" height="26" rx="6" fill="#59C059"/>
+<text x="2032.2" y="1031.5" fill="#FFFFFF" font-size="13" font-weight="600">vx × DV ÷ distance(Pen)</text>
+<text x="2232.8" y="1032.5" fill="#FFFFFF" font-size="14" font-weight="600"> y:</text>
+<rect x="2259.8" y="1013" width="30" height="26" rx="13" fill="#FFFFFF"/>
+<text x="2267.8" y="1031.5" fill="#575E75" font-size="13" font-weight="600">0</text>
+<path d="M 1957.6 972 Q 1957.6 966 1963.6 966 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2135.8 Q 2141.8 966 2141.8 972 V 1000 Q 2141.8 1006 2135.8 1006 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 1006 1957.6 1000 Z" fill="#9966FF"/>
+<text x="1967.6" y="992.5" fill="#FFFFFF" font-size="14" font-weight="600">将大小设为 </text>
+<rect x="2050.6" y="973" width="69.2" height="26" rx="13" fill="#FF8C1A"/>
+<text x="2059.6" y="991.5" fill="#FFFFFF" font-size="13" font-weight="600">height</text>
+<path d="M 1957.6 932 Q 1957.6 926 1963.6 926 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2353.2 Q 2359.2 926 2359.2 932 V 960 Q 2359.2 966 2353.2 966 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 966 1957.6 960 Z" fill="#FF8C1A"/>
+<text x="1967.6" y="952.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1991.4" y="933" width="89.6" height="26" rx="13" fill="#E0720A"/>
+<text x="2000.4" y="951.5" fill="#FFFFFF" font-size="13" font-weight="600">height</text>
+<text x="2081" y="952.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="2128.6" y="933" width="208.6" height="26" rx="6" fill="#59C059"/>
+<text x="2136.6" y="951.5" fill="#FFFFFF" font-size="13" font-weight="600">10 × DV ÷ distance(Pen)</text>
+<path d="M 1957.6 892 Q 1957.6 886 1963.6 886 H 1977.6 c 3,0 5,1 7,3 l 2,2 c 2,2 6,2 8,0 l 2,-2 c 2,-2 4,-3 7,-3 H 2334.2 Q 2340.2 886 2340.2 892 V 920 Q 2340.2 926 2334.2 926 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 926 1957.6 920 Z" fill="#FF8C1A"/>
+<text x="1967.6" y="912.5" fill="#FFFFFF" font-size="14" font-weight="600">将 </text>
+<rect x="1991.4" y="893" width="147" height="26" rx="13" fill="#E0720A"/>
+<text x="2000.4" y="911.5" fill="#FFFFFF" font-size="13" font-weight="600">distance(Pen)</text>
+<text x="2138.4" y="912.5" fill="#FFFFFF" font-size="14" font-weight="600"> 设为 </text>
+<rect x="2186" y="893" width="132.2" height="26" rx="13" fill="#5CB1D6"/>
+<text x="2194" y="911.5" fill="#FFFFFF" font-size="13" font-weight="600">Entities 的 vy</text>
+<path d="M 1957.6 846 C 1957.6 833 1964.6 828 1979.6 828 H 2015.6 C 2030.6 828 2037.6 833 2037.6 846 H 2153.2 Q 2159.2 828 2159.2 834 V 880 Q 2159.2 886 2153.2 886 H 2003.6 c -5,1 -5,3 -7,3 l -2,2 c 0,0 -6,2 -8,0 l -2,-2 c -2,-2 -4,-3 -7,-3 H 1963.6 Q 1957.6 886 1957.6 880 Z" fill="#FFBF00"/>
+<text x="1967.6" y="872.5" fill="#FFFFFF" font-size="14" font-weight="600">当接收到 </text>
+<rect x="2035.8" y="853" width="81.4" height="26" rx="13" fill="#CC9900"/>
+<text x="2044.8" y="871.5" fill="#FFFFFF" font-size="13" font-weight="600">Paint</text>
+<text x="30" y="1115" fill="#8A94A8" font-size="13">提示：三条广播均为异步消息（不等待）；CAMERA DIR 与 DV 每帧由 player 统一下发 · 生成时间 2026-10-02</text>
+</svg>
