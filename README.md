@@ -1,5 +1,34 @@
-README有中文版本和英文版本，内容一样中文版本在上面英文版本请往下翻
-The README has a Chinese version and an English version with the same content. The Chinese version is above; please scroll down for the English version.
+# EyeWheelchairProject — 分支概览 / Branch Overview
+
+用普通 USB 摄像头实现“注视选方向 + 眨眼确认”的眼控轮椅原型。当前默认运行屏幕模拟，串口层与 Arduino 固件已实现，实机联调和台架验证仍待完成。
+
+An eye-controlled wheelchair prototype using a USB camera for gaze selection and blink confirmation. Screen simulation is the default; the serial layer and Arduino firmware are implemented, with hardware integration and bench verification still pending.
+
+## 分支结构及简述 / Branch Structure and Summary
+
+以下为 **2026-10-12 核对远端后的分支状态**。树形图表示协作分工，各分支的实际差异见下表。
+
+The following snapshot was checked against the remote on **2026-10-12**. The tree shows collaboration roles; the table describes the actual branch differences.
+
+```text
+EyeWheelchairProject
+├─ main   主干 / Mainline
+├─ huang  组员开发分支 / Contributor development branch
+└─ chen   视觉检测迁移与对比验证 / Vision migration and comparison
+```
+
+| 分支 / Branch | 当前内容 / Current contents | 与主干的关系 / Relation to main |
+|---|---|---|
+| `main` | MediaPipe 人脸/手部关键点、眨眼与视线交互、默认模拟的串口层，以及按 Arduino IDE 规则分目录的固件。 / MediaPipe landmarks, blink/gaze interaction, simulated serial output, and firmware in Arduino IDE sketch folders. | 当前文档与运行说明的基准；由所有者维护和合并。 / Baseline for the documentation below; maintained and merged by the owner. |
+| `huang` | 与主干采用相同的 MediaPipe 检测链路，供组员独立开发。 / Contributor branch using the same MediaPipe detection pipeline as main. | 落后 `main` 2 个提交，无独有提交；尚未包含主干最新的 README 同步与固件目录调整。 / 2 commits behind main, with no unique commits; missing the latest README update and firmware folder changes. |
+| `chen` | 新增 `src/common/` 公共模块、YuNet + YOLO 眼动后端；眨眼/视线预览支持 YOLO 与 MediaPipe 同帧对比及逐帧 CSV；确认演示使用 YOLO，并补充接线与交接资料。 / Shared utilities, YuNet + YOLO backend, YOLO/MediaPipe comparison with per-frame CSV in blink/gaze previews, a YOLO confirmation demo, and wiring/handover notes. | 有 12 个独有提交，同时缺少 `main` 的 2 个独有提交，尚未合并；固件仍采用旧路径。 / 12 unique commits and missing 2 main-only commits; not merged, with firmware still at the old paths. |
+
+**阅读范围**：下方目录、依赖和运行方法描述的是 **`main`**。`chen` 的新增模块与模型尚未进入主干，使用该分支时请查看其 `README.md` 和 `requirements.md`：YOLO 需要 `ultralytics`，双引擎对比还需要 `mediapipe`。
+
+**Scope**: the directory tree, dependencies and run instructions below describe **`main`**. The new modules and models on `chen` have not been merged. Consult that branch's `README.md` and `requirements.md`: YOLO requires `ultralytics`, and dual-engine comparison also requires `mediapipe`.
+
+README 有中文版本和英文版本，中文在上，英文在下；协作流程见 [GIT_GUIDE.md](GIT_GUIDE.md)，开发与代码规范见 [Agent.md](Agent.md)。
+The Chinese version appears first, followed by the English version; see [GIT_GUIDE.md](GIT_GUIDE.md) for the collaboration workflow and [Agent.md](Agent.md) for development and code standards.
 
 
 ## 中文版（Chinese）
@@ -38,20 +67,22 @@ EyeWheelchairProject/
 │  │  └─ camera_preview.py            第 1 周：摄像头基线（预览 / 录像 / 截图）
 │  ├─ vision/
 │  │  └─ landmarks_preview.py         第 2 周：人脸 478 点 + 手部 21 点可视化
-│  └─ interaction/
-│     ├─ blink_preview.py             第 3 步：眨眼校准与计数（已重构，含测试）
-│     ├─ gaze_direction_preview.py    第 4 步：视线方向选择（左 / 中 / 右）
-│     └─ gaze_blink_confirm_demo.py   第 5 步：视线选方向 + 眨眼确认（界面美化版，接串口层）
+│  ├─ interaction/
+│  │  ├─ blink_preview.py             第 3 步：眨眼校准与计数（已重构，含测试）
+│  │  ├─ gaze_direction_preview.py    第 4 步：视线方向选择（左 / 中 / 右）
+│  │  └─ gaze_blink_confirm_demo.py   第 5 步：视线选方向 + 眨眼确认（界面美化版，接串口层）
 │  └─ hardware/
 │     └─ serial_link.py               串口输出层：意图→指令、心跳、电池、低电锁（默认模拟）
 ├─ tests/                             pytest：眨眼判定 / 串口链路 / 界面渲染 + 模型冒烟测试
 ├─ firmware/
-│  └─ wheelchair_controller/       Arduino 修订版固件（含台架验证清单，待实机验证）
+│  └─ wheelchair_controller/
+│     └─ wheelchair_controller.ino   Arduino 修订版固件（含台架验证清单，待实机验证）
 ├─ Related_materials/                 硬件照片、参考固件（ardino_demo.ino）等资料
 ├─ models/                            MediaPipe 模型文件（face / hand landmarker，已入库）
 ├─ data/                              录制素材（raw_videos / snapshots）
 ├─ requirements.md                    依赖清单
 ├─ GIT_GUIDE.md                       组员 Git 上手指南（分支规则 / 日常循环 / 提交格式）
+├─ Agent.md                           项目开发与代码规范（分层 / 接口 / 验证 / 硬件边界）
 └─ README.md
 ```
 
@@ -168,7 +199,7 @@ PC（Python + pyserial，9600 波特）──串口指令──▶ ATmega328P �
 
 固件文件两个：
 
-- `Related_materials/ardino_demo.ino` —— **参考件**，原样保留；
+- `Related_materials/ardino_demo/ardino_demo.ino` —— **参考件**，内容原样保留；
 - `firmware/wheelchair_controller/wheelchair_controller.ino` —— **修订版**：看门狗、串口 char 缓冲、转向先停、
   PWM 频率修正（约 18kHz）、电池平均+迟滞、低电限流等，每处改动带【修订】标记，
   文件底部有 **7 条台架验证清单**（接线核对、噪音/温度、看门狗、长跑、转向先停、低电模拟、电压对表）。
@@ -193,7 +224,7 @@ Python 端的串口输出层也已落地：`src/hardware/serial_link.py`
 | 第 5 步 | 视线选方向 + 眨眼确认（屏幕演示） | ✅ 已重构（初步测试通过） |
 | 代码整理 | 四个脚本统一为三段式结构 + 调用关系注释，判定逻辑可单测 | ✅ |
 | 固件 | Arduino 控制器安全修订版（看门狗/char 缓冲/转向先停/PWM 频率），含台架清单 | 🔶 已写好，待台架验证 |
-| 串口输出层 | `src/hardware/serial_link.py`（心跳/电池轮询/低电锁/模拟模式），含 13 条测试 | 🔶 已写好，待接实机 |
+| 串口输出层 | `src/hardware/serial_link.py`（心跳/电池轮询/低电锁/模拟模式），含 12 条测试 | 🔶 已写好，待接实机 |
 | 下一步 | 台架验证固件 → 插上 Arduino 实机联调串口层 | ⬜ 未开始 |
 
 ## 已知问题与注意事项
@@ -232,9 +263,10 @@ Python 端的串口输出层也已落地：`src/hardware/serial_link.py`
 2. **补常驻测试**：`tests/` 已覆盖第 3 步（眨眼）、串口层与界面渲染；第 4 步（视线方向）的行为
    验证仍是一次性脚本，可照 `test_serial_link.py` 的样子落成常驻用例。
 3. **抽公共部分**：打开摄像头、构建检测器、中文绘制在五个脚本里各有一份拷贝，改一处要同步五处。
-   → **已在 `chen` 分支完成（2026-09-29）**：新增 `src/common/` 共用层（`paths.py` 路径地址簿 +
-   `camera_utils.open_camera()` + `draw_utils.chinese_font/draw_text()`），5 个脚本去重、净减 143 行；
-   **合并 chen 后 main 一并获得**（main 自身尚未引入）。
+   → **已在 `chen` 分支完成**：新增 `src/common/` 共用层（`paths.py` 路径地址簿、
+   `camera_utils.open_camera()`、`draw_utils.chinese_font/draw_text()`），并加入 `csv_logger.py`。
+   该分支还包含 YOLO 迁移及 YOLO / MediaPipe 双引擎对比；需验证后与主干的固件路径调整一起整合，
+   `main` 尚未引入这些模块。
 4. **台架验证 `firmware/wheelchair_controller/wheelchair_controller.ino`**：按文件底部 7 条清单逐项过
    （接线核对 → PWM 噪音/温度 → 看门狗 → 长跑 → 转向先停 → 低电模拟 → 电压对表），
    全过后加装物理急停按钮。
@@ -272,20 +304,22 @@ EyeWheelchairProject/
 │  │  └─ camera_preview.py            Week 1: Camera baseline (preview / record / snapshot)
 │  ├─ vision/
 │  │  └─ landmarks_preview.py         Week 2: Face 478 points + hand 21 points visualization
-│  └─ interaction/
-│     ├─ blink_preview.py             Step 3: Blink calibration and counting (refactored, with tests)
-│     ├─ gaze_direction_preview.py    Step 4: Gaze direction selection (left / center / right)
-│     └─ gaze_blink_confirm_demo.py   Step 5: Gaze selects direction + blink confirmation (restyled UI, wired to the serial layer)
+│  ├─ interaction/
+│  │  ├─ blink_preview.py             Step 3: Blink calibration and counting (refactored, with tests)
+│  │  ├─ gaze_direction_preview.py    Step 4: Gaze direction selection (left / center / right)
+│  │  └─ gaze_blink_confirm_demo.py   Step 5: Gaze selects direction + blink confirmation (restyled UI, wired to the serial layer)
 │  └─ hardware/
 │     └─ serial_link.py               Serial output layer: intent→command, heartbeat, battery, low-battery lock (simulated by default)
 ├─ tests/                             pytest: blink logic / serial link / UI rendering + model smoke test
 ├─ firmware/
-│  └─ wheelchair_controller/       Revised Arduino firmware (with bench checklist, pending verification)
+│  └─ wheelchair_controller/
+│     └─ wheelchair_controller.ino   Revised Arduino firmware (with bench checklist, pending verification)
 ├─ Related_materials/                 Hardware photos, reference firmware (ardino_demo.ino), etc.
 ├─ models/                            MediaPipe model files (face / hand landmarker, checked in)
 ├─ data/                              Recorded materials (raw_videos / snapshots)
 ├─ requirements.md                    Dependency list
 ├─ GIT_GUIDE.md                       Teammate Git onboarding guide (branch rules / daily loop / commit format)
+├─ Agent.md                           Development and code standards (layers / contracts / validation / hardware boundaries)
 └─ README.md
 ```
 
@@ -392,7 +426,7 @@ The firmware has four built-in safety layers: **auto-stop after 3 s without a co
 
 Two firmware files:
 
-- `Related_materials/ardino_demo.ino` — **reference copy**, kept untouched;
+- `Related_materials/ardino_demo/ardino_demo.ino` — **reference copy**, contents kept untouched;
 - `firmware/wheelchair_controller/wheelchair_controller.ino` — **revised version**: watchdog, serial char buffer, stop-before-turn, PWM frequency fix (~18 kHz), battery averaging + hysteresis, throttled low-battery warnings, etc. Every change carries a 【修订】 marker, and the file ends with a **7-item bench verification checklist** (wiring check, noise/temperature, watchdog, long run, stop-before-turn, low-battery simulation, voltage cross-check).
 
 The Python serial output layer is also in place: `src/hardware/serial_link.py`
@@ -416,7 +450,7 @@ actually go out to the firmware.
 | Step 5 | Gaze selects direction + blink confirmation (screen demo) | ✅ Refactored (preliminary tests pass) |
 | Code tidy-up | Four scripts unified into the three-section layout with call-graph comments; decision logic unit-testable | ✅ |
 | Firmware | Safety-revised Arduino controller (watchdog / char buffer / stop-before-turn / PWM frequency), with bench checklist | 🔶 Written, awaiting bench verification |
-| Serial output layer | `src/hardware/serial_link.py` (heartbeat / battery polling / low-battery lock / simulated mode), 13 tests | 🔶 Written, awaiting on-device integration |
+| Serial output layer | `src/hardware/serial_link.py` (heartbeat / battery polling / low-battery lock / simulated mode), 12 tests | 🔶 Written, awaiting on-device integration |
 | Next | Bench-verify the firmware → plug in the Arduino and integrate the serial layer | ⬜ Not started |
 
 ## Known Issues and Notes
@@ -442,6 +476,6 @@ These three are the current, real boundaries of the system and are "known, delib
 1. **Fully verify `camera_preview.py` on the real machine**: the refactored version has never been run end to end — test preview / record / snapshot first.
 2. **Add permanent tests**: `tests/` now covers step 3 (blink), the serial layer and UI rendering; the step 4 (gaze direction) behaviour checks are still one-off scripts and could be turned into permanent cases like `test_serial_link.py`.
 3. **Extract the common parts**: opening the camera, building detectors and drawing Chinese text are copied in all five scripts, so one change means five edits.
-   → **Done on the `chen` branch (2026-09-29)**: new `src/common/` shared layer (`paths.py` registry + `camera_utils.open_camera()` + `draw_utils.chinese_font/draw_text()`); five scripts deduplicated, -143 lines. **Merging `chen` brings it into `main`** (main itself does not have it yet).
+   → **Done on the `chen` branch**: new `src/common/` shared layer (`paths.py` registry, `camera_utils.open_camera()`, `draw_utils.chinese_font/draw_text()`), plus `csv_logger.py`. The branch also includes YOLO migration and YOLO/MediaPipe comparison; validate it and reconcile main's firmware path changes before merging. These modules are not yet on `main`.
 4. **Bench-verify `firmware/wheelchair_controller/wheelchair_controller.ino`**: work through the 7-item checklist at the end of the file (wiring check → PWM noise/temperature → watchdog → long run → stop-before-turn → low-battery simulation → voltage cross-check); then add a physical e-stop button.
 5. **On-device integration of the serial layer**: plug in the Arduino, set `ENABLE_HARDWARE = True` with the right port in `gaze_blink_confirm_demo.py`, and verify the three chains — heartbeat keep-alive, `GET_DATA` battery replies, and forced stop on low battery.
