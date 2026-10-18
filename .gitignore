@@ -13,3 +13,9 @@ Related_materials/IMG_*.jpg
 myvenv/
 .venv/
 venv/
+
+# Consolidated project: private local records and repository metadata stay local.
+/yolo_model/.git/
+/yolo_model/AGENTS.md
+/yolo_model/log.md
+/yolo_model/weights/

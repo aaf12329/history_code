@@ -1,5 +1,22 @@
 # EyeWheelchairProject — 分支概览 / Branch Overview
 
+## 项目状态：暂时封存 / Project status: temporarily shelved
+
+**2026-10-18，项目组决定整体暂时封存本项目。** 经项目组自评，目前整体技术与工程能力尚未达到本项目要求，暂不具备继续推进、完成充分验证并负责任交付该项目的能力与条件。现阶段停止主动开发和交付推进，保留现有代码、模型、实验结果与文档，作为学习和后续复盘资料。待团队能力与验证条件达到要求后，再评估是否恢复。
+
+**On 2026-10-18, the team decided to temporarily shelve the entire project.** Our current technical and engineering capabilities do not yet meet its requirements, and we are not ready to advance, adequately validate or responsibly deliver it. Active development and delivery are paused. Existing code, models, experiments and documentation are retained for study and review; resumption will be reconsidered when the team's capabilities and validation conditions are sufficient.
+
+### 仓库归并声明 / Repository consolidation
+
+- 原独立仓库：[aaf12329/Yolo_model](https://github.com/aaf12329/Yolo_model)。其内容现已归并至本仓库的 [`yolo_model/`](yolo_model/README.md)，不再作为独立项目维护；**旧 GitHub 仓库由所有者手动删除，本文不表示删除已完成**。
+- 唯一归档入口：[aaf12329/EyeWheelchairProject](https://github.com/aaf12329/EyeWheelchairProject)。主项目与 YOLO 子目录均处于暂时封存状态。
+- 本次仅归并目录和历史资料，不代表 YOLO 子项目已接入主项目的控制链路，也不代表已完成运行环境迁移、实机验证或达到交付条件。下文的分支、进度、指标和运行说明均为封存前的历史记录。
+- 数据集、原始视频、训练输出和私人协作记录保留在本机，不随 Git 上传；原独立仓库的 Git 历史已在本机另行备份。
+
+The former [Yolo_model repository](https://github.com/aaf12329/Yolo_model) has been consolidated under [`yolo_model/`](yolo_model/README.md) here and is no longer maintained independently. **Its owner will manually delete the old GitHub repository; deletion is not claimed as completed.** [EyeWheelchairProject](https://github.com/aaf12329/EyeWheelchairProject) is the sole archive location. This directory consolidation does not establish runtime integration or hardware readiness. Both projects are shelved; the sections below describe historical work. Raw data, recordings, training outputs and private collaboration notes remain local, with the original Git history backed up separately.
+
+---
+
 用普通 USB 摄像头实现“注视选方向 + 眨眼确认”的眼控轮椅原型。当前默认运行屏幕模拟，串口层与 Arduino 固件已实现，实机联调和台架验证仍待完成。
 
 An eye-controlled wheelchair prototype using a USB camera for gaze selection and blink confirmation. Screen simulation is the default; the serial layer and Arduino firmware are implemented, with hardware integration and bench verification still pending.
@@ -46,7 +63,7 @@ Eye-controlled wheelchair prototype — gaze + blink interaction. Python side ru
 
 ---
 
-## 交互设计
+## 交互设计（封存前设计）
 
 最终要做的是"注视选方向 + 眨眼当确认键"，替代摇杆：
 
@@ -62,6 +79,7 @@ Eye-controlled wheelchair prototype — gaze + blink interaction. Python side ru
 
 ```
 EyeWheelchairProject/
+├─ yolo_model/                       已归并的视觉模型子项目（暂时封存） / Consolidated vision models (shelved)
 ├─ src/
 │  ├─ camera/
 │  │  └─ camera_preview.py            第 1 周：摄像头基线（预览 / 录像 / 截图）
@@ -213,7 +231,7 @@ Python 端的串口输出层也已落地：`src/hardware/serial_link.py`
 > ⚠️ 烧录前需在 Arduino IDE 安装 **TimerOne** 库；台架清单全部通过**且加装物理急停按钮**（直接切断
 > 电机电源）之后，才允许载人测试。
 
-## 进度
+## 进度（封存前记录）
 
 | 阶段 | 内容 | 状态 |
 |---|---|---|
@@ -299,6 +317,7 @@ Why use two dimensions (gaze + blink): gaze is responsible for "selecting," blin
 
 ```
 EyeWheelchairProject/
+├─ yolo_model/                       已归并的视觉模型子项目（暂时封存） / Consolidated vision models (shelved)
 ├─ src/
 │  ├─ camera/
 │  │  └─ camera_preview.py            Week 1: Camera baseline (preview / record / snapshot)
@@ -439,7 +458,7 @@ actually go out to the firmware.
 
 > ⚠️ Install the **TimerOne** library in the Arduino IDE before compiling. The bench checklist must fully pass **and a physical e-stop button** (cutting motor power directly) must be added before any human ride testing.
 
-## Progress
+## Progress (historical snapshot before shelving)
 
 | Stage | Content | Status |
 |---|---|---|
