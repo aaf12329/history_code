@@ -1,0 +1,33 @@
+{
+  "format_version": 1,
+  "backend": "pytorch",
+  "config": {
+    "epochs": 2,
+    "batch_size": 64,
+    "latent_dim": 100,
+    "n_critic": 1,
+    "learning_rate": 0.0002,
+    "lambda_gp": 10,
+    "beta1": 0.5,
+    "beta2": 0.9,
+    "generator_layers": [
+      8,
+      8
+    ],
+    "critic_layers": [
+      8
+    ],
+    "device": "cpu",
+    "gpu_memory_mb": 8192,
+    "seed": 42,
+    "log_every": 1
+  },
+  "columns": [
+    "a",
+    "b",
+    "c"
+  ],
+  "category_schema": {},
+  "training_device": "cpu",
+  "purpose": "inference_snapshot_without_optimizer_state"
+}

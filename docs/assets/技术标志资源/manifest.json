@@ -1,0 +1,436 @@
+{
+  "collected_at": "2026-10-21T16:44:54.326618+08:00",
+  "brand_count": 9,
+  "file_count": 22,
+  "assets": [
+    {
+      "name": "JavaScript",
+      "folder": "01_JavaScript",
+      "source_page": "https://github.com/voodootikigod/logo.js",
+      "source_kind": "社区原始项目",
+      "note": "黄色JS为JSConf社区标志。保留原文件。",
+      "files": [
+        {
+          "name": "JavaScript_社区标志.svg",
+          "url": "https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.svg",
+          "relative_path": "01_JavaScript/JavaScript_社区标志.svg",
+          "sha256": "a70a3d8d36ea6b0e614a04ec30d5a4fb2bf36d515492cb84050ded2b84d14393",
+          "bytes": 2325,
+          "response_type": "image/svg+xml",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 630 630",
+            "width": null,
+            "height": null
+          }
+        },
+        {
+          "name": "JavaScript_社区标志.png",
+          "url": "https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png",
+          "relative_path": "01_JavaScript/JavaScript_社区标志.png",
+          "sha256": "aa1e3d2ce0043845f92e2f4c3da07766d07b348bf69e4377092cad4a3238fed0",
+          "bytes": 10238,
+          "response_type": "image/png",
+          "inspection": {
+            "format": "PNG",
+            "size": [
+              1052,
+              1052
+            ],
+            "mode": "P",
+            "has_alpha_channel": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "folder": "02_TypeScript",
+      "source_page": "https://www.typescriptlang.org/branding/",
+      "source_kind": "官方资源包",
+      "note": "蓝底白字TS为主标志，TS白字本身不是透明。",
+      "files": [
+        {
+          "name": "TypeScript_主标志.svg",
+          "url": "https://www.typescriptlang.org/branding/typescript-design-assets.zip",
+          "archive_member": "ts-logo-512.svg",
+          "relative_path": "02_TypeScript/TypeScript_主标志.svg",
+          "sha256": "139ae451b37a00251fe24358191699efa665f63f1c8369cb9dad833159e159e2",
+          "bytes": 1729,
+          "response_type": "application/x-zip-compressed",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 512 512",
+            "width": "512",
+            "height": "512"
+          }
+        },
+        {
+          "name": "TypeScript_主标志_512.png",
+          "url": "https://www.typescriptlang.org/branding/typescript-design-assets.zip",
+          "archive_member": "ts-logo-512.png",
+          "relative_path": "02_TypeScript/TypeScript_主标志_512.png",
+          "sha256": "4716ee8a737cdd724dbb20e7f9ad060f0257ed6d736209000a4fcc9b3a2b9b92",
+          "bytes": 3278,
+          "response_type": "application/x-zip-compressed",
+          "inspection": {
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "P",
+            "has_alpha_channel": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "folder": "03_NVIDIA",
+      "source_page": "https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/",
+      "source_kind": "官方品牌页",
+      "note": "保留官方横版与竖版，不重新描绘。",
+      "files": [
+        {
+          "name": "NVIDIA_竖版.svg",
+          "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg",
+          "relative_path": "03_NVIDIA/NVIDIA_竖版.svg",
+          "sha256": "5347e5188c74204767d2d4daa17b59b5a18ccd7ad0a7281e7961a83c20c96808",
+          "bytes": 2832,
+          "response_type": "image/svg+xml",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 2560 1440",
+            "width": null,
+            "height": null
+          }
+        },
+        {
+          "name": "NVIDIA_横版.svg",
+          "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container_412055486/nv_image.coreimg.svg/1776076920317/nvidia-logo-horz.svg",
+          "relative_path": "03_NVIDIA/NVIDIA_横版.svg",
+          "sha256": "4325ea0c4078941bce84b2b1c6f045c3daf36de44cfc4c89ac5c49186f4874e8",
+          "bytes": 2783,
+          "response_type": "image/svg+xml",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 2560 1440",
+            "width": null,
+            "height": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "PyTorch",
+      "folder": "04_PyTorch",
+      "source_page": "https://pytorch-fdn.github.io/artwork/projects/PyTorch/info.md",
+      "source_kind": "官方项目资源库",
+      "note": "使用PyTorch框架标志，未混用PyTorch Foundation基金会标志。",
+      "files": [
+        {
+          "name": "PyTorch_图标.png",
+          "url": "https://raw.githubusercontent.com/pytorch-fdn/artwork/main/projects/PyTorch/icon/PyTorchLogo_Icon_fullColor_RGB.png",
+          "relative_path": "04_PyTorch/PyTorch_图标.png",
+          "sha256": "6eed919bc6fd74d3c005385e1bfbdcbbe407351efde86dc97da6bf9a54fa0a97",
+          "bytes": 7574,
+          "response_type": "image/png",
+          "inspection": {
+            "format": "PNG",
+            "size": [
+              497,
+              552
+            ],
+            "mode": "RGBA",
+            "has_alpha_channel": true
+          }
+        },
+        {
+          "name": "PyTorch_彩色横版.png",
+          "url": "https://raw.githubusercontent.com/pytorch-fdn/artwork/main/projects/PyTorch/horizontal/PyTorch%20Logo%202022_RGB_PyTorchLogo_Horiz_fullColor_RGB.png",
+          "relative_path": "04_PyTorch/PyTorch_彩色横版.png",
+          "sha256": "1bd8904565dab429866c1411ccc33a9ad48b85c948773ced4882f670373e69f8",
+          "bytes": 67381,
+          "response_type": "image/png",
+          "inspection": {
+            "format": "PNG",
+            "size": [
+              3868,
+              1526
+            ],
+            "mode": "RGBA",
+            "has_alpha_channel": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "CUDA",
+      "folder": "05_CUDA",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nvidia_CUDA_Logo.jpg",
+      "source_kind": "Wikimedia转载的NVIDIA历史标志",
+      "note": "经典标志，406×246 JPG，有背景，非透明矢量。文件说明页注明原始出处为NVIDIA；未用NVIDIA公司标志冒充CUDA。",
+      "files": [
+        {
+          "name": "CUDA_经典标志_406x246.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Nvidia_CUDA_Logo.jpg",
+          "relative_path": "05_CUDA/CUDA_经典标志_406x246.jpg",
+          "sha256": "8791b9ea492045f379aa99f1f9f4f2f709ae1213ac69853f7e459546eb235c5c",
+          "bytes": 14539,
+          "response_type": "image/jpeg",
+          "inspection": {
+            "format": "JPEG",
+            "size": [
+              406,
+              246
+            ],
+            "mode": "RGB",
+            "has_alpha_channel": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "React",
+      "folder": "06_React",
+      "source_page": "https://react.dev/",
+      "source_kind": "官方网站原图",
+      "note": "React官方网站品牌图标。",
+      "files": [
+        {
+          "name": "React_品牌图标.svg",
+          "url": "https://react.dev/images/brand/logo_dark.svg",
+          "relative_path": "06_React/React_品牌图标.svg",
+          "sha256": "e5278257e728c9527af74185f73f0715ffde03d713512aded478d832665e8f24",
+          "bytes": 6772,
+          "response_type": "image/svg+xml",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 569 512",
+            "width": "569px",
+            "height": "512px"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Next.js",
+      "folder": "07_Nextjs",
+      "source_page": "https://vercel.com/geist/brands#next-js",
+      "source_kind": "官方资源包",
+      "note": "包含图标/文字标志，以及适合深色、浅色背景的原版。",
+      "files": [
+        {
+          "name": "Nextjs_图标_浅色背景用.svg",
+          "url": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+          "archive_member": "NEXTJS/icon/light-background/nextjs-icon-light-background.svg",
+          "relative_path": "07_Nextjs/Nextjs_图标_浅色背景用.svg",
+          "sha256": "44b2a36d8c1e608e14e56f8757e9e710143460bc83c9450b55e6995f80120a3d",
+          "bytes": 1051,
+          "response_type": "application/zip",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 180 180",
+            "width": "180",
+            "height": "180"
+          }
+        },
+        {
+          "name": "Nextjs_图标_浅色背景用.png",
+          "url": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+          "archive_member": "NEXTJS/icon/light-background/nextjs-icon-light-background.png",
+          "relative_path": "07_Nextjs/Nextjs_图标_浅色背景用.png",
+          "sha256": "09521d8be39cc3e9cafbb20ffa772a71840f11fe1f1bbdd5a6136ece6d78a8f2",
+          "bytes": 31283,
+          "response_type": "application/zip",
+          "inspection": {
+            "format": "PNG",
+            "size": [
+              720,
+              720
+            ],
+            "mode": "RGBA",
+            "has_alpha_channel": true
+          }
+        },
+        {
+          "name": "Nextjs_图标_深色背景用.svg",
+          "url": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+          "archive_member": "NEXTJS/icon/dark-background/nextjs-icon-dark-background.svg",
+          "relative_path": "07_Nextjs/Nextjs_图标_深色背景用.svg",
+          "sha256": "37c8eb94506d2d8e51b959d66671ab2bab9cc304ff596a9a4b8fd3b37e8a0625",
+          "bytes": 1083,
+          "response_type": "application/zip",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 180 180",
+            "width": "180",
+            "height": "180"
+          }
+        },
+        {
+          "name": "Nextjs_图标_深色背景用.png",
+          "url": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+          "archive_member": "NEXTJS/icon/dark-background/nextjs-icon-dark-background.png",
+          "relative_path": "07_Nextjs/Nextjs_图标_深色背景用.png",
+          "sha256": "a91cb4403cda7f54eda2cde9a24514888028d8790eba7d7abc0ffbf5a62849a1",
+          "bytes": 36630,
+          "response_type": "application/zip",
+          "inspection": {
+            "format": "PNG",
+            "size": [
+              720,
+              720
+            ],
+            "mode": "RGBA",
+            "has_alpha_channel": true
+          }
+        },
+        {
+          "name": "Nextjs_文字标志_浅色背景用.svg",
+          "url": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+          "archive_member": "NEXTJS/logotype/light-background/nextjs-logotype-light-background.svg",
+          "relative_path": "07_Nextjs/Nextjs_文字标志_浅色背景用.svg",
+          "sha256": "603d77738f767d2afa37e225da1407dbdb2cd92e76695f010316910ae1e88761",
+          "bytes": 3607,
+          "response_type": "application/zip",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 394 80",
+            "width": "394",
+            "height": "80"
+          }
+        },
+        {
+          "name": "Nextjs_文字标志_浅色背景用.png",
+          "url": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+          "archive_member": "NEXTJS/logotype/light-background/nextjs-logotype-light-background.png",
+          "relative_path": "07_Nextjs/Nextjs_文字标志_浅色背景用.png",
+          "sha256": "37654f668f0c6ca0cd09f4f7fc5665587b45ae976a4b3a652ea94fe340265bcd",
+          "bytes": 14301,
+          "response_type": "application/zip",
+          "inspection": {
+            "format": "PNG",
+            "size": [
+              1576,
+              318
+            ],
+            "mode": "RGBA",
+            "has_alpha_channel": true
+          }
+        },
+        {
+          "name": "Nextjs_文字标志_深色背景用.svg",
+          "url": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+          "archive_member": "NEXTJS/logotype/dark-background/nextjs-logotype-dark-background.svg",
+          "relative_path": "07_Nextjs/Nextjs_文字标志_深色背景用.svg",
+          "sha256": "2af00f1d0893448c088b80b6c97c9a4ddab417278eced4cdc544a9deaca2e88f",
+          "bytes": 3607,
+          "response_type": "application/zip",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 394 80",
+            "width": "394",
+            "height": "80"
+          }
+        },
+        {
+          "name": "Nextjs_文字标志_深色背景用.png",
+          "url": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+          "archive_member": "NEXTJS/logotype/dark-background/nextjs-logotype-dark-background.png",
+          "relative_path": "07_Nextjs/Nextjs_文字标志_深色背景用.png",
+          "sha256": "79bfd5050b6467b47d3a482f3848797c2eb06e0c2db56b5770e44508da2fef6b",
+          "bytes": 14623,
+          "response_type": "application/zip",
+          "inspection": {
+            "format": "PNG",
+            "size": [
+              1576,
+              318
+            ],
+            "mode": "RGBA",
+            "has_alpha_channel": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "folder": "08_Python",
+      "source_page": "https://www.python.org/community/logos/",
+      "source_kind": "官方网站原图",
+      "note": "包含双色双蛇图标，以及带Python文字的组合标志。",
+      "files": [
+        {
+          "name": "Python_双蛇图标.svg",
+          "url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg",
+          "relative_path": "08_Python/Python_双蛇图标.svg",
+          "sha256": "baec8662a1461c2cacc326b54d2727cb2f1ce07ba02d00f5b826d035104f649f",
+          "bytes": 9605,
+          "response_type": "image/svg+xml",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": null,
+            "width": "83.371017pt",
+            "height": "101.00108pt"
+          }
+        },
+        {
+          "name": "Python_组合标志.svg",
+          "url": "https://www.python.org/static/community_logos/python-logo-generic.svg",
+          "relative_path": "08_Python/Python_组合标志.svg",
+          "sha256": "0305d6b2bb2e2761502d072e8e2db1248dbd1a99f51fb4b4bcb9e43c486ef6b2",
+          "bytes": 15301,
+          "response_type": "image/svg+xml",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": null,
+            "width": "388.84pt",
+            "height": "115.02pt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "XGBoost",
+      "folder": "09_XGBoost",
+      "source_page": "https://xgboost.ai/",
+      "source_kind": "官方网站原图",
+      "note": "SVG与官网使用的PNG原图，均保留原样。",
+      "files": [
+        {
+          "name": "XGBoost_标志.svg",
+          "url": "https://xgboost.ai/images/logo/xgboost-logo.svg",
+          "relative_path": "09_XGBoost/XGBoost_标志.svg",
+          "sha256": "55452a1d9ae81ecc849d1aafd0b9fd0b2c639c91251d4188ec84ea69c9bf9c9b",
+          "bytes": 41492,
+          "response_type": "image/svg+xml",
+          "inspection": {
+            "format": "SVG",
+            "viewBox": "0 0 149.29135 51.417294",
+            "width": "149.29135mm",
+            "height": "51.417294mm"
+          }
+        },
+        {
+          "name": "XGBoost_标志.png",
+          "url": "https://xgboost.ai/images/logo/xgboost-logo-trimmed.png",
+          "relative_path": "09_XGBoost/XGBoost_标志.png",
+          "sha256": "6637e38dea1db7a54d6c16fd5b149c2c443d7a4c54a45829ce4b25cef6edbb15",
+          "bytes": 27905,
+          "response_type": "image/png",
+          "inspection": {
+            "format": "PNG",
+            "size": [
+              408,
+              138
+            ],
+            "mode": "RGBA",
+            "has_alpha_channel": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,21 @@
 
 项目的目标很大，甚至可以说很宏大：把散落的公开信息转化为有来源、有口径、可质疑、可复核的产业判断。当前已完成本机网页流程总装：React/Next.js → FastAPI → 持久Worker → Python采集/分析/可选GAN/XGBoost → 最终建议；另保留独立设计预览与CLI。
 
+## 项目资料与设计入口
+
+2026-10-25归并七项桌面资料，统一随仓库维护。重复的全国建模来源合并复用，模型、虚拟环境、依赖缓存和本机凭据不入库。此次只归档资料与独立设计源码，没有重跑采集、训练或模型API。
+
+| 内容 | 入口 |
+|---|---|
+| 独立前端设计交接，未接后端 | [frontend-design/README.md](frontend-design/README.md) |
+| 贵阳餐饮业公开来源清单 | [贵阳餐饮业](examples/research_sources/贵阳餐饮业/README.md) |
+| 全国粮食、棉花、油料建模来源与历史测试记录 | [研究来源示例](examples/research_sources/README.md) |
+| 建模图片、合成数据分析与历史回答 | [历史验证资料](docs/validation/README.md) |
+| 技术标志、来源与原始文件 | [标志资源](docs/assets/README.md) |
+| 技术架构与协作流程五分钟演示 | [演示文稿](docs/presentations/README.md) |
+
+归并位置、检查范围与排除项见[归并说明](docs/资料归并_20261025.md)。历史记录不代表本次重新验收。
+
 ## 使用的技术与模型
 
 | 技术或模型 | 职责 | 运行位置 |
@@ -19,7 +34,7 @@
 
 Windows复用既有SQLite持久队列；Linux Celery/Redis/PostgreSQL配置仍保留，尚未做真实部署验收。只有CLI不使用SQL；网页研究产物仍是CSV/JSON/PNG，助手会话仍是JSON。
 
-网页入口见 [frontend/README.md](frontend/README.md)：打开即用，没有登录、注册或用户中心。“实际研究”连接本机服务，“设计预览”保留九个合成演示视图。桌面的“产业研究平台_前端设计交接”及同名ZIP保持独立、未接后端，供人类设计师工作。实际接线说明与验收见 [网页总装说明](docs/网页总装说明.md)。
+网页入口见 [frontend/README.md](frontend/README.md)：打开即用，没有登录、注册或用户中心。“实际研究”连接本机服务，“设计预览”保留九个合成演示视图。原桌面前端交接包已归入 [frontend-design](frontend-design/README.md)，继续保持独立、未接后端，供人类设计师工作。实际接线说明与验收见 [网页总装说明](docs/网页总装说明.md)。
 
 2026-10-22 最新交互：**先采集网页 → 用户选择 → 原自动流程继续 / 教材分支仅保存材料并停止**。网页采集完成后显示两个按钮，选择前不会加载BGE、调用清洗/趋势LLM或开始建模。教材分支暂不实现后续解析，供查看原件和正文后决定；原自动流程复用本批材料，继续向量/关键词匹配、CSV、LLM清洗及既有缺失/建模体系。材料包 `data/sources.zip` 保存已取得的HTML/PDF原件、正文、表格及来源/哈希索引；没有原件时明确标注。终端启动默认爬完后询问，无人值守可指定 `--after-crawl continue` 或 `--after-crawl textbook`。详见[采集后分支说明](docs/采集后分支.md)。
 
@@ -33,7 +48,7 @@ Windows复用既有SQLite持久队列；Linux Celery/Redis/PostgreSQL配置仍�
 
 2026-10-22 数据整理修复：空口径配置启用已有默认词表；产业关键词、相关指标数值与BGE联合召回；段落预算按文档均衡分配。明确统计标题可关联年度/地域，限额、企业、非年度及计划语义仍保留复核限制；匹配CSV和最终LLM保留关联上下文。新结果包含metadata/diagnostics.json，网页说明实际数据瓶颈和GAN未启动原因。当前仍只支持年度自动建模，WGAN要求至少64条真实训练行；本次未运行验收，也未降低门槛。详见[数据整理与建模门槛](docs/数据整理与建模门槛.md)。
 
-后续复测：DNS恢复公网解析后，26个网址全部采集成功。确定性路径和LLM路径分别形成26个、25个连续年度，均进入XGBoost exploratory_model，但测试MAE都差于末值基线。完整Python回归142通过/1跳过，前端类型检查及10项交互测试通过。最新事实见[验证记录](docs/验证记录_20261022.md)。可复现的公开网址和独立口径JSON在[建模来源示例](examples/research_sources/README.md)，与桌面“数学建模测试集”配套；来源集不等于合格训练集。
+后续复测：DNS恢复公网解析后，26个网址全部采集成功。确定性路径和LLM路径分别形成26个、25个连续年度，均进入XGBoost exploratory_model，但测试MAE都差于末值基线。完整Python回归142通过/1跳过，前端类型检查及10项交互测试通过。最新事实见[验证记录](docs/验证记录_20261022.md)。可复现的公开网址、独立口径JSON及原桌面“数学建模测试集”已统一归入[建模来源示例](examples/research_sources/README.md)；来源集不等于合格训练集。
 
 Live research messages report actual per-URL outcomes and reasons through durable task polling. Final trend analysis sends the current run in one stateless request without conversation memory; credentials never enter browser code. Restart API/worker after backend or local configuration changes.
 
@@ -187,6 +202,11 @@ Project-owned paths are rooted at the source/script location, independently of t
   requirement.txt                手动 pip/Conda 安装入口
   快速部署/                       部署入口、配置模板与使用说明
   frontend/                       实际研究网页与独立设计预览
+  frontend-design/                独立设计交接源码，不接后端，不带依赖缓存
+  examples/research_sources/       全国建模与贵阳餐饮业来源清单
+  docs/validation/                历史合成测试图、分析与回答
+  docs/assets/                    技术标志及来源说明
+  docs/presentations/             技术架构与协作流程PPT
   app/                           服务、适配、任务、调度
   components/crawler/            爬虫研究源码，不写运行数据
   产业研究建议助手/               独立助手源码，不另建环境
