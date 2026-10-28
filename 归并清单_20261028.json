@@ -3420,6 +3420,335 @@
       "archive_tree": "a7e83f924fbe8cd2b9f4ac183718b22f0a13bf87",
       "verified_file_count": 20,
       "tracked_original_file_count": 20
+    },
+    {
+      "directory": "My_Agent",
+      "source_repository": "https://github.com/aaf12329/My_Agent",
+      "source_commit": "866e95d9f96b777146ce4aa3ee64421e23ba899a",
+      "source_tree": "e183dc086b7f756075254d83e3b2892f8ced1f2c",
+      "archive_tree": "e183dc086b7f756075254d83e3b2892f8ced1f2c",
+      "files": [
+        {
+          "original_relative_path": ".gitignore",
+          "archive_path": "My_Agent/.gitignore",
+          "sha256": "2979fdd2098e749f27f06365ac2b85b3bfccccf88b28a9aa19a79d354accb28b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "agent_loop.py",
+          "archive_path": "My_Agent/agent_loop.py",
+          "sha256": "611d8cefa8502278890c7875e91e54294a1dd2ac895314ba5d5fe05c2f5e4c27",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Engage.bat",
+          "archive_path": "My_Agent/Engage.bat",
+          "sha256": "45162128f611bd60f3465a79cf9ef3189dd99dabbdc4949e918048090201b55e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "GUI.py",
+          "archive_path": "My_Agent/GUI.py",
+          "sha256": "088678c3209edec6cb7d7b83cc438be05be2c1802f82c0d15d24f8e0de952c72",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "GUI_Engage.bat",
+          "archive_path": "My_Agent/GUI_Engage.bat",
+          "sha256": "5c0c9bc81a039f7721165d291e8bf1631ca7c1ce29328fc428fea598a6d90df3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "main.py",
+          "archive_path": "My_Agent/main.py",
+          "sha256": "dae8951e52c978c3b99af2b6ee22ace866f190482af4ebf39f042c60bb0711f0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "README.md",
+          "archive_path": "My_Agent/README.md",
+          "sha256": "db7661cce2ac4b5993fa7415ca5c95917df543bc25e84a41aa9023d57728fff2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "requirements.md",
+          "archive_path": "My_Agent/requirements.md",
+          "sha256": "fb93e611f3ce4a3708edc77cb1333718ac189295f0df5507be0b39a9d11b7d17",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/红头文件-现阶段进展与后续方向.docx",
+          "archive_path": "My_Agent/docs/红头文件-现阶段进展与后续方向.docx",
+          "sha256": "de70d9eb72e423904ada65b67a1fea4491fea49a3a97ab0908bb9d72be0ce4c3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Memories/memory.md",
+          "archive_path": "My_Agent/Memories/memory.md",
+          "sha256": "370a8b9639dbadf1df35e12afb420c1a1206ac84e2877539a4e7c1d25717f84d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Prompt/base.md",
+          "archive_path": "My_Agent/Prompt/base.md",
+          "sha256": "58e17f94ad9b881a66c8e9760e0084fb4e335716d82480fe0408e38cdf11f23d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Prompt/domains/circuit.md",
+          "archive_path": "My_Agent/Prompt/domains/circuit.md",
+          "sha256": "1390e6a0165f591d8a66d1c7937b7d385b1fa4fdd19bc2a35731f9a2531bb35f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Prompt/domains/code.md",
+          "archive_path": "My_Agent/Prompt/domains/code.md",
+          "sha256": "2da5bc42a1467fbda627c040d71191eb0432c1b94c605deed6917d177a987e1d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Prompt/domains/math.md",
+          "archive_path": "My_Agent/Prompt/domains/math.md",
+          "sha256": "01238de92fc49c7f94bf214a2897f3e11afb98a6d7ccb6af7ed5a0af4523c02e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tool/Agent_tool.py",
+          "archive_path": "My_Agent/tool/Agent_tool.py",
+          "sha256": "271681124c289ae3bda951b5c38dbf24b48a78ae4184e76695b4730e085c02b0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tool/Compress_mudel.py",
+          "archive_path": "My_Agent/tool/Compress_mudel.py",
+          "sha256": "0b52f13f008e930f4b0080d0f39f20a3bb6ea533d774dd552bfeeaae7af87e28",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tool/embedding.py",
+          "archive_path": "My_Agent/tool/embedding.py",
+          "sha256": "1d557ff7ef8c78affc6a1a8e41f3b351f47c73bbf70e1dfeba511e77bba3cc13",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tool/Model_Function.py",
+          "archive_path": "My_Agent/tool/Model_Function.py",
+          "sha256": "1582049731e8ff7141dec3b48495eee6cde0d952a2f311eaaa550883998628d0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tool/Store.py",
+          "archive_path": "My_Agent/tool/Store.py",
+          "sha256": "e31d10cde70f9160dce217fd6b7c5692e0662e2865b6b9a6eb14ae5c110b60bc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tool/tools.py",
+          "archive_path": "My_Agent/tool/tools.py",
+          "sha256": "1cfeb2f3804155809043690e3293ae575b8efe77cd36355f66c9bfcf97b09bd4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tool/__init__.py",
+          "archive_path": "My_Agent/tool/__init__.py",
+          "sha256": "0fc13576073525e269624effae22284aa70f8f6ab0a46b25bce62fd518febd94",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/.gitignore",
+          "archive_path": "My_Agent/whale/.gitignore",
+          "sha256": "6948623a1fd9846117a9eebd412fcffe1a852f494a4d7486e838909012c55a9f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/Engage.bat",
+          "archive_path": "My_Agent/whale/Engage.bat",
+          "sha256": "f8dd696811823836faca31e70fc174712d23b3a877aa95341c51e6f768feca9c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/LICENSE",
+          "archive_path": "My_Agent/whale/LICENSE",
+          "sha256": "2ff2ac783810af366a8cf87e42906c6f18304a6e9cb81220c4fa9e5ca92f4d00",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/main.js",
+          "archive_path": "My_Agent/whale/main.js",
+          "sha256": "359c96ecf1fd65362ad4271cda153915c8d3a9add805c68b6db4c08cc225d0fc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/package-lock.json",
+          "archive_path": "My_Agent/whale/package-lock.json",
+          "sha256": "7613e1094127c8f3cc8ed710d1255d0bd1a53106c5c159375c0deb0cccb3077d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/package.json",
+          "archive_path": "My_Agent/whale/package.json",
+          "sha256": "5f4d33dd79f00e5175bf196ad8cc02697c64c260805cce2bf9bda08c3fa54d6f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/preload.js",
+          "archive_path": "My_Agent/whale/preload.js",
+          "sha256": "173ea8ac5db8ee5b32a0510737ac75e7419d9576b55d5c1c2d2fb2d397ca9793",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/README.md",
+          "archive_path": "My_Agent/whale/README.md",
+          "sha256": "9c3ac65333d5c751e1f5694624f750df52ce3145de2338ac436d55a2d00d027f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/whale-widget-prompt.md",
+          "archive_path": "My_Agent/whale/whale-widget-prompt.md",
+          "sha256": "1ba9d050e0a8fa0e543114dc2752a18906689d23737fe34b258cba26eb884f02",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/assets/DSH2.png",
+          "archive_path": "My_Agent/whale/assets/DSH2.png",
+          "sha256": "9286302f2d8729c35576800640333e7f171deca78b1bec0a9b8d25cb83cc437b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/lib/core.js",
+          "archive_path": "My_Agent/whale/lib/core.js",
+          "sha256": "13635e0e2cda8ac88c597ec4ee6f26bb8888737c96ea1d953697b0df66f6786d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/renderer/index.html",
+          "archive_path": "My_Agent/whale/renderer/index.html",
+          "sha256": "8fa6caf33f535a71c34d25ea44ba9919602cad9571f5373c3f28a11083e3e3f4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/renderer/widget.js",
+          "archive_path": "My_Agent/whale/renderer/widget.js",
+          "sha256": "7f873051e4bde22344b7010c718636526311ca1f7f323d507cfda4416d1a2bff",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/renderer/assets/D1.mp3",
+          "archive_path": "My_Agent/whale/renderer/assets/D1.mp3",
+          "sha256": "626c0fb5dbfb2529331b98b80fa29961efbcbef6a454b36328481b61d8a0c7be",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/renderer/assets/D2.mp3",
+          "archive_path": "My_Agent/whale/renderer/assets/D2.mp3",
+          "sha256": "8327a07da3ec17f42ec6dddec8f6e2862055c7bfa5e15e3908442c517fd0f22d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/renderer/assets/DSniang02.png",
+          "archive_path": "My_Agent/whale/renderer/assets/DSniang02.png",
+          "sha256": "bfcdac201b183bd31cc154a9d5425dfa5c946fbbc4d6584b890b7e538776eb0d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/renderer/assets/DSniang1.png",
+          "archive_path": "My_Agent/whale/renderer/assets/DSniang1.png",
+          "sha256": "dcc456613dbb1102a4b7ef636a8b622371e33b763489d6249c434fb54248ba5c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/renderer/assets/rua.gif",
+          "archive_path": "My_Agent/whale/renderer/assets/rua.gif",
+          "sha256": "0b9dd76db4ea86ce3d3b07a56054ad33f25f6eb7a320472a4810859f183fc332",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/renderer/assets/Ya1.mp3",
+          "archive_path": "My_Agent/whale/renderer/assets/Ya1.mp3",
+          "sha256": "0ad8f934ae5fa3cbd42745e086a56aa6532766618c6a620b860a795bdc7689f9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/renderer/assets/Ya2.mp3",
+          "archive_path": "My_Agent/whale/renderer/assets/Ya2.mp3",
+          "sha256": "1a8998077e5e306c3088bb442ce36617261dd58200754f457469a520801c565b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "whale/scripts/prepare-electron.mjs",
+          "archive_path": "My_Agent/whale/scripts/prepare-electron.mjs",
+          "sha256": "9eb3c58a33c1cfc81075e01a857d3fbf5f1411010fef1789185ff20e890f8bf0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/Name_list.txt",
+          "archive_path": "My_Agent/封存/Name_list.txt",
+          "sha256": "916649c78469eac13cdb81f8090a15ce7a1485f40344c6abb07b70dfc5b9d52b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/Transformer_test.py",
+          "archive_path": "My_Agent/封存/Transformer_test.py",
+          "sha256": "6afbbb0f46bcff2d5fee10c8f3bfdeb2d3a4ba7a180eb643d8e91d8d21c9a49c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/AI_memory_SQL/Amiya_memory.md",
+          "archive_path": "My_Agent/封存/AI_memory_SQL/Amiya_memory.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/AI_memory_SQL/Closure_memory.md",
+          "archive_path": "My_Agent/封存/AI_memory_SQL/Closure_memory.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/AI_memory_SQL/HUANG_memory.md",
+          "archive_path": "My_Agent/封存/AI_memory_SQL/HUANG_memory.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/AI_memory_SQL/Kal_tsit_memory.md",
+          "archive_path": "My_Agent/封存/AI_memory_SQL/Kal_tsit_memory.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/Prompt/Amiya.md",
+          "archive_path": "My_Agent/封存/Prompt/Amiya.md",
+          "sha256": "c734ddacc3770982a07b9dc88fbb968fffe9607d57690e6b817a7592cdc2b821",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/Prompt/Closure.md",
+          "archive_path": "My_Agent/封存/Prompt/Closure.md",
+          "sha256": "04a61c1458f4a2d7431e4dea745a5934a01a66999b8e64c2a7d2d1b4b89d43f2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/Prompt/HUANG.md",
+          "archive_path": "My_Agent/封存/Prompt/HUANG.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/Prompt/Kal_tsit.md",
+          "archive_path": "My_Agent/封存/Prompt/Kal_tsit.md",
+          "sha256": "63fafb27cb145f6d37e716c9b8eeb7c73aa666a84b45078ec909e9e07722800e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "封存/User_Memory/Chat_History.json",
+          "archive_path": "My_Agent/封存/User_Memory/Chat_History.json",
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "tracked_in_archive": true
+        }
+      ],
+      "verified_file_count": 53,
+      "tracked_original_file_count": 53
     }
   ]
 }
