@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="Microsoft YaHei, PingFang SC, Segoe UI, sans-serif">
+  <defs>
+    <marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+  </defs>
+
+  <!-- 左：俯视，贴近墙壁 -->
+  <text x="115" y="50" text-anchor="middle" font-size="14" fill="#64748b">贴近墙壁时（俯视）</text>
+  <polygon points="50,150 50,185 85,167" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+  <rect x="165" y="80" width="10" height="170" fill="#94a3b8" stroke="#475569" stroke-width="1.5"/>
+  <line x1="82" y1="167" x2="163" y2="112" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrG)"/>
+  <line x1="82" y1="167" x2="163" y2="167" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrG)"/>
+  <line x1="82" y1="167" x2="163" y2="222" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrG)"/>
+
+  <!-- 中间箭头 -->
+  <line x1="205" y1="165" x2="262" y2="165" stroke="#475569" stroke-width="2" marker-end="url(#arrG)"/>
+  <text x="233" y="148" text-anchor="middle" font-size="13" fill="#64748b">投到屏幕</text>
+
+  <!-- 右：屏幕上鼓成弧形 -->
+  <text x="290" y="100" text-anchor="end" font-size="14" font-style="italic" fill="#64748b">视角</text>
+  <g stroke="#dc2626" stroke-width="2" fill="#f1f5f9">
+    <rect x="300" y="190" width="26" height="70"/>
+    <rect x="330" y="155" width="26" height="105"/>
+    <rect x="360" y="120" width="26" height="140"/>
+    <rect x="390" y="95"  width="26" height="165"/>
+    <rect x="420" y="85"  width="26" height="175"/>
+    <rect x="450" y="95"  width="26" height="165"/>
+    <rect x="480" y="120" width="26" height="140"/>
+    <rect x="510" y="155" width="26" height="105"/>
+    <rect x="540" y="190" width="26" height="70"/>
+  </g>
+  <line x1="290" y1="260" x2="580" y2="260" stroke="#475569" stroke-width="2"/>
+  <text x="435" y="288" text-anchor="middle" font-size="15" font-weight="bold" fill="#dc2626">笔直的墙"鼓"成了弧形（鱼眼畸变）</text>
+</svg>
