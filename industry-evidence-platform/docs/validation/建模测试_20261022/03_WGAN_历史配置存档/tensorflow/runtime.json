@@ -1,0 +1,16 @@
+{
+  "backend": "tensorflow",
+  "version": "2.21.0",
+  "device": "cpu",
+  "epochs": 100,
+  "shape": [
+    64,
+    3
+  ],
+  "seconds": 4.137,
+  "peak_rss_mb": 409.16,
+  "status": "accepted",
+  "synthetic_rows": 64,
+  "quality_accepted": true,
+  "synthetic_fixture_only": true
+}

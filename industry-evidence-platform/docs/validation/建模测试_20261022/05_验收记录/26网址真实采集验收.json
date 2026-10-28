@@ -1,0 +1,62 @@
+{
+  "started_at": "2026-10-22T10:45:04.292866+08:00",
+  "source_count": 26,
+  "directory": "output/real-source-tests/20261022-grain-104504",
+  "query": "研究全国粮食年度总产量的发展趋势，仅使用全国全年粮食总产量，不混入分季节、分品种产量",
+  "llm": "off",
+  "gan_selection": "skip_if_offered",
+  "thresholds_unchanged": true,
+  "status": "data_only",
+  "counts": {
+    "documents": 0,
+    "passages": 0,
+    "selected_passages": 0,
+    "candidate_facts": 0,
+    "cleaned_candidates": 0,
+    "excluded_candidates": 0,
+    "series_rows": 0
+  },
+  "seconds": 81.383,
+  "access_counts": {
+    "skipped": 26
+  },
+  "failure_reasons": {
+    "E_NETWORK_POLICY: 目标解析包含非公网地址。": 26
+  },
+  "diagnostics": {
+    "code": "no_documents",
+    "message": "没有可用正文，请查看访问记录中的网络、证书或Robots原因。",
+    "selection": {
+      "keywords": [
+        "粮食",
+        "总产量"
+      ],
+      "scope_source": "explicit_config",
+      "subjects": {
+        "粮食": [
+          "粮食"
+        ]
+      },
+      "regions": {
+        "全国": [
+          "全国",
+          "中华人民共和国"
+        ]
+      },
+      "semantic_threshold": 0.64,
+      "numeric_context_selected": 0,
+      "budget_policy": "document_round_robin_numeric_priority",
+      "available_passages": 0,
+      "processed_passages": 0
+    },
+    "rejection_reasons": [],
+    "interpretation": "网页数、段落数和候选数都不等于合格训练样本数；合成数据不能补真实门槛。"
+  },
+  "requirements": [
+    "没有可用正文，请查看访问记录中的网络、证书或Robots原因。"
+  ],
+  "series_reports": [],
+  "model_files": [],
+  "chart_files": [],
+  "finished_at": "2026-10-22T10:46:25.711497+08:00"
+}

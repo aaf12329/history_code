@@ -1,0 +1,1570 @@
+{
+  "date": "2026-10-25",
+  "scope": "归并七项指定资料；不改变平台业务，不运行训练、采集、付费API或应用测试",
+  "source_groups": [
+    {
+      "name": "贵阳餐饮业测试网站",
+      "destination": "examples/research_sources/贵阳餐饮业"
+    },
+    {
+      "name": "建模测试图片与分析_20261022",
+      "destination": "docs/validation/建模测试_20261022"
+    },
+    {
+      "name": "技术标志资源_20261021",
+      "destination": "docs/assets/技术标志资源"
+    },
+    {
+      "name": "数学建模测试集",
+      "destination": "examples/research_sources"
+    },
+    {
+      "name": "产业研究平台_技术架构与协作流程_5分钟.pptx",
+      "destination": "docs/presentations/产业研究平台_技术架构与协作流程_5分钟.pptx"
+    },
+    {
+      "name": "产业研究平台_前端设计交接",
+      "destination": "frontend-design"
+    },
+    {
+      "name": "数学建模研究来源_20261022",
+      "destination": "examples/research_sources"
+    }
+  ],
+  "files": [
+    {
+      "source_group": "贵阳餐饮业测试网站",
+      "source_file": "贵阳餐饮业测试网站/来源目录.csv",
+      "destination": "examples/research_sources/贵阳餐饮业/来源目录.csv",
+      "source_sha256": "4955ff9d1cbbf3f209dd030bdb13954f995cafa906e62c68cddf9c1196671015",
+      "archived_sha256": "cc20f5d0b366994e5004eb6cf5e14533d647c8c7377738f40cd4dc1d4b954034",
+      "action": "收录",
+      "adjustments": [
+        "规范化重复换行或文件末尾；CSV字段逐行核对一致"
+      ],
+      "repository_blob_oid": "0f12bdf1a713b5a398f0accd475475915241c683"
+    },
+    {
+      "source_group": "贵阳餐饮业测试网站",
+      "source_file": "贵阳餐饮业测试网站/来源目录.json",
+      "destination": "examples/research_sources/贵阳餐饮业/来源目录.json",
+      "source_sha256": "0fcb1a48e4aa0804e4de792aeef29d560427c013a79ac6834172b5d78406d199",
+      "archived_sha256": "0fcb1a48e4aa0804e4de792aeef29d560427c013a79ac6834172b5d78406d199",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "0671cce46c501bc1f5f893b7effa19d6fd3ee4a6"
+    },
+    {
+      "source_group": "贵阳餐饮业测试网站",
+      "source_file": "贵阳餐饮业测试网站/继续找数据的官方入口.md",
+      "destination": "examples/research_sources/贵阳餐饮业/继续找数据的官方入口.md",
+      "source_sha256": "98288274c72d328999f167cbbd283505640df57b4eba24783da1c948a7636f01",
+      "archived_sha256": "98288274c72d328999f167cbbd283505640df57b4eba24783da1c948a7636f01",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "e38eca4698ebb846e4548ef93726d6b36e9ca3c7"
+    },
+    {
+      "source_group": "贵阳餐饮业测试网站",
+      "source_file": "贵阳餐饮业测试网站/网址清单_官方全量.txt",
+      "destination": "examples/research_sources/贵阳餐饮业/网址清单_官方全量.txt",
+      "source_sha256": "93e54eacfa4255753f49b97ae5bfb6df32d7c9ef2ccdd8a774807f7bfcd233aa",
+      "archived_sha256": "93e54eacfa4255753f49b97ae5bfb6df32d7c9ef2ccdd8a774807f7bfcd233aa",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "de68f9cc1e147addf2f89338b73475692bfedd9c"
+    },
+    {
+      "source_group": "贵阳餐饮业测试网站",
+      "source_file": "贵阳餐饮业测试网站/网址清单_权威媒体补充.txt",
+      "destination": "examples/research_sources/贵阳餐饮业/网址清单_权威媒体补充.txt",
+      "source_sha256": "1fb461375954ef9e7b2be62421316812addb64b7c52214435a8c40ef589f689a",
+      "archived_sha256": "1fb461375954ef9e7b2be62421316812addb64b7c52214435a8c40ef589f689a",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "3162cc243cae602d903f8b4a872784e59fcc25fd"
+    },
+    {
+      "source_group": "贵阳餐饮业测试网站",
+      "source_file": "贵阳餐饮业测试网站/网址清单_英文补充.txt",
+      "destination": "examples/research_sources/贵阳餐饮业/网址清单_英文补充.txt",
+      "source_sha256": "a1a332f8f542ba1bda2bb32f6e43d485f4814e17254e3832dc70bb671ce8e16e",
+      "archived_sha256": "a1a332f8f542ba1bda2bb32f6e43d485f4814e17254e3832dc70bb671ce8e16e",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "7b0d1e03ca8b15d65ddac70c1031d1368e1d853e"
+    },
+    {
+      "source_group": "贵阳餐饮业测试网站",
+      "source_file": "贵阳餐饮业测试网站/网址清单_贵阳中文优先.txt",
+      "destination": "examples/research_sources/贵阳餐饮业/网址清单_贵阳中文优先.txt",
+      "source_sha256": "dd3f4f17cdc41e994345bee29cc41ac1ea401c07ef247d258143b162da8ec155",
+      "archived_sha256": "dd3f4f17cdc41e994345bee29cc41ac1ea401c07ef247d258143b162da8ec155",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "7779af4f6bfc26447b7be9fda5f30299951e6038"
+    },
+    {
+      "source_group": "贵阳餐饮业测试网站",
+      "source_file": "贵阳餐饮业测试网站/说明.md",
+      "destination": "examples/research_sources/贵阳餐饮业/说明.md",
+      "source_sha256": "de53c6851e8f53b09dce110714571f6ee38d75824b9d7322da24c204a96dd7ae",
+      "archived_sha256": "de53c6851e8f53b09dce110714571f6ee38d75824b9d7322da24c204a96dd7ae",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "2367cb4f040063b53853581af36c76c4e6299212"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/先读说明.md",
+      "destination": "docs/validation/建模测试_20261022/先读说明.md",
+      "source_sha256": "d9b2af1c6f04725cc649b7392908be3c173f033fc25e76248911cb2a64bf8328",
+      "archived_sha256": "d9b2af1c6f04725cc649b7392908be3c173f033fc25e76248911cb2a64bf8328",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "0a1b48d046751ee4d5271b51f960d13e82aa02d7"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/打开图片总览.html",
+      "destination": "docs/validation/建模测试_20261022/打开图片总览.html",
+      "source_sha256": "5cc0844c7d395f2b6849e12be196c70ec406397b8eeff13de2054acc6afc6b01",
+      "archived_sha256": "5cc0844c7d395f2b6849e12be196c70ec406397b8eeff13de2054acc6afc6b01",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "1242a43753fd00f9d6366073b015d4e034435d29"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/文件来源清单.json",
+      "destination": "docs/validation/建模测试_20261022/文件来源清单.json",
+      "source_sha256": "86246b7d8c82bbcf1c036cffebce1021635b2557a0a0264e328c98c43ea8a30b",
+      "archived_sha256": "0ea9cb8ae166ce25c6fcb0f953cfaa47fb9d5f459dffa46e0e764ceb9809a500",
+      "action": "收录",
+      "adjustments": [
+        "更新迁移引用或移除开发机绝对路径，保留历史验证语义"
+      ],
+      "repository_blob_oid": "1503afbf33008db98e6d07d7c10c5fe6c12ade1c"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/相关问题与回答.md",
+      "destination": "docs/validation/建模测试_20261022/相关问题与回答.md",
+      "source_sha256": "3b86fafa5bdb855c22c2318f5aca7292a4ada0c4a8d8903f5c8df14d72d0f890",
+      "archived_sha256": "3b86fafa5bdb855c22c2318f5aca7292a4ada0c4a8d8903f5c8df14d72d0f890",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "3ecef40e9b1b0f0f847e56cb470760eb4c32067c"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/01_预测与残差.png",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/01_预测与残差.png",
+      "source_sha256": "8d73769e081a7574476faed68993e97180ac1a31334ef0153bd85f1c93f81462",
+      "archived_sha256": "8d73769e081a7574476faed68993e97180ac1a31334ef0153bd85f1c93f81462",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "25b1686ed4a6f05d49df2618fee81a6f163da4f2"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/02_模型与基线比较.png",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/02_模型与基线比较.png",
+      "source_sha256": "fc7889cd2b7c8c24e18a5275c8bf667be9c1ecc67d0e1bba22f7111bf0285d09",
+      "archived_sha256": "fc7889cd2b7c8c24e18a5275c8bf667be9c1ecc67d0e1bba22f7111bf0285d09",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "9674e2f82c28e5137fc07837f936df01b5e071e0"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/03_趋势与预测.png",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/03_趋势与预测.png",
+      "source_sha256": "58124518932b8be02536436a3849efdce826e4de606651f3bf088a0243dc9171",
+      "archived_sha256": "58124518932b8be02536436a3849efdce826e4de606651f3bf088a0243dc9171",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "1a02167411f0e39fb3487ce22d7ee06e8ecafff4"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/04_特征重要性.png",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/04_特征重要性.png",
+      "source_sha256": "bda65d0010cca24c96fd74f57bb52ac1fa32426b1259e970e1f27b653a1d0031",
+      "archived_sha256": "bda65d0010cca24c96fd74f57bb52ac1fa32426b1259e970e1f27b653a1d0031",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "d52686a9bff383f902a5d07d218e46c9e6bdc562"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/05_TreeSHAP.png",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/05_TreeSHAP.png",
+      "source_sha256": "b67a106e8d941ee52c37c7586092c1527209d11b4e8d0ba533f9a0073cb99144",
+      "archived_sha256": "b67a106e8d941ee52c37c7586092c1527209d11b4e8d0ba533f9a0073cb99144",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "75da99da47eea8238b65b2e4d130a222ba952bda"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/06_训练数据质量.png",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/06_训练数据质量.png",
+      "source_sha256": "63287a678df69bd301c15d3079312494cff3db829b00246c906f45a8a8b44b8c",
+      "archived_sha256": "63287a678df69bd301c15d3079312494cff3db829b00246c906f45a8a8b44b8c",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "9f165ceeb311482baa6c4a7da96f3778b83b6658"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/说明.md",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/说明.md",
+      "source_sha256": "0d433854ae04c9e3a71af936e85fe47aec5f04fdbf77e528c541cd3ab4a65eaf",
+      "archived_sha256": "0d433854ae04c9e3a71af936e85fe47aec5f04fdbf77e528c541cd3ab4a65eaf",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "0ee6ed58ba2f8e6a1e50fa158c48fe846b01ca15"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/数据与指标/forecast.csv",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/forecast.csv",
+      "source_sha256": "100242db1adaa30a1cb092fba6efe2c51c2b2aeaf1f2c6957b5aff9dd6d8db87",
+      "archived_sha256": "100242db1adaa30a1cb092fba6efe2c51c2b2aeaf1f2c6957b5aff9dd6d8db87",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "ba5ef6f7d651a010e7e492e933e94d0717383e83"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/数据与指标/predictions.csv",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/predictions.csv",
+      "source_sha256": "1555e755daad0ddbe5b82228eb7cc8d2d14cc749b51b7cf21d6725a9c80339df",
+      "archived_sha256": "1555e755daad0ddbe5b82228eb7cc8d2d14cc749b51b7cf21d6725a9c80339df",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "f9e8c71badee574b16bf0a26681c06b6c9a301cd"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/数据与指标/result.json",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/result.json",
+      "source_sha256": "711b05c03f4287b12733147adb64fd174f5d8f9e2511d81959ec9905f55c3078",
+      "archived_sha256": "711b05c03f4287b12733147adb64fd174f5d8f9e2511d81959ec9905f55c3078",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "e32281476d41e3d9e4c29c860e099f8f6f13b869"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/数据与指标/test.csv",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/test.csv",
+      "source_sha256": "3ad7039757ca28e1033ec8c4c8a2be24e424e2d969e9dbf110207a4b72bb3a34",
+      "archived_sha256": "3ad7039757ca28e1033ec8c4c8a2be24e424e2d969e9dbf110207a4b72bb3a34",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "81921b141953d1bb1e2a2c572b5ea3c9a307ab2c"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/数据与指标/train.csv",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/train.csv",
+      "source_sha256": "19976eed1fb5d0044332e9f68a05c59d5b15b5b3c9c09b42feeba2411c4e30e7",
+      "archived_sha256": "19976eed1fb5d0044332e9f68a05c59d5b15b5b3c9c09b42feeba2411c4e30e7",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "2744659afa7a99aee203d2d0af4b97c721ab6698"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/01_XGBoost_合成年度数据/数据与指标/validation.csv",
+      "destination": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/validation.csv",
+      "source_sha256": "b1b4d16cf1b97399b2370957eb1a00f5eeb17ad06d7fbe81641497f703ce176b",
+      "archived_sha256": "b1b4d16cf1b97399b2370957eb1a00f5eeb17ad06d7fbe81641497f703ce176b",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "581382ae9b50d6ef1625a9e2d827d8ffa55f260b"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/说明.md",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/说明.md",
+      "source_sha256": "a83e1d311ad16dd8e2a7c740f3a8a6c527e50078562edab1a0f0eea11605bb5a",
+      "archived_sha256": "a83e1d311ad16dd8e2a7c740f3a8a6c527e50078562edab1a0f0eea11605bb5a",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "321ae2dc4ff4bc5cb750c7a41698626d639d0ea1"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/pytorch/gan.png",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan.png",
+      "source_sha256": "7b297a63717149f0e57f76b380696cfda28282fb0db410ee764080896cc236bd",
+      "archived_sha256": "7b297a63717149f0e57f76b380696cfda28282fb0db410ee764080896cc236bd",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "28b78f8fcbf5a695daad3e30b0445d5c78eca1d4"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.csv",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.csv",
+      "source_sha256": "a1c7b025556098e65a8a60af7812626cbede7f6319a2e812e2ca913a9432004b",
+      "archived_sha256": "a1c7b025556098e65a8a60af7812626cbede7f6319a2e812e2ca913a9432004b",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "20ff92973a542eb010ba117e7b4ca11a5057eea4"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.json",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.json",
+      "source_sha256": "ff122489aafcc21ba5f536406a0d8b842c53136946d7dde2caf4834634434572",
+      "archived_sha256": "ff122489aafcc21ba5f536406a0d8b842c53136946d7dde2caf4834634434572",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "f7be8677621a5f60820a466f82eafa62444a7199"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.png",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.png",
+      "source_sha256": "709d0ad8b0859b99209c6ab018e4265f22fcfe40c0b0727495075aafb7e73e3b",
+      "archived_sha256": "709d0ad8b0859b99209c6ab018e4265f22fcfe40c0b0727495075aafb7e73e3b",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "c8bfc2094639e5e47508e86a33683f66c73faf9e"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/pytorch/generated.csv",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/generated.csv",
+      "source_sha256": "99b04b873f46eb2f94e33a89dd9bfa639289460aae73206e49affed4f93b3ab8",
+      "archived_sha256": "99b04b873f46eb2f94e33a89dd9bfa639289460aae73206e49affed4f93b3ab8",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "9e0065dcee0f3199667ba1a086a9a6128a8775ed"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/pytorch/model.json",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/model.json",
+      "source_sha256": "d7cf84c7bfe008e8d84db5f3e82b7e646af01302dc2b604151ec8041e0ece57c",
+      "archived_sha256": "d7cf84c7bfe008e8d84db5f3e82b7e646af01302dc2b604151ec8041e0ece57c",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "85c708f2b9a4dfbd13668b0f95b1edce4f4df94f"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/pytorch/quality.json",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/quality.json",
+      "source_sha256": "2ecca23c334bc9d85de757f1ac611e23166502b429a76394cab07561e3aeab17",
+      "archived_sha256": "2ecca23c334bc9d85de757f1ac611e23166502b429a76394cab07561e3aeab17",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "58449d21149fad46fc4017ec3ea7e2dccfba160e"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/pytorch/training_history.csv",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/training_history.csv",
+      "source_sha256": "7756eddd2e2752cabb8f341b70d331439da2c6fe146e09194b9ae8e027908726",
+      "archived_sha256": "7756eddd2e2752cabb8f341b70d331439da2c6fe146e09194b9ae8e027908726",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "a91cb6c528ce23f0edd2de70f45c1cd5464656c4"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/tensorflow/gan.png",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan.png",
+      "source_sha256": "86cf326b3b78208116c5cd92a02e0409c6bb71ede1d2e7da60b40f5fa017c925",
+      "archived_sha256": "86cf326b3b78208116c5cd92a02e0409c6bb71ede1d2e7da60b40f5fa017c925",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "a61a93d4c7db814ea8522c27380b095e01b0e035"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.csv",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.csv",
+      "source_sha256": "71d1b92992426c217f62ae9bd6143c6cb389ced54bd0cf92add443edc93581d3",
+      "archived_sha256": "71d1b92992426c217f62ae9bd6143c6cb389ced54bd0cf92add443edc93581d3",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "227e73e9c81e184eb53b6322465e35190e91eefe"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.json",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.json",
+      "source_sha256": "ff122489aafcc21ba5f536406a0d8b842c53136946d7dde2caf4834634434572",
+      "archived_sha256": "ff122489aafcc21ba5f536406a0d8b842c53136946d7dde2caf4834634434572",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "f7be8677621a5f60820a466f82eafa62444a7199"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.png",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.png",
+      "source_sha256": "1fb671e3630883f17d9e318526a1e053d15e03885543816102b666063458d601",
+      "archived_sha256": "1fb671e3630883f17d9e318526a1e053d15e03885543816102b666063458d601",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "d63b3eb67e2e45b0395452389424020f101a20dc"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/tensorflow/generated.csv",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/generated.csv",
+      "source_sha256": "a2e63f046217996beca38fb45e5c45fc34fcc835f8ff4a89a9646c639d2fcdc7",
+      "archived_sha256": "a2e63f046217996beca38fb45e5c45fc34fcc835f8ff4a89a9646c639d2fcdc7",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "124ff45a253cc8dedf8a03b1e797e6587de199ac"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/tensorflow/model.json",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/model.json",
+      "source_sha256": "627ca65f8d6752e2f5bbd141d232ded95e9583d9079bf1a499ee1cb9a992b2f2",
+      "archived_sha256": "627ca65f8d6752e2f5bbd141d232ded95e9583d9079bf1a499ee1cb9a992b2f2",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "fdb962d6ebe1b856f429afd5f0099d65fe1ff873"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/tensorflow/quality.json",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/quality.json",
+      "source_sha256": "bed8c5c3965e4ce0965537f887525131fabeb08684b5cc30c006b2eec738b3b7",
+      "archived_sha256": "bed8c5c3965e4ce0965537f887525131fabeb08684b5cc30c006b2eec738b3b7",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "c1bebd72b18b71f5457c82ffc10326ae8f63f94d"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/02_WGAN_当前五倍规则/tensorflow/training_history.csv",
+      "destination": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/training_history.csv",
+      "source_sha256": "c8f3b51902bcc52069ef432daae1016e02d6f1e2e141ab7d9c98a22b08f41f25",
+      "archived_sha256": "c8f3b51902bcc52069ef432daae1016e02d6f1e2e141ab7d9c98a22b08f41f25",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "b7f3cd8c199dd6807891baa558af159cfeab9c6d"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/PyTorch_GPU_5000轮原始日志.txt",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/PyTorch_GPU_5000轮原始日志.txt",
+      "source_sha256": "3bda21c035a34a98ce64099fde6ccfc9eb27dfa3e06fd45312d9d47f3b751f5e",
+      "archived_sha256": "3bda21c035a34a98ce64099fde6ccfc9eb27dfa3e06fd45312d9d47f3b751f5e",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "31d02783201fbe84274ce555f941bf98817d9a6d"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/说明.md",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/说明.md",
+      "source_sha256": "2cc555adad6666cea045121eea0da02215d9b7914160bf8fd3827976231043f1",
+      "archived_sha256": "2cc555adad6666cea045121eea0da02215d9b7914160bf8fd3827976231043f1",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "a3990984afe31a1f55bd8793eb0a883b2d2e242a"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/pytorch/gan.png",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan.png",
+      "source_sha256": "d4fa6f4e369f7f79b3f4f39e73c3a2639f8aab0a2d6ec4ce5b7c9a992bb59b28",
+      "archived_sha256": "d4fa6f4e369f7f79b3f4f39e73c3a2639f8aab0a2d6ec4ce5b7c9a992bb59b28",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "f1db484efe85895fb7f3ffebb6586d3cdab1c39f"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.csv",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.csv",
+      "source_sha256": "8c4b858235224106493df5135a86d928222093eadf5481d9a919b99f96c9e005",
+      "archived_sha256": "8c4b858235224106493df5135a86d928222093eadf5481d9a919b99f96c9e005",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "3ab2f254131f57044e2955d8c31d05e875e1dfde"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.json",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.json",
+      "source_sha256": "27d6e4974cd1b144b95c81e94a462c5d6fb57fe7a884eece6ac5534873e22209",
+      "archived_sha256": "27d6e4974cd1b144b95c81e94a462c5d6fb57fe7a884eece6ac5534873e22209",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "73ff83e03f34b504e87645602f950e0a2e00117b"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.png",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.png",
+      "source_sha256": "b514d254fa2a79ac4977d3e3edd9ba98e3017fc18d5b488fea141c8cbb9f7f92",
+      "archived_sha256": "b514d254fa2a79ac4977d3e3edd9ba98e3017fc18d5b488fea141c8cbb9f7f92",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "cd153006bc813e0c2b5edfc55eba7618d1bb539c"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/pytorch/model.json",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/model.json",
+      "source_sha256": "0018c9d3a85297f6109748d1295943d30acbaa133313eb7c8660bb7e4e7cab3b",
+      "archived_sha256": "0018c9d3a85297f6109748d1295943d30acbaa133313eb7c8660bb7e4e7cab3b",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "2950762cb34d1f07b4cf89c92ab65da019f53049"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/pytorch/quality.json",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/quality.json",
+      "source_sha256": "8c2f9c27862bc1beeda193735b408192e749b98dad9b70df26e289564a8ebe0d",
+      "archived_sha256": "8c2f9c27862bc1beeda193735b408192e749b98dad9b70df26e289564a8ebe0d",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "c9c0b781046646803d37cd50142847722c9214db"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/pytorch/runtime.json",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/runtime.json",
+      "source_sha256": "9ebb3d4f4ad207fa430518c60324f2f8c45ccb09e529167df0509f9d15a2733e",
+      "archived_sha256": "9ebb3d4f4ad207fa430518c60324f2f8c45ccb09e529167df0509f9d15a2733e",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "18a7a0a09d1083025809a959eeb03c5441129138"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/pytorch/training_history.csv",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/training_history.csv",
+      "source_sha256": "c0c293438f281d7b70f8e1cbff946628fb5cd6e69aa8fdd81d2e666721a799ca",
+      "archived_sha256": "c0c293438f281d7b70f8e1cbff946628fb5cd6e69aa8fdd81d2e666721a799ca",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "cbac50fb2e8b8fddce320a65aee11bd2ab9c180c"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/tensorflow/gan.png",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/gan.png",
+      "source_sha256": "6b1618b77f4374483b6ab218df304910d0cc6df5c97195f9e01a9056584355a2",
+      "archived_sha256": "6b1618b77f4374483b6ab218df304910d0cc6df5c97195f9e01a9056584355a2",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "be5b76201039212788a0068f24b75050127edac6"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/tensorflow/model.json",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/model.json",
+      "source_sha256": "56e7ec8954c1b6d13dc2c8ad19774972c081f8754c4c590644dc5435726abc1d",
+      "archived_sha256": "56e7ec8954c1b6d13dc2c8ad19774972c081f8754c4c590644dc5435726abc1d",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "a51c615d008223d05728fceeb88431540cc7b215"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/tensorflow/quality.json",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/quality.json",
+      "source_sha256": "fdee5110bcfa8b562a3fb70b6213e8726ad513f445a22086287a44f243153e5c",
+      "archived_sha256": "fdee5110bcfa8b562a3fb70b6213e8726ad513f445a22086287a44f243153e5c",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "94483cee5bb677a81b4a6a405f47dd724db5752c"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/tensorflow/runtime.json",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/runtime.json",
+      "source_sha256": "2c3e1d3695b18cf49eaad2fd69de7237a5925c97bccaf187b9d705bbaaa1e1ec",
+      "archived_sha256": "2c3e1d3695b18cf49eaad2fd69de7237a5925c97bccaf187b9d705bbaaa1e1ec",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "3e58e49547054a56b9cd351245ed375d085d2eac"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/03_WGAN_历史配置存档/tensorflow/training_history.csv",
+      "destination": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/training_history.csv",
+      "source_sha256": "d9bec9ea6838c2a15014acdd046c22451e96ac659b6c8327dc1372ba9af3ed04",
+      "archived_sha256": "d9bec9ea6838c2a15014acdd046c22451e96ac659b6c8327dc1372ba9af3ed04",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "4dc79705e073c015330d1b03677e5ad8d305af98"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/04_已有LLM回答/01_零来源_趋势回答.md",
+      "destination": "docs/validation/建模测试_20261022/04_已有LLM回答/01_零来源_趋势回答.md",
+      "source_sha256": "6515c5b2b644ab7d03d5ea8a3ad657916e5dc54402d48a4685e3787a204014bf",
+      "archived_sha256": "6515c5b2b644ab7d03d5ea8a3ad657916e5dc54402d48a4685e3787a204014bf",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "b608b8451d6f148f551b9ff7e74becbcdda6878f"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/04_已有LLM回答/02_历史公报_趋势回答.md",
+      "destination": "docs/validation/建模测试_20261022/04_已有LLM回答/02_历史公报_趋势回答.md",
+      "source_sha256": "70fa3de3ff63e8167071e161f5314ffa05c4972b51c0bb2d90266382058b692a",
+      "archived_sha256": "70fa3de3ff63e8167071e161f5314ffa05c4972b51c0bb2d90266382058b692a",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "04f7bdd15324a5dd4ea151d97b6ba8864cd3c9ee"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/04_已有LLM回答/03_贵阳材料_趋势回答.md",
+      "destination": "docs/validation/建模测试_20261022/04_已有LLM回答/03_贵阳材料_趋势回答.md",
+      "source_sha256": "c1a6916b53f3394587b6c26d69c6903a1e5e74c0f97c2473a7fa6e7f74786557",
+      "archived_sha256": "c1a6916b53f3394587b6c26d69c6903a1e5e74c0f97c2473a7fa6e7f74786557",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "371cf724879713143c40fede5a17e8dbd4106d07"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/04_已有LLM回答/04_旧版贵阳建议回答_早于仅趋势要求.md",
+      "destination": "docs/validation/建模测试_20261022/04_已有LLM回答/04_旧版贵阳建议回答_早于仅趋势要求.md",
+      "source_sha256": "64622c66345ee068bda0e5eea58b2ba9291454e2cf065d52112ae0c52c53f799",
+      "archived_sha256": "64622c66345ee068bda0e5eea58b2ba9291454e2cf065d52112ae0c52c53f799",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "155fdda074607f82d431822945a766172da7f2e7"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/04_已有LLM回答/说明.md",
+      "destination": "docs/validation/建模测试_20261022/04_已有LLM回答/说明.md",
+      "source_sha256": "41147ec345d9971751f699cc2bc5d7d9832e455b84c39dd374a48ccb11df77b7",
+      "archived_sha256": "41147ec345d9971751f699cc2bc5d7d9832e455b84c39dd374a48ccb11df77b7",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "4daae7aa71d1e54855353329c4f065815786ae8c"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/04_已有LLM回答/对应原始报告/01_零来源_趋势回答.md",
+      "destination": "docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/01_零来源_趋势回答.md",
+      "source_sha256": "74775edc088355cafd9c2947fcbad8f9a71bfa1f479ff436b49b9072434dd80b",
+      "archived_sha256": "74775edc088355cafd9c2947fcbad8f9a71bfa1f479ff436b49b9072434dd80b",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "1605b0ebe3bf508906e228684a5bc92003839b29"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/04_已有LLM回答/对应原始报告/02_历史公报_趋势回答.md",
+      "destination": "docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/02_历史公报_趋势回答.md",
+      "source_sha256": "3595e2d0ec4415f06450b0f6a984196568f068c9b8bd69b2fbfd1f228675b8ac",
+      "archived_sha256": "3595e2d0ec4415f06450b0f6a984196568f068c9b8bd69b2fbfd1f228675b8ac",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "7a22807427c6f3f80906b5b3c332fc6eac125420"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/04_已有LLM回答/对应原始报告/03_贵阳材料_趋势回答.md",
+      "destination": "docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/03_贵阳材料_趋势回答.md",
+      "source_sha256": "fdcedd8e84d9a82f95940dbbbbf0e4872ed0cc3873c0a2d3e76b499dca67c844",
+      "archived_sha256": "fdcedd8e84d9a82f95940dbbbbf0e4872ed0cc3873c0a2d3e76b499dca67c844",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "393975c16d55b0ef61371091e4c655d12a8837a0"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/04_已有LLM回答/对应原始报告/04_旧版贵阳建议回答_早于仅趋势要求.md",
+      "destination": "docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/04_旧版贵阳建议回答_早于仅趋势要求.md",
+      "source_sha256": "f33988cdea751c40c3fe400632c290f2b8d3c1259c2b5a7d242cd0b9cb9b6eeb",
+      "archived_sha256": "f33988cdea751c40c3fe400632c290f2b8d3c1259c2b5a7d242cd0b9cb9b6eeb",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "f9cc906973317dd59d34b6b3ef60ed827c5127fa"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/05_验收记录/26网址真实采集报告.md",
+      "destination": "docs/validation/建模测试_20261022/05_验收记录/26网址真实采集报告.md",
+      "source_sha256": "6d6a952ab4ea2499e8d8ab552e04f36a8f9431d20ad23ef3a5edc31363c45487",
+      "archived_sha256": "6d6a952ab4ea2499e8d8ab552e04f36a8f9431d20ad23ef3a5edc31363c45487",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "fe633828831e49d0fc6dbc3b5d9ec726f6760bfe"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/05_验收记录/26网址真实采集验收.json",
+      "destination": "docs/validation/建模测试_20261022/05_验收记录/26网址真实采集验收.json",
+      "source_sha256": "571cef441eb5d2b71e9c8194476134a3a5bc4e78a2a45729d90da8ac89562cc8",
+      "archived_sha256": "571cef441eb5d2b71e9c8194476134a3a5bc4e78a2a45729d90da8ac89562cc8",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "0f4283327337d5857999bc5599865da87563cfb7"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/05_验收记录/三进程接线验收.json",
+      "destination": "docs/validation/建模测试_20261022/05_验收记录/三进程接线验收.json",
+      "source_sha256": "60d56463bc03b67f122222c3b0c615ca149cb2916f7470b950d6646a2cd91478",
+      "archived_sha256": "60d56463bc03b67f122222c3b0c615ca149cb2916f7470b950d6646a2cd91478",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "ec1938ecbdb55bb865623a1b0b0218426217974f"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/05_验收记录/网页总装截图_100年合成数据.png",
+      "destination": "docs/validation/建模测试_20261022/05_验收记录/网页总装截图_100年合成数据.png",
+      "source_sha256": "135188104664ce27a6e654d27abdf0fd97f240afe58d6a23ea452351956f5173",
+      "archived_sha256": "135188104664ce27a6e654d27abdf0fd97f240afe58d6a23ea452351956f5173",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "da56681f2a1e29e2f260b1b983a010c544e56316"
+    },
+    {
+      "source_group": "建模测试图片与分析_20261022",
+      "source_file": "建模测试图片与分析_20261022/05_验收记录/验证记录_20261022.md",
+      "destination": "docs/validation/建模测试_20261022/05_验收记录/验证记录_20261022.md",
+      "source_sha256": "8ee7ce7dfab01b88d0e87f1c2a6b8b4b96a4b58faf2ebb881ff283779624e221",
+      "archived_sha256": "8ee7ce7dfab01b88d0e87f1c2a6b8b4b96a4b58faf2ebb881ff283779624e221",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "1629f99aa0357218d8837fa48e8102a8ae34e70d"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/00_来源与文件说明.md",
+      "destination": "docs/assets/技术标志资源/00_来源与文件说明.md",
+      "source_sha256": "a440839ab96d89225c8af144abd3037a7fc9d39c214223a2bd3dc26bed865a0c",
+      "archived_sha256": "a440839ab96d89225c8af144abd3037a7fc9d39c214223a2bd3dc26bed865a0c",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "38d745036f79e0701662e46215846a75c2557731"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/00_标志预览.html",
+      "destination": "docs/assets/技术标志资源/00_标志预览.html",
+      "source_sha256": "2c501c53c26b8d90f662e2a90365282471a0c2f1ef7e915d23a411b4d173f036",
+      "archived_sha256": "2c501c53c26b8d90f662e2a90365282471a0c2f1ef7e915d23a411b4d173f036",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "8c0b511e686d8a964420f781fa0f09ca161a7dd5"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/manifest.json",
+      "destination": "docs/assets/技术标志资源/manifest.json",
+      "source_sha256": "687779a07ca30ecc4b5597548dcc44df7f9aa1d81d6cde9e3bc1752715dc80e0",
+      "archived_sha256": "687779a07ca30ecc4b5597548dcc44df7f9aa1d81d6cde9e3bc1752715dc80e0",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "7e334f47b8e4d9481d812794ee7420625d42dcac"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/01_JavaScript/JavaScript_社区标志.png",
+      "destination": "docs/assets/技术标志资源/01_JavaScript/JavaScript_社区标志.png",
+      "source_sha256": "aa1e3d2ce0043845f92e2f4c3da07766d07b348bf69e4377092cad4a3238fed0",
+      "archived_sha256": "aa1e3d2ce0043845f92e2f4c3da07766d07b348bf69e4377092cad4a3238fed0",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "4675be4ce70e0c619e0b58ab3332e1fe85703d7b"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/01_JavaScript/JavaScript_社区标志.svg",
+      "destination": "docs/assets/技术标志资源/01_JavaScript/JavaScript_社区标志.svg",
+      "source_sha256": "a70a3d8d36ea6b0e614a04ec30d5a4fb2bf36d515492cb84050ded2b84d14393",
+      "archived_sha256": "a70a3d8d36ea6b0e614a04ec30d5a4fb2bf36d515492cb84050ded2b84d14393",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "64b2440fd1578e9ae6f74c8d1a388b842349c00f"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/02_TypeScript/TypeScript_主标志.svg",
+      "destination": "docs/assets/技术标志资源/02_TypeScript/TypeScript_主标志.svg",
+      "source_sha256": "139ae451b37a00251fe24358191699efa665f63f1c8369cb9dad833159e159e2",
+      "archived_sha256": "139ae451b37a00251fe24358191699efa665f63f1c8369cb9dad833159e159e2",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "a46d53d49f360d2152798f97a9f42ec55c63a72f"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/02_TypeScript/TypeScript_主标志_512.png",
+      "destination": "docs/assets/技术标志资源/02_TypeScript/TypeScript_主标志_512.png",
+      "source_sha256": "4716ee8a737cdd724dbb20e7f9ad060f0257ed6d736209000a4fcc9b3a2b9b92",
+      "archived_sha256": "4716ee8a737cdd724dbb20e7f9ad060f0257ed6d736209000a4fcc9b3a2b9b92",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "28d71eb7c3cabac2ffb8abf058b46b88317a3022"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/03_NVIDIA/NVIDIA_横版.svg",
+      "destination": "docs/assets/技术标志资源/03_NVIDIA/NVIDIA_横版.svg",
+      "source_sha256": "4325ea0c4078941bce84b2b1c6f045c3daf36de44cfc4c89ac5c49186f4874e8",
+      "archived_sha256": "4325ea0c4078941bce84b2b1c6f045c3daf36de44cfc4c89ac5c49186f4874e8",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "87dd22e93827bfc8bb51c2885eb409927c9d411e"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/03_NVIDIA/NVIDIA_竖版.svg",
+      "destination": "docs/assets/技术标志资源/03_NVIDIA/NVIDIA_竖版.svg",
+      "source_sha256": "5347e5188c74204767d2d4daa17b59b5a18ccd7ad0a7281e7961a83c20c96808",
+      "archived_sha256": "5347e5188c74204767d2d4daa17b59b5a18ccd7ad0a7281e7961a83c20c96808",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "2d3f323094f69381df303cbd512125147a2b7581"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/04_PyTorch/PyTorch_图标.png",
+      "destination": "docs/assets/技术标志资源/04_PyTorch/PyTorch_图标.png",
+      "source_sha256": "6eed919bc6fd74d3c005385e1bfbdcbbe407351efde86dc97da6bf9a54fa0a97",
+      "archived_sha256": "6eed919bc6fd74d3c005385e1bfbdcbbe407351efde86dc97da6bf9a54fa0a97",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "d4156048d0b48506ebf812beed74f4df57c5ea9b"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/04_PyTorch/PyTorch_彩色横版.png",
+      "destination": "docs/assets/技术标志资源/04_PyTorch/PyTorch_彩色横版.png",
+      "source_sha256": "1bd8904565dab429866c1411ccc33a9ad48b85c948773ced4882f670373e69f8",
+      "archived_sha256": "1bd8904565dab429866c1411ccc33a9ad48b85c948773ced4882f670373e69f8",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "1ecdf9819885e664b8128acaf3fb27c58f87c6a0"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/05_CUDA/CUDA_经典标志_406x246.jpg",
+      "destination": "docs/assets/技术标志资源/05_CUDA/CUDA_经典标志_406x246.jpg",
+      "source_sha256": "8791b9ea492045f379aa99f1f9f4f2f709ae1213ac69853f7e459546eb235c5c",
+      "archived_sha256": "8791b9ea492045f379aa99f1f9f4f2f709ae1213ac69853f7e459546eb235c5c",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "e5e733f9194c144aef033fdab8948e2f0a8f719b"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/06_React/React_品牌图标.svg",
+      "destination": "docs/assets/技术标志资源/06_React/React_品牌图标.svg",
+      "source_sha256": "e5278257e728c9527af74185f73f0715ffde03d713512aded478d832665e8f24",
+      "archived_sha256": "e5278257e728c9527af74185f73f0715ffde03d713512aded478d832665e8f24",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "265777fa3370b6aa8ae6535bc6bfaf4bc0a66280"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/07_Nextjs/Nextjs_图标_浅色背景用.png",
+      "destination": "docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_浅色背景用.png",
+      "source_sha256": "09521d8be39cc3e9cafbb20ffa772a71840f11fe1f1bbdd5a6136ece6d78a8f2",
+      "archived_sha256": "09521d8be39cc3e9cafbb20ffa772a71840f11fe1f1bbdd5a6136ece6d78a8f2",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "659139c18199af4085d3ec4ae94fa1c031b169a6"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/07_Nextjs/Nextjs_图标_浅色背景用.svg",
+      "destination": "docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_浅色背景用.svg",
+      "source_sha256": "44b2a36d8c1e608e14e56f8757e9e710143460bc83c9450b55e6995f80120a3d",
+      "archived_sha256": "44b2a36d8c1e608e14e56f8757e9e710143460bc83c9450b55e6995f80120a3d",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "135acfe233d95280e034d7ca822683b70d3defa8"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/07_Nextjs/Nextjs_图标_深色背景用.png",
+      "destination": "docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_深色背景用.png",
+      "source_sha256": "a91cb4403cda7f54eda2cde9a24514888028d8790eba7d7abc0ffbf5a62849a1",
+      "archived_sha256": "a91cb4403cda7f54eda2cde9a24514888028d8790eba7d7abc0ffbf5a62849a1",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "9d9775e4027a1c90cf89c52590c848eaa9761625"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/07_Nextjs/Nextjs_图标_深色背景用.svg",
+      "destination": "docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_深色背景用.svg",
+      "source_sha256": "37c8eb94506d2d8e51b959d66671ab2bab9cc304ff596a9a4b8fd3b37e8a0625",
+      "archived_sha256": "37c8eb94506d2d8e51b959d66671ab2bab9cc304ff596a9a4b8fd3b37e8a0625",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "e2da0adf97e84ce320e4aac326a2ff8b733813be"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/07_Nextjs/Nextjs_文字标志_浅色背景用.png",
+      "destination": "docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_浅色背景用.png",
+      "source_sha256": "37654f668f0c6ca0cd09f4f7fc5665587b45ae976a4b3a652ea94fe340265bcd",
+      "archived_sha256": "37654f668f0c6ca0cd09f4f7fc5665587b45ae976a4b3a652ea94fe340265bcd",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "9c447eb9558d7983266c1b9cbdcfa56f5dda8acd"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/07_Nextjs/Nextjs_文字标志_浅色背景用.svg",
+      "destination": "docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_浅色背景用.svg",
+      "source_sha256": "603d77738f767d2afa37e225da1407dbdb2cd92e76695f010316910ae1e88761",
+      "archived_sha256": "603d77738f767d2afa37e225da1407dbdb2cd92e76695f010316910ae1e88761",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "65745d8990997a71b1a289899c693ed9338adef0"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/07_Nextjs/Nextjs_文字标志_深色背景用.png",
+      "destination": "docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_深色背景用.png",
+      "source_sha256": "79bfd5050b6467b47d3a482f3848797c2eb06e0c2db56b5770e44508da2fef6b",
+      "archived_sha256": "79bfd5050b6467b47d3a482f3848797c2eb06e0c2db56b5770e44508da2fef6b",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "a5cf148dc0399f1e1d73fa9a40029a18f4a7e8cf"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/07_Nextjs/Nextjs_文字标志_深色背景用.svg",
+      "destination": "docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_深色背景用.svg",
+      "source_sha256": "2af00f1d0893448c088b80b6c97c9a4ddab417278eced4cdc544a9deaca2e88f",
+      "archived_sha256": "2af00f1d0893448c088b80b6c97c9a4ddab417278eced4cdc544a9deaca2e88f",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "a1268b130519bc53c8a4192837567dc2c13fa539"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/08_Python/Python_双蛇图标.svg",
+      "destination": "docs/assets/技术标志资源/08_Python/Python_双蛇图标.svg",
+      "source_sha256": "baec8662a1461c2cacc326b54d2727cb2f1ce07ba02d00f5b826d035104f649f",
+      "archived_sha256": "baec8662a1461c2cacc326b54d2727cb2f1ce07ba02d00f5b826d035104f649f",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "467b07b265bd7c9ddd575a2ce7178c62a35d6f83"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/08_Python/Python_组合标志.svg",
+      "destination": "docs/assets/技术标志资源/08_Python/Python_组合标志.svg",
+      "source_sha256": "0305d6b2bb2e2761502d072e8e2db1248dbd1a99f51fb4b4bcb9e43c486ef6b2",
+      "archived_sha256": "0305d6b2bb2e2761502d072e8e2db1248dbd1a99f51fb4b4bcb9e43c486ef6b2",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "116eaac31119f87d269dabbab4aaae4f8bee92e0"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/09_XGBoost/XGBoost_标志.png",
+      "destination": "docs/assets/技术标志资源/09_XGBoost/XGBoost_标志.png",
+      "source_sha256": "6637e38dea1db7a54d6c16fd5b149c2c443d7a4c54a45829ce4b25cef6edbb15",
+      "archived_sha256": "6637e38dea1db7a54d6c16fd5b149c2c443d7a4c54a45829ce4b25cef6edbb15",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "443763bae3143ef75851c6ba531dbf7dec0ba941"
+    },
+    {
+      "source_group": "技术标志资源_20261021",
+      "source_file": "技术标志资源_20261021/09_XGBoost/XGBoost_标志.svg",
+      "destination": "docs/assets/技术标志资源/09_XGBoost/XGBoost_标志.svg",
+      "source_sha256": "55452a1d9ae81ecc849d1aafd0b9fd0b2c639c91251d4188ec84ea69c9bf9c9b",
+      "archived_sha256": "55452a1d9ae81ecc849d1aafd0b9fd0b2c639c91251d4188ec84ea69c9bf9c9b",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "0a34667701503f54f5c18e40124f8577926bbdeb"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/01_公报网址_2000-2025.txt",
+      "destination": "examples/research_sources/01_公报网址_2000-2025.txt",
+      "source_sha256": "ed12daf9f53bbed4975f5ae54838db7da8645df81e3592cf434e4a51fdfff698",
+      "archived_sha256": "ed12daf9f53bbed4975f5ae54838db7da8645df81e3592cf434e4a51fdfff698",
+      "action": "复用仓库已有相同文件",
+      "adjustments": [],
+      "repository_blob_oid": "812f382e0118d9d69ef87cb3867fb0614118c1e4"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/02_公报网址_1978-2025.txt",
+      "destination": "examples/research_sources/02_公报网址_1978-2025.txt",
+      "source_sha256": "d7546dcdf459312731b3e024c3ef3801c8e60047cb619dcd04ea1bef40026f18",
+      "archived_sha256": "d7546dcdf459312731b3e024c3ef3801c8e60047cb619dcd04ea1bef40026f18",
+      "action": "复用仓库已有相同文件",
+      "adjustments": [],
+      "repository_blob_oid": "5b51e4bb62c3ef2bf55e0218a5d2347f8c1efc94"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/先读说明.md",
+      "destination": "examples/research_sources/先读说明.md",
+      "source_sha256": "cbf452d4be8f9ca1283ff9710f4063a26b8f3186e5441e2e36c4fb07f2597e6f",
+      "archived_sha256": "8ca1c2fe50fc5a7ceef19b13e3ca58244d9d63a1750bfd9e9a2364738a35c925",
+      "action": "收录",
+      "adjustments": [
+        "更新迁移引用或移除开发机绝对路径，保留历史验证语义"
+      ],
+      "repository_blob_oid": "d4b6d1b6403b67a12cffcdb000c444710a717ea3"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/开始使用.md",
+      "destination": "examples/research_sources/开始使用.md",
+      "source_sha256": "1988f4449ef4105c875936c9a11978f9144e456bf4e7ed4f9c297ec965e27243",
+      "archived_sha256": "99570c7a3b365b328d22aadfc77ad8f93f016fe512372ed97fa41e1ce9a72092",
+      "action": "收录",
+      "adjustments": [
+        "更新迁移引用或移除开发机绝对路径，保留历史验证语义"
+      ],
+      "repository_blob_oid": "95a3d2cf9b606df3321e407d58bc41a289d61790"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/来源目录.csv",
+      "destination": "examples/research_sources/来源目录.csv",
+      "source_sha256": "87209cd90cae0d6d4223451377bafa820ae132e0e1225b2f26787d7c7f9f2508",
+      "archived_sha256": "87209cd90cae0d6d4223451377bafa820ae132e0e1225b2f26787d7c7f9f2508",
+      "action": "复用仓库已有相同文件",
+      "adjustments": [],
+      "repository_blob_oid": "aa1f5a7ae18c6148d078563858c9529f29658bb3"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/来源目录.json",
+      "destination": "examples/research_sources/来源目录.json",
+      "source_sha256": "9675d366016269765c1e8eaa6a1580d5fe127cde4471973bd05dcb4aed0016b3",
+      "archived_sha256": "9675d366016269765c1e8eaa6a1580d5fe127cde4471973bd05dcb4aed0016b3",
+      "action": "复用仓库已有相同文件",
+      "adjustments": [],
+      "repository_blob_oid": "5f23023aede6cd4bbc0dcdf4f251e758c9d83ac9"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/测试结果_20261022.md",
+      "destination": "examples/research_sources/测试结果_20261022.md",
+      "source_sha256": "8ee7ce7dfab01b88d0e87f1c2a6b8b4b96a4b58faf2ebb881ff283779624e221",
+      "archived_sha256": "8ee7ce7dfab01b88d0e87f1c2a6b8b4b96a4b58faf2ebb881ff283779624e221",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "1629f99aa0357218d8837fa48e8102a8ae34e70d"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/真实来源验收_20261022.json",
+      "destination": "examples/research_sources/真实来源验收_20261022.json",
+      "source_sha256": "571cef441eb5d2b71e9c8194476134a3a5bc4e78a2a45729d90da8ac89562cc8",
+      "archived_sha256": "571cef441eb5d2b71e9c8194476134a3a5bc4e78a2a45729d90da8ac89562cc8",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "0f4283327337d5857999bc5599865da87563cfb7"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/配置_全国棉花.json",
+      "destination": "examples/research_sources/配置_全国棉花.json",
+      "source_sha256": "401af44c251da82418ff0f95f1c99254555ebcaf06ee42e2e0400cd4bde3d0aa",
+      "archived_sha256": "401af44c251da82418ff0f95f1c99254555ebcaf06ee42e2e0400cd4bde3d0aa",
+      "action": "复用仓库已有相同文件",
+      "adjustments": [],
+      "repository_blob_oid": "4bf1d8e3532760bf7a76c9ba92f1f7874ef54523"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/配置_全国油料.json",
+      "destination": "examples/research_sources/配置_全国油料.json",
+      "source_sha256": "b2d05ccc06e7140cda7c026f7764714866c09bd9bd60e768f00d07048d94f0e9",
+      "archived_sha256": "b2d05ccc06e7140cda7c026f7764714866c09bd9bd60e768f00d07048d94f0e9",
+      "action": "复用仓库已有相同文件",
+      "adjustments": [],
+      "repository_blob_oid": "cfb4b41a1760d0b2bd5fd8603cbde8c63f4223c7"
+    },
+    {
+      "source_group": "数学建模测试集",
+      "source_file": "数学建模测试集/配置_全国粮食.json",
+      "destination": "examples/research_sources/配置_全国粮食.json",
+      "source_sha256": "1f8cee010941e37e703ea77ef42a995d06315c088896d1f63f914e0ed6c8a800",
+      "archived_sha256": "1f8cee010941e37e703ea77ef42a995d06315c088896d1f63f914e0ed6c8a800",
+      "action": "复用仓库已有相同文件",
+      "adjustments": [],
+      "repository_blob_oid": "96b24e6fbeacb33970294d0635067d0a01738b43"
+    },
+    {
+      "source_group": "产业研究平台_技术架构与协作流程_5分钟.pptx",
+      "source_file": "产业研究平台_技术架构与协作流程_5分钟.pptx",
+      "destination": "docs/presentations/产业研究平台_技术架构与协作流程_5分钟.pptx",
+      "source_sha256": "aca5e983a5724915dd0e755fdc41c90438b8a7aa6695a1129e8ffd99992a15b0",
+      "archived_sha256": "aca5e983a5724915dd0e755fdc41c90438b8a7aa6695a1129e8ffd99992a15b0",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "d902a3d6bea943f02d481468fc3a4fd33914e786"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/.gitignore",
+      "destination": "frontend-design/.gitignore",
+      "source_sha256": "1828e16e78f0d951bfed1f636b84a060996d50113eaa5f9399217f0b460c1675",
+      "archived_sha256": "1828e16e78f0d951bfed1f636b84a060996d50113eaa5f9399217f0b460c1675",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "5700fa29380900dd653248ade2906e26133478fd"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/Agent.md",
+      "destination": "frontend-design/Agent.md",
+      "source_sha256": "b9b6421935abe3cc11b91cdaa1f9e1dbeebc6e047863549b5dd903cd94cf556e",
+      "archived_sha256": "573d8580a0a8a3b6270bbf1f7bafec48d054df4b003b5ebb0eb3dbc27c6fb1f4",
+      "action": "收录",
+      "adjustments": [
+        "规范化重复换行或文件末尾；CSV字段逐行核对一致"
+      ],
+      "repository_blob_oid": "06c5bd57c3cad77181d6f9cb466229dcf2e0a0f1"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/AGENTS.md",
+      "destination": "frontend-design/AGENTS.md",
+      "source_sha256": "bc6e7bd8f3c5879c0e0e3bbcb45bd2d87033e48ebdd319b59df9836c643f2b70",
+      "archived_sha256": "bc6e7bd8f3c5879c0e0e3bbcb45bd2d87033e48ebdd319b59df9836c643f2b70",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "ca64b2feefc8467bdc35376e520cf1a4681a00cb"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/next.config.mjs",
+      "destination": "frontend-design/next.config.mjs",
+      "source_sha256": "b9363c14ba1588d6e7029b967b44d2873313f8edaff451d5154f8e4d4cf347e3",
+      "archived_sha256": "b9363c14ba1588d6e7029b967b44d2873313f8edaff451d5154f8e4d4cf347e3",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "0423b1abd87bfa8108268033ba8f9f84e6916dc1"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/package-lock.json",
+      "destination": "frontend-design/package-lock.json",
+      "source_sha256": "77fda86137ac35733b1733fae7d9036e4e1ed1b2679bf1c53d08ffc064e02b8f",
+      "archived_sha256": "77fda86137ac35733b1733fae7d9036e4e1ed1b2679bf1c53d08ffc064e02b8f",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "ec57acf7e1da722b95744966a1a0ce138d74e3f5"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/package.json",
+      "destination": "frontend-design/package.json",
+      "source_sha256": "b195d7c7be21939420487d9d5fc2f9d1d1d7011f7d4beced2197833fa83d32d1",
+      "archived_sha256": "b195d7c7be21939420487d9d5fc2f9d1d1d7011f7d4beced2197833fa83d32d1",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "f7dcb71336bb6a8cec516312dd4f5c5ef7cdf509"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/README.md",
+      "destination": "frontend-design/README.md",
+      "source_sha256": "0e5ddcb2135844ef2edb98cc730846b7dc44410606808697998b0b8636937c1d",
+      "archived_sha256": "de0ebd70b520c284b0befdbb4a76d78b4c3c7c814eb0d09caaa30c8debe0bc29",
+      "action": "收录",
+      "adjustments": [
+        "归档后补充导航说明",
+        "规范化重复换行或文件末尾；CSV字段逐行核对一致"
+      ],
+      "repository_blob_oid": "2334ef7bbda5767ec9936a0f97f26806e4c5ef9a"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/tsconfig.json",
+      "destination": "frontend-design/tsconfig.json",
+      "source_sha256": "660673187abfb0562872a808d2d061fff333320594a7224d72f81c64c66c1e04",
+      "archived_sha256": "660673187abfb0562872a808d2d061fff333320594a7224d72f81c64c66c1e04",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "5d86ea9d1782870bcde73a14bdd7331985d606aa"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/启动预览.bat",
+      "destination": "frontend-design/启动预览.bat",
+      "source_sha256": "d594a3b278633a4b01b8e3319df0ff0c98423eed353777707a91a5a5b7c2d1fd",
+      "archived_sha256": "d594a3b278633a4b01b8e3319df0ff0c98423eed353777707a91a5a5b7c2d1fd",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "df55d57a62ad8025dd9d45a22e41d220de7f5fe1"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/验收说明.md",
+      "destination": "frontend-design/验收说明.md",
+      "source_sha256": "b0abe241ad58e415776b9fb38060b5043d43e4d98192d63c64136b25ede0882a",
+      "archived_sha256": "f8c68658a6cfc9dc8a0458163434d79de4665615b2748707191680b125933cc5",
+      "action": "收录",
+      "adjustments": [
+        "规范化重复换行或文件末尾；CSV字段逐行核对一致"
+      ],
+      "repository_blob_oid": "a638fb189c487267ee2de8b64c601b44e0bbcbb6"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/app/globals.css",
+      "destination": "frontend-design/src/app/globals.css",
+      "source_sha256": "b9232addf42728cc4518a27b9e13632f2fa12a63d40da7eee56aa6677c9174ae",
+      "archived_sha256": "b9232addf42728cc4518a27b9e13632f2fa12a63d40da7eee56aa6677c9174ae",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "84590977482f03b90f72f3ac5287629f7eb690f6"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/app/layout.tsx",
+      "destination": "frontend-design/src/app/layout.tsx",
+      "source_sha256": "db38d24f5121d4d1dfa4b7a5b672fbb0774e952109ff5fcef897a2092e818d1c",
+      "archived_sha256": "0fbc5058c142f719b248ac3c153bd5050ca2e9592ea9c2a58f778781c07336a4",
+      "action": "收录",
+      "adjustments": [
+        "规范化重复换行或文件末尾；CSV字段逐行核对一致"
+      ],
+      "repository_blob_oid": "c30a9476ab8d1e89556304e7e0639b06fdc3e073"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/app/page.tsx",
+      "destination": "frontend-design/src/app/page.tsx",
+      "source_sha256": "53958eb329481b38ee67f253fda0ef8a8321fed2c4fd627ffee86316be18075a",
+      "archived_sha256": "53958eb329481b38ee67f253fda0ef8a8321fed2c4fd627ffee86316be18075a",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "7bc0bb0f8cd89da92dbea955cf96e437e783efc6"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/components/AnalysisChart.tsx",
+      "destination": "frontend-design/src/components/AnalysisChart.tsx",
+      "source_sha256": "16b1b9290cddd9ee6dced832152746f80f3b090b4a159128a0586fd2a86a0b6a",
+      "archived_sha256": "16b1b9290cddd9ee6dced832152746f80f3b090b4a159128a0586fd2a86a0b6a",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "3cee50d9369ec609a1b54f7907156384e9a4a5ae"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/demo.ts",
+      "destination": "frontend-design/src/features/research/demo.ts",
+      "source_sha256": "1864c7328196e257961cd280011af5359f5da29b22a61dee10c3560b21787825",
+      "archived_sha256": "1864c7328196e257961cd280011af5359f5da29b22a61dee10c3560b21787825",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "b2a673356c7d4b344978d58f424c34afa64f536d"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/EvaluationPanel.tsx",
+      "destination": "frontend-design/src/features/research/EvaluationPanel.tsx",
+      "source_sha256": "f45fb1c271d205dfe1c261a0225c1923d713345259d897d6bca7b79196dc932e",
+      "archived_sha256": "f45fb1c271d205dfe1c261a0225c1923d713345259d897d6bca7b79196dc932e",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "cb0c7fb72e2e0765b9804fdb6dad6eb787b50842"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/GanReviewPanel.tsx",
+      "destination": "frontend-design/src/features/research/GanReviewPanel.tsx",
+      "source_sha256": "e1ad7d1101dda4bb4fb570c980349899236cf6a056fb59b7b06007d967c92787",
+      "archived_sha256": "e1ad7d1101dda4bb4fb570c980349899236cf6a056fb59b7b06007d967c92787",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "2417f4bb7bf49666c81f98486c0d49a583a6344f"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/InputPanel.tsx",
+      "destination": "frontend-design/src/features/research/InputPanel.tsx",
+      "source_sha256": "f089a397b2c57567f74659cda123becfd5d57775a80ab68c2f7c6d3dc999a3b9",
+      "archived_sha256": "f089a397b2c57567f74659cda123becfd5d57775a80ab68c2f7c6d3dc999a3b9",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "c466a01cbdfe6a730ecbca2cd0db6a7940de0a0c"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/ModelPanel.tsx",
+      "destination": "frontend-design/src/features/research/ModelPanel.tsx",
+      "source_sha256": "8583cecc88e54faa062cf1c36c7091962e933da30d39e91c677e04bfcda57206",
+      "archived_sha256": "8583cecc88e54faa062cf1c36c7091962e933da30d39e91c677e04bfcda57206",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "804f77761046970cb01e112101f330fa0b639d72"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/ProgressPanel.tsx",
+      "destination": "frontend-design/src/features/research/ProgressPanel.tsx",
+      "source_sha256": "d697e273fcc1795c98497921b079c02ffb16e8802b645f79a0ce10b055e5fc62",
+      "archived_sha256": "d697e273fcc1795c98497921b079c02ffb16e8802b645f79a0ce10b055e5fc62",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "e9d4e5ad9cdb5d4ee1c7794c0f645723c0db8ece"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/ReportPanel.tsx",
+      "destination": "frontend-design/src/features/research/ReportPanel.tsx",
+      "source_sha256": "8116fa071a224e2a42b3ecbd3820c00b67048260c1a086c36426a693d4b16022",
+      "archived_sha256": "8116fa071a224e2a42b3ecbd3820c00b67048260c1a086c36426a693d4b16022",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "ebf58d81415d09aafd1b49c49c302a6de2766b61"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/ResearchPrototype.tsx",
+      "destination": "frontend-design/src/features/research/ResearchPrototype.tsx",
+      "source_sha256": "6910c7ef0e61319673345ca607e8c53fc496f9327a3e0117d51c556bdc7d668f",
+      "archived_sha256": "6910c7ef0e61319673345ca607e8c53fc496f9327a3e0117d51c556bdc7d668f",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "191c503062c6c3c82ce152e52fa0b5b8de5a38ed"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/ResultPanel.tsx",
+      "destination": "frontend-design/src/features/research/ResultPanel.tsx",
+      "source_sha256": "c104ac09c69264a3d90b632a092180811e3a2f9b6e993fddd21ff2f0859ab009",
+      "archived_sha256": "c104ac09c69264a3d90b632a092180811e3a2f9b6e993fddd21ff2f0859ab009",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "79d50fc4dd0ec2c679da5660d9dccf3d973e7571"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/features/research/TrainingPanel.tsx",
+      "destination": "frontend-design/src/features/research/TrainingPanel.tsx",
+      "source_sha256": "754e9b2fa1753605284323a9b480a34e494db942074c4210a3e79a1b05a55119",
+      "archived_sha256": "754e9b2fa1753605284323a9b480a34e494db942074c4210a3e79a1b05a55119",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "781acb1782b2e937009d118f4d38276c12528768"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/lib/demo-analysis.ts",
+      "destination": "frontend-design/src/lib/demo-analysis.ts",
+      "source_sha256": "abf079abcc380804c8ee10270f0fddc14beafb5799dacdfd1888a2c3316831e3",
+      "archived_sha256": "abf079abcc380804c8ee10270f0fddc14beafb5799dacdfd1888a2c3316831e3",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "d5e60bd8a228709796892e9339ebc86af88b3054"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/lib/download.ts",
+      "destination": "frontend-design/src/lib/download.ts",
+      "source_sha256": "e48d8c1c19001ffe820dc28019390847b5cc5ddc805470839ae0e1d7a5d43170",
+      "archived_sha256": "e48d8c1c19001ffe820dc28019390847b5cc5ddc805470839ae0e1d7a5d43170",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "e5e71bef1240abe9a9d321c7b818c03152a6baf2"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/lib/research-flow.ts",
+      "destination": "frontend-design/src/lib/research-flow.ts",
+      "source_sha256": "d5e0e3bc128f431284ccc49a96b41adc8de5e334ce31b32565fa553e7e9d2298",
+      "archived_sha256": "d5e0e3bc128f431284ccc49a96b41adc8de5e334ce31b32565fa553e7e9d2298",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "b04ba39d6acf7553ad2305598868d8fd0fadabf5"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/lib/url-list.ts",
+      "destination": "frontend-design/src/lib/url-list.ts",
+      "source_sha256": "fdbab54861d252557468aa07c050473bf91c5a2f4240ac7735875345e6b6b4d3",
+      "archived_sha256": "fdbab54861d252557468aa07c050473bf91c5a2f4240ac7735875345e6b6b4d3",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "34ab2716ee804d92db8054b3c675137047221688"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/src/types/research.ts",
+      "destination": "frontend-design/src/types/research.ts",
+      "source_sha256": "0b8d0419ffe5d004d5a7e5a9a5cec8b9c9248b8aefe5612609889cd1aa0bb3f4",
+      "archived_sha256": "0b8d0419ffe5d004d5a7e5a9a5cec8b9c9248b8aefe5612609889cd1aa0bb3f4",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "748e946783842948455e2e11dcbeb4a2f07421ca"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/tests/research-flow.test.mjs",
+      "destination": "frontend-design/tests/research-flow.test.mjs",
+      "source_sha256": "e6848780544f973abf672cd43450b2cdef3bb4dc958db954d29b7ef1b837d39b",
+      "archived_sha256": "e6848780544f973abf672cd43450b2cdef3bb4dc958db954d29b7ef1b837d39b",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "08fe7d1d83a45a733ba9ffbec99ecb0ba73241e6"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/tests/url-list.test.mjs",
+      "destination": "frontend-design/tests/url-list.test.mjs",
+      "source_sha256": "782ff315b07deabbe03be3b1def1d1676b9c4fb6adcccab9bf050a87ba1e7f49",
+      "archived_sha256": "782ff315b07deabbe03be3b1def1d1676b9c4fb6adcccab9bf050a87ba1e7f49",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "5db2605100a37d81f50b63b80bb3827a37612c1e"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/预览图/GAN审查_宽屏.png",
+      "destination": "frontend-design/预览图/GAN审查_宽屏.png",
+      "source_sha256": "2e89ccf494a0caa45d1fd460715afb22c0fc97b99679b1a0de65ccea7307022e",
+      "archived_sha256": "2e89ccf494a0caa45d1fd460715afb22c0fc97b99679b1a0de65ccea7307022e",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "c1509f7d95aed4ac0085c6a0c7754f287d00fa5d"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/预览图/模型评估_宽屏.png",
+      "destination": "frontend-design/预览图/模型评估_宽屏.png",
+      "source_sha256": "dbd35d36623aba2b08a9deb521f97684572971f5e51e7c03e5eb326d6f313317",
+      "archived_sha256": "dbd35d36623aba2b08a9deb521f97684572971f5e51e7c03e5eb326d6f313317",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "e87d180b4b1416788ecb3208172d880b9b2d3458"
+    },
+    {
+      "source_group": "产业研究平台_前端设计交接",
+      "source_file": "产业研究平台_前端设计交接/预览图/模型评估_窄屏.png",
+      "destination": "frontend-design/预览图/模型评估_窄屏.png",
+      "source_sha256": "17591b164e5638b1da3da90abf572b8a75eff021ded46b2f4fb935608d5c350a",
+      "archived_sha256": "17591b164e5638b1da3da90abf572b8a75eff021ded46b2f4fb935608d5c350a",
+      "action": "收录",
+      "adjustments": [],
+      "repository_blob_oid": "ed2c81428dc3b6df69266ea1ce4d89f6c22ea5f3"
+    },
+    {
+      "source_group": "数学建模研究来源_20261022",
+      "source_file": "数学建模研究来源_20261022/01_公报网址_2000-2025.txt",
+      "destination": "examples/research_sources/01_公报网址_2000-2025.txt",
+      "source_sha256": "ed12daf9f53bbed4975f5ae54838db7da8645df81e3592cf434e4a51fdfff698",
+      "archived_sha256": "ed12daf9f53bbed4975f5ae54838db7da8645df81e3592cf434e4a51fdfff698",
+      "action": "与另一来源相同，合并复用",
+      "repository_blob_oid": "812f382e0118d9d69ef87cb3867fb0614118c1e4"
+    },
+    {
+      "source_group": "数学建模研究来源_20261022",
+      "source_file": "数学建模研究来源_20261022/02_公报网址_1978-2025.txt",
+      "destination": "examples/research_sources/02_公报网址_1978-2025.txt",
+      "source_sha256": "d7546dcdf459312731b3e024c3ef3801c8e60047cb619dcd04ea1bef40026f18",
+      "archived_sha256": "d7546dcdf459312731b3e024c3ef3801c8e60047cb619dcd04ea1bef40026f18",
+      "action": "与另一来源相同，合并复用",
+      "repository_blob_oid": "5b51e4bb62c3ef2bf55e0218a5d2347f8c1efc94"
+    },
+    {
+      "source_group": "数学建模研究来源_20261022",
+      "source_file": "数学建模研究来源_20261022/先读说明.md",
+      "destination": "examples/research_sources/先读说明.md",
+      "source_sha256": "cbf452d4be8f9ca1283ff9710f4063a26b8f3186e5441e2e36c4fb07f2597e6f",
+      "archived_sha256": "8ca1c2fe50fc5a7ceef19b13e3ca58244d9d63a1750bfd9e9a2364738a35c925",
+      "action": "与另一来源相同，合并复用",
+      "repository_blob_oid": "d4b6d1b6403b67a12cffcdb000c444710a717ea3"
+    },
+    {
+      "source_group": "数学建模研究来源_20261022",
+      "source_file": "数学建模研究来源_20261022/来源目录.csv",
+      "destination": "examples/research_sources/来源目录.csv",
+      "source_sha256": "87209cd90cae0d6d4223451377bafa820ae132e0e1225b2f26787d7c7f9f2508",
+      "archived_sha256": "87209cd90cae0d6d4223451377bafa820ae132e0e1225b2f26787d7c7f9f2508",
+      "action": "与另一来源相同，合并复用",
+      "repository_blob_oid": "aa1f5a7ae18c6148d078563858c9529f29658bb3"
+    },
+    {
+      "source_group": "数学建模研究来源_20261022",
+      "source_file": "数学建模研究来源_20261022/来源目录.json",
+      "destination": "examples/research_sources/来源目录.json",
+      "source_sha256": "9675d366016269765c1e8eaa6a1580d5fe127cde4471973bd05dcb4aed0016b3",
+      "archived_sha256": "9675d366016269765c1e8eaa6a1580d5fe127cde4471973bd05dcb4aed0016b3",
+      "action": "与另一来源相同，合并复用",
+      "repository_blob_oid": "5f23023aede6cd4bbc0dcdf4f251e758c9d83ac9"
+    },
+    {
+      "source_group": "数学建模研究来源_20261022",
+      "source_file": "数学建模研究来源_20261022/配置_全国棉花.json",
+      "destination": "examples/research_sources/配置_全国棉花.json",
+      "source_sha256": "401af44c251da82418ff0f95f1c99254555ebcaf06ee42e2e0400cd4bde3d0aa",
+      "archived_sha256": "401af44c251da82418ff0f95f1c99254555ebcaf06ee42e2e0400cd4bde3d0aa",
+      "action": "与另一来源相同，合并复用",
+      "repository_blob_oid": "4bf1d8e3532760bf7a76c9ba92f1f7874ef54523"
+    },
+    {
+      "source_group": "数学建模研究来源_20261022",
+      "source_file": "数学建模研究来源_20261022/配置_全国油料.json",
+      "destination": "examples/research_sources/配置_全国油料.json",
+      "source_sha256": "b2d05ccc06e7140cda7c026f7764714866c09bd9bd60e768f00d07048d94f0e9",
+      "archived_sha256": "b2d05ccc06e7140cda7c026f7764714866c09bd9bd60e768f00d07048d94f0e9",
+      "action": "与另一来源相同，合并复用",
+      "repository_blob_oid": "cfb4b41a1760d0b2bd5fd8603cbde8c63f4223c7"
+    },
+    {
+      "source_group": "数学建模研究来源_20261022",
+      "source_file": "数学建模研究来源_20261022/配置_全国粮食.json",
+      "destination": "examples/research_sources/配置_全国粮食.json",
+      "source_sha256": "1f8cee010941e37e703ea77ef42a995d06315c088896d1f63f914e0ed6c8a800",
+      "archived_sha256": "1f8cee010941e37e703ea77ef42a995d06315c088896d1f63f914e0ed6c8a800",
+      "action": "与另一来源相同，合并复用",
+      "repository_blob_oid": "96b24e6fbeacb33970294d0635067d0a01738b43"
+    }
+  ],
+  "omitted": [
+    {
+      "source": "产业研究平台_前端设计交接",
+      "path": ".next",
+      "reason": "可重建依赖、缓存或独立Git元数据"
+    },
+    {
+      "source": "产业研究平台_前端设计交接",
+      "path": "node_modules",
+      "reason": "可重建依赖、缓存或独立Git元数据"
+    },
+    {
+      "source": "产业研究平台_前端设计交接",
+      "path": "next-env.d.ts",
+      "reason": "工具生成物或本机凭据"
+    },
+    {
+      "source": "产业研究平台_前端设计交接",
+      "path": "tsconfig.tsbuildinfo",
+      "reason": "工具生成物或本机凭据"
+    }
+  ],
+  "privacy": "本机凭据和环境不入库；来源中的本机路径转换为项目相对位置或历史来源标识",
+  "note": "原始来源哈希与归档哈希分别记录；历史验收不代表本次重验",
+  "hash_scope": "source_sha256与archived_sha256记录本次文件字节；跨平台换行可变化，repository_blob_oid用于核对Git提交中的规范化内容。"
+}

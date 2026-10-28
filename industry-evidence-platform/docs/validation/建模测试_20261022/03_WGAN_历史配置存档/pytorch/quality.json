@@ -1,0 +1,39 @@
+{
+  "accepted": true,
+  "checks": {
+    "range": true,
+    "distribution": true,
+    "spread": true,
+    "memorization": true,
+    "mean_location": true,
+    "joint_correlation": true,
+    "sample_count": true
+  },
+  "normalized_wasserstein": {
+    "a": 0.020418954802878506,
+    "b": 0.05027385830964702,
+    "c": 0.0215649767971981
+  },
+  "spread_ratio": [
+    1.0101728422314857,
+    0.7947497938752771,
+    0.9497566659977974
+  ],
+  "in_range_fraction": 1.0,
+  "near_duplicate_fraction": 0.0,
+  "mean_shift_in_real_std": {
+    "a": 0.03610664036145808,
+    "b": 0.2235042526824169,
+    "c": 0.043754704515131776
+  },
+  "max_correlation_difference": 0.1786245195621439,
+  "thresholds": {
+    "max_mean_shift_std": 0.5,
+    "max_correlation_difference": 0.35,
+    "max_normalized_wasserstein": 0.35,
+    "min_generated_rows": 16
+  },
+  "fit_scope": "training_only",
+  "heuristic": true,
+  "reason": "通过训练分布初筛，仍须真实验证集比较"
+}

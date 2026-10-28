@@ -1,0 +1,2 @@
+﻿target_period,prediction,baseline,model_training_cutoff,status,scope,beats_naive_on_test
+2021,174.97999572753906,193.23123673620265,2011,exploratory_unreviewed,SYNTHETIC ONLY,False

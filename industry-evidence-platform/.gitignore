@@ -1,0 +1,37 @@
+.venv/
+.env
+.env.lock
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+data/
+logs/
+work/
+.coverage
+dist/
+
+# Local secrets and runtime artifacts
+.env.*
+!.env.example
+build/
+node_modules/
+data_demo/
+output/
+!/output/
+/output/*
+!/output/README.md
+*.db
+*.db-shm
+*.db-wal
+*.pem
+*.key
+
+# Per-machine deployment interpreter selection (may point to a manual Conda env)
+快速部署/config.local.json
+
+# Next.js local build/cache artifacts
+.next/
+*.tsbuildinfo
+frontend/next-env.d.ts

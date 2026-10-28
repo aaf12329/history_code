@@ -1,0 +1,328 @@
+[
+  {
+    "file": "01_XGBoost_合成年度数据/01_预测与残差.png",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\evaluation.png",
+    "sha256": "8d73769e081a7574476faed68993e97180ac1a31334ef0153bd85f1c93f81462",
+    "note": "实际 CPU XGBoost；50年合成测试序列；未使用GAN。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/02_模型与基线比较.png",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\comparison.png",
+    "sha256": "fc7889cd2b7c8c24e18a5275c8bf667be9c1ecc67d0e1bba22f7111bf0285d09",
+    "note": "实际 CPU XGBoost；50年合成测试序列；未使用GAN。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/03_趋势与预测.png",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\trend.png",
+    "sha256": "58124518932b8be02536436a3849efdce826e4de606651f3bf088a0243dc9171",
+    "note": "实际 CPU XGBoost；50年合成测试序列；未使用GAN。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/04_特征重要性.png",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\importance.png",
+    "sha256": "bda65d0010cca24c96fd74f57bb52ac1fa32426b1259e970e1f27b653a1d0031",
+    "note": "实际 CPU XGBoost；50年合成测试序列；未使用GAN。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/05_TreeSHAP.png",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\shap.png",
+    "sha256": "b67a106e8d941ee52c37c7586092c1527209d11b4e8d0ba533f9a0073cb99144",
+    "note": "实际 CPU XGBoost；50年合成测试序列；未使用GAN。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/06_训练数据质量.png",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\missing.png",
+    "sha256": "63287a678df69bd301c15d3079312494cff3db829b00246c906f45a8a8b44b8c",
+    "note": "实际 CPU XGBoost；50年合成测试序列；未使用GAN。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/数据与指标/result.json",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\result.json",
+    "sha256": "711b05c03f4287b12733147adb64fd174f5d8f9e2511d81959ec9905f55c3078",
+    "note": "与本目录六张图对应的同一次测试。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/数据与指标/predictions.csv",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\predictions.csv",
+    "sha256": "1555e755daad0ddbe5b82228eb7cc8d2d14cc749b51b7cf21d6725a9c80339df",
+    "note": "与本目录六张图对应的同一次测试。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/数据与指标/forecast.csv",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\forecast.csv",
+    "sha256": "100242db1adaa30a1cb092fba6efe2c51c2b2aeaf1f2c6957b5aff9dd6d8db87",
+    "note": "与本目录六张图对应的同一次测试。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/数据与指标/train.csv",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\train.csv",
+    "sha256": "19976eed1fb5d0044332e9f68a05c59d5b15b5b3c9c09b42feeba2411c4e30e7",
+    "note": "与本目录六张图对应的同一次测试。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/数据与指标/validation.csv",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\validation.csv",
+    "sha256": "b1b4d16cf1b97399b2370957eb1a00f5eeb17ad06d7fbe81641497f703ce176b",
+    "note": "与本目录六张图对应的同一次测试。"
+  },
+  {
+    "file": "01_XGBoost_合成年度数据/数据与指标/test.csv",
+    "source": "historical-local://pytest/pytest-53\\test_time_split_publication_an0\\model\\test.csv",
+    "sha256": "3ad7039757ca28e1033ec8c4c8a2be24e424e2d969e9dbf110207a4b72bb3a34",
+    "note": "与本目录六张图对应的同一次测试。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/pytorch/gan.png",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend0\\pytorch\\gan.png",
+    "sha256": "7b297a63717149f0e57f76b380696cfda28282fb0db410ee764080896cc236bd",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/pytorch/gan_tsne.png",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend0\\pytorch\\gan_tsne.png",
+    "sha256": "709d0ad8b0859b99209c6ab018e4265f22fcfe40c0b0727495075aafb7e73e3b",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/pytorch/gan_tsne.json",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend0\\pytorch\\gan_tsne.json",
+    "sha256": "ff122489aafcc21ba5f536406a0d8b842c53136946d7dde2caf4834634434572",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/pytorch/gan_tsne.csv",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend0\\pytorch\\gan_tsne.csv",
+    "sha256": "a1c7b025556098e65a8a60af7812626cbede7f6319a2e812e2ca913a9432004b",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/pytorch/quality.json",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend0\\pytorch\\quality.json",
+    "sha256": "2ecca23c334bc9d85de757f1ac611e23166502b429a76394cab07561e3aeab17",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/pytorch/generated.csv",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend0\\pytorch\\generated.csv",
+    "sha256": "99b04b873f46eb2f94e33a89dd9bfa639289460aae73206e49affed4f93b3ab8",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/pytorch/model.json",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend0\\pytorch\\gan\\model.json",
+    "sha256": "d7cf84c7bfe008e8d84db5f3e82b7e646af01302dc2b604151ec8041e0ece57c",
+    "note": ""
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/pytorch/training_history.csv",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend0\\pytorch\\gan\\training_history.csv",
+    "sha256": "7756eddd2e2752cabb8f341b70d331439da2c6fe146e09194b9ae8e027908726",
+    "note": ""
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/tensorflow/gan.png",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend1\\tensorflow\\gan.png",
+    "sha256": "86cf326b3b78208116c5cd92a02e0409c6bb71ede1d2e7da60b40f5fa017c925",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/tensorflow/gan_tsne.png",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend1\\tensorflow\\gan_tsne.png",
+    "sha256": "1fb671e3630883f17d9e318526a1e053d15e03885543816102b666063458d601",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/tensorflow/gan_tsne.json",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend1\\tensorflow\\gan_tsne.json",
+    "sha256": "ff122489aafcc21ba5f536406a0d8b842c53136946d7dde2caf4834634434572",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/tensorflow/gan_tsne.csv",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend1\\tensorflow\\gan_tsne.csv",
+    "sha256": "71d1b92992426c217f62ae9bd6143c6cb389ced54bd0cf92add443edc93581d3",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/tensorflow/quality.json",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend1\\tensorflow\\quality.json",
+    "sha256": "bed8c5c3965e4ce0965537f887525131fabeb08684b5cc30c006b2eec738b3b7",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/tensorflow/generated.csv",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend1\\tensorflow\\generated.csv",
+    "sha256": "a2e63f046217996beca38fb45e5c45fc34fcc835f8ff4a89a9646c639d2fcdc7",
+    "note": "实际CPU训练2轮，64条合成原始夹具→320条生成样本。"
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/tensorflow/model.json",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend1\\tensorflow\\gan\\model.json",
+    "sha256": "627ca65f8d6752e2f5bbd141d232ded95e9583d9079bf1a499ee1cb9a992b2f2",
+    "note": ""
+  },
+  {
+    "file": "02_WGAN_当前五倍规则/tensorflow/training_history.csv",
+    "source": "historical-local://pytest/pytest-53\\test_real_cpu_wgan_two_backend1\\tensorflow\\gan\\training_history.csv",
+    "sha256": "c8f3b51902bcc52069ef432daae1016e02d6f1e2e141ab7d9c98a22b08f41f25",
+    "note": ""
+  },
+  {
+    "file": "03_WGAN_历史配置存档/pytorch/gan.png",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\pytorch\\gan.png",
+    "sha256": "d4fa6f4e369f7f79b3f4f39e73c3a2639f8aab0a2d6ec4ce5b7c9a992bb59b28",
+    "note": "旧版历史测试，不代表当前五倍生成规则。"
+  },
+  {
+    "file": "03_WGAN_历史配置存档/pytorch/gan_tsne.png",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\pytorch\\gan_tsne.png",
+    "sha256": "b514d254fa2a79ac4977d3e3edd9ba98e3017fc18d5b488fea141c8cbb9f7f92",
+    "note": "旧版历史测试，不代表当前五倍生成规则。"
+  },
+  {
+    "file": "03_WGAN_历史配置存档/pytorch/gan_tsne.json",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\pytorch\\gan_tsne.json",
+    "sha256": "27d6e4974cd1b144b95c81e94a462c5d6fb57fe7a884eece6ac5534873e22209",
+    "note": "旧版历史测试，不代表当前五倍生成规则。"
+  },
+  {
+    "file": "03_WGAN_历史配置存档/pytorch/gan_tsne.csv",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\pytorch\\gan_tsne.csv",
+    "sha256": "8c4b858235224106493df5135a86d928222093eadf5481d9a919b99f96c9e005",
+    "note": "旧版历史测试，不代表当前五倍生成规则。"
+  },
+  {
+    "file": "03_WGAN_历史配置存档/pytorch/quality.json",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\pytorch\\quality.json",
+    "sha256": "8c2f9c27862bc1beeda193735b408192e749b98dad9b70df26e289564a8ebe0d",
+    "note": "旧版历史测试，不代表当前五倍生成规则。"
+  },
+  {
+    "file": "03_WGAN_历史配置存档/pytorch/runtime.json",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\pytorch\\runtime.json",
+    "sha256": "9ebb3d4f4ad207fa430518c60324f2f8c45ccb09e529167df0509f9d15a2733e",
+    "note": "旧版历史测试，不代表当前五倍生成规则。"
+  },
+  {
+    "file": "03_WGAN_历史配置存档/pytorch/model.json",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\pytorch\\gan\\model.json",
+    "sha256": "0018c9d3a85297f6109748d1295943d30acbaa133313eb7c8660bb7e4e7cab3b",
+    "note": ""
+  },
+  {
+    "file": "03_WGAN_历史配置存档/pytorch/training_history.csv",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\pytorch\\gan\\training_history.csv",
+    "sha256": "c0c293438f281d7b70f8e1cbff946628fb5cd6e69aa8fdd81d2e666721a799ca",
+    "note": ""
+  },
+  {
+    "file": "03_WGAN_历史配置存档/tensorflow/gan.png",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\tensorflow\\gan.png",
+    "sha256": "6b1618b77f4374483b6ab218df304910d0cc6df5c97195f9e01a9056584355a2",
+    "note": "旧版历史测试，不代表当前五倍生成规则。"
+  },
+  {
+    "file": "03_WGAN_历史配置存档/tensorflow/quality.json",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\tensorflow\\quality.json",
+    "sha256": "fdee5110bcfa8b562a3fb70b6213e8726ad513f445a22086287a44f243153e5c",
+    "note": "旧版历史测试，不代表当前五倍生成规则。"
+  },
+  {
+    "file": "03_WGAN_历史配置存档/tensorflow/runtime.json",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\tensorflow\\runtime.json",
+    "sha256": "2c3e1d3695b18cf49eaad2fd69de7237a5925c97bccaf187b9d705bbaaa1e1ec",
+    "note": "旧版历史测试，不代表当前五倍生成规则。"
+  },
+  {
+    "file": "03_WGAN_历史配置存档/tensorflow/model.json",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\tensorflow\\gan\\model.json",
+    "sha256": "56e7ec8954c1b6d13dc2c8ad19774972c081f8754c4c590644dc5435726abc1d",
+    "note": ""
+  },
+  {
+    "file": "03_WGAN_历史配置存档/tensorflow/training_history.csv",
+    "source": "${PROJECT_ROOT}\\work\\cli-check\\tensorflow\\gan\\training_history.csv",
+    "sha256": "d9bec9ea6838c2a15014acdd046c22451e96ac659b6c8327dc1372ba9af3ed04",
+    "note": ""
+  },
+  {
+    "file": "03_WGAN_历史配置存档/PyTorch_GPU_5000轮原始日志.txt",
+    "source": "${PROJECT_ROOT}\\work\\cli-wgan-cuda-5000.log",
+    "sha256": "3bda21c035a34a98ce64099fde6ccfc9eb27dfa3e06fd45312d9d47f3b751f5e",
+    "note": ""
+  },
+  {
+    "file": "04_已有LLM回答/对应原始报告/01_零来源_趋势回答.md",
+    "source": "${PROJECT_ROOT}\\output\\web\\854ad95619cd448583e528c34f7bfe4f\\report.md",
+    "sha256": "74775edc088355cafd9c2947fcbad8f9a71bfa1f479ff436b49b9072434dd80b",
+    "note": "独立网页研究报告，不是建模夹具报告。"
+  },
+  {
+    "file": "04_已有LLM回答/01_零来源_趋势回答.md",
+    "source": "${PROJECT_ROOT}\\output\\web\\854ad95619cd448583e528c34f7bfe4f\\metadata\\llm.json",
+    "note": "仅提取现有回复正文，未带入环境配置或密钥。"
+  },
+  {
+    "file": "04_已有LLM回答/对应原始报告/02_历史公报_趋势回答.md",
+    "source": "${PROJECT_ROOT}\\output\\web\\90c9fbb5f0c94eeda8ce2c9113b00803\\report.md",
+    "sha256": "3595e2d0ec4415f06450b0f6a984196568f068c9b8bd69b2fbfd1f228675b8ac",
+    "note": "独立网页研究报告，不是建模夹具报告。"
+  },
+  {
+    "file": "04_已有LLM回答/02_历史公报_趋势回答.md",
+    "source": "${PROJECT_ROOT}\\output\\web\\90c9fbb5f0c94eeda8ce2c9113b00803\\metadata\\llm.json",
+    "note": "仅提取现有回复正文，未带入环境配置或密钥。"
+  },
+  {
+    "file": "04_已有LLM回答/对应原始报告/03_贵阳材料_趋势回答.md",
+    "source": "${PROJECT_ROOT}\\output\\web\\f1d6c46dca934fe4b41f9a0f050745b6\\report.md",
+    "sha256": "fdcedd8e84d9a82f95940dbbbbf0e4872ed0cc3873c0a2d3e76b499dca67c844",
+    "note": "独立网页研究报告，不是建模夹具报告。"
+  },
+  {
+    "file": "04_已有LLM回答/03_贵阳材料_趋势回答.md",
+    "source": "${PROJECT_ROOT}\\output\\web\\f1d6c46dca934fe4b41f9a0f050745b6\\metadata\\llm.json",
+    "note": "仅提取现有回复正文，未带入环境配置或密钥。"
+  },
+  {
+    "file": "04_已有LLM回答/对应原始报告/04_旧版贵阳建议回答_早于仅趋势要求.md",
+    "source": "${PROJECT_ROOT}\\output\\web\\3f6cb30f5aab474ea4b630fbb043f07b\\report.md",
+    "sha256": "f33988cdea751c40c3fe400632c290f2b8d3c1259c2b5a7d242cd0b9cb9b6eeb",
+    "note": "独立网页研究报告，不是建模夹具报告。"
+  },
+  {
+    "file": "04_已有LLM回答/04_旧版贵阳建议回答_早于仅趋势要求.md",
+    "source": "${PROJECT_ROOT}\\output\\web\\3f6cb30f5aab474ea4b630fbb043f07b\\metadata\\llm.json",
+    "note": "仅提取现有回复正文，未带入环境配置或密钥。"
+  },
+  {
+    "file": "05_验收记录/验证记录_20261022.md",
+    "source": "${PROJECT_ROOT}\\docs\\验证记录_20261022.md",
+    "sha256": "8ee7ce7dfab01b88d0e87f1c2a6b8b4b96a4b58faf2ebb881ff283779624e221",
+    "note": ""
+  },
+  {
+    "file": "05_验收记录/三进程接线验收.json",
+    "source": "${PROJECT_ROOT}\\work\\pipeline-service-check.json",
+    "sha256": "60d56463bc03b67f122222c3b0c615ca149cb2916f7470b950d6646a2cd91478",
+    "note": ""
+  },
+  {
+    "file": "05_验收记录/26网址真实采集验收.json",
+    "source": "${PROJECT_ROOT}\\output\\real-source-tests\\20261022-grain-104504\\acceptance.json",
+    "sha256": "571cef441eb5d2b71e9c8194476134a3a5bc4e78a2a45729d90da8ac89562cc8",
+    "note": ""
+  },
+  {
+    "file": "05_验收记录/26网址真实采集报告.md",
+    "source": "${PROJECT_ROOT}\\output\\real-source-tests\\20261022-grain-104504\\report.md",
+    "sha256": "6d6a952ab4ea2499e8d8ab552e04f36a8f9431d20ad23ef3a5edc31363c45487",
+    "note": ""
+  },
+  {
+    "file": "05_验收记录/网页总装截图_100年合成数据.png",
+    "source": "${PROJECT_ROOT}\\work\\frontend-complete-check\\总装模型评估_合成验收.png",
+    "sha256": "135188104664ce27a6e654d27abdf0fd97f240afe58d6a23ea452351956f5173",
+    "note": ""
+  }
+]

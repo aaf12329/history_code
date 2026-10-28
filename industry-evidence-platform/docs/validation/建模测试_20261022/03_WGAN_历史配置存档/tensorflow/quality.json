@@ -1,0 +1,24 @@
+{
+  "accepted": true,
+  "checks": {
+    "range": true,
+    "distribution": true,
+    "spread": true,
+    "memorization": true
+  },
+  "normalized_wasserstein": {
+    "a": 0.17788883583260057,
+    "b": 0.34218046310548295,
+    "c": 0.17234208174628565
+  },
+  "spread_ratio": [
+    1.6215304925675207,
+    1.4723736101278504,
+    1.5121367566732011
+  ],
+  "in_range_fraction": 1.0,
+  "near_duplicate_fraction": 0.0,
+  "fit_scope": "training_only",
+  "heuristic": true,
+  "reason": "通过训练分布初筛，仍须真实验证集比较"
+}

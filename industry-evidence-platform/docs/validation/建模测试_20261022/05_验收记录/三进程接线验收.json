@@ -1,0 +1,10 @@
+{
+  "next_fastapi_worker": true,
+  "source_data_only": true,
+  "real_xgboost": true,
+  "tree_shap_png_download": true,
+  "cross_origin_rejected": true,
+  "gan_requires_user_choice": true,
+  "paid_api_called": false,
+  "production_data_modified": false
+}

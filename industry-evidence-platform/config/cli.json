@@ -1,0 +1,47 @@
+{
+  "retrieval": "bge-small-zh-v1.5-int8",
+  "semantic_threshold": 0.5,
+  "subjects": [],
+  "regions": [],
+  "keywords": [],
+  "llm_cleaning": {
+    "mode": "api",
+    "batch_chars": 16000,
+    "max_batches": 32,
+    "max_blocks": 256,
+    "max_output_tokens": 8192
+  },
+  "cleaning": {
+    "model": "isolation_forest",
+    "min_samples": 64,
+    "contamination": 0.02,
+    "remove_training_outliers": false
+  },
+  "gan": {
+    "backend": "pytorch",
+    "mode": "auto",
+    "min_real_samples": 64,
+    "generation_multiplier": 5,
+    "config_file": "config/wgan.json",
+    "timeout_s": null
+  },
+  "laptop": {
+    "threads": 2,
+    "max_rows": 10000,
+    "max_columns": 32,
+    "timeout_s": 1200
+  },
+  "llm": "api",
+  "max_urls": 100,
+  "max_text_bytes": 16000000,
+  "max_passages": 2000,
+  "min_periods": 20,
+  "min_train_samples": 10,
+  "validation_size": 4,
+  "test_size": 4,
+  "max_series": 3,
+  "extraction": {
+    "mode": "llm",
+    "rules": []
+  }
+}

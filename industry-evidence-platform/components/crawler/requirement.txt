@@ -1,0 +1,2 @@
+# Compatibility entry: the platform root owns the unified Python lock.
+-r ../../requirements.lock.txt
