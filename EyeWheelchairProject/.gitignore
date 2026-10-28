@@ -1,0 +1,21 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 数据与模型（视情况忽略）
+data/raw_videos/
+data/snapshots/
+models/*.task
+
+# 硬件照片（体积大，不入库；硬件信息记录在 README 的"硬件与固件"一节）
+Related_materials/IMG_*.jpg
+# Virtual environment (never commit)
+myvenv/
+.venv/
+venv/
+
+# Consolidated project: private local records and repository metadata stay local.
+/yolo_model/.git/
+/yolo_model/AGENTS.md
+/yolo_model/log.md
+/yolo_model/weights/

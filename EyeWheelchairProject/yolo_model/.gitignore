@@ -1,0 +1,62 @@
+# ============================================
+# yolo_model .gitignore
+# 原则：代码与文档入库；数据、权重、视频、训练产物不入库（可由脚本复现）
+# Principle: code & docs are committed; data, weights, videos and training
+# outputs are not (everything is reproducible from scripts).
+# ============================================
+
+# ---- 数据集与训练输出 / datasets & training output ----
+datasets/
+runs/
+gaze_captures/
+*.zip
+
+# ---- 人脸/眼部裁剪诊断图（隐私：不入库，只留本机）/ face & eye crops stay local (privacy) ----
+docs/gaze_test/crops/
+docs/gaze_test/crops_diagnostic/
+
+# ---- 采集视频（素材只留本机）/ collected footage stays local ----
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wmv
+
+# ---- 模型权重（大文件）/ model weights ----
+# 先忽略全部，再白名单放行交付权重（gitignore 后行覆盖前行，顺序不能颠倒）
+# ignore all first, then whitelist deliverables (later rules win — order matters)
+*.pt
+!models/*.pt
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+
+# ---- Python 运行产物 / Python artifacts ----
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- 虚拟环境 / virtual envs ----
+myvenv/
+venv/
+.venv/
+env/
+
+# ---- IDE / 编辑器 / IDE & editor ----
+.idea/
+.vscode/
+
+# ---- 操作系统 / OS junk ----
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+
+# ---- 临时文件 / temp files ----
+*.tmp
+*.log
