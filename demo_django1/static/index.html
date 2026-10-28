@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>首页 · 检测系统</title>
+    <script src="/static/js/vue.js"></script>
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('/static/image/image_2.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', 'Helvetica Neue', system-ui, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            position: relative;
+        }
+
+        /* 磨砂玻璃卡片 */
+        .glass-card {
+            background: rgba(20, 20, 30, 0.5);
+            backdrop-filter: blur(14px);
+            border-radius: 48px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            width: 100%;
+            max-width: 480px;
+            padding: 44px 38px 48px;
+            box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            transition: all 0.2s ease;
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo-area {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .logo-area h1 {
+            font-size: 2.4rem;
+            font-weight: 500;
+            letter-spacing: 4px;
+            color: #ffffff;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            font-family: 'Segoe UI', system-ui;
+        }
+
+        .logo-area p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            margin-top: 10px;
+            text-transform: uppercase;
+            border-top: 1px solid rgba(255, 255, 255, 0.25);
+            display: inline-block;
+            padding-top: 12px;
+        }
+
+        .user-info {
+            margin: 20px 0 24px;
+            font-size: 1rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 60px;
+            display: inline-block;
+            padding: 6px 20px;
+            color: #f0f0f0;
+            letter-spacing: 1px;
+        }
+
+        .action-group {
+            display: flex;
+            gap: 18px;
+            margin-top: 36px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 12px 0;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+            transition: 0.2s ease;
+            text-align: center;
+            border: none;
+            font-family: inherit;
+        }
+
+        .btn-outline {
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            color: #eeeeee;
+        }
+
+        .btn-outline:hover {
+            border-color: #ffffff;
+            background: rgba(20, 20, 20, 0.7);
+            transform: translateY(-2px);
+        }
+
+        .btn-primary {
+            background: rgba(255, 255, 255, 0.85);
+            color: #000000;
+            border: 1px solid #ffffff;
+        }
+
+        .btn-primary:hover {
+            background: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:active {
+            transform: translateY(1px);
+        }
+
+        @media (max-width: 500px) {
+            .glass-card {
+                padding: 32px 24px 36px;
+            }
+            .logo-area h1 {
+                font-size: 2rem;
+            }
+            .action-group {
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="app" class="glass-card">
+    <div class="logo-area">
+        <h1>基于YOLO的智能车牌识别</h1>
+        <p>主界面</p>
+    </div>
+
+    <div class="user-info">
+        用户名：<span v-text="userName || '未登录'"></span>
+    </div>
+
+    <div class="action-group">
+        <button class="btn btn-outline" @click="to_image">图片检测</button>
+        <button class="btn btn-primary" @click="to_camera">摄像头检测</button>
+        <button class="btn btn-primary" @click="to_viedo">视频检测</button>
+    </div>
+</div>
+
+<script>
+    new Vue
+    ({
+        el: "#app",
+        data:
+            {
+            userName: ""
+        },
+        mounted()
+        {
+            let name = localStorage.getItem("user_name");
+            if (name && name !== "undefined")
+            {
+                this.userName = name;
+            } else
+            {
+                this.userName = "访客";
+            }
+            console.log("当前用户:", this.userName);
+        },
+        methods: {
+            to_image()
+            {
+                window.location.href = "/static/image_detect.html";
+            },
+            to_camera()
+            {
+                fetch("/start_camera/");
+                alert("输入q结束检测")
+            },
+            to_viedo()
+            {
+                window.location.href = "/static/viedo_detect.html";
+            }
+        }
+    });
+</script>
+</body>
+</html>

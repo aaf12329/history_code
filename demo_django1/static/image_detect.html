@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>图片检测</title>
+    <script src="/static/js/vue.js"></script>
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('/static/image/image_2.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            position: relative;
+        }
+
+        /* 磨砂玻璃卡片 - 放大宽度，自动适配高度 */
+        .detect-card {
+            background: rgba(20, 20, 30, 0.5);
+            backdrop-filter: blur(14px);
+            border-radius: 48px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            width: 100%;
+            max-width: 700px;
+            padding: 32px 32px 40px;
+            box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* 标题区域 */
+        .card-title {
+            margin-bottom: 24px;
+        }
+
+        .card-title h2 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #ffffff;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-title p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.85rem;
+            margin-top: 6px;
+            letter-spacing: 1px;
+        }
+
+        /* 上传框：等比放大 */
+        .avatar-uploader {
+            width: 100%;
+        }
+
+        .avatar-uploader .el-upload {
+            width: 100%;
+            aspect-ratio: 1 / 1;      /* 1:1 正方形，图片检测直观 */
+            max-width: 400px;
+            margin: 0 auto;
+            border: 1px dashed rgba(255, 255, 255, 0.6);
+            border-radius: 16px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .avatar-uploader-icon {
+            font-size: 48px;
+            color: rgba(255, 255, 255, 0.8);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+        }
+
+        .avatar {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background-color: transparent;
+            display: block;
+        }
+
+        .detect-btn {
+            margin-top: 28px;
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<div id="app" class="detect-card">
+    <div class="card-title">
+        <h2>图片检测</h2>
+        <p>上传图片文件，AI 将自动识别目标</p>
+    </div>
+
+    <el-upload
+        class="avatar-uploader"
+        action="#"
+        :auto-upload="false"
+        :on-change="handleFileChange">
+        <img v-if="imageUrl" :src="imageUrl" class="avatar">
+        <i v-else class="el-icon-plus avatar-uploader-icon"></i>
+    </el-upload>
+    <div class="detect-btn">
+        <el-button type="success" @click="image_detect">开始检测</el-button>
+        <el-button type="info" @click="goBack">返回主界面</el-button>
+    </div>
+</div>
+<script>
+    new Vue
+    ({
+        el: "#app",
+        data:
+        {
+            imageUrl: '',
+            file_raw: null
+        },
+        methods: {
+            goBack()
+            {
+                window.location.href = "/static/index.html";
+            },
+            handleFileChange(file)
+            {
+                this.imageUrl = URL.createObjectURL(file.raw);
+                this.file_raw = file.raw;
+                console.log("已选择图片:", this.file_raw);
+            },
+            image_detect()
+            {
+                if (!this.file_raw)
+                {
+                    alert("请先选择图片");
+                    return;
+                }
+                const formData = new FormData();
+                formData.append('file', this.file_raw);
+                $.ajax({
+                    url: "/image_detect/",
+                    type: "POST",
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: (rs) =>
+                    {
+                        if (rs.code === 200)
+                        {
+                            alert(rs.msg);
+                            if (rs.url)
+                            {
+                                this.imageUrl = rs.url;
+                            }
+                        }
+                        else
+                        {
+                            alert(rs.msg);
+                        }
+                    },
+                    error: () =>
+                    {
+                        alert("请求失败，请稍后重试");
+                    }
+                });
+            }
+        }
+    });
+</script>
+</body>
+</html>

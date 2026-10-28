@@ -1,0 +1,2 @@
+# Preserve the bytes of the extracted historical Django snapshot.
+demo_django1/** -text

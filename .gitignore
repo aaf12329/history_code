@@ -8,3 +8,21 @@ venv_light/
 
 # 爬虫生成的输出
 output_full.html
+
+# Shared exclusions for independent archived projects
+.venv/
+venv/
+myvenv/
+.idea/
+.vscode/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+node_modules/
+.next/
+*.tsbuildinfo
+dist/
+build/
+.env.*
+!.env.example

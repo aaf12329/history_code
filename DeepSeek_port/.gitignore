@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+venv_light/
+
+# 密钥配置（含 DEEPSEEK_API_KEY，勿提交）
+.env
+
+# 爬虫生成的输出
+output_full.html
