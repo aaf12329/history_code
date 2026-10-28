@@ -3749,6 +3749,507 @@
       ],
       "verified_file_count": 53,
       "tracked_original_file_count": 53
+    },
+    {
+      "directory": "EyeWheelchairProject",
+      "source_repository": "https://github.com/aaf12329/EyeWheelchairProject",
+      "source_commit": "4e76685612597f48d7d1098da4767b18925a9169",
+      "source_tree": "dde7611637aa880c3b337c7d8c73e9878a380ff6",
+      "archive_tree": "dde7611637aa880c3b337c7d8c73e9878a380ff6",
+      "files": [
+        {
+          "original_relative_path": ".gitignore",
+          "archive_path": "EyeWheelchairProject/.gitignore",
+          "sha256": "43f91a8e1765a955765d74a5225a066ef2b9080d807f7c46004cb4a0ba317071",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": ".zcodeignore",
+          "archive_path": "EyeWheelchairProject/.zcodeignore",
+          "sha256": "968330aa51ca9def56f764a9b27d0c55003a9a1652ad88d10ae7308828f7d667",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Agent.md",
+          "archive_path": "EyeWheelchairProject/Agent.md",
+          "sha256": "1812987f8b1edb1d3ac7216995376b30ee295a73741556304664acfadad7ff53",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "GIT_GUIDE.md",
+          "archive_path": "EyeWheelchairProject/GIT_GUIDE.md",
+          "sha256": "7e981dbd9a2bcf11223b83ff323dd3994df84f68708eda43f722893d9f3258e5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "README.md",
+          "archive_path": "EyeWheelchairProject/README.md",
+          "sha256": "dbefbc4b9a7d3ae265b5c39bb1c376ceb59c14aec72ccfad3b49b40a450858a7",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "requirements.md",
+          "archive_path": "EyeWheelchairProject/requirements.md",
+          "sha256": "0dfe27ff07ea589a3719e8c2f205ce4e084605b3d1364fa73f40cc993d04f9eb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "data/snapshots/snapshot_20260916_202308.jpg",
+          "archive_path": "EyeWheelchairProject/data/snapshots/snapshot_20260916_202308.jpg",
+          "sha256": "baef8299d909adf6bd8c2a6282e7dc402e8b757377508e8d97c6f35f4926d773",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "data/snapshots/snapshot_20260916_202310.jpg",
+          "archive_path": "EyeWheelchairProject/data/snapshots/snapshot_20260916_202310.jpg",
+          "sha256": "640690d975e395ee7004945ec6a1192d2abf6ff560c166889da8d606229453b6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "firmware/wheelchair_controller/wheelchair_controller.ino",
+          "archive_path": "EyeWheelchairProject/firmware/wheelchair_controller/wheelchair_controller.ino",
+          "sha256": "0557403a42873147f13a3d6f3e85287c153d2a6dbf5c0a2fbb36a03270944fd3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "models/face_landmarker.task",
+          "archive_path": "EyeWheelchairProject/models/face_landmarker.task",
+          "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "models/hand_landmarker.task",
+          "archive_path": "EyeWheelchairProject/models/hand_landmarker.task",
+          "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Related_materials/mat.py",
+          "archive_path": "EyeWheelchairProject/Related_materials/mat.py",
+          "sha256": "a1ec5fc27cda3e5026158bc1c82358c7bbe34a9599cb4c6b9e566c89982e5f2e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Related_materials/mediapipe_tree.png",
+          "archive_path": "EyeWheelchairProject/Related_materials/mediapipe_tree.png",
+          "sha256": "ff1c5ddba16693eecbd15e96dca2e8593649d84159c229fbe4983218955d1931",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Related_materials/ardino_demo/ardino_demo.ino",
+          "archive_path": "EyeWheelchairProject/Related_materials/ardino_demo/ardino_demo.ino",
+          "sha256": "4923df70c3a0ba212e4b99d19bc03d44f2cd0b4fe2deeefaae4bad4f61ef9438",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "src/camera/camera_preview.py",
+          "archive_path": "EyeWheelchairProject/src/camera/camera_preview.py",
+          "sha256": "a05c82ff6fa788229bd80f07973b2e6f51836d45531ff141615d9980efb6c265",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "src/hardware/serial_link.py",
+          "archive_path": "EyeWheelchairProject/src/hardware/serial_link.py",
+          "sha256": "41d9ad20214a3e6d13ffafd3d3c46c7ba2778c577f476c23e6ab652556370a23",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "src/hardware/__init__.py",
+          "archive_path": "EyeWheelchairProject/src/hardware/__init__.py",
+          "sha256": "d5846f0172857ec8888e2b5fd349cfc3fe5abe11d5ce8fc8252d01b06de22168",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "src/interaction/blink_preview.py",
+          "archive_path": "EyeWheelchairProject/src/interaction/blink_preview.py",
+          "sha256": "203e3273f964a17d569c72a0efcb5161ce039b7bb03f7c17e7d21fc85e6ddc89",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "src/interaction/gaze_blink_confirm_demo.py",
+          "archive_path": "EyeWheelchairProject/src/interaction/gaze_blink_confirm_demo.py",
+          "sha256": "a1e7a9ff132e77a5c579a98afdc69254d6e5f078c9781f362ebf2b549ace857c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "src/interaction/gaze_direction_preview.py",
+          "archive_path": "EyeWheelchairProject/src/interaction/gaze_direction_preview.py",
+          "sha256": "82447fdc17cd6c4440f21ec424f4c3dec27d3b8b9b0062af9acb6cad6cfa592a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "src/vision/landmarks_preview.py",
+          "archive_path": "EyeWheelchairProject/src/vision/landmarks_preview.py",
+          "sha256": "37b917f3dbbbcd391bb8934ac7b60eead57ac45a214b2d295525727c87fe0a01",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/conftest.py",
+          "archive_path": "EyeWheelchairProject/tests/conftest.py",
+          "sha256": "f9412ba018af3c60940aa13e94ccb5fbdabccc8d1d0ff8f6da74adff29b9eef5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_blink.py",
+          "archive_path": "EyeWheelchairProject/tests/test_blink.py",
+          "sha256": "a872a771ef8d81ab7cc87aab0f2855113ebf0ab7984d6ed0bd026f5955a83dae",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_serial_link.py",
+          "archive_path": "EyeWheelchairProject/tests/test_serial_link.py",
+          "sha256": "18c1c396739255b35f7463ae89a2bc57781458cbcc0e39553d1be33ae3bcb780",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_smoke_pipeline.py",
+          "archive_path": "EyeWheelchairProject/tests/test_smoke_pipeline.py",
+          "sha256": "1c92104e175f5b348c9a06542110b865ae555219c8f6cb4b64a05a75b993eeda",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_ui_render.py",
+          "archive_path": "EyeWheelchairProject/tests/test_ui_render.py",
+          "sha256": "f11fb25d2f0bd6489d8fad7629b79bf6a511c76e2c8f5a0055e65ccfaa158422",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/.gitignore",
+          "archive_path": "EyeWheelchairProject/yolo_model/.gitignore",
+          "sha256": "6656fad3af58aa50ae69ae53226fec4d591a81d6131c23f49a9baa5e0442ae61",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/COMMANDS.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/COMMANDS.md",
+          "sha256": "acc5a56d2781de0bce6c1671fbe8d37e0694a0709781bf06cb13d65fff7517d9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/predict.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/predict.py",
+          "sha256": "85646b84fb0727ff637e49cdde255161080e82b4fd26f83fa1751e61e3fcc510",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/README.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/README.md",
+          "sha256": "b44589cd1e36065a49e5cfc90b349f9c2d6ada76a4a6f8ee2ebfd27a656cddf4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/requirements.txt",
+          "archive_path": "EyeWheelchairProject/yolo_model/requirements.txt",
+          "sha256": "cad56dd381984d050f9690448fff8cc76aefb6d8b398d7958553400d493d5c28",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/configs/columbia_gaze.yaml",
+          "archive_path": "EyeWheelchairProject/yolo_model/configs/columbia_gaze.yaml",
+          "sha256": "564287d0f6bdad8d0e60901034f64b527cbf6bfa13d28a8d6215fbf1d1e7a24c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/configs/columbia_gaze5.yaml",
+          "archive_path": "EyeWheelchairProject/yolo_model/configs/columbia_gaze5.yaml",
+          "sha256": "335bf247938a00fe5d7c016b6663bc80665f6b40a00ad572aeec94b039cce2ee",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/configs/mrl_eye.yaml",
+          "archive_path": "EyeWheelchairProject/yolo_model/configs/mrl_eye.yaml",
+          "sha256": "ef45009f8c4188d6a48c08a086cee0a9d77a66d8be9c04a87a9d4fe40726ea43",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/data/download_datasets.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/data/download_datasets.py",
+          "sha256": "25080f0790f6dd5b30407c014ee72f03942238cc051fece1315a73002511927e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/data/README.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/data/README.md",
+          "sha256": "56c43edd21bd12e9fd96953b2b023e05532f294e660ff92493dbcc40a8732a04",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/ai_dev_resources.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/ai_dev_resources.md",
+          "sha256": "850e20d999ea6b08c99c182d77845cbe487b121944975691e959207f43f537aa",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/dataset_sources.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/dataset_sources.md",
+          "sha256": "eee388f3eae13f7b919ff3a8dbcbe8c3c9f51e4f2c51794082a65a5dbd72641b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/gaze_data_collection_guide.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/gaze_data_collection_guide.md",
+          "sha256": "0f9cad0b89bb1e9c643058152d762436bdfcd82cfafc455dcab717cb4034ebb5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/integration.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/integration.md",
+          "sha256": "19bc61b935929ef94931a50a9253322efe132e13620695aeb4d9586c7261af8a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/results_explained.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/results_explained.md",
+          "sha256": "08a8658b4798f398ab7ca2bb50c19fa675c45f609c34b9fc83fd436b8c15e31d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/training_journey.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/training_journey.md",
+          "sha256": "11aa638eb341e6afb6474dd49fd872b7b567bd923e882e47608f224f923521fb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/yolo_tutorial.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/yolo_tutorial.md",
+          "sha256": "bbf5e44101523ef81bd981eb7e588033a42e3abd605386ea9c07dd2e2f9c264f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/comparison/accuracy_chart.png",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/comparison/accuracy_chart.png",
+          "sha256": "8bdaee4ef19dbe849d202ee0d730007dbf87cd88ab6568f6b95e3deaeefc3273",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/comparison/columbia_gaze5_accuracy_chart.png",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/comparison/columbia_gaze5_accuracy_chart.png",
+          "sha256": "a2b295bfd8917271d1689fd13bf35edc69f2ad822d28217d06492d3c8dd229e0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/comparison/columbia_gaze5_confusion_matrix.png",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/comparison/columbia_gaze5_confusion_matrix.png",
+          "sha256": "06c7e6d8ad3878354a30724f87d49f7178a45086b6997a419d9ab2f05e169d47",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/comparison/columbia_gaze5_eval_report.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/comparison/columbia_gaze5_eval_report.md",
+          "sha256": "5a448055b25cbf850cb25d97a20a0efcbaa313ecb2751c688eb2a0386f0d772c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/comparison/columbia_gaze_accuracy_chart.png",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/comparison/columbia_gaze_accuracy_chart.png",
+          "sha256": "41bcc7d119948681b6db280224a40e262c0dfecd7b1bd2fa1327826a9c6e276f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/comparison/columbia_gaze_confusion_matrix.png",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/comparison/columbia_gaze_confusion_matrix.png",
+          "sha256": "0ec071829e1674a856464cd134819551787f075b2dcea681c2651c02f1dc9910",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/comparison/columbia_gaze_eval_report.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/comparison/columbia_gaze_eval_report.md",
+          "sha256": "a9186cf6a1823735ad186403b5c28086cf1333467f7785b43b5e798e2612fe5f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/comparison/confusion_matrix.png",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/comparison/confusion_matrix.png",
+          "sha256": "c1211951df35a49c03065a547a608485fc8e2ae3e16e10d5cdc6d5880f0046b4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/comparison/mrl_eval_report.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/comparison/mrl_eval_report.md",
+          "sha256": "e147fc77d925e29b20ecb14934071e3a0c479728920e96b8f2cf93378d772326",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/gaze_test/domain_gap_analysis.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/gaze_test/domain_gap_analysis.md",
+          "sha256": "00bcf18ccfddd67ae2ed0583ba94e7dddf6d942ba2ab37c9dc7e625caa2d5f2a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/gaze_test/frames.csv",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/gaze_test/frames.csv",
+          "sha256": "c0595830ac32d9972ab197f0b1db1b00dc1681d8caea934d13d9fe1613fa865d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/gaze_test/gaze_confusion_matrix.png",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/gaze_test/gaze_confusion_matrix.png",
+          "sha256": "9f8b297997dab942672fe7ede4f1ab9456185cc754eff8fb353b526c96f3b090",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/gaze_test/report.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/gaze_test/report.md",
+          "sha256": "b7b02162935f0a15ce29fc05f918dc056806c87f8a63899ddaf30c46e6b181ad",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/training/curves_loss.png",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/training/curves_loss.png",
+          "sha256": "4944a43771d0ed019cecedcf546218442d688c9a23714d0cf86fe43d3a451436",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/training/curves_metrics.png",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/training/curves_metrics.png",
+          "sha256": "fda5f401a1db0b7cfa7a7a4c5fbf97fb64a777206eb25dcd33369b79a0b34b2a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/training/results.csv",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/training/results.csv",
+          "sha256": "9387b887c9400e3686777fc6ba3d11398b1ea096f32e90c1d455c07b01275384",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/training/summary.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/training/summary.md",
+          "sha256": "32869381287f466f6f037c70ddd1e3f4adfbed514a5278186eb839f76dfe1afc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/docs/training/summary_gaze.md",
+          "archive_path": "EyeWheelchairProject/yolo_model/docs/training/summary_gaze.md",
+          "sha256": "c10e69ff5192d0d35140508aac24584b7fa196d6e9b84a89fd59c3bd8c1c64d6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/models/eye_yolo26n.pt",
+          "archive_path": "EyeWheelchairProject/yolo_model/models/eye_yolo26n.pt",
+          "sha256": "222989bfc5c3c0f7f10d415c01df2d7ebb77de5c16320672e21986d2a25474d4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/models/face_landmarker.task",
+          "archive_path": "EyeWheelchairProject/yolo_model/models/face_landmarker.task",
+          "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/models/gaze5_yolo26s.pt",
+          "archive_path": "EyeWheelchairProject/yolo_model/models/gaze5_yolo26s.pt",
+          "sha256": "c56cfb5770d2fc157a1cdc7d1ef865dabeb3a1aecdaa25e6478086c2823bf453",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/models/gaze_yolo26s.pt",
+          "archive_path": "EyeWheelchairProject/yolo_model/models/gaze_yolo26s.pt",
+          "sha256": "80dc0b40167b49f64b9ce31f08ce790f542227fab80bb7fd595fb7dc1c2dcf3a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/phone_videos/转发给拍摄的人.txt",
+          "archive_path": "EyeWheelchairProject/yolo_model/phone_videos/转发给拍摄的人.txt",
+          "sha256": "b81c394a29381e4e98fcf1e3a042e37729c49edb0764cdf82c4748a689874314",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/auto_label_phone_videos.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/auto_label_phone_videos.py",
+          "sha256": "a8f01f54e1981cd532bb312e39c744924f962ced2b29581050fee3a93dc89b0a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/collect_gaze_video.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/collect_gaze_video.py",
+          "sha256": "44fdd7a19b35a8ce7e8600aabb4b6233b8298c2c97d4c5c6fd1e866d9788a82a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/compare_yolo_vs_mediapipe.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/compare_yolo_vs_mediapipe.py",
+          "sha256": "6dc1fae99042b17448aa622afd3adc674eb022a5c4f9e328ee99c62f141bb94b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/eval_eye_accuracy.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/eval_eye_accuracy.py",
+          "sha256": "3f863d1b500453201a699c72d7c4ab065cc3b2b895c17bb257aeb7bc1f3e0fb0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/live_detect.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/live_detect.py",
+          "sha256": "ea5938bff1358a459bd3d2f5e404b0abccf80ad766c93e11201c19f87ed3e158",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/plot_training.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/plot_training.py",
+          "sha256": "6c1526a77fcea0bd22c8b0e99d2718aedbe8ae7ea213b2b51da7a6d9d030636a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/prepare_columbia_gaze5_dataset.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/prepare_columbia_gaze5_dataset.py",
+          "sha256": "12e6bcd88800974dd3ef89adb8026c4d6540d734efc5419fec386f36abd03327",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/prepare_columbia_gaze_dataset.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/prepare_columbia_gaze_dataset.py",
+          "sha256": "21a4f26ed27f365b2262189d0ba15f1affb86707692ec974798c4ab7e477d71a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/prepare_mrl_dataset.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/prepare_mrl_dataset.py",
+          "sha256": "f87944b9fd220af1227f65afeec2d4e1942f063a60debe1afa7fe7a263b13934",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/smoke_test_yolo26.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/smoke_test_yolo26.py",
+          "sha256": "47b1c4b02e763c653bd164722f9cc22ac34fa2a36d0821f13f9af70e3481cc7a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/test_gaze_live.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/test_gaze_live.py",
+          "sha256": "a416dab2a22c1f05d942e03c246bf52d0aa6fea56ba2099a0f88e0d6469c1a1c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/train_eye.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/train_eye.py",
+          "sha256": "6289af9b4c6e4b730d46f33deb1f76664100c2831529b523a07fcc1bc61d22e9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "yolo_model/scripts/verify_gpu.py",
+          "archive_path": "EyeWheelchairProject/yolo_model/scripts/verify_gpu.py",
+          "sha256": "7eda729e29cdca81bc3bcef460fe0ecb9bbd003ce42e3f4fd0910f45256eec6c",
+          "tracked_in_archive": true
+        }
+      ],
+      "branch_archives": [
+        {
+          "source_branch": "chen",
+          "source_commit": "1e5432804e221467e99d71a12898b3d2bfb3e90b",
+          "archive_tag": "archive/EyeWheelchairProject/chen-20261028",
+          "tag_object": "9474a6318c9d0cb3c2c23f11d80e024a72b4cf48",
+          "source_tree": "66d72a705ff70d2f2e8a67525154fe400834fc3d"
+        },
+        {
+          "source_branch": "huang",
+          "source_commit": "e318f46fde81ce06049b92b662f77d942b89442e",
+          "archive_tag": "archive/EyeWheelchairProject/huang-20261028",
+          "tag_object": "5ed229f43d658deeb3d6b2aa4c73ac75aa5f9760",
+          "source_tree": "eec9fbb55db56e83ae6baff9c87cf951b6c1da58"
+        }
+      ],
+      "verified_file_count": 79,
+      "tracked_original_file_count": 79
     }
   ]
 }
