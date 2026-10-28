@@ -1,0 +1,3425 @@
+{
+  "date": "2026-10-28",
+  "purpose": "历史项目独立目录归档",
+  "source_directories_retained": true,
+  "application_tests_run": false,
+  "projects": [
+    {
+      "directory": "DeepSeek_port",
+      "files": [
+        {
+          "original_relative_path": ".gitignore",
+          "archive_path": "DeepSeek_port/.gitignore",
+          "sha256": "ac855c0714e2e7e37a97278a151819a92e8d298a1c6b94240b691ee82619a8c8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Code.txt",
+          "archive_path": "DeepSeek_port/Code.txt",
+          "sha256": "ff06058d16838e4ffbd23525b3011e3a844f9ae8f122f8b83ab26b9b788dc36d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Compress_mudel.py",
+          "archive_path": "DeepSeek_port/Compress_mudel.py",
+          "sha256": "4627330eb316b3f60f666bd443ef6c5b5cf89813547e1479ace440e573905322",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Crawler_test.py",
+          "archive_path": "DeepSeek_port/Crawler_test.py",
+          "sha256": "5fd39efbdb0c7f2680ed23fd105215c8ffbc7e9532d0b94501145cc0e083f409",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Data_test.py",
+          "archive_path": "DeepSeek_port/Data_test.py",
+          "sha256": "2ab6390c9a23df4e4beb827b35946dc05e8886f41552aaa9a4c90553f718960b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Deepseek回复结构.txt",
+          "archive_path": "DeepSeek_port/Deepseek回复结构.txt",
+          "sha256": "036a9897b004235deaaced976a195c065dec9c8d36fda6ab95a282d97443e347",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "ds.py",
+          "archive_path": "DeepSeek_port/ds.py",
+          "sha256": "94bac61675b1329d70f1af86e265d03863b423df9d03d9794f4c091290bd88d6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Engage.bat",
+          "archive_path": "DeepSeek_port/Engage.bat",
+          "sha256": "27327c2871d59555b8593f05d47dd1a8137866944a1c18855badcbef681dfc20",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "GUI.py",
+          "archive_path": "DeepSeek_port/GUI.py",
+          "sha256": "be42315f6e2bc7b53b29b7963c94c781704adec5d828b871a95af3b7cada4c6e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "GUI_Engage.bat",
+          "archive_path": "DeepSeek_port/GUI_Engage.bat",
+          "sha256": "c75176734792d19ba6e23406bb41ca4330dda33f7eda0d3c01243fab1b18d587",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Model_SQL.py",
+          "archive_path": "DeepSeek_port/Model_SQL.py",
+          "sha256": "5292cf043b55445b92f391b6a798a9fec7b72dc9d0d0697403801b7cdee44d70",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Py_SQL.py",
+          "archive_path": "DeepSeek_port/Py_SQL.py",
+          "sha256": "408b8db92bc81dd687b62f9f652ab17674d4212dfabf5ee4548af60b1f707ebb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "README.md",
+          "archive_path": "DeepSeek_port/README.md",
+          "sha256": "895b166f3b5f812073415044de8fa70295a9f4560fab868a05740b7061200e60",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "requirements.txt",
+          "archive_path": "DeepSeek_port/requirements.txt",
+          "sha256": "02bdc8bbb4265dc11e474fc09485afc97211119d800da19970cb57e9cb624cb8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "SQL_Link.py",
+          "archive_path": "DeepSeek_port/SQL_Link.py",
+          "sha256": "6cf8e34c8db43ddedba459ecb0d50fc1bd08e07e5bda13f913ae083e4b99aac9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "使用文档.txt",
+          "archive_path": "DeepSeek_port/使用文档.txt",
+          "sha256": "10c38fc1fe5f6e8eb15c532f69e21b7eb8e080ffe479d062fabf5ae2846bd623",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "记忆压缩.txt",
+          "archive_path": "DeepSeek_port/记忆压缩.txt",
+          "sha256": "ee7e0e584b2626a327b173616b2c3ee13175affa6c818aff2164baed66b0b72f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Memories/AI_Memories.md",
+          "archive_path": "DeepSeek_port/Memories/AI_Memories.md",
+          "sha256": "ae464bbd3b39eebe293760ec7c0cb065e4dac86df36b8b695744e237977c6846",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Memories/Chat_History.csv",
+          "archive_path": "DeepSeek_port/Memories/Chat_History.csv",
+          "sha256": "d7f976f3f1570052282de174699af114ddb066ec539ae4e9753e486ddfecfc8c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Memories/Chat_History.json",
+          "archive_path": "DeepSeek_port/Memories/Chat_History.json",
+          "sha256": "f83b716369f673cc9543cbd618a67af062ed350398dc946796a932a56a3ca7bc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Memories/history/AI_Memories.md",
+          "archive_path": "DeepSeek_port/Memories/history/AI_Memories.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Memories/history/Chat_History.json",
+          "archive_path": "DeepSeek_port/Memories/history/Chat_History.json",
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Prompt/Privacy_Setting.md",
+          "archive_path": "DeepSeek_port/Prompt/Privacy_Setting.md",
+          "sha256": "2a9364bab9a2521686bae57a525589b36dc61e45902fe08cc7666d66bd78e597",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Prompt/System_Prompt.md",
+          "archive_path": "DeepSeek_port/Prompt/System_Prompt.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/base_deepseek.py",
+          "archive_path": "DeepSeek_port/废案及历史版本/base_deepseek.py",
+          "sha256": "4b38ac66e6aa1bbed98620b5035254f0b577fc18fecae29dfccb99fa8b822b8e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/ChatQQ.py",
+          "archive_path": "DeepSeek_port/废案及历史版本/ChatQQ.py",
+          "sha256": "8d449dfb9719d0ff81c67bd2c3f2914114b54e0d2c92b3f3c6f2bfe1e0a9c188",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Compress_mudel.py",
+          "archive_path": "DeepSeek_port/废案及历史版本/Compress_mudel.py",
+          "sha256": "2a249c28b8c5506398512fe8f6c0cfbcab0f683c5d128073a72e49dd64a8bd30",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/ds(1.5.1).py",
+          "archive_path": "DeepSeek_port/废案及历史版本/ds(1.5.1).py",
+          "sha256": "903663b8d750bb3df76539f306c748bd503fe6a9ee4c364e232b6e295de27f7e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/ds(1.5版本).py",
+          "archive_path": "DeepSeek_port/废案及历史版本/ds(1.5版本).py",
+          "sha256": "b59a58d7c41ff75dd9633b5309f800790d32b1f3f17332d5e845bfcd29bf3a33",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/ds(重构后1.0).py",
+          "archive_path": "DeepSeek_port/废案及历史版本/ds(重构后1.0).py",
+          "sha256": "8a276f5064109cec649f6e8404ab02d5b4c7098f88cc8bc752c374c64b87ae73",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/ds.py",
+          "archive_path": "DeepSeek_port/废案及历史版本/ds.py",
+          "sha256": "246df779864253c850eb7d16b14db58ffda98494072942eeb55b2c4da4a207c7",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/ds_QQBot.py",
+          "archive_path": "DeepSeek_port/废案及历史版本/ds_QQBot.py",
+          "sha256": "4fe85f3aac52dbb0115f904ed01b8a709bca60cf387c2d44ab33a7d57edbf400",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/En(重构前port).py",
+          "archive_path": "DeepSeek_port/废案及历史版本/En(重构前port).py",
+          "sha256": "909445b70b2e013cf39b04ad03dddf2769a2127b82a74ff39bcd049c8f903a27",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Engage1.bat",
+          "archive_path": "DeepSeek_port/废案及历史版本/Engage1.bat",
+          "sha256": "f27989b0199fa018c24ea9395537106a7bf283ba0673217e0654d8d813f5f38a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/EngageQQBot.bat",
+          "archive_path": "DeepSeek_port/废案及历史版本/EngageQQBot.bat",
+          "sha256": "6fd223a7030884fb15285c06dde7639c9f5922ed29fbcd23d34b2158c998b434",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/temp.py",
+          "archive_path": "DeepSeek_port/废案及历史版本/temp.py",
+          "sha256": "281949cc6355af9cdf7d8fd1f0a45a4b1e2e14ce96135d8483c8dd5d6d5f066f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Menorise/Original_Memory.md",
+          "archive_path": "DeepSeek_port/废案及历史版本/Menorise/Original_Memory.md",
+          "sha256": "71c0f3b17edf1a4ce101d22c0780767497913d487d2235cc4170bd0358ca3fbc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Menorise/Personal_setting.md",
+          "archive_path": "DeepSeek_port/废案及历史版本/Menorise/Personal_setting.md",
+          "sha256": "1db22b1f9efa75e2349d8c1fd0a1da9f7500324e20babac2890ad7e8109d39f5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Menorise/System_prompt.md",
+          "archive_path": "DeepSeek_port/废案及历史版本/Menorise/System_prompt.md",
+          "sha256": "dace54f3a34bda553e463d8bb8b515e7aed3a3f775a38134e1a490d8d61eb13a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Menorise/test_Memory/Dannel.txt",
+          "archive_path": "DeepSeek_port/废案及历史版本/Menorise/test_Memory/Dannel.txt",
+          "sha256": "a04fd17720bcf19771659dc7ba9d2a9277399c2405695f809f323e6830134a99",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Menorise/test_Memory/Memory_Library.md",
+          "archive_path": "DeepSeek_port/废案及历史版本/Menorise/test_Memory/Memory_Library.md",
+          "sha256": "8454e570b9676ceb7d437e7d06a4c6270085a20db4d147b4249fb4e7aeb4fd31",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Menorise/test_Memory/Original_Memory(0).md",
+          "archive_path": "DeepSeek_port/废案及历史版本/Menorise/test_Memory/Original_Memory(0).md",
+          "sha256": "e8357b69a869e7565566926bf9ad8b7dfbc3aaa573b0ac851620ded85a9ae657",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Menorise/test_Memory/Original_Memory.md",
+          "archive_path": "DeepSeek_port/废案及历史版本/Menorise/test_Memory/Original_Memory.md",
+          "sha256": "71c0f3b17edf1a4ce101d22c0780767497913d487d2235cc4170bd0358ca3fbc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "废案及历史版本/Menorise/test_Memory/艾莉xiyatest.md",
+          "archive_path": "DeepSeek_port/废案及历史版本/Menorise/test_Memory/艾莉xiyatest.md",
+          "sha256": "b83a96d93f1a2380e8d655ef3795c21a7db8bd6d9ca89b584acb9e396f6a8a2b",
+          "tracked_in_archive": true
+        }
+      ],
+      "source_commit": "4385a5f08a132286d1ff6c881be12d916b8598f4",
+      "verified_file_count": 44,
+      "tracked_original_file_count": 44
+    },
+    {
+      "directory": "demo_django1",
+      "files": [
+        {
+          "original_relative_path": "demo_django1/db.sqlite3",
+          "archive_path": "demo_django1/db.sqlite3",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/manage.py",
+          "archive_path": "demo_django1/manage.py",
+          "sha256": "170ad2342c70adbd90a77f90546870e1529d4eeb0b566b9b5c1a804c753d2ba4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/.idea/.gitignore",
+          "archive_path": "demo_django1/.idea/.gitignore",
+          "sha256": "1bfdece3645ed8ed356030f22cc2004dc3f401ff060ac3d24de811c3bcd82e16",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/.idea/demo_django1.iml",
+          "archive_path": "demo_django1/.idea/demo_django1.iml",
+          "sha256": "3eabe421e9af6ecf56d74b2188efb280b6c8a56c79df656743a7de97c5fb7642",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/.idea/misc.xml",
+          "archive_path": "demo_django1/.idea/misc.xml",
+          "sha256": "d690742b42774849492a4fcb97dea1545d84022988759763d7863fe019bbf878",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/.idea/modules.xml",
+          "archive_path": "demo_django1/.idea/modules.xml",
+          "sha256": "3bed78f044efd28650ce6099ade382a66afc78dd8e90165d18487751ba9c8c4c",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/.idea/workspace.xml",
+          "archive_path": "demo_django1/.idea/workspace.xml",
+          "sha256": "2bdff45629ace03be70e037d59ff6a3d9beec16f9b0491623a7dcbc5a022507a",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/.idea/inspectionProfiles/profiles_settings.xml",
+          "archive_path": "demo_django1/.idea/inspectionProfiles/profiles_settings.xml",
+          "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/asgi.py",
+          "archive_path": "demo_django1/demo_django1/asgi.py",
+          "sha256": "9ecafda6baae47fa34f098dd7f0de605c281ed19ebdca91c1b31667cbb25136a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/settings.py",
+          "archive_path": "demo_django1/demo_django1/settings.py",
+          "sha256": "4e6110764ce3de91f53b26bb91240d10cf281ae74a8db3e69f9ad0ef1e30cf1e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/urls.py",
+          "archive_path": "demo_django1/demo_django1/urls.py",
+          "sha256": "28094d0d76b293b97516194b2df79e50793d3e587b4fe41cf3d9e44eeff2793a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/wsgi.py",
+          "archive_path": "demo_django1/demo_django1/wsgi.py",
+          "sha256": "653186ee99f097e4cabec19f65efac0d8cc281b1ae750408e9c80a197f11048d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/__init__.py",
+          "archive_path": "demo_django1/demo_django1/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/.idea/.gitignore",
+          "archive_path": "demo_django1/demo_django1/.idea/.gitignore",
+          "sha256": "1bfdece3645ed8ed356030f22cc2004dc3f401ff060ac3d24de811c3bcd82e16",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/.idea/demo_django1.iml",
+          "archive_path": "demo_django1/demo_django1/.idea/demo_django1.iml",
+          "sha256": "c5317e4d88e317da1a47f47daa82122e04324641481b3f5105368fe41d7c321d",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/.idea/misc.xml",
+          "archive_path": "demo_django1/demo_django1/.idea/misc.xml",
+          "sha256": "5ee2b1e17cdc3fc50f0ea747fa8189c3b3cd91b0afdaa0cb9fe88f437c42ce9b",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/.idea/modules.xml",
+          "archive_path": "demo_django1/demo_django1/.idea/modules.xml",
+          "sha256": "3bed78f044efd28650ce6099ade382a66afc78dd8e90165d18487751ba9c8c4c",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/.idea/workspace.xml",
+          "archive_path": "demo_django1/demo_django1/.idea/workspace.xml",
+          "sha256": "68372fd76ee77be3bff87215e216ee9028d6795739a1bbe0465151ced1bf18a7",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/.idea/inspectionProfiles/profiles_settings.xml",
+          "archive_path": "demo_django1/demo_django1/.idea/inspectionProfiles/profiles_settings.xml",
+          "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/__pycache__/settings.cpython-312.pyc",
+          "archive_path": "demo_django1/demo_django1/__pycache__/settings.cpython-312.pyc",
+          "sha256": "be105a51fbdcf9a4ce7c0b456bf6779d5e0c5754ac24dbe5debbf9e91a732c7f",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/__pycache__/urls.cpython-312.pyc",
+          "archive_path": "demo_django1/demo_django1/__pycache__/urls.cpython-312.pyc",
+          "sha256": "2260be2f2d135b072570873c7b8a7d653afa14e63f5bc2e0367f266bc2bfc2a4",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/__pycache__/wsgi.cpython-312.pyc",
+          "archive_path": "demo_django1/demo_django1/__pycache__/wsgi.cpython-312.pyc",
+          "sha256": "593d44b5c500bf6fe5616f9838a008a04150915a767b885c2e572dbb8aea842f",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/demo_django1/__pycache__/__init__.cpython-312.pyc",
+          "archive_path": "demo_django1/demo_django1/__pycache__/__init__.cpython-312.pyc",
+          "sha256": "2c1c8360908e64e6805b19b0d515bcd3cf00333edb9b0dee3002ad0cf5f28d6f",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/model/best.pt",
+          "archive_path": "demo_django1/model/best.pt",
+          "sha256": "0a9a41a03629233281ed9c13e11d79c5ccb7c8009edd002a465e75b1bce645bc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/image_detect.html",
+          "archive_path": "demo_django1/static/image_detect.html",
+          "sha256": "15a21ad7a6a18636c463784633237fa7f7550637c2af16ae07c0e5b67fafafde",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/index.html",
+          "archive_path": "demo_django1/static/index.html",
+          "sha256": "22c50d2043572d3d625567638121a161e01638d51cb2371128050630ba605d0c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/login.html",
+          "archive_path": "demo_django1/static/login.html",
+          "sha256": "58fa8c10bf6c9be93f68369487e3069dfd10ca6825efd1a5ca1026b2f5996028",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/register.html",
+          "archive_path": "demo_django1/static/register.html",
+          "sha256": "98c8225806345f41b0dc440b62193899320db232a280d62d6f818b2679b57ced",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/viedo_detect.html",
+          "archive_path": "demo_django1/static/viedo_detect.html",
+          "sha256": "20689269f28d42e0cb56abeedd66a37a99fdb813cc8a3d0d1657ebaf4913d302",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/image/image_1.png",
+          "archive_path": "demo_django1/static/image/image_1.png",
+          "sha256": "9c84d44c67616c1af206773e74d603117896c097fd532c5211200ee9b2447f0f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/image/image_2.png",
+          "archive_path": "demo_django1/static/image/image_2.png",
+          "sha256": "8f48bc2f1e208f0e028d3269901acd3bdac24009b5e748297e1297092e7e3ea9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/js/jquery-3.1.1.min.js",
+          "archive_path": "demo_django1/static/js/jquery-3.1.1.min.js",
+          "sha256": "24ae953f4083c89174cfc9a983d2c611ab8517cc503749403a2764fdc4467133",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/js/vue.js",
+          "archive_path": "demo_django1/static/js/vue.js",
+          "sha256": "9174c425c445377df4562ad9165ea08fdf9433a808296d7de5f619791df10e17",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/music/我早已麻痹.mp3",
+          "archive_path": "demo_django1/static/music/我早已麻痹.mp3",
+          "sha256": "abe96a88769c2449e6d27574aaa73877bba2fc984161298b2e52efd5d0593004",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/static/music/误闯天家.mp3",
+          "archive_path": "demo_django1/static/music/误闯天家.mp3",
+          "sha256": "df289391d44739f22be6faad530e9224790bf4bca74c60754c01736377a9d374",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/view/camara_detect.py",
+          "archive_path": "demo_django1/view/camara_detect.py",
+          "sha256": "5cc45580740aae7e48517514f4dbea03bd13567b8a48677dced44baf25eb0382",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/view/image_detect_view.py",
+          "archive_path": "demo_django1/view/image_detect_view.py",
+          "sha256": "05e52ea1b8b4a9475eb22ea2adc242c69c900e4397a41fe256bd7f6230caf0f1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/view/login_view.py",
+          "archive_path": "demo_django1/view/login_view.py",
+          "sha256": "06529aeb0822e718a1e60dc087d54f7d432560864d379ee79999c11a8b30b665",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/view/viedo_detect_viedo.py",
+          "archive_path": "demo_django1/view/viedo_detect_viedo.py",
+          "sha256": "9884ffc898a75f3c00789758f60b4dfa61f713d7c41941f56ad72e775b4744d2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/view/__init__.py",
+          "archive_path": "demo_django1/view/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "demo_django1/view/__pycache__/camara_detect.cpython-312.pyc",
+          "archive_path": "demo_django1/view/__pycache__/camara_detect.cpython-312.pyc",
+          "sha256": "da1221385679a9220a503c5d9ab98ae9dd4ba2e89e0b89bd1ea0fd9e9de98f70",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/view/__pycache__/image_detect_view.cpython-312.pyc",
+          "archive_path": "demo_django1/view/__pycache__/image_detect_view.cpython-312.pyc",
+          "sha256": "59ddeb8ba2b4bf25228f0823621718714f8dd037b64c7ec5e209e3aa8f554b7b",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/view/__pycache__/login_view.cpython-312.pyc",
+          "archive_path": "demo_django1/view/__pycache__/login_view.cpython-312.pyc",
+          "sha256": "0f0cd5216c92b47b229fc8d66cc09f294c4a09ce6d86e9e552019a49c431a4c9",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/view/__pycache__/viedo_detect_viedo.cpython-312.pyc",
+          "archive_path": "demo_django1/view/__pycache__/viedo_detect_viedo.cpython-312.pyc",
+          "sha256": "615765c2aa35389e289c41710d7f646517a070e6c5f28718dc6ba74b48d37770",
+          "tracked_in_archive": false
+        },
+        {
+          "original_relative_path": "demo_django1/view/__pycache__/__init__.cpython-312.pyc",
+          "archive_path": "demo_django1/view/__pycache__/__init__.cpython-312.pyc",
+          "sha256": "5e64ead2139b13a4ccc6e696d7766f2de26e7203449bf5d875ea4055b5e25a85",
+          "tracked_in_archive": false
+        }
+      ],
+      "source_commit": "4385a5f08a132286d1ff6c881be12d916b8598f4",
+      "original_archive_git_blob": "707f89b8b2dbb73f98b6f49ff2204060c457918c",
+      "verified_file_count": 45,
+      "tracked_original_file_count": 24
+    },
+    {
+      "directory": "industry-evidence-platform",
+      "files": [
+        {
+          "original_relative_path": ".dockerignore",
+          "archive_path": "industry-evidence-platform/.dockerignore",
+          "sha256": "fe67555a2ada9e671cd62246189fe99a34b795de37a592f4debd8a2d039e7a8c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": ".env.example",
+          "archive_path": "industry-evidence-platform/.env.example",
+          "sha256": "2156b61bb7e26021f9e26d426e5e8e52d5b05785b5e43e38adcb34b3221a5283",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": ".gitignore",
+          "archive_path": "industry-evidence-platform/.gitignore",
+          "sha256": "58fc293c53fc4651fe9d88803a13d22c0800dc2a3f872fdc76b9a527bdbc83b8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "AGENTS.md",
+          "archive_path": "industry-evidence-platform/AGENTS.md",
+          "sha256": "26e0bba6bb643446bd75a5e8da8a22d3a6d50f63070de58286eed3123914f9c8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "alembic.ini",
+          "archive_path": "industry-evidence-platform/alembic.ini",
+          "sha256": "ab43c38e8dd477da05bd39b66abf82d4b5085f1a4ed742363217323f89bc70c1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "compose.yaml",
+          "archive_path": "industry-evidence-platform/compose.yaml",
+          "sha256": "8d71176c7a45789aa61ed9b966bd2aa8caa230a82faeb8ffa80227cc1969ce5e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Dockerfile",
+          "archive_path": "industry-evidence-platform/Dockerfile",
+          "sha256": "248342902069a1209cec8e5ff5e50b55c0e5665431ab7843dac6b4c907525661",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "pyproject.toml",
+          "archive_path": "industry-evidence-platform/pyproject.toml",
+          "sha256": "295e53f89304149f8b1904f57b1b98d495737f621a03aa3f95de53893a3cd8ef",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "README.md",
+          "archive_path": "industry-evidence-platform/README.md",
+          "sha256": "7eca7e3640a82aefe543f2ae5790d1a00f832fc41a638086036f7eb36b8c6a49",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "requirement.txt",
+          "archive_path": "industry-evidence-platform/requirement.txt",
+          "sha256": "bbe6d5a0d4ed72df622a1c9337bc5ba9af4b8b4d6e6967a8b3fa47b987037b52",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "requirements.lock.txt",
+          "archive_path": "industry-evidence-platform/requirements.lock.txt",
+          "sha256": "39e18fce9f3f1cab65553ce3e26ab20b570a34004264dbade32e98b757bcc14d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/advisor_cli.py",
+          "archive_path": "industry-evidence-platform/app/advisor_cli.py",
+          "sha256": "beab30b9ad4a382b2080c82dcf7b2bbef961b6f3ebcb808de9d036997e3221ef",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/celery_app.py",
+          "archive_path": "industry-evidence-platform/app/celery_app.py",
+          "sha256": "d6340b4b37ebef3e0a7078fa50df6938cfe4eb062b31f3bbcefb6247e8da69a0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/cli.py",
+          "archive_path": "industry-evidence-platform/app/cli.py",
+          "sha256": "b956fbd209f7b02e201d475c226d36008767857f1aea51c0b93a209f4becbc3a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/execution.py",
+          "archive_path": "industry-evidence-platform/app/execution.py",
+          "sha256": "3cc2de5ab56cd10ae0115f939df5a8a3fca7e3d88ea1389da18273f2ef44e23d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/local_service.py",
+          "archive_path": "industry-evidence-platform/app/local_service.py",
+          "sha256": "d7d825de10448c927fb045ac5455309bbc19aa1dd41ae43dcc5481ed8a05327d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/main.py",
+          "archive_path": "industry-evidence-platform/app/main.py",
+          "sha256": "bf5f66985df79f7d3a675cd9c363f925788bf8a336d99a1f71d5459664d6fe92",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/operation_worker.py",
+          "archive_path": "industry-evidence-platform/app/operation_worker.py",
+          "sha256": "57068aaa12504e133002dd35ba4b9583aba9424efb7a6dbc6378bc3c2a25c064",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline_cli.py",
+          "archive_path": "industry-evidence-platform/app/pipeline_cli.py",
+          "sha256": "0a05de5da18b2018a566605275e954ba3e568c48188dbd175d8d5c42b9a543bc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline_llm.py",
+          "archive_path": "industry-evidence-platform/app/pipeline_llm.py",
+          "sha256": "906ba339e360f9328306899238c2379baee25ed56dbc2f2b50b4b4a23df28e0c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline_service.py",
+          "archive_path": "industry-evidence-platform/app/pipeline_service.py",
+          "sha256": "812be60c86e8c4deb4a47ca79f5fe21b1ca54aaa3db34b1b65fdd561fd30293f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/research.py",
+          "archive_path": "industry-evidence-platform/app/research.py",
+          "sha256": "b35bbe26d5284adfda68488e506242c4a64a9cb071da3a0853dd6eb8eb2a86d1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/runtime.py",
+          "archive_path": "industry-evidence-platform/app/runtime.py",
+          "sha256": "58792d3832ac703f1a099abca9bc333df57d237bd06253ce02d7f10b215deda6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/worker.py",
+          "archive_path": "industry-evidence-platform/app/worker.py",
+          "sha256": "771e6e24229ddf9f6419e40b89b3ba4207893d777b501ce5f0a2d757b1378de4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/__init__.py",
+          "archive_path": "industry-evidence-platform/app/__init__.py",
+          "sha256": "decce88b3040c30ea321666d41ce4b3482e0fba5c2bba1522e2410d00f16a58f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/advisor/integrated.py",
+          "archive_path": "industry-evidence-platform/app/advisor/integrated.py",
+          "sha256": "11e6df80e6afa68bc1b25b9050ccf7ca7eb3023d14f1fe38474ea9a21a1bc012",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/advisor/__init__.py",
+          "archive_path": "industry-evidence-platform/app/advisor/__init__.py",
+          "sha256": "d8ec3c8b07a9d3fa802ccbbf590c681d2f6efd29f951162d60b7333054607845",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/api/integration.py",
+          "archive_path": "industry-evidence-platform/app/api/integration.py",
+          "sha256": "3a272a679c4001a668bdb9c09f8dc8d30898afe20dc6a555211117aec3fc3831",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/api/pipeline.py",
+          "archive_path": "industry-evidence-platform/app/api/pipeline.py",
+          "sha256": "8d853e19b0ecdf8f6fe663defe0ac654810c0a217f58738c74871cb4af965f58",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/api/routes.py",
+          "archive_path": "industry-evidence-platform/app/api/routes.py",
+          "sha256": "47001f94d5efc072a47415d3d598524a8fab071546011088c0ee278cf663f146",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/api/__init__.py",
+          "archive_path": "industry-evidence-platform/app/api/__init__.py",
+          "sha256": "9eb8cefaf56d820fda2d5c820363262f850a61e5598d78ecdb857f3b9753cfd3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/collection.py",
+          "archive_path": "industry-evidence-platform/app/common/collection.py",
+          "sha256": "55ffd3be44c500c6a93582a04e1af34b61bc7ae32f58d9cc538cd844d03c6b1d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/component.py",
+          "archive_path": "industry-evidence-platform/app/common/component.py",
+          "sha256": "9bbac926fdd4fcdefafc0e64fe96cd61d485c228e026c58ce1c95a45b5a92ee6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/evidence_files.py",
+          "archive_path": "industry-evidence-platform/app/common/evidence_files.py",
+          "sha256": "d88cb40308c296a249892206c2d4638b8609c8ecbac9fc0e55326d5bd18ffcd3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/file_io.py",
+          "archive_path": "industry-evidence-platform/app/common/file_io.py",
+          "sha256": "45f90ab999ebe23362a5674db90c15c57090a1e3d7dc6a47092d839a0063de4e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/gan_config.py",
+          "archive_path": "industry-evidence-platform/app/common/gan_config.py",
+          "sha256": "4081e5ced5a287241999be866fe5e3dafcc57e68fbd4c8ada1cab569be901dc6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/leases.py",
+          "archive_path": "industry-evidence-platform/app/common/leases.py",
+          "sha256": "d21dd9c1b63019a851b8ebacc45f7c7bc6507dfa6667bead9d50653c91a4ff90",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/network.py",
+          "archive_path": "industry-evidence-platform/app/common/network.py",
+          "sha256": "850564c2722daba3b24bea2bc077768b67293ca830d2ea38c8a58d2f0db4f773",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/paths.py",
+          "archive_path": "industry-evidence-platform/app/common/paths.py",
+          "sha256": "158d88ab6b4df39be2010e4d96fbc918a06a11e08c9167b5cd4bdf5f694d10ac",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/progress.py",
+          "archive_path": "industry-evidence-platform/app/common/progress.py",
+          "sha256": "df6ce7feee2dd6e7aa93eab2b4767e1e0036712c3fe9b3c7623ca254dc5954a8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/storage.py",
+          "archive_path": "industry-evidence-platform/app/common/storage.py",
+          "sha256": "7817c8d4a28a3a9111ff40dcce3d0c63d63d404af8936af3ac3e76b610ab26e9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/common/__init__.py",
+          "archive_path": "industry-evidence-platform/app/common/__init__.py",
+          "sha256": "f4c1717320c46afc712c164e4832c0c0eb2e8ae9970aee19e7331ae5407f1674",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/contracts/advisor.py",
+          "archive_path": "industry-evidence-platform/app/contracts/advisor.py",
+          "sha256": "e46f1c056efd6f51043862782964ae111b01be8a5403221b56c498e62e42bc63",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/contracts/crawler.py",
+          "archive_path": "industry-evidence-platform/app/contracts/crawler.py",
+          "sha256": "38443fd14674feacf09dc7ee591d2f86178927882a2bf294fbe68036ef767602",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/contracts/extraction.py",
+          "archive_path": "industry-evidence-platform/app/contracts/extraction.py",
+          "sha256": "45bc36fff77a4e3a59416a7b743d377b7cf1e885381e21962dc17f55eef3ec1b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/contracts/pipeline.py",
+          "archive_path": "industry-evidence-platform/app/contracts/pipeline.py",
+          "sha256": "652f6ad5c24162a6ca72a6af5196478a54cdce7bc863af30ca4674d9c847db31",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/contracts/pipeline_web.py",
+          "archive_path": "industry-evidence-platform/app/contracts/pipeline_web.py",
+          "sha256": "8e67c90a692c0e884fcba93004a015b5ef4e5cd371b84e2396819d5e5e80fe24",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/contracts/research.py",
+          "archive_path": "industry-evidence-platform/app/contracts/research.py",
+          "sha256": "f1c707b7e91577fd493e0b89f0811188a1bce3343a4847a447a32f0fbc491e41",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/contracts/__init__.py",
+          "archive_path": "industry-evidence-platform/app/contracts/__init__.py",
+          "sha256": "bff19fd4d524f6aa65e18021f749f94c068b12e5b748745dd459cfcf63937e60",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/core/config.py",
+          "archive_path": "industry-evidence-platform/app/core/config.py",
+          "sha256": "bf7fcb90fe51c8349507cc846a5db9e603f4b726d56ba5d5b81068dd21238623",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/core/errors.py",
+          "archive_path": "industry-evidence-platform/app/core/errors.py",
+          "sha256": "63a754e7e2926e42351e44552ef6e357ab4d42321f4ddcb822120721cb0e8f96",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/core/__init__.py",
+          "archive_path": "industry-evidence-platform/app/core/__init__.py",
+          "sha256": "bff19fd4d524f6aa65e18021f749f94c068b12e5b748745dd459cfcf63937e60",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/crawler/base.py",
+          "archive_path": "industry-evidence-platform/app/crawler/base.py",
+          "sha256": "bc4cbb29b8508d757a009c6a5527e103db1c4caa16b01805b49760aaec09ae32",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/crawler/bridge.py",
+          "archive_path": "industry-evidence-platform/app/crawler/bridge.py",
+          "sha256": "e6b5f35e8e45c260cb2e378d15887cde3b0b5243f725f3a65a8ff2d7bb742090",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/crawler/html_metadata.py",
+          "archive_path": "industry-evidence-platform/app/crawler/html_metadata.py",
+          "sha256": "12984859bae33de7fd2b697f9231a4a9fa33af25a03a52f15f6fc8d90cd0fd93",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/crawler/integrated.py",
+          "archive_path": "industry-evidence-platform/app/crawler/integrated.py",
+          "sha256": "0cb6ba57b1da33532b50f99e9926eb522a792fa494ecdf10c05cb78eb78f4b64",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/crawler/loader.py",
+          "archive_path": "industry-evidence-platform/app/crawler/loader.py",
+          "sha256": "0f345eb40776a92a5d27a01c0d27cf8f534ddb85e53eddb4f9fe29ddf3d48f55",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/crawler/__init__.py",
+          "archive_path": "industry-evidence-platform/app/crawler/__init__.py",
+          "sha256": "bff19fd4d524f6aa65e18021f749f94c068b12e5b748745dd459cfcf63937e60",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/db/models.py",
+          "archive_path": "industry-evidence-platform/app/db/models.py",
+          "sha256": "965193a4273fdcbbf947d68f2547002346eeb06061b464c496430fda86c031b4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/db/session.py",
+          "archive_path": "industry-evidence-platform/app/db/session.py",
+          "sha256": "852d09c6f5ed875a2c3f2aed6c4f5bf56c57cdf0af5c3ec5d8d6f6974e4de6f0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/db/__init__.py",
+          "archive_path": "industry-evidence-platform/app/db/__init__.py",
+          "sha256": "bff19fd4d524f6aa65e18021f749f94c068b12e5b748745dd459cfcf63937e60",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/cleaning.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/cleaning.py",
+          "sha256": "5b9eed729c2e8003ba215f646234e6a144682aa05f1b65891df4afcd90207597",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/context.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/context.py",
+          "sha256": "3b8ae6b254854fba3595780600067cd683b1a04d476c7f9c1a569140bf0bdd47",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/data_quality.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/data_quality.py",
+          "sha256": "89297bd008c9f1786303b5d9b33d75317a305973b4e395675e55f5cc35975f86",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/deterministic.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/deterministic.py",
+          "sha256": "a3a79ce53a0320ba69e447a8028025f30a5bd57f17e1a7594efcae1c794d46db",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/diagnostics.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/diagnostics.py",
+          "sha256": "81b0afa219ca9984abc51b570b16cd97fc1b7eea6621ddbbf03fd828502bc5af",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/gan.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/gan.py",
+          "sha256": "3b36d7759ab4becf443e5c1c4dab72d04e961f641332d7919883fd31802ad61c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/llm_records.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/llm_records.py",
+          "sha256": "fe0c475b57b91f4b4985e5a61e44ceb891dcb2a5a2f047ec0c97e881774bbc08",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/plots.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/plots.py",
+          "sha256": "1421aadb623f1af8d291213f59402cd9551936dc182d5babe1efcb3cdfe382a8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/selection.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/selection.py",
+          "sha256": "ce0b3cfc79cdfb961aa493eedbbfdee3d8f8412dac6e26d6871948e48082224a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/training.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/training.py",
+          "sha256": "cfdac2a59e2368f0c86d9c3caf5528e0e88aa8e6303e6b51a01f7aa3a189a702",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/workflow.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/workflow.py",
+          "sha256": "ea7abc6b969d71a0a37cd8e1bd75de9af37265a9fad48e5ef5c4e739728ff2fc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/pipeline/__init__.py",
+          "archive_path": "industry-evidence-platform/app/pipeline/__init__.py",
+          "sha256": "cf65e86762b20e165d617cedb615ba6d4143cd52329d25d6d6b4118d45496fec",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/services/jobs.py",
+          "archive_path": "industry-evidence-platform/app/services/jobs.py",
+          "sha256": "c8c6b9ba729f85f52fc4f09a3eda442a123d9010be1976cfeeb9648ea6f174b1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/services/materials.py",
+          "archive_path": "industry-evidence-platform/app/services/materials.py",
+          "sha256": "9e5b732c461109c2cfb52a0b0f9163d41c71062afafa30e87a860e93d2e58249",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/services/operations.py",
+          "archive_path": "industry-evidence-platform/app/services/operations.py",
+          "sha256": "6f38bc753273912afbc7cd5fd0fbd180b37350db8935524b07d90d8906dc58f8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/services/policies.py",
+          "archive_path": "industry-evidence-platform/app/services/policies.py",
+          "sha256": "885e5a1cf18380941cd1bbedfca4036371bf4c04d1175b9b34786f8a135a8835",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/services/storage.py",
+          "archive_path": "industry-evidence-platform/app/services/storage.py",
+          "sha256": "30a7152d881869a8d4c6230d4684659dd99b53ef02509cb38500d2a5a85280e6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "app/services/__init__.py",
+          "archive_path": "industry-evidence-platform/app/services/__init__.py",
+          "sha256": "491d5f528a6cc0fb2334b0f26c364b6b50fd56b15cd870d1c47401e4dcfda68e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/AGENTS.md",
+          "archive_path": "industry-evidence-platform/components/crawler/AGENTS.md",
+          "sha256": "1e95cc608fe0766be25227c90aafe1aa73a57a65e35a3c08c7d75ab46040a1dd",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/README.md",
+          "archive_path": "industry-evidence-platform/components/crawler/README.md",
+          "sha256": "a44825ce9d91d6e0d5956b1bcf8b955c1795b69ffbe5ad043ddd8aea08b73218",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/requirement.txt",
+          "archive_path": "industry-evidence-platform/components/crawler/requirement.txt",
+          "sha256": "4691ceb47310c344cfa590955f2b51635a068e2428c38faf00833c7ce81fafb8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/requirements.lock.txt",
+          "archive_path": "industry-evidence-platform/components/crawler/requirements.lock.txt",
+          "sha256": "4691ceb47310c344cfa590955f2b51635a068e2428c38faf00833c7ce81fafb8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/config/research.json",
+          "archive_path": "industry-evidence-platform/components/crawler/config/research.json",
+          "sha256": "f87817901366df445c68b1eaef31c9dc57dff90e6dc6b7948225f9dad891648f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/docs/WGAN数据增强评估.md",
+          "archive_path": "industry-evidence-platform/components/crawler/docs/WGAN数据增强评估.md",
+          "sha256": "4bdf499b6858368f0a3988e6178925e52086d8b0d317e9d2f55518e8353fe04c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/docs/三个项目接口准备.md",
+          "archive_path": "industry-evidence-platform/components/crawler/docs/三个项目接口准备.md",
+          "sha256": "500165b0debb5c127a92df83c99240fa217e28765938b9413dece60be57b31d3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/docs/抓取策略表.md",
+          "archive_path": "industry-evidence-platform/components/crawler/docs/抓取策略表.md",
+          "sha256": "121c8d2f216bacd0d68d886e2da2452cdf27878499f53ad8fa796895f837c578",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/docs/本轮验证记录.md",
+          "archive_path": "industry-evidence-platform/components/crawler/docs/本轮验证记录.md",
+          "sha256": "3252adc8c6155101734a396b055555a3652f70c1c8f77f11fc1d9fd69a225068",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/docs/研究分析使用说明.md",
+          "archive_path": "industry-evidence-platform/components/crawler/docs/研究分析使用说明.md",
+          "sha256": "ed8116fd1e3786e6f0e6097c1f921be4b5eb5151c6a7ef5e89a943965feb1649",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/sites/上游.md",
+          "archive_path": "industry-evidence-platform/components/crawler/sites/上游.md",
+          "sha256": "be0c7e67df02439b87960424f2fbe1d18dc88c248b95874976834d8289968f45",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/sites/其他数据.md",
+          "archive_path": "industry-evidence-platform/components/crawler/sites/其他数据.md",
+          "sha256": "d260bc15e8342b249b68816449493d09113deffdd8d7923c47e6d90e46450f88",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/sites/市场.md",
+          "archive_path": "industry-evidence-platform/components/crawler/sites/市场.md",
+          "sha256": "c61fd0807b96943be49227d2e5187dbedaa25570750b1aad7e32dd4cac92170f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/sites/贵阳餐饮_数据源.md",
+          "archive_path": "industry-evidence-platform/components/crawler/sites/贵阳餐饮_数据源.md",
+          "sha256": "1207b67bd4f2ea000952f3ef90425a769f090fe258fab8ce008f58b364c59ad5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/main.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/main.py",
+          "sha256": "879fdc8d3a6af3501a53a7b0e00463cb73b22b88a65fa0a0cfc8f93a0af6f271",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/research_api.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/research_api.py",
+          "sha256": "73e2a36fe7f71fd6565e2e2d5e173f48d5cef750e6289e6666d676102dd45f99",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/__init__.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/extract/Extract_Article.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/extract/Extract_Article.py",
+          "sha256": "dcd248abf1fbe39a037a4419af793c92adc103731d33baa4fb1f615981ac1fce",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/extract/Extract_Facts.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/extract/Extract_Facts.py",
+          "sha256": "00c0929c0d968a89858ef530e3f9c7a87848db6c2113e9270f80e3b3cbf33b54",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/extract/__init__.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/extract/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/Path_Store/Path_Store.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/Path_Store/Path_Store.py",
+          "sha256": "aff075e4bd165350705de2dc944493dabe5b2859064ed48b7d6ae537f0871549",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/Path_Store/__init__.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/Path_Store/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/research/assets.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/research/assets.py",
+          "sha256": "909c6c59ffedb3f898cb69448f90603338cfcf5788f504c71a533c6181be4201",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/research/evidence.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/research/evidence.py",
+          "sha256": "7cb9055fa2f717893c890edb172e83de9e9e1b9c614524009dd109864a358b89",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/research/llm.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/research/llm.py",
+          "sha256": "8ddae7a634692b3aef618e4eb2237bc95a70e038e52d289195bf3b3357a5cdf2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/research/retrieval.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/research/retrieval.py",
+          "sha256": "ac23acd223306c832b602b5097bff0faffa31a3c38de1856748853fce08b2f4d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/research/review.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/research/review.py",
+          "sha256": "8b86e1ae680ebdcef95f45ae43d57b121e3c0588882469ea8f56fa87f082f564",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/research/trend.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/research/trend.py",
+          "sha256": "3635d84836cdb23f1f528922fa8723ed06ced5f32a8bbe9bb14facad8948b809",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/research/__init__.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/research/__init__.py",
+          "sha256": "a4b8b9be41538a0d7d3b56613b596db1780291bcd75cd8de443195aa2eb9e4b8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/api.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/api.py",
+          "sha256": "47afc664cbf96958a6784f834b68d5a77c1df757857e9f1fb1127e74c5b5bce4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/boilerplate.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/boilerplate.py",
+          "sha256": "f353cfbc6c9cd11e1f5a2fae65fa6f88ed7756bed57e7731315aeb2b2d75a2cb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/console.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/console.py",
+          "sha256": "df938c65941ea50e3e2eaefe72566682db610efaffc41e1b7af367c43a44db08",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/dedupe.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/dedupe.py",
+          "sha256": "adcf4bacca36555673dd481b7c6110a816cebc81ab12d2fb11e75e2bb0484f8f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/discover.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/discover.py",
+          "sha256": "60f57cee42beee75da7e665ff1b37f5999760ae54426717e5fe40f2508d593e9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/errors.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/errors.py",
+          "sha256": "32416bdb57a2cbe1ef83f1df05d4655dd52bf0e52f82ac8b519457c0788c1f01",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/fetch_browser.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/fetch_browser.py",
+          "sha256": "cf2bf2fb4248c4527e638657286475b3e58cabb0d9770ed29324a9158a597703",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/fetch_tls.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/fetch_tls.py",
+          "sha256": "3f7f46f509a0761a0c0faac0143e54ce72a6172e2459f5e33049f7627f355124",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/html_utils.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/html_utils.py",
+          "sha256": "9ab68a717b9cbe312269e098bdc7c0fd0be6f12f73a3f82ebf39525bf0108971",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/io_utils.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/io_utils.py",
+          "sha256": "4093ed242f7802aafec98cf3d57aeb545379e8ed341cfd9c27a384096a1d4f7a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/job.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/job.py",
+          "sha256": "e45b1de7ebd825886c62aefa92b72332c61be3bb7eeb2e2075088ae81b26d959",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/net.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/net.py",
+          "sha256": "7c2ad4d76116f93dfef9eaddf65239fc57c3ffd409ff4cde855212db4f0992c2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/normalize.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/normalize.py",
+          "sha256": "37c517b62799b0d68a5872e1aa9105030f9a0b94c0bed1228e12c1289028c17b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/page.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/page.py",
+          "sha256": "635aa3ac9610b1c06ce186812a1c67655f7a303c7f30c0a3629e618149bbfa18",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/pdf.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/pdf.py",
+          "sha256": "b9c8eaf103338e53edfa271bb0e2273f2e13076cbdd8afb6c646b1b21d25d34c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/policy.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/policy.py",
+          "sha256": "f8b761b3bc36ea1c16370008392b91ee580ec1c23736958ef945a02d97ceb816",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/probe.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/probe.py",
+          "sha256": "569469e26e19648d8b715bc5996ca1a92bd12686028c10c7c925cce725ca6410",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/ratelimit.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/ratelimit.py",
+          "sha256": "bfd6af9a13cda7d6da5ba63e81ab1c79d12e896905c3fdcd7fc096ed7ab523c5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/record.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/record.py",
+          "sha256": "403ff5b0d882e014fdfc4926009044b0a13c0ecb8c161d82a00faf4fbb0246c0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/route.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/route.py",
+          "sha256": "8d175e4bba288b2e17a1c5e1446465869a3a28d346b042bc9a180536eb38899b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/source_meta.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/source_meta.py",
+          "sha256": "4864a05be5341b974e15d3c643f2e619f1d9466c8af268b2afc441b68e40ac91",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/store.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/store.py",
+          "sha256": "e2bf07a617e59468c242b86947882cfd374cec57efe93f884fc2853cad412d3b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/table_ops.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/table_ops.py",
+          "sha256": "234f18af0bf93bc3614f2d51e50250c626a44b01379de04e5e48610c3b36d716",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/url_norm.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/url_norm.py",
+          "sha256": "cfbecfa14026cc26a18650b9e0d5a836d0cf2d0e7df90da84f9cc5428517e7c7",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/web_check.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/web_check.py",
+          "sha256": "15365214fa87877266d9419369bce3033bf0a2915d039536e5ec6fcf77fd7c6b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/src/webcrawl/__init__.py",
+          "archive_path": "industry-evidence-platform/components/crawler/src/webcrawl/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_api_pipeline.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_api_pipeline.py",
+          "sha256": "d8c01b7d1b6788397871a4468986ad5f73697f85f7041e807eae04b0749fdb00",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_boilerplate.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_boilerplate.py",
+          "sha256": "a420d556b42bbc7b38b5f5f3c87004c8d523f7bfa75da55d6ab6915be7457d8b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_dedupe.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_dedupe.py",
+          "sha256": "836794b33c636a7ff8b6f40ec1d214e1c48972ea0520195460d5c58819230c6e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_discover.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_discover.py",
+          "sha256": "1a3e41c7fd8a00ccbadb5b97d489931bb967c1242f2458cb4e417019241ea40d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_evidence.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_evidence.py",
+          "sha256": "98f659dc4c12f4e72b41076548ed5c55c4c6b0ddb4dbbb68562ce6868d7942c8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_job.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_job.py",
+          "sha256": "0e591997a30fd36c19e4d8dfbd94ec1c55aa814afd63105cbada007e20a98548",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_llm.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_llm.py",
+          "sha256": "0fa812a9806134e9036e78ef125b12153b31472e8859687248f87effdb980fb4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_logic.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_logic.py",
+          "sha256": "fd0da28041fbd51c4af06d002caaa46bff002595ec2fa29e58497215ec21ad4c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_probe_route.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_probe_route.py",
+          "sha256": "e4ce123f64134fe0e31a1307986aecd2774f3dd23c3f6ec6058ac24c561fa6c0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_research_api.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_research_api.py",
+          "sha256": "324219aba9f08e9796437041071396b57f1108016ee5a974b3534a8d25a9e4fc",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_retrieval.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_retrieval.py",
+          "sha256": "8d1416f7f7c8a086b2e84366933911a2e70441e79489e54a6b94af8c9a219d39",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_source_meta.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_source_meta.py",
+          "sha256": "4268aa2ac45c62a340b39bb5f6ebcfe33b3d45b9088e09de68669f53649a43b2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_table_ops.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_table_ops.py",
+          "sha256": "5bae1c9e9fa9724f24357c86de428fb1052a7a02ae52e1f56ed53b13a788b24e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/crawler/tests/test_trend.py",
+          "archive_path": "industry-evidence-platform/components/crawler/tests/test_trend.py",
+          "sha256": "fda5dd34834a9908d24f2020d89ede2a1573dcd5f3887cc301cbc12c0a6d70f5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/wgan_trainer/PROVENANCE.md",
+          "archive_path": "industry-evidence-platform/components/wgan_trainer/PROVENANCE.md",
+          "sha256": "6979425f82c6ea71fb696435932a9e972c4b1f1a2b1693e14463403703787393",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/wgan_trainer/source.json",
+          "archive_path": "industry-evidence-platform/components/wgan_trainer/source.json",
+          "sha256": "5c236abb9b558685537cee9c9ce2ab0708cc731f82f5b710f835d1b351685a7c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/wgan_trainer/common/artifacts.py",
+          "archive_path": "industry-evidence-platform/components/wgan_trainer/common/artifacts.py",
+          "sha256": "bbb98135dd1fd8d067d1482be02fff06ae540725de9a3de38ac7eb6f21261ba3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/wgan_trainer/common/io.py",
+          "archive_path": "industry-evidence-platform/components/wgan_trainer/common/io.py",
+          "sha256": "47b750806acb43a4ed65ef5c70ec057d9c3e4edaffa39daafc6dac31a6ef80de",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/wgan_trainer/common/paths.py",
+          "archive_path": "industry-evidence-platform/components/wgan_trainer/common/paths.py",
+          "sha256": "866a8d2e8cad56210728aaa663c8598126455a9c9bfd489e387d566cb1678e68",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/wgan_trainer/common/__init__.py",
+          "archive_path": "industry-evidence-platform/components/wgan_trainer/common/__init__.py",
+          "sha256": "fc69d4d4dd4ebce046d579ed73907550da8d3a0f0eaadee4c6e0c2ac42883000",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/wgan_trainer/wgan_tools/missing_statistics.py",
+          "archive_path": "industry-evidence-platform/components/wgan_trainer/wgan_tools/missing_statistics.py",
+          "sha256": "05bdbcd1f019947f4fad7534a859769e2a80b74e99d75331d494c9fbd4b5bfb5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/wgan_trainer/wgan_tools/wgan_training.py",
+          "archive_path": "industry-evidence-platform/components/wgan_trainer/wgan_tools/wgan_training.py",
+          "sha256": "40c9065e9291b01ea61032d658a2d3699cadf4cb599a05241ab749c449793bf0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "components/wgan_trainer/wgan_tools/__init__.py",
+          "archive_path": "industry-evidence-platform/components/wgan_trainer/wgan_tools/__init__.py",
+          "sha256": "4a5d3f998897461a63bdf4ade721e5eeb45463f9f3159c840a8da9bf1db10a4e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "config/cli.json",
+          "archive_path": "industry-evidence-platform/config/cli.json",
+          "sha256": "37bd14c9f460df3038524dd8748dafc323ef1275d858b2f8e1dbd1cc9b763b5b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "config/research-grain.json",
+          "archive_path": "industry-evidence-platform/config/research-grain.json",
+          "sha256": "0765c951f69fd2e2767017a48cd8a16143e6d47bf819695ce0d97b7dd78e332d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "config/urls.example.txt",
+          "archive_path": "industry-evidence-platform/config/urls.example.txt",
+          "sha256": "d5e6210ec3711e76944be5b7796f1a2dfb469f65cfc5b10ec524f383e56a73d5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "config/wgan.json",
+          "archive_path": "industry-evidence-platform/config/wgan.json",
+          "sha256": "366737e7786b9c2d5157fe216ef9d011cc45c77a1538307c7dc75c6af0a4a6ee",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/CLI使用说明.md",
+          "archive_path": "industry-evidence-platform/docs/CLI使用说明.md",
+          "sha256": "03ff2f31e7c6f9fe3b092c1f30b1b417d98093e4b91d70e68f055cb0d29d6464",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/CLI验收记录.md",
+          "archive_path": "industry-evidence-platform/docs/CLI验收记录.md",
+          "sha256": "9ebbf60318b112e466a9b358c2cb4f27db07c25f8788fa1355051c7112d43f77",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/CSV后LLM清洗.md",
+          "archive_path": "industry-evidence-platform/docs/CSV后LLM清洗.md",
+          "sha256": "c3995baea3874cc2891922a33015cf3db4a46c33f228a6ffb6c0bdf8ac1b160a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/openapi.json",
+          "archive_path": "industry-evidence-platform/docs/openapi.json",
+          "sha256": "8f22675d18144309c52c48a676e028442362f6daaff703e0996c9ff66bb3b8d5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/交接_20261022_双抽取路径.md",
+          "archive_path": "industry-evidence-platform/docs/交接_20261022_双抽取路径.md",
+          "sha256": "93fdfa3ff1dac996e078da0de89bc482c5e23b66d3f46c89d0fd31aeed8b81eb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/代码规范检查与修正.md",
+          "archive_path": "industry-evidence-platform/docs/代码规范检查与修正.md",
+          "sha256": "31879614c8fd4e9629a9845331836c6f5f5c140da4abb4152cc927001a450fb2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/前端原型验收记录.md",
+          "archive_path": "industry-evidence-platform/docs/前端原型验收记录.md",
+          "sha256": "01158c8b100fda85a73d9a41d43c2e52623738588d9f10f944201d8d1f3c3778",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/前端后半流程验收记录.md",
+          "archive_path": "industry-evidence-platform/docs/前端后半流程验收记录.md",
+          "sha256": "567f5284929e4e2117757d2c76700e10c596a6e1c6565bb6c28a6f6d09f72769",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/归并清单_20261025.json",
+          "archive_path": "industry-evidence-platform/docs/归并清单_20261025.json",
+          "sha256": "016e10595e4bce35058fac3c0d3f167df1b36f1e35ac6f2602b9a3493543dbde",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/快速部署验收记录.md",
+          "archive_path": "industry-evidence-platform/docs/快速部署验收记录.md",
+          "sha256": "77a11f0ef7cfb49e71023c5cdb77b9391a1ae0bade9c42d17f7392bd1071d4b2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/接口缺项与实现边界.md",
+          "archive_path": "industry-evidence-platform/docs/接口缺项与实现边界.md",
+          "sha256": "1069c9ea6876e6a029535eef48e3925cb2f4e63fa3188811c8ac1c4e06c24650",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/搭建完成说明.md",
+          "archive_path": "industry-evidence-platform/docs/搭建完成说明.md",
+          "sha256": "38122696a9a3f3dddc027abea7ecb4b65c14e4c0f47752a8270f28c0769a8ce2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/数据整理与建模门槛.md",
+          "archive_path": "industry-evidence-platform/docs/数据整理与建模门槛.md",
+          "sha256": "4b9275ac22ff91e0ebcc7a0435cc47ad9638a2819a00a37603022331f3001c45",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/爬虫接入说明.md",
+          "archive_path": "industry-evidence-platform/docs/爬虫接入说明.md",
+          "sha256": "3626fed368a01a3fe9b7eb1ff35bd573327dbc243e239a5cb9c540a39ef711e0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/相对路径与改名验收.md",
+          "archive_path": "industry-evidence-platform/docs/相对路径与改名验收.md",
+          "sha256": "c399f22ababa8ecf36ed61f7b92729333e56fcc8bb939b156b81666f75ba3148",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/真实全流程测试_20261022.md",
+          "archive_path": "industry-evidence-platform/docs/真实全流程测试_20261022.md",
+          "sha256": "f0f9661b126b455d1d5080294ee1f0f6e91af0b66c0a477d843c3fd092c30f5a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/网页总装说明.md",
+          "archive_path": "industry-evidence-platform/docs/网页总装说明.md",
+          "sha256": "f7cd313bf44e5511273c5229687754dfa04ed479ca52f8188a586a649bbc5cd2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/资料归并_20261025.md",
+          "archive_path": "industry-evidence-platform/docs/资料归并_20261025.md",
+          "sha256": "a7dfdc066a35beb47f76665470842a9bac76302e154393ddf9d1489b9eeccfce",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/资料融合与数据质量.md",
+          "archive_path": "industry-evidence-platform/docs/资料融合与数据质量.md",
+          "sha256": "e0e03001eaf48de5ac81247be3a814c6cbc3d237d4b0df32aa7b8f43801c57d4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/采集后分支.md",
+          "archive_path": "industry-evidence-platform/docs/采集后分支.md",
+          "sha256": "2611d71d8f4996cccb51294ef806406f9273cd5341f377bc00284e0dc470efc2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/集成暂停交接.md",
+          "archive_path": "industry-evidence-platform/docs/集成暂停交接.md",
+          "sha256": "bfb18261e52726e97634a38b8ceab26ea286d82faa42e6c13e420aababef2bda",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/集成说明.md",
+          "archive_path": "industry-evidence-platform/docs/集成说明.md",
+          "sha256": "ed9f24c4ee878ed8da71db371fb8c384e763cca9b8aa8c72cfb8d44dd303abf2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/集成验收记录.md",
+          "archive_path": "industry-evidence-platform/docs/集成验收记录.md",
+          "sha256": "f9ce962d767a04f219e43137137e318a10fa2da100b53d13e354a1aad90eb27b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/验证记录_20261022.md",
+          "archive_path": "industry-evidence-platform/docs/验证记录_20261022.md",
+          "sha256": "5b759e0707a41fdb2c7adca81611409a77a748757950d4e1ab2f0d017207f415",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/README.md",
+          "archive_path": "industry-evidence-platform/docs/assets/README.md",
+          "sha256": "3e1361a3f9fe515931a6bb97986d799bbed3c0cfd18d63d45683424567922663",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/00_来源与文件说明.md",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/00_来源与文件说明.md",
+          "sha256": "a440839ab96d89225c8af144abd3037a7fc9d39c214223a2bd3dc26bed865a0c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/00_标志预览.html",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/00_标志预览.html",
+          "sha256": "2c501c53c26b8d90f662e2a90365282471a0c2f1ef7e915d23a411b4d173f036",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/manifest.json",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/manifest.json",
+          "sha256": "687779a07ca30ecc4b5597548dcc44df7f9aa1d81d6cde9e3bc1752715dc80e0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/01_JavaScript/JavaScript_社区标志.png",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/01_JavaScript/JavaScript_社区标志.png",
+          "sha256": "aa1e3d2ce0043845f92e2f4c3da07766d07b348bf69e4377092cad4a3238fed0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/01_JavaScript/JavaScript_社区标志.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/01_JavaScript/JavaScript_社区标志.svg",
+          "sha256": "556a298afe3d323c37e0fbd0b574071eeff6d1496a3a756a765f54d63fb29e68",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/02_TypeScript/TypeScript_主标志.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/02_TypeScript/TypeScript_主标志.svg",
+          "sha256": "139ae451b37a00251fe24358191699efa665f63f1c8369cb9dad833159e159e2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/02_TypeScript/TypeScript_主标志_512.png",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/02_TypeScript/TypeScript_主标志_512.png",
+          "sha256": "4716ee8a737cdd724dbb20e7f9ad060f0257ed6d736209000a4fcc9b3a2b9b92",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/03_NVIDIA/NVIDIA_横版.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/03_NVIDIA/NVIDIA_横版.svg",
+          "sha256": "4325ea0c4078941bce84b2b1c6f045c3daf36de44cfc4c89ac5c49186f4874e8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/03_NVIDIA/NVIDIA_竖版.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/03_NVIDIA/NVIDIA_竖版.svg",
+          "sha256": "5347e5188c74204767d2d4daa17b59b5a18ccd7ad0a7281e7961a83c20c96808",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/04_PyTorch/PyTorch_图标.png",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/04_PyTorch/PyTorch_图标.png",
+          "sha256": "6eed919bc6fd74d3c005385e1bfbdcbbe407351efde86dc97da6bf9a54fa0a97",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/04_PyTorch/PyTorch_彩色横版.png",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/04_PyTorch/PyTorch_彩色横版.png",
+          "sha256": "1bd8904565dab429866c1411ccc33a9ad48b85c948773ced4882f670373e69f8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/05_CUDA/CUDA_经典标志_406x246.jpg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/05_CUDA/CUDA_经典标志_406x246.jpg",
+          "sha256": "8791b9ea492045f379aa99f1f9f4f2f709ae1213ac69853f7e459546eb235c5c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/06_React/React_品牌图标.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/06_React/React_品牌图标.svg",
+          "sha256": "bd6c199d5e2ac37ed84265d87fbad25942f21c972527cf2670d644b15b54b555",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_浅色背景用.png",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_浅色背景用.png",
+          "sha256": "09521d8be39cc3e9cafbb20ffa772a71840f11fe1f1bbdd5a6136ece6d78a8f2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_浅色背景用.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_浅色背景用.svg",
+          "sha256": "171a4256324dedf3f8490afa415c69a35331b83c37515bf488b4b412a64bde46",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_深色背景用.png",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_深色背景用.png",
+          "sha256": "a91cb4403cda7f54eda2cde9a24514888028d8790eba7d7abc0ffbf5a62849a1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_深色背景用.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/07_Nextjs/Nextjs_图标_深色背景用.svg",
+          "sha256": "aa6ac53aa61a02d371eb0bb7891792af74027160aeab52dd9f9c1d7c25c8c5ce",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_浅色背景用.png",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_浅色背景用.png",
+          "sha256": "37654f668f0c6ca0cd09f4f7fc5665587b45ae976a4b3a652ea94fe340265bcd",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_浅色背景用.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_浅色背景用.svg",
+          "sha256": "550d7565765c1b3fdcac06d9269e4f0df71a878c97dfdca7e671dbec58605c40",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_深色背景用.png",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_深色背景用.png",
+          "sha256": "79bfd5050b6467b47d3a482f3848797c2eb06e0c2db56b5770e44508da2fef6b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_深色背景用.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/07_Nextjs/Nextjs_文字标志_深色背景用.svg",
+          "sha256": "e8855ef4fe6a6db8e5416d8636a48a8bb6ac64043f3a6c57da2895021a728099",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/08_Python/Python_双蛇图标.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/08_Python/Python_双蛇图标.svg",
+          "sha256": "439ed7d466e40be241efd62f5a27edfd8b8a1dba1071ca26831f9965df67f634",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/08_Python/Python_组合标志.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/08_Python/Python_组合标志.svg",
+          "sha256": "c3a428e8ebc59e19bc898c37b4e5c6a92d8fb4350594d3acd617256151fd7bdd",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/09_XGBoost/XGBoost_标志.png",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/09_XGBoost/XGBoost_标志.png",
+          "sha256": "6637e38dea1db7a54d6c16fd5b149c2c443d7a4c54a45829ce4b25cef6edbb15",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/assets/技术标志资源/09_XGBoost/XGBoost_标志.svg",
+          "archive_path": "industry-evidence-platform/docs/assets/技术标志资源/09_XGBoost/XGBoost_标志.svg",
+          "sha256": "cd01d496e07f0add6211a1e56415eb2a15b82362d66c0fcce405fdb05f441c76",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/presentations/README.md",
+          "archive_path": "industry-evidence-platform/docs/presentations/README.md",
+          "sha256": "a59e5724a8471dc8f788d6fedaeb7d4a88acb5fc732008244c870f02d3c1b543",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/presentations/产业研究平台_技术架构与协作流程_5分钟.pptx",
+          "archive_path": "industry-evidence-platform/docs/presentations/产业研究平台_技术架构与协作流程_5分钟.pptx",
+          "sha256": "aca5e983a5724915dd0e755fdc41c90438b8a7aa6695a1129e8ffd99992a15b0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/source/爬虫标准API接口.md",
+          "archive_path": "industry-evidence-platform/docs/source/爬虫标准API接口.md",
+          "sha256": "023045ad4e5d2f0c9d98869b964f516cd44fe0db66766721c7c51231d725e86e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/source/项目初步技术规划与目标.md",
+          "archive_path": "industry-evidence-platform/docs/source/项目初步技术规划与目标.md",
+          "sha256": "2a3b93c6f18f198a709b2f96a8772be8bfac78330bb06d75c457da0397612db2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/README.md",
+          "archive_path": "industry-evidence-platform/docs/validation/README.md",
+          "sha256": "8f9449a6f3ab10b36dd11c863aae958fb310839fc6697f52d4e6c249fbb89242",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/先读说明.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/先读说明.md",
+          "sha256": "d9b2af1c6f04725cc649b7392908be3c173f033fc25e76248911cb2a64bf8328",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/打开图片总览.html",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/打开图片总览.html",
+          "sha256": "5cc0844c7d395f2b6849e12be196c70ec406397b8eeff13de2054acc6afc6b01",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/文件来源清单.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/文件来源清单.json",
+          "sha256": "0ea9cb8ae166ce25c6fcb0f953cfaa47fb9d5f459dffa46e0e764ceb9809a500",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/相关问题与回答.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/相关问题与回答.md",
+          "sha256": "3b86fafa5bdb855c22c2318f5aca7292a4ada0c4a8d8903f5c8df14d72d0f890",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/01_预测与残差.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/01_预测与残差.png",
+          "sha256": "8d73769e081a7574476faed68993e97180ac1a31334ef0153bd85f1c93f81462",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/02_模型与基线比较.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/02_模型与基线比较.png",
+          "sha256": "fc7889cd2b7c8c24e18a5275c8bf667be9c1ecc67d0e1bba22f7111bf0285d09",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/03_趋势与预测.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/03_趋势与预测.png",
+          "sha256": "58124518932b8be02536436a3849efdce826e4de606651f3bf088a0243dc9171",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/04_特征重要性.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/04_特征重要性.png",
+          "sha256": "bda65d0010cca24c96fd74f57bb52ac1fa32426b1259e970e1f27b653a1d0031",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/05_TreeSHAP.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/05_TreeSHAP.png",
+          "sha256": "b67a106e8d941ee52c37c7586092c1527209d11b4e8d0ba533f9a0073cb99144",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/06_训练数据质量.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/06_训练数据质量.png",
+          "sha256": "63287a678df69bd301c15d3079312494cff3db829b00246c906f45a8a8b44b8c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/说明.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/说明.md",
+          "sha256": "0d433854ae04c9e3a71af936e85fe47aec5f04fdbf77e528c541cd3ab4a65eaf",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/forecast.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/forecast.csv",
+          "sha256": "100242db1adaa30a1cb092fba6efe2c51c2b2aeaf1f2c6957b5aff9dd6d8db87",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/predictions.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/predictions.csv",
+          "sha256": "1555e755daad0ddbe5b82228eb7cc8d2d14cc749b51b7cf21d6725a9c80339df",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/result.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/result.json",
+          "sha256": "e04f11e76deb636196423c2056ebf27887fb631c7ef27e8f933b7c34a8a37ecf",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/test.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/test.csv",
+          "sha256": "3ad7039757ca28e1033ec8c4c8a2be24e424e2d969e9dbf110207a4b72bb3a34",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/train.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/train.csv",
+          "sha256": "19976eed1fb5d0044332e9f68a05c59d5b15b5b3c9c09b42feeba2411c4e30e7",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/validation.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/01_XGBoost_合成年度数据/数据与指标/validation.csv",
+          "sha256": "b1b4d16cf1b97399b2370957eb1a00f5eeb17ad06d7fbe81641497f703ce176b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/说明.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/说明.md",
+          "sha256": "a83e1d311ad16dd8e2a7c740f3a8a6c527e50078562edab1a0f0eea11605bb5a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan.png",
+          "sha256": "7b297a63717149f0e57f76b380696cfda28282fb0db410ee764080896cc236bd",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.csv",
+          "sha256": "a1c7b025556098e65a8a60af7812626cbede7f6319a2e812e2ca913a9432004b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.json",
+          "sha256": "707e4dc890fab0eb4d7535484d523d3bc336d75b9958fb218675712399c3486b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/gan_tsne.png",
+          "sha256": "709d0ad8b0859b99209c6ab018e4265f22fcfe40c0b0727495075aafb7e73e3b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/generated.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/generated.csv",
+          "sha256": "99b04b873f46eb2f94e33a89dd9bfa639289460aae73206e49affed4f93b3ab8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/model.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/model.json",
+          "sha256": "0e1536a002b96ae15182d9424f685a88b71e0e7fd207d6f5420e679a987ddd9e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/quality.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/quality.json",
+          "sha256": "dceb7f9c65c856556367382285871c62ad0c87a9fe4faac9dfb5bd98078daec3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/training_history.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/pytorch/training_history.csv",
+          "sha256": "7756eddd2e2752cabb8f341b70d331439da2c6fe146e09194b9ae8e027908726",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan.png",
+          "sha256": "86cf326b3b78208116c5cd92a02e0409c6bb71ede1d2e7da60b40f5fa017c925",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.csv",
+          "sha256": "71d1b92992426c217f62ae9bd6143c6cb389ced54bd0cf92add443edc93581d3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.json",
+          "sha256": "707e4dc890fab0eb4d7535484d523d3bc336d75b9958fb218675712399c3486b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/gan_tsne.png",
+          "sha256": "1fb671e3630883f17d9e318526a1e053d15e03885543816102b666063458d601",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/generated.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/generated.csv",
+          "sha256": "a2e63f046217996beca38fb45e5c45fc34fcc835f8ff4a89a9646c639d2fcdc7",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/model.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/model.json",
+          "sha256": "fc2f2920bc044d80cec288db3d458346ecec1ad339ff9ba62d9bac100610d375",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/quality.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/quality.json",
+          "sha256": "bb5e2f6a9eed86eafef1dbc9b77e156c28d34d62daff07002106b409898075e1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/training_history.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/02_WGAN_当前五倍规则/tensorflow/training_history.csv",
+          "sha256": "c8f3b51902bcc52069ef432daae1016e02d6f1e2e141ab7d9c98a22b08f41f25",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/PyTorch_GPU_5000轮原始日志.txt",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/PyTorch_GPU_5000轮原始日志.txt",
+          "sha256": "3bda21c035a34a98ce64099fde6ccfc9eb27dfa3e06fd45312d9d47f3b751f5e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/说明.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/说明.md",
+          "sha256": "2cc555adad6666cea045121eea0da02215d9b7914160bf8fd3827976231043f1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan.png",
+          "sha256": "d4fa6f4e369f7f79b3f4f39e73c3a2639f8aab0a2d6ec4ce5b7c9a992bb59b28",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.csv",
+          "sha256": "8c4b858235224106493df5135a86d928222093eadf5481d9a919b99f96c9e005",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.json",
+          "sha256": "03e76e19edff347e6795d21505ff989373812d070b37dacaf9615613e939ca42",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/gan_tsne.png",
+          "sha256": "b514d254fa2a79ac4977d3e3edd9ba98e3017fc18d5b488fea141c8cbb9f7f92",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/model.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/model.json",
+          "sha256": "8e80ea5a5895b829d7f4ff0bc96dabd13afccc9a1bf212c1397717553baeb63b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/quality.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/quality.json",
+          "sha256": "e56e4fcd6b3e8eede8904fe7fea0b3a27e66926b879a512c8766922002cb252d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/runtime.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/runtime.json",
+          "sha256": "c027fdab214b9666412841804e0b44ce74504180d1e2ff9b1bca42fa97d69ac0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/training_history.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/pytorch/training_history.csv",
+          "sha256": "c0c293438f281d7b70f8e1cbff946628fb5cd6e69aa8fdd81d2e666721a799ca",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/gan.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/gan.png",
+          "sha256": "6b1618b77f4374483b6ab218df304910d0cc6df5c97195f9e01a9056584355a2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/model.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/model.json",
+          "sha256": "432e0d6b4fd4cf8badd6fac91249ceee92c21bf6c4bac924b8c14347dd998935",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/quality.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/quality.json",
+          "sha256": "3cb00b0e52c363060341fe8e0fe0a1ee45cfc2fced97dee852d4bef95cd0ea8e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/runtime.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/runtime.json",
+          "sha256": "8475805f556ab6d56a850f9d0e9f72a3a18497a2cef496b3e52e2e6949a81c61",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/training_history.csv",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/03_WGAN_历史配置存档/tensorflow/training_history.csv",
+          "sha256": "d9bec9ea6838c2a15014acdd046c22451e96ac659b6c8327dc1372ba9af3ed04",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/04_已有LLM回答/01_零来源_趋势回答.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/04_已有LLM回答/01_零来源_趋势回答.md",
+          "sha256": "6515c5b2b644ab7d03d5ea8a3ad657916e5dc54402d48a4685e3787a204014bf",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/04_已有LLM回答/02_历史公报_趋势回答.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/04_已有LLM回答/02_历史公报_趋势回答.md",
+          "sha256": "70fa3de3ff63e8167071e161f5314ffa05c4972b51c0bb2d90266382058b692a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/04_已有LLM回答/03_贵阳材料_趋势回答.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/04_已有LLM回答/03_贵阳材料_趋势回答.md",
+          "sha256": "c1a6916b53f3394587b6c26d69c6903a1e5e74c0f97c2473a7fa6e7f74786557",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/04_已有LLM回答/04_旧版贵阳建议回答_早于仅趋势要求.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/04_已有LLM回答/04_旧版贵阳建议回答_早于仅趋势要求.md",
+          "sha256": "64622c66345ee068bda0e5eea58b2ba9291454e2cf065d52112ae0c52c53f799",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/04_已有LLM回答/说明.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/04_已有LLM回答/说明.md",
+          "sha256": "41147ec345d9971751f699cc2bc5d7d9832e455b84c39dd374a48ccb11df77b7",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/01_零来源_趋势回答.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/01_零来源_趋势回答.md",
+          "sha256": "ac73e9ec3c8001e54f1cb14e295c3da3448298f00920b4f600e8ccfa002dc63b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/02_历史公报_趋势回答.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/02_历史公报_趋势回答.md",
+          "sha256": "54d45b5c305e3854ceb7ee7feca30328b604b7025b0edc81a4d8065193bbaeec",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/03_贵阳材料_趋势回答.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/03_贵阳材料_趋势回答.md",
+          "sha256": "d52461972ba6536220af373b037b6ad4cd7e2d243f6c1fe799f05926b5df71ab",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/04_旧版贵阳建议回答_早于仅趋势要求.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/04_已有LLM回答/对应原始报告/04_旧版贵阳建议回答_早于仅趋势要求.md",
+          "sha256": "59192bec68a0363b3f3ac46fe6c7d2a17cb8b414f3fe666641ec197f6141c610",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/05_验收记录/26网址真实采集报告.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/05_验收记录/26网址真实采集报告.md",
+          "sha256": "4a6d1720cb810279ec2a0d27164b877376c78ac8d69b5e5c212c11a0d8e102a1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/05_验收记录/26网址真实采集验收.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/05_验收记录/26网址真实采集验收.json",
+          "sha256": "33df2e772678616d322c2b18681ecaa09d7b5e496d257506730a10f44b5f0e74",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/05_验收记录/三进程接线验收.json",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/05_验收记录/三进程接线验收.json",
+          "sha256": "672162d0bc565a529bbc02daa4ed526f91ce2d99c032a25813fe934cdc82f5ba",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/05_验收记录/网页总装截图_100年合成数据.png",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/05_验收记录/网页总装截图_100年合成数据.png",
+          "sha256": "135188104664ce27a6e654d27abdf0fd97f240afe58d6a23ea452351956f5173",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "docs/validation/建模测试_20261022/05_验收记录/验证记录_20261022.md",
+          "archive_path": "industry-evidence-platform/docs/validation/建模测试_20261022/05_验收记录/验证记录_20261022.md",
+          "sha256": "30784ce1b7a841c666562f4c8b512d74d4ef07345a86573b40f2db8788f4efe5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/01_公报网址_2000-2025.txt",
+          "archive_path": "industry-evidence-platform/examples/research_sources/01_公报网址_2000-2025.txt",
+          "sha256": "ed12daf9f53bbed4975f5ae54838db7da8645df81e3592cf434e4a51fdfff698",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/02_公报网址_1978-2025.txt",
+          "archive_path": "industry-evidence-platform/examples/research_sources/02_公报网址_1978-2025.txt",
+          "sha256": "d7546dcdf459312731b3e024c3ef3801c8e60047cb619dcd04ea1bef40026f18",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/README.md",
+          "archive_path": "industry-evidence-platform/examples/research_sources/README.md",
+          "sha256": "4c775c4ba57ac7c9c23146174766bbda102eeb426e614e5abfa075477c5bcb81",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/先读说明.md",
+          "archive_path": "industry-evidence-platform/examples/research_sources/先读说明.md",
+          "sha256": "8ca1c2fe50fc5a7ceef19b13e3ca58244d9d63a1750bfd9e9a2364738a35c925",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/开始使用.md",
+          "archive_path": "industry-evidence-platform/examples/research_sources/开始使用.md",
+          "sha256": "99570c7a3b365b328d22aadfc77ad8f93f016fe512372ed97fa41e1ce9a72092",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/来源目录.csv",
+          "archive_path": "industry-evidence-platform/examples/research_sources/来源目录.csv",
+          "sha256": "87209cd90cae0d6d4223451377bafa820ae132e0e1225b2f26787d7c7f9f2508",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/来源目录.json",
+          "archive_path": "industry-evidence-platform/examples/research_sources/来源目录.json",
+          "sha256": "9675d366016269765c1e8eaa6a1580d5fe127cde4471973bd05dcb4aed0016b3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/测试结果_20261022.md",
+          "archive_path": "industry-evidence-platform/examples/research_sources/测试结果_20261022.md",
+          "sha256": "30784ce1b7a841c666562f4c8b512d74d4ef07345a86573b40f2db8788f4efe5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/真实来源验收_20261022.json",
+          "archive_path": "industry-evidence-platform/examples/research_sources/真实来源验收_20261022.json",
+          "sha256": "33df2e772678616d322c2b18681ecaa09d7b5e496d257506730a10f44b5f0e74",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/配置_全国棉花.json",
+          "archive_path": "industry-evidence-platform/examples/research_sources/配置_全国棉花.json",
+          "sha256": "401af44c251da82418ff0f95f1c99254555ebcaf06ee42e2e0400cd4bde3d0aa",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/配置_全国油料.json",
+          "archive_path": "industry-evidence-platform/examples/research_sources/配置_全国油料.json",
+          "sha256": "b2d05ccc06e7140cda7c026f7764714866c09bd9bd60e768f00d07048d94f0e9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/配置_全国粮食.json",
+          "archive_path": "industry-evidence-platform/examples/research_sources/配置_全国粮食.json",
+          "sha256": "1f8cee010941e37e703ea77ef42a995d06315c088896d1f63f914e0ed6c8a800",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/贵阳餐饮业/README.md",
+          "archive_path": "industry-evidence-platform/examples/research_sources/贵阳餐饮业/README.md",
+          "sha256": "1414e5bc2908a637dc28da2b8ec90d83c9bb193f97a2c9063683c9244df1d87e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/贵阳餐饮业/来源目录.csv",
+          "archive_path": "industry-evidence-platform/examples/research_sources/贵阳餐饮业/来源目录.csv",
+          "sha256": "25d6c30d5dabbb31768a5c922ca48d8817041a36817f4899f684ae8023d9e7aa",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/贵阳餐饮业/来源目录.json",
+          "archive_path": "industry-evidence-platform/examples/research_sources/贵阳餐饮业/来源目录.json",
+          "sha256": "0fcb1a48e4aa0804e4de792aeef29d560427c013a79ac6834172b5d78406d199",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/贵阳餐饮业/继续找数据的官方入口.md",
+          "archive_path": "industry-evidence-platform/examples/research_sources/贵阳餐饮业/继续找数据的官方入口.md",
+          "sha256": "98288274c72d328999f167cbbd283505640df57b4eba24783da1c948a7636f01",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/贵阳餐饮业/网址清单_官方全量.txt",
+          "archive_path": "industry-evidence-platform/examples/research_sources/贵阳餐饮业/网址清单_官方全量.txt",
+          "sha256": "93e54eacfa4255753f49b97ae5bfb6df32d7c9ef2ccdd8a774807f7bfcd233aa",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/贵阳餐饮业/网址清单_权威媒体补充.txt",
+          "archive_path": "industry-evidence-platform/examples/research_sources/贵阳餐饮业/网址清单_权威媒体补充.txt",
+          "sha256": "1fb461375954ef9e7b2be62421316812addb64b7c52214435a8c40ef589f689a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/贵阳餐饮业/网址清单_英文补充.txt",
+          "archive_path": "industry-evidence-platform/examples/research_sources/贵阳餐饮业/网址清单_英文补充.txt",
+          "sha256": "a1a332f8f542ba1bda2bb32f6e43d485f4814e17254e3832dc70bb671ce8e16e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/贵阳餐饮业/网址清单_贵阳中文优先.txt",
+          "archive_path": "industry-evidence-platform/examples/research_sources/贵阳餐饮业/网址清单_贵阳中文优先.txt",
+          "sha256": "dd3f4f17cdc41e994345bee29cc41ac1ea401c07ef247d258143b162da8ec155",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "examples/research_sources/贵阳餐饮业/说明.md",
+          "archive_path": "industry-evidence-platform/examples/research_sources/贵阳餐饮业/说明.md",
+          "sha256": "de53c6851e8f53b09dce110714571f6ee38d75824b9d7322da24c204a96dd7ae",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/Agent.md",
+          "archive_path": "industry-evidence-platform/frontend/Agent.md",
+          "sha256": "bc09b7a6a7279ae048f44664a746a70b5e82b2f83705b4bc119492afc6b91061",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/AGENTS.md",
+          "archive_path": "industry-evidence-platform/frontend/AGENTS.md",
+          "sha256": "9b432df2e197582f756057d06198f17aa5614923d83c82675deb048b1a3f9286",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/next.config.mjs",
+          "archive_path": "industry-evidence-platform/frontend/next.config.mjs",
+          "sha256": "b135bd0238746711acee83603e760d8763161b345de2c679ed8f070273b8f0a1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/package-lock.json",
+          "archive_path": "industry-evidence-platform/frontend/package-lock.json",
+          "sha256": "4c343428c026f9b40c3b068dbee71ccb9e9a554daed8cfe1b2c5a6060a410530",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/package.json",
+          "archive_path": "industry-evidence-platform/frontend/package.json",
+          "sha256": "bdd7ca3da455b86ef15243f544b5a3099dfc472726a023f8fe606a432d58a771",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/README.md",
+          "archive_path": "industry-evidence-platform/frontend/README.md",
+          "sha256": "c3072609d0b460c6c49d448968fa94534ba7c57df29f8e9fcbc62e379fb4fdea",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/tsconfig.json",
+          "archive_path": "industry-evidence-platform/frontend/tsconfig.json",
+          "sha256": "4f8db98412c5650e9ab4460f95ab1e356f233b1af9295973e6736e6fb375a0de",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/app/globals.css",
+          "archive_path": "industry-evidence-platform/frontend/src/app/globals.css",
+          "sha256": "67c16c7f7f6a77adb8eaf90b1e6e1a8df82c648b38f58bca0ba5214947a9683d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/app/layout.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/app/layout.tsx",
+          "sha256": "a1056f364336cfa567dcba62e6ada5ed8b6f3b8b297b419de97a40f7ea3b5170",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/app/page.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/app/page.tsx",
+          "sha256": "c990e31b7499f2be92e2babda0456452a90cd4964cdd4f8bd6389fa088cc51b2",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/app/api/platform/[...path]/route.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/app/api/platform/[...path]/route.ts",
+          "sha256": "d5bb1b8e772e37a97cbdd9a9fc6e84c720c83e7da37a606c5b31521078a9cd65",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/components/AnalysisChart.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/components/AnalysisChart.tsx",
+          "sha256": "a5698209403d54fb67f0877162f30d3a2ed768701bdfda6640a0fbde7efc0f8f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/DataQualityPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/DataQualityPanel.tsx",
+          "sha256": "d82951a3b199c3062951232a792d7779cf44a29cc323819ff17e627c27d5ea2a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/demo.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/demo.ts",
+          "sha256": "6fd187ee43590bab5913f2542238280e20905122e7bbf3cfe8da325c5c59c983",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/EvaluationPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/EvaluationPanel.tsx",
+          "sha256": "248817be352b5bf71478dbe992ac8f0dc8c15e484959562f7515585672145538",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/GanReviewPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/GanReviewPanel.tsx",
+          "sha256": "672aa21470bdf36fb8f449eb08edca6835f8c2a2d2328b54bb43d800301c3a27",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/InputPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/InputPanel.tsx",
+          "sha256": "c95f3894cd1025a5de994350fa714c6ab735e4d635b4ef340dd64b404bfc9882",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/LiveResearch.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/LiveResearch.tsx",
+          "sha256": "4fae2cefdfc1ab65e53a55b0be25938fd8ac4230fc69623da3b76ebf40828ec1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/LiveResults.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/LiveResults.tsx",
+          "sha256": "d102b812f1ac7ba31dc0e60aa7a74cbb68370a3271524261d4a17c2aff2fc722",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/ModelPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/ModelPanel.tsx",
+          "sha256": "053882471d6798c089465231fbc550a47b921b1948de05ff0135ffada608b07b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/ProgressPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/ProgressPanel.tsx",
+          "sha256": "35bdab729d597f6837bda0963530a801fc4c589002eeef289ab22b52e0966dfd",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/ReportPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/ReportPanel.tsx",
+          "sha256": "ace700dac973fc54cd8637fdf6daa84add293d3b41b977e36535953800237ce6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/ResearchMessages.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/ResearchMessages.tsx",
+          "sha256": "70b17fd904d01c801b5bbc4ef6ce8894f8d6d7ae5ac6a276566052baedd354a1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/ResearchPrototype.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/ResearchPrototype.tsx",
+          "sha256": "bb5611b8505bf75fff2f0be0a5103e37faee59168d5e7bfbe4476a24d3d4e399",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/ResearchWorkspace.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/ResearchWorkspace.tsx",
+          "sha256": "66297e71c7490603a7f22622c951d3f9fab47d0e7a711fe327fbb207e4c67932",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/ResultPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/ResultPanel.tsx",
+          "sha256": "adb8094f124ce3fe8ecf5e96e46a867b7fb7edd034bc1bcd397dd8ce505bf1e5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/features/research/TrainingPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend/src/features/research/TrainingPanel.tsx",
+          "sha256": "4d88708d5d54871d375bd365aa988bab635babe2e272963120865de3a59974c0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/lib/demo-analysis.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/lib/demo-analysis.ts",
+          "sha256": "261d262669af72536b02eec02afd96d4629889943293574a90a8ab48800d4d06",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/lib/download.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/lib/download.ts",
+          "sha256": "cf0b1ec8ca6935fe503312d4935178821835a35359d370f7dd5ee52a694bfe0a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/lib/platform-client.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/lib/platform-client.ts",
+          "sha256": "6530ecdab134987a6669b60f47ec0b705feaa742edaebe471ab85d1dd9f0f56d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/lib/research-flow.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/lib/research-flow.ts",
+          "sha256": "278358ae7c4aafbb4ef4309a2908bdffe98b0e78d7dda435591c30eae5d30bcb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/lib/url-list.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/lib/url-list.ts",
+          "sha256": "69ce1fb10a9baaa2047bfce1cedbda8da26bc30c4ab81d56c5f49db14502fa46",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/server/paths.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/server/paths.ts",
+          "sha256": "87aae820d0b767dc83de9aceb95f8068e9c79793913c5416e5b42b4cf15673df",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/server/platform-proxy.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/server/platform-proxy.ts",
+          "sha256": "33fdf51f594693c4ca0f5399ea91a428e955deda95a67a02423c880b8916fe94",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/types/pipeline.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/types/pipeline.ts",
+          "sha256": "bf197f2e3269118e36bde66679f1901e2a1b1514776e61bc3743d1e6c7ba64f1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/src/types/research.ts",
+          "archive_path": "industry-evidence-platform/frontend/src/types/research.ts",
+          "sha256": "81e5d4b6402e1f32f314918d0e41b5c16532d5376c2562f3d56bbae4a7630e78",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/tests/platform-proxy.test.mjs",
+          "archive_path": "industry-evidence-platform/frontend/tests/platform-proxy.test.mjs",
+          "sha256": "6988057f58f6853d5ab3f25ebcac8b620494a70da756860a09f1e993724c4598",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/tests/research-flow.test.mjs",
+          "archive_path": "industry-evidence-platform/frontend/tests/research-flow.test.mjs",
+          "sha256": "9145d6235ffa7a4222ef79575cd4e3b4e77110cda42a04a93b8bf859bccbfd93",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend/tests/url-list.test.mjs",
+          "archive_path": "industry-evidence-platform/frontend/tests/url-list.test.mjs",
+          "sha256": "38453a9b86e6adbfa22f7f1def45f50be57d6c3ba7e4929275cda88fbd522233",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/.gitignore",
+          "archive_path": "industry-evidence-platform/frontend-design/.gitignore",
+          "sha256": "1828e16e78f0d951bfed1f636b84a060996d50113eaa5f9399217f0b460c1675",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/Agent.md",
+          "archive_path": "industry-evidence-platform/frontend-design/Agent.md",
+          "sha256": "dd39a77b3efc6deecdd65e1e0fdb8ad81d1734a07a46bf1d7f9bbe46393dfb61",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/AGENTS.md",
+          "archive_path": "industry-evidence-platform/frontend-design/AGENTS.md",
+          "sha256": "bc6e7bd8f3c5879c0e0e3bbcb45bd2d87033e48ebdd319b59df9836c643f2b70",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/next.config.mjs",
+          "archive_path": "industry-evidence-platform/frontend-design/next.config.mjs",
+          "sha256": "b135bd0238746711acee83603e760d8763161b345de2c679ed8f070273b8f0a1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/package-lock.json",
+          "archive_path": "industry-evidence-platform/frontend-design/package-lock.json",
+          "sha256": "4c343428c026f9b40c3b068dbee71ccb9e9a554daed8cfe1b2c5a6060a410530",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/package.json",
+          "archive_path": "industry-evidence-platform/frontend-design/package.json",
+          "sha256": "bdd7ca3da455b86ef15243f544b5a3099dfc472726a023f8fe606a432d58a771",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/README.md",
+          "archive_path": "industry-evidence-platform/frontend-design/README.md",
+          "sha256": "6df825af714bbaa3eae6b77739f4d8b7f68e51302f599ea9f3f8633f21cd5049",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/tsconfig.json",
+          "archive_path": "industry-evidence-platform/frontend-design/tsconfig.json",
+          "sha256": "6755b7f1546b10e6e325d85ab51bb5354ab4fca133a354624503b0ff2eea45ac",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/启动预览.bat",
+          "archive_path": "industry-evidence-platform/frontend-design/启动预览.bat",
+          "sha256": "d594a3b278633a4b01b8e3319df0ff0c98423eed353777707a91a5a5b7c2d1fd",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/验收说明.md",
+          "archive_path": "industry-evidence-platform/frontend-design/验收说明.md",
+          "sha256": "3a027645570e57544e734f88e80c2426a4c2512506e287fdff1077345b1dd3ad",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/app/globals.css",
+          "archive_path": "industry-evidence-platform/frontend-design/src/app/globals.css",
+          "sha256": "57ede38f87db8d04bb74fbeba555eacf1a8f41dda9d63a31fc67ee1a05b30bbb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/app/layout.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/app/layout.tsx",
+          "sha256": "fde711520db97f88ff2cbe4d5f37bb0dcbb924816979b19fe19bc5f5c2127de4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/app/page.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/app/page.tsx",
+          "sha256": "3b9e3a08825d62e4be9f790c461e346f76271eeaeae94437fa882087479aea47",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/components/AnalysisChart.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/components/AnalysisChart.tsx",
+          "sha256": "a5698209403d54fb67f0877162f30d3a2ed768701bdfda6640a0fbde7efc0f8f",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/demo.ts",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/demo.ts",
+          "sha256": "6fd187ee43590bab5913f2542238280e20905122e7bbf3cfe8da325c5c59c983",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/EvaluationPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/EvaluationPanel.tsx",
+          "sha256": "248817be352b5bf71478dbe992ac8f0dc8c15e484959562f7515585672145538",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/GanReviewPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/GanReviewPanel.tsx",
+          "sha256": "672aa21470bdf36fb8f449eb08edca6835f8c2a2d2328b54bb43d800301c3a27",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/InputPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/InputPanel.tsx",
+          "sha256": "81e4326bf4779aec12768d8e3f1932133652df14130a499edbb5d47b98e57b84",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/ModelPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/ModelPanel.tsx",
+          "sha256": "053882471d6798c089465231fbc550a47b921b1948de05ff0135ffada608b07b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/ProgressPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/ProgressPanel.tsx",
+          "sha256": "35bdab729d597f6837bda0963530a801fc4c589002eeef289ab22b52e0966dfd",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/ReportPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/ReportPanel.tsx",
+          "sha256": "ace700dac973fc54cd8637fdf6daa84add293d3b41b977e36535953800237ce6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/ResearchPrototype.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/ResearchPrototype.tsx",
+          "sha256": "bb5611b8505bf75fff2f0be0a5103e37faee59168d5e7bfbe4476a24d3d4e399",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/ResultPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/ResultPanel.tsx",
+          "sha256": "adb8094f124ce3fe8ecf5e96e46a867b7fb7edd034bc1bcd397dd8ce505bf1e5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/features/research/TrainingPanel.tsx",
+          "archive_path": "industry-evidence-platform/frontend-design/src/features/research/TrainingPanel.tsx",
+          "sha256": "4d88708d5d54871d375bd365aa988bab635babe2e272963120865de3a59974c0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/lib/demo-analysis.ts",
+          "archive_path": "industry-evidence-platform/frontend-design/src/lib/demo-analysis.ts",
+          "sha256": "261d262669af72536b02eec02afd96d4629889943293574a90a8ab48800d4d06",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/lib/download.ts",
+          "archive_path": "industry-evidence-platform/frontend-design/src/lib/download.ts",
+          "sha256": "cf0b1ec8ca6935fe503312d4935178821835a35359d370f7dd5ee52a694bfe0a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/lib/research-flow.ts",
+          "archive_path": "industry-evidence-platform/frontend-design/src/lib/research-flow.ts",
+          "sha256": "278358ae7c4aafbb4ef4309a2908bdffe98b0e78d7dda435591c30eae5d30bcb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/lib/url-list.ts",
+          "archive_path": "industry-evidence-platform/frontend-design/src/lib/url-list.ts",
+          "sha256": "69ce1fb10a9baaa2047bfce1cedbda8da26bc30c4ab81d56c5f49db14502fa46",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/src/types/research.ts",
+          "archive_path": "industry-evidence-platform/frontend-design/src/types/research.ts",
+          "sha256": "81e5d4b6402e1f32f314918d0e41b5c16532d5376c2562f3d56bbae4a7630e78",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/tests/research-flow.test.mjs",
+          "archive_path": "industry-evidence-platform/frontend-design/tests/research-flow.test.mjs",
+          "sha256": "9145d6235ffa7a4222ef79575cd4e3b4e77110cda42a04a93b8bf859bccbfd93",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/tests/url-list.test.mjs",
+          "archive_path": "industry-evidence-platform/frontend-design/tests/url-list.test.mjs",
+          "sha256": "38453a9b86e6adbfa22f7f1def45f50be57d6c3ba7e4929275cda88fbd522233",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/预览图/GAN审查_宽屏.png",
+          "archive_path": "industry-evidence-platform/frontend-design/预览图/GAN审查_宽屏.png",
+          "sha256": "2e89ccf494a0caa45d1fd460715afb22c0fc97b99679b1a0de65ccea7307022e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/预览图/模型评估_宽屏.png",
+          "archive_path": "industry-evidence-platform/frontend-design/预览图/模型评估_宽屏.png",
+          "sha256": "dbd35d36623aba2b08a9deb521f97684572971f5e51e7c03e5eb326d6f313317",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "frontend-design/预览图/模型评估_窄屏.png",
+          "archive_path": "industry-evidence-platform/frontend-design/预览图/模型评估_窄屏.png",
+          "sha256": "17591b164e5638b1da3da90abf572b8a75eff021ded46b2f4fb935608d5c350a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "migrations/env.py",
+          "archive_path": "industry-evidence-platform/migrations/env.py",
+          "sha256": "875cd42d126f35746887e1dbe3469ba9cdd348c64c745ddeed5a009d2baca816",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "migrations/script.py.mako",
+          "archive_path": "industry-evidence-platform/migrations/script.py.mako",
+          "sha256": "cfdfc6a77619189ec761dd275ba948f214473a71e0f112770c1cbc9c4c03e985",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "migrations/versions/0001_service_framework.py",
+          "archive_path": "industry-evidence-platform/migrations/versions/0001_service_framework.py",
+          "sha256": "e9f54e6c0e6a3988d075c5d9804cac1afd0eb5eb9d254f71ee454cf627a69ed1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "migrations/versions/0002_operations.py",
+          "archive_path": "industry-evidence-platform/migrations/versions/0002_operations.py",
+          "sha256": "9545a37d67ccc22732c6f852fdfccd5818dfb1ac9a0670181744d73bb14d8d29",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "output/README.md",
+          "archive_path": "industry-evidence-platform/output/README.md",
+          "sha256": "2f6c518503a4e83829af6848361b60cc8b84208b0be35687b2ec9eb164ceb25d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "requirements/gan-pytorch-cuda.txt",
+          "archive_path": "industry-evidence-platform/requirements/gan-pytorch-cuda.txt",
+          "sha256": "615734fafcb4df0b2c82e30f6a1590ef11a0572a239186093d07664da2b8c5e6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "requirements/gan-pytorch.txt",
+          "archive_path": "industry-evidence-platform/requirements/gan-pytorch.txt",
+          "sha256": "fe2fe08dbd5137744563c4876aa4270e1c6592061c4d40ac467ee680ab6d5043",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "requirements/gan-tensorflow.txt",
+          "archive_path": "industry-evidence-platform/requirements/gan-tensorflow.txt",
+          "sha256": "d49c5e393db37ee9f282acb8756eaa9413b57e2869ef54aebf60fcee07b01fba",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/export_metadata.py",
+          "archive_path": "industry-evidence-platform/scripts/export_metadata.py",
+          "sha256": "29ecc5f36f2bfa99f448d0c9887d338d72efc8cd72c7460c35b5098b7f35eb9b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/init_config.py",
+          "archive_path": "industry-evidence-platform/scripts/init_config.py",
+          "sha256": "b2795d580678f98a1c4d237505f0edc21dba60fdb6f6200a0db39ffc40561290",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/Launch.ps1",
+          "archive_path": "industry-evidence-platform/scripts/Launch.ps1",
+          "sha256": "0593d5654787e1aa55c68c897032ca12c8c0c60abfb7c21e5fddb5968ff3cbc1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/Setup.ps1",
+          "archive_path": "industry-evidence-platform/scripts/Setup.ps1",
+          "sha256": "136ffc29ac5a25b09ee04040640ec95fbc68ecfbe9c1d13c6041da4ab99d5395",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/smoke_pipeline.py",
+          "archive_path": "industry-evidence-platform/scripts/smoke_pipeline.py",
+          "sha256": "ef43bcc85048077f3440f1e3b36870b708477d04e21aaa6fc907275be29293a5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/smoke_service.py",
+          "archive_path": "industry-evidence-platform/scripts/smoke_service.py",
+          "sha256": "8b990448a811228af27069e3cadc91b439308a60b5835af24b36591b4e7baa78",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/Start-Api.ps1",
+          "archive_path": "industry-evidence-platform/scripts/Start-Api.ps1",
+          "sha256": "73987a4c8962e00987581b99aca13a567e9e758500f39c4716dc3fdeba233cd1",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/Start-Worker.ps1",
+          "archive_path": "industry-evidence-platform/scripts/Start-Worker.ps1",
+          "sha256": "20dcbd2c4e672f6568fabdf2b983904fadc4f4c4ac572a6fa1d458b59b2d9c9d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/Test.ps1",
+          "archive_path": "industry-evidence-platform/scripts/Test.ps1",
+          "sha256": "7a12c79d72c59978346cbde862d56ae6d9243247ed26a2794e48d2a0549a5e00",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/verify_cli_models.py",
+          "archive_path": "industry-evidence-platform/scripts/verify_cli_models.py",
+          "sha256": "6eaec1703d12ddb116117269184505929d7aedc636d628644fbfd768b4e0aef6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "scripts/verify_environment.py",
+          "archive_path": "industry-evidence-platform/scripts/verify_environment.py",
+          "sha256": "85f4bed801565925bd42edce9829b227e2a802c2d5a930a5ee37eac4c4ea098c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/conftest.py",
+          "archive_path": "industry-evidence-platform/tests/conftest.py",
+          "sha256": "ec0393266139ca9270934dbccf2521a216108d537ad3e7494fe216a9b3a686ab",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/process_adapter.py",
+          "archive_path": "industry-evidence-platform/tests/process_adapter.py",
+          "sha256": "99fa46a5fba3bfe9049621e6581d90583a802223cae4f34538e5db4845328da8",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_celery_integration.py",
+          "archive_path": "industry-evidence-platform/tests/test_celery_integration.py",
+          "sha256": "9698f7fb90c6b64ff71de8cc99e681f4190b006b497631cf9acc6fb085405e34",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_collection_branch.py",
+          "archive_path": "industry-evidence-platform/tests/test_collection_branch.py",
+          "sha256": "b2c88dd7a5c272cebf6d8315bd28588f4c3da77b5e2aca488b2f1e86daf332d7",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_conventions.py",
+          "archive_path": "industry-evidence-platform/tests/test_conventions.py",
+          "sha256": "674804bb7e4f9b30f6aaccbb4f2958ad104fac975ed6beda8891b675d711eede",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_data_recovery.py",
+          "archive_path": "industry-evidence-platform/tests/test_data_recovery.py",
+          "sha256": "ebfcc325495b32af0ca3cb420658c52f8b1d632a720b74eb328df359ec602e01",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_deployment.py",
+          "archive_path": "industry-evidence-platform/tests/test_deployment.py",
+          "sha256": "d2b49d25a6904d2e9f5459ee338073b8943028be95c5ea6024084aff080c8ff4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_integration.py",
+          "archive_path": "industry-evidence-platform/tests/test_integration.py",
+          "sha256": "96570cdf8a04e871eb3ce661e6f2377bae85dfe557c906556d7ec967a6dfc915",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_live_progress.py",
+          "archive_path": "industry-evidence-platform/tests/test_live_progress.py",
+          "sha256": "dbee8ed5752cb1c6f53822fe4b4ca83f539b36fcc84d90a09e47ec6f64ea2b00",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_llm_cleaning.py",
+          "archive_path": "industry-evidence-platform/tests/test_llm_cleaning.py",
+          "sha256": "a830edd414f84cb3946620156f50653d6f58a14b2f74d5896c64585ffca78850",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_network_integration.py",
+          "archive_path": "industry-evidence-platform/tests/test_network_integration.py",
+          "sha256": "6c10b43e7adf931c7a984b7187e82928692423249acb2ba413ba311fd9126277",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_pdf_integration.py",
+          "archive_path": "industry-evidence-platform/tests/test_pdf_integration.py",
+          "sha256": "81064e45c5ee27ad2bbcc45018d07ad45ce45834c04fa3cb7fb5bab691289b41",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_pipeline.py",
+          "archive_path": "industry-evidence-platform/tests/test_pipeline.py",
+          "sha256": "74fa4928bab026783a2f55c43b65e86e4d04fffb0394e7712fdc0f141a52895a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_pipeline_web.py",
+          "archive_path": "industry-evidence-platform/tests/test_pipeline_web.py",
+          "sha256": "006ad7df3db460d39d4456cfa719c6a6e5dc56c6106912772df484af03d8dcdb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_process.py",
+          "archive_path": "industry-evidence-platform/tests/test_process.py",
+          "sha256": "0e023ed512bb1e024549f7b68d9f3853d9b0bb4722e6d90b355d496694b0718a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_service.py",
+          "archive_path": "industry-evidence-platform/tests/test_service.py",
+          "sha256": "d694cee22a6ad4c88c3f81705da26b7147c6f08b19649292f66919955d975de7",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/test_stateless_trend.py",
+          "archive_path": "industry-evidence-platform/tests/test_stateless_trend.py",
+          "sha256": "2fc12e7e8abb8ca1aea6e4e362a84410b162b12e82a01989f4a783aecd9fe469",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "tests/__init__.py",
+          "archive_path": "industry-evidence-platform/tests/__init__.py",
+          "sha256": "9eb8cefaf56d820fda2d5c820363262f850a61e5598d78ecdb857f3b9753cfd3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/.env.example",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/.env.example",
+          "sha256": "d0b34c3d15f2e1a2c335c5bec4077a2f50e26e747a29bfa7ad519771993053bb",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/.gitignore",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/.gitignore",
+          "sha256": "2dd93aed26b46ea3e74bcde01b1f6546c5c42c8fb136ba12f14b7b5faf0e7e74",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/AGENTS.md",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/AGENTS.md",
+          "sha256": "b777bb25139052e3c36a72b8cde9c12d6d74820e63450e96865627cf293170ec",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/pyproject.toml",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/pyproject.toml",
+          "sha256": "0cf6125ea05498502c6f33c2dff7fe8a71840c600958b872ca554a0a835c6edf",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/README.md",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/README.md",
+          "sha256": "c809b842112357d4f2d0466be434bff8dfc4cda3401e276325eb152ea61aee7a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/requirements.lock.txt",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/requirements.lock.txt",
+          "sha256": "a383b0c737659c913c6de6370504783b5fcc0a5e71989360a19700e5ff029e4e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/迁入说明.md",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/迁入说明.md",
+          "sha256": "f0e039ff8e263a0e5e070b1621c5ade2c89688981246077643e9f6480e64c865",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/cli.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/cli.py",
+          "sha256": "83fd40d4a78264985d28527b10d47b7f5d75f938b71793fa22d759c2c8035a18",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/common.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/common.py",
+          "sha256": "3f98512bcf80efda6fa75c625d244f1e8c38a89cd5c26020d28351a16bad8b62",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/history.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/history.py",
+          "sha256": "157a6435c8a52693529f4f2acda9989a3a17ef5212245a8a175777413a8f24b9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/memory.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/memory.py",
+          "sha256": "6fdaa2f2e679ba829b5e337a9bccbefc2a402415283c8b86172b4123f7fc00f3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/model.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/model.py",
+          "sha256": "5b5883dabd508357105c1d309fbcf173ed91182f5f6d307fc1c5f6a47106ea5c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/prompts.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/prompts.py",
+          "sha256": "0bc846003b0e7c0e5a0f48977b3237cca3522ca8666a752c38442a31107dbabf",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/service.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/service.py",
+          "sha256": "ebd6052f771576b3e66c5895b1039ab131bcfbb6d8fb3fdfdb353b121188c9e0",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/__init__.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/__init__.py",
+          "sha256": "473572331957caac86bb1ba00c5dfa5ea595454ccfffadaf8bb1e10d5096d93d",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/__main__.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/__main__.py",
+          "sha256": "7232ed5e9fb9f3c9653194a6977c591bb5d04da3b9695decfb48a485ad2074b3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/assets/summary.md",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/assets/summary.md",
+          "sha256": "73d8802926e4cfbd6bcb200904ed989570066a541340becb32e628f7c91eca43",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/assets/system.md",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/assets/system.md",
+          "sha256": "35a762f6b1780c0cf59ab9d12d772d39fbbc58d01fbc7fc54e3a625597c2b840",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/shared/errors.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/shared/errors.py",
+          "sha256": "e13025b1fd8ef2c54ac6fbbe88f2c40c43d5cc718281c3487693a2c18e988003",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/shared/file_io.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/shared/file_io.py",
+          "sha256": "2e7351535e999affb743a426594d7aef0139c8206f34ccc68804a0ea0bac0e71",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/shared/paths.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/shared/paths.py",
+          "sha256": "254f7f26f29467057aa1a7f3f9faed305831c1ffe6e24ba097891b027dfba501",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/advisor_bot/shared/__init__.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/advisor_bot/shared/__init__.py",
+          "sha256": "321c84c32ad38224dfc7367bd929b252b276b69bc73b585f219c75830f9f8292",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/docs/AI工作手册.md",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/docs/AI工作手册.md",
+          "sha256": "a7acb8d443629a1de9860ef8f2edae7fb87c4ff5cc3f260e347fd2d0b8e36864",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/docs/本次交付与规范检查报告.md",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/docs/本次交付与规范检查报告.md",
+          "sha256": "81530c58a60b25afaba9ffa4a57fa2e5b9c0da542de33081ba29dfae4033ced6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/docs/模块合同与验收.md",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/docs/模块合同与验收.md",
+          "sha256": "3a8bffcdf91d82f59b77c26f9dc3bda7f995c2fab9b137edd52782a5315842ff",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/tests/conftest.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/tests/conftest.py",
+          "sha256": "d651f8da6a90c140cf008ca6d920d04b4c54638b79659bef4e37ffb336c47307",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/tests/test_advisor.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/tests/test_advisor.py",
+          "sha256": "f4e4b14a40dfa40bd11e7cdb479d6c444867e70ebb3a0c903939254659854de6",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/tests/test_independence.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/tests/test_independence.py",
+          "sha256": "a8867308fccdb886da81afe82839327342660945e0bf51d169cda26f79a07e39",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "产业研究建议助手/tests/test_model.py",
+          "archive_path": "industry-evidence-platform/产业研究建议助手/tests/test_model.py",
+          "sha256": "ef17a6d854ff57d83bb262ba630d784a6fbc445f29f641083bfb0b3d4fb7a072",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/README.md",
+          "archive_path": "industry-evidence-platform/启动脚本/README.md",
+          "sha256": "9e533c90dd7a92425bac40fbec12e1ba2cd88919c5bbba793a505947e56f786c",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/01_平台/一键启动.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/01_平台/一键启动.bat",
+          "sha256": "7ea2d35eb146aac5fbd69c97c59b55e6ed9bc641a4baa5c326a7fca0c2375704",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/01_平台/仅配置环境.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/01_平台/仅配置环境.bat",
+          "sha256": "f2fd3cbef1b0939048356d3f586191676cc9a88ad72e508af440767f8330ba2a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/02_命令行/启动CLI.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/02_命令行/启动CLI.bat",
+          "sha256": "8b924cb86918c5467a8c81e9e4a5d98307affbff60a9887cc6eaeb53e5d80017",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/02_命令行/启动建议助手.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/02_命令行/启动建议助手.bat",
+          "sha256": "4fbbac88e8e91c0b73c84dcb3312e896127bf5b7105d807ead7a5ae39266a009",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/02_命令行/建议助手离线演示.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/02_命令行/建议助手离线演示.bat",
+          "sha256": "1e05692e1f9c255833f84c6bd16978a63efd2c769de261758b77ed06c74c3039",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/03_开发维护/仅启动前端.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/03_开发维护/仅启动前端.bat",
+          "sha256": "6c18e2331ba4f0f2738a9ad6bad441c954511485e8caaad4d57f99ea513ea8b9",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/03_开发维护/仅检查建议助手.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/03_开发维护/仅检查建议助手.bat",
+          "sha256": "69221b2ba32cb1a4f2a1e524627cb2e3fef450d20a30dcd096ee180d9d240dc5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/03_开发维护/启动API.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/03_开发维护/启动API.bat",
+          "sha256": "7de85d8c3b97db0e3256301b713a5bd86f21394230e29d088f53decde1a6bb51",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/03_开发维护/启动Worker.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/03_开发维护/启动Worker.bat",
+          "sha256": "e3baad1a064459c5ab03e16d07f455d7206ef2fc249c2fd4665edbf0e907adef",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "启动脚本/03_开发维护/运行全部检查.bat",
+          "archive_path": "industry-evidence-platform/启动脚本/03_开发维护/运行全部检查.bat",
+          "sha256": "e9d40149affafba37d7456170b409cb290b2ac1350a1bf608e07b97ff49de040",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "快速部署/config.example.json",
+          "archive_path": "industry-evidence-platform/快速部署/config.example.json",
+          "sha256": "75a9ed8335d70f98b85cf2edc67100ff5f6e30406b964571b96a08b9fdf89804",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "快速部署/Hardware.ps1",
+          "archive_path": "industry-evidence-platform/快速部署/Hardware.ps1",
+          "sha256": "67dd3ee65c02905c97dfae85355576b30d439e5713b9ebb69c03838efa9c9287",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "快速部署/README.md",
+          "archive_path": "industry-evidence-platform/快速部署/README.md",
+          "sha256": "6ed7ea4ab406f1db8c29ff418f9b44e44ebc0a8190c35a59776e3c7000fd059b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "快速部署/Start.ps1",
+          "archive_path": "industry-evidence-platform/快速部署/Start.ps1",
+          "sha256": "5db7da6a819b0fa7982cb021be9437a209eb3868a8272841b7671e7d08e1f245",
+          "tracked_in_archive": true
+        }
+      ],
+      "source_repository": "https://github.com/aaf12329/industry-evidence-platform",
+      "source_commit": "be3397cd08ec8d110ccd2710c44ecc4f3d0f536f",
+      "source_tree": "46c7a6cf5ddf342a527cb9a91b59818684f99fd8",
+      "archive_tree": "46c7a6cf5ddf342a527cb9a91b59818684f99fd8",
+      "verified_file_count": 454,
+      "tracked_original_file_count": 454
+    },
+    {
+      "directory": "Scratch_lesson",
+      "files": [
+        {
+          "original_relative_path": "3D的初步实现.md",
+          "archive_path": "Scratch_lesson/3D的初步实现.md",
+          "sha256": "519d0d60f079aebec4ab9fd5dbefa4a32e49bdad51d68cb5062fe1efdbd0624a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "3D的数学原理与代码结构.md",
+          "archive_path": "Scratch_lesson/3D的数学原理与代码结构.md",
+          "sha256": "8e227acf4c9e38f613ecd5f1040d492133b7a952779b8c2d43db17b71c5c9036",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "3D的迭代优化.md",
+          "archive_path": "Scratch_lesson/3D的迭代优化.md",
+          "sha256": "a083b3caaab6fcc92359f9bccfb2c174fb5edd52aa729b74e08e23c4f53b2e5e",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "README.md",
+          "archive_path": "Scratch_lesson/README.md",
+          "sha256": "17751f7a0808824665d1a8c51f19be6eca94e2721ea10776e9823756f9114c70",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "Scratch 3D.sb3",
+          "archive_path": "Scratch_lesson/Scratch 3D.sb3",
+          "sha256": "fc51fda05c96d62003f0ac6133a9c50413ef38c0d07f986e42c4560463ee7544",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "是否刷新屏幕.txt",
+          "archive_path": "Scratch_lesson/是否刷新屏幕.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-RES扫描列.svg",
+          "archive_path": "Scratch_lesson/assets/3D-RES扫描列.svg",
+          "sha256": "a02508110e90f06e3d9f3da1e0673fd2f1759031c2d719bada6ad10e24bff7e3",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-三旋钮.svg",
+          "archive_path": "Scratch_lesson/assets/3D-三旋钮.svg",
+          "sha256": "d5be965c0bf98811ba057390e9c2083b1259885ba13ca57f1fd61ef1e71ab9e5",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-代码结构参考.png",
+          "archive_path": "Scratch_lesson/assets/3D-代码结构参考.png",
+          "sha256": "c4dce633cf2cf89b2cfe5698ef42b815fd9f75ae0f684020a92f2a7b9b424d6a",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-代码结构参考.svg",
+          "archive_path": "Scratch_lesson/assets/3D-代码结构参考.svg",
+          "sha256": "fb97468da99770884e7a701b361278739427d0d530caf77efb148e5b74a01621",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-例子-俯视.svg",
+          "archive_path": "Scratch_lesson/assets/3D-例子-俯视.svg",
+          "sha256": "de9af3272c8ed733fa2c277e0907b16083bd77643a95280f140cefa79d375160",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-例子-屏幕.svg",
+          "archive_path": "Scratch_lesson/assets/3D-例子-屏幕.svg",
+          "sha256": "79e648e855e047781a6fc410f80db07f90676c4c61d1242127ee79f36b84c9b4",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-原理.svg",
+          "archive_path": "Scratch_lesson/assets/3D-原理.svg",
+          "sha256": "0091740545df1a9e198ca3712b0f32f142cfcd5d53756de726091e49e729a79b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-扫描示意.svg",
+          "archive_path": "Scratch_lesson/assets/3D-扫描示意.svg",
+          "sha256": "bccd255ec00e6d9eb9fa35a8ed0a4d85c71d15eeebd6c8efecb6a5a7d9a9e706",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-明暗雾化.svg",
+          "archive_path": "Scratch_lesson/assets/3D-明暗雾化.svg",
+          "sha256": "4f6f2b47f51959144e5d97dd5ffb1e184c46f30bee1a2b3947fd01187a13d555",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-步进测距.svg",
+          "archive_path": "Scratch_lesson/assets/3D-步进测距.svg",
+          "sha256": "f95e0436f6e1ecfef36153bdc37c39faf5cca64a1240e33df132b3f5543379ae",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-背景渐变.svg",
+          "archive_path": "Scratch_lesson/assets/3D-背景渐变.svg",
+          "sha256": "60ce656574a1cfe7ee0841d81bed6655095a3043f707088a71d9061226034efa",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-调用路径.svg",
+          "archive_path": "Scratch_lesson/assets/3D-调用路径.svg",
+          "sha256": "a43f886616b98c5d2f6ec0b5c78124cef1c2048b33fc8864108d224b179a3c05",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-鱼眼校正.svg",
+          "archive_path": "Scratch_lesson/assets/3D-鱼眼校正.svg",
+          "sha256": "c66c4789149ce3d416604b89ce7be44ddaaf218c86572e557ee940e2d6cead9b",
+          "tracked_in_archive": true
+        },
+        {
+          "original_relative_path": "assets/3D-鱼眼问题.svg",
+          "archive_path": "Scratch_lesson/assets/3D-鱼眼问题.svg",
+          "sha256": "72e3242488aa78069d7dd47695d76e8c196116783090c7d608aef393d7be225c",
+          "tracked_in_archive": true
+        }
+      ],
+      "source_repository": "https://github.com/aaf12329/Scratch_lesson",
+      "source_commit": "7d99e7d4c297a49807d4064e19a0b0557af70c1d",
+      "source_tree": "a7e83f924fbe8cd2b9f4ac183718b22f0a13bf87",
+      "archive_tree": "a7e83f924fbe8cd2b9f4ac183718b22f0a13bf87",
+      "verified_file_count": 20,
+      "tracked_original_file_count": 20
+    }
+  ]
+}
