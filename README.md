@@ -12,6 +12,7 @@
 | `Scratch_lesson/` | Scratch 画笔伪 3D 光线投射工程、原理讲解和配套图片 | [原项目说明](Scratch_lesson/README.md) |
 | `My_Agent/` | 纯 Python Agent：Prompt 池、记忆检索、工具循环、GUI，含独立 whale 挂件与封存版本 | [原项目说明](My_Agent/README.md) |
 | `EyeWheelchairProject/` | 暂时封存的眼控轮椅原型：视觉交互、模拟串口、Arduino 固件、模型与 YOLO 子项目 | [原项目说明](EyeWheelchairProject/README.md) |
+| `Adsorption_Predictor_Web/` | 磺胺类抗生素的生物炭吸附性能网页预测器，含模型、配套数据与环境治理路演 PPT | [原项目说明](Adsorption_Predictor_Web/README.md) · [本次归档说明](归并记录_20261109.md) |
 
 ```text
 history_code/
@@ -24,7 +25,10 @@ history_code/
 ├── industry-evidence-platform/
 ├── Scratch_lesson/
 ├── My_Agent/
-└── EyeWheelchairProject/
+├── EyeWheelchairProject/
+├── Adsorption_Predictor_Web/
+├── 归并记录_20261109.md
+└── 归并清单_20261109.json
 ```
 
 ## 使用方式
@@ -47,4 +51,12 @@ history_code/
 - `.env`、虚拟环境、依赖缓存、IDE 配置和 Python 字节码不作为新增归档内容。已有历史资源继续保留，不在本次整理中擅自清理。
 - 本轮只做目录整理与文件完整性核验，没有重新运行任何项目，旧测试记录不等于本轮验收。
 
-*整理日期：2026-10-28。*
+## 2026-11-09 追加归档
+
+新增 `Adsorption_Predictor_Web/` 独立快照，将配套[环境治理路演 PPT](Adsorption_Predictor_Web/docs/生物炭吸附性能预测器_环境治理路演.pptx) 放入该项目的 `docs/`。保留原有源码、模型、配套数据、截图和 `build/` 中的离线辅助脚本；这些脚本是源码，不是构建输出。桌面原件保留，44 个来源文件逐一通过 SHA-256 核验。
+
+本次仅归档，没有启动服务、安装依赖或重新验证模型指标。网页项目面向磺胺类抗生素，不能作为铅离子预测模型使用。详细来源、范围与核验见[归并记录](归并记录_20261109.md)和[哈希清单](归并清单_20261109.json)。
+
+Added an independent snapshot of the adsorption predictor and its presentation. All 44 source files were verified by SHA-256; originals remain on the Desktop. This import does not revalidate runtime behavior or model metrics.
+
+*最近整理日期：2026-11-09。*

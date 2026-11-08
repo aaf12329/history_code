@@ -1,0 +1,58 @@
+{
+  "_说明": {
+    "用途": "deploy.py 的配置文件。双击 deploy.bat 即可按本文件在项目根目录创建虚拟环境并安装依赖。",
+    "venvDir": "虚拟环境目录名，相对项目根目录。start.bat 会自动寻找该目录下的解释器。",
+    "pythonExe": "用哪个 Python 来创建环境。留空 = 自动挑选：按「运行本脚本的解释器 → 环境变量 PYTHON → conda 环境 tf → py 启动器注册的其它版本 → PATH 上的 python」顺序，优先选版本不高于 pinnedVersions 验证上限（3.12）的那个，因为更新的 Python 未必有锁定版本的预编译 wheel。",
+    "requirementsFile": "依赖清单文件。pinnedVersions 为空时会用它安装。",
+    "pinnedVersions": "锁定版本（推荐保留）。非空时按此逐个安装，可复现本机验证过的组合；置为空对象 {} 则改用 requirementsFile 或 fallbackPackages，会装到最新版。",
+    "fallbackPackages": "requirementsFile 不存在且未锁版本时，按此列表安装。",
+    "pipIndexUrl": "pip 源。国内建议清华镜像；留空 = 官方源。装不上时会自动改用官方源再试。",
+    "pipExtraIndexUrl": "额外索引源，留空表示不用。",
+    "upgradePip": "安装依赖前是否先升级 pip。",
+    "verifyImports": "安装完成后逐个 import 验证，任一失败即报错退出。",
+    "checkBackend": "是否额外验证本项目的后端模块能否正常导入（能发现依赖齐全但代码或模型损坏的情况）。",
+    "venvArgs": "传给 python -m venv 的额外参数，一般留空。"
+  },
+
+  "venvDir": ".venv",
+  "pythonExe": "",
+
+  "requirementsFile": "requirements.txt",
+
+  "pinnedVersions": {
+    "flask": "3.1.3",
+    "joblib": "1.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "xgboost": "3.2.0",
+    "catboost": "1.2.10"
+  },
+
+  "fallbackPackages": [
+    "flask",
+    "joblib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "xgboost",
+    "catboost"
+  ],
+
+  "pipIndexUrl": "https://pypi.tuna.tsinghua.edu.cn/simple",
+  "pipExtraIndexUrl": "",
+  "upgradePip": true,
+
+  "verifyImports": [
+    "flask",
+    "joblib",
+    "numpy",
+    "pandas",
+    "sklearn",
+    "xgboost",
+    "catboost"
+  ],
+
+  "checkBackend": true,
+  "venvArgs": []
+}

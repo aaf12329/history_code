@@ -1,0 +1,469 @@
+{
+  "source": "Dataset.csv (943 行 × 25 列)",
+  "pollutantColumn": "Pollutant",
+  "descriptorFields": [
+    "MW",
+    "Kow",
+    "pKa1",
+    "E",
+    "S",
+    "A",
+    "B",
+    "V"
+  ],
+  "pollutants": [
+    {
+      "name": "Sulfadiazine",
+      "nRecords": 210,
+      "descriptors": {
+        "MW": 250.28,
+        "Kow": -0.34,
+        "pKa1": 6.36,
+        "E": 2.08,
+        "S": 2.55,
+        "A": 0.65,
+        "B": 1.37,
+        "V": 1.7225
+      },
+      "descriptorsConstant": true
+    },
+    {
+      "name": "Sulfamerazine",
+      "nRecords": 36,
+      "descriptors": {
+        "MW": 264.31,
+        "Kow": 0.21,
+        "pKa1": 2.22,
+        "E": 2.1,
+        "S": 2.65,
+        "A": 0.65,
+        "B": 1.42,
+        "V": 1.8634
+      },
+      "descriptorsConstant": true
+    },
+    {
+      "name": "Sulfamethazine",
+      "nRecords": 87,
+      "descriptors": {
+        "MW": 278.33,
+        "Kow": 0.76,
+        "pKa1": 2.65,
+        "E": 2.13,
+        "S": 2.53,
+        "A": 0.59,
+        "B": 1.53,
+        "V": 2.0043
+      },
+      "descriptorsConstant": true
+    },
+    {
+      "name": "Sulfamethoxazole",
+      "nRecords": 438,
+      "descriptors": {
+        "MW": 253.28,
+        "Kow": 0.48,
+        "pKa1": 1.6,
+        "E": 1.89,
+        "S": 2.23,
+        "A": 0.58,
+        "B": 1.29,
+        "V": 1.7244
+      },
+      "descriptorsConstant": true
+    },
+    {
+      "name": "Sulfapyridine",
+      "nRecords": 74,
+      "descriptors": {
+        "MW": 249.29,
+        "Kow": 0.53,
+        "pKa1": 8.43,
+        "E": 2.04,
+        "S": 2.23,
+        "A": 0.59,
+        "B": 1.48,
+        "V": 1.7636
+      },
+      "descriptorsConstant": true
+    },
+    {
+      "name": "Sulfathiazole",
+      "nRecords": 63,
+      "descriptors": {
+        "MW": 255.32,
+        "Kow": 0.72,
+        "pKa1": 2.2,
+        "E": 2.11,
+        "S": 2.5,
+        "A": 0.68,
+        "B": 1.4,
+        "V": 1.6883
+      },
+      "descriptorsConstant": true
+    },
+    {
+      "name": "Sulfonamide",
+      "nRecords": 35,
+      "descriptors": {
+        "MW": 172.2,
+        "Kow": -0.55,
+        "pKa1": 10.43,
+        "E": 1.5,
+        "S": 1.82,
+        "A": 0.41,
+        "B": 1.19,
+        "V": 1.1969
+      },
+      "descriptorsConstant": true
+    }
+  ],
+  "allDescriptorsConstant": true,
+  "groups": {
+    "pollutant": {
+      "label": "污染物",
+      "fields": [
+        "MW",
+        "Kow",
+        "pKa1",
+        "E",
+        "S",
+        "A",
+        "B",
+        "V"
+      ]
+    },
+    "biochar": {
+      "label": "生物炭性质",
+      "fields": [
+        "SBET",
+        "VTotal",
+        "Dp",
+        "C",
+        "H",
+        "O",
+        "N"
+      ]
+    },
+    "condition": {
+      "label": "吸附条件",
+      "fields": [
+        "Dosage",
+        "Initial concentration",
+        "Temperature",
+        "Initial pH"
+      ]
+    }
+  },
+  "fields": {
+    "SBET": {
+      "label": "比表面积 SBET",
+      "unit": "m²/g",
+      "desc": "生物炭的 BET 比表面积",
+      "min": 0.5,
+      "max": 3406.0,
+      "p05": 2.31,
+      "p25": 22.47,
+      "median": 105.5,
+      "p75": 522.9549999999999,
+      "p95": 1267.3,
+      "mean": 364.6359437781548,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "VTotal": {
+      "label": "总孔容 VTotal",
+      "unit": "cm³/g",
+      "desc": "总孔体积",
+      "min": 0.0013,
+      "max": 1.658,
+      "p05": 0.006640000000000001,
+      "p25": 0.077,
+      "median": 0.161,
+      "p75": 0.5193,
+      "p95": 1.049,
+      "mean": 0.31541374443266174,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "Dp": {
+      "label": "平均孔径 Dp",
+      "unit": "nm",
+      "desc": "平均孔径",
+      "min": 1.02,
+      "max": 256.4227642,
+      "p05": 1.756,
+      "p25": 2.42,
+      "median": 3.71,
+      "p75": 6.8,
+      "p95": 28.7013373,
+      "mean": 10.061884345798516,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "C": {
+      "label": "碳含量 C",
+      "unit": "%",
+      "desc": "元素分析碳质量分数",
+      "min": 6.02,
+      "max": 94.4,
+      "p05": 14.63,
+      "p25": 50.59,
+      "median": 64.36,
+      "p75": 75.8,
+      "p95": 90.08,
+      "mean": 61.74162672322375,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "H": {
+      "label": "氢含量 H",
+      "unit": "%",
+      "desc": "元素分析氢质量分数",
+      "min": 0.49,
+      "max": 18.77,
+      "p05": 0.65,
+      "p25": 1.29,
+      "median": 2.1,
+      "p75": 3.228065968,
+      "p95": 7.08,
+      "mean": 2.722492496615058,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "O": {
+      "label": "氧含量 O",
+      "unit": "%",
+      "desc": "元素分析氧质量分数",
+      "min": 1.1,
+      "max": 57.7,
+      "p05": 2.05,
+      "p25": 8.1,
+      "median": 15.254,
+      "p75": 26.48,
+      "p95": 48.3,
+      "mean": 19.482676564156943,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "N": {
+      "label": "氮含量 N",
+      "unit": "%",
+      "desc": "元素分析氮质量分数",
+      "min": 0.0,
+      "max": 9.86,
+      "p05": 0.01,
+      "p25": 0.32,
+      "median": 0.868,
+      "p75": 2.154,
+      "p95": 4.92,
+      "mean": 1.4491092258748672,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "Dosage": {
+      "label": "投加量 Dosage",
+      "unit": "g/L",
+      "desc": "吸附剂投加浓度",
+      "min": 0.008,
+      "max": 20.0,
+      "p05": 0.025,
+      "p25": 0.2,
+      "median": 1.0,
+      "p75": 2.5,
+      "p95": 20.0,
+      "mean": 3.336999999997879,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "Initial concentration": {
+      "label": "初始浓度",
+      "unit": "mg/L",
+      "desc": "污染物初始质量浓度",
+      "min": 0.05,
+      "max": 400.0,
+      "p05": 3.8188477395,
+      "p25": 12.006208879999999,
+      "median": 30.0,
+      "p75": 53.80162,
+      "p95": 146.84373200000002,
+      "mean": 43.812193815379636,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "Temperature": {
+      "label": "温度",
+      "unit": "K",
+      "desc": "实验温度（开尔文）",
+      "min": 278.0,
+      "max": 313.15,
+      "p05": 288.0,
+      "p25": 298.0,
+      "median": 298.0,
+      "p75": 298.0,
+      "p95": 308.0,
+      "mean": 297.77967126193,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "Initial pH": {
+      "label": "初始 pH",
+      "unit": "—",
+      "desc": "溶液初始酸碱度",
+      "min": 3.0,
+      "max": 9.5,
+      "p05": 4.0,
+      "p25": 5.0,
+      "median": 5.4,
+      "p75": 6.4,
+      "p95": 8.0,
+      "mean": 5.6585790031813366,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "MW": {
+      "label": "分子量 MW",
+      "unit": "g/mol",
+      "desc": "污染物分子固有描述符",
+      "min": 172.2,
+      "max": 278.33,
+      "p05": 249.29,
+      "p25": 250.28,
+      "median": 253.28,
+      "p75": 253.28,
+      "p95": 278.33,
+      "mean": 252.15793213149527,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "Kow": {
+      "label": "辛醇-水分配系数 Kow",
+      "unit": "—",
+      "desc": "污染物分子固有描述符",
+      "min": -0.55,
+      "max": 0.76,
+      "p05": -0.34,
+      "p25": -0.34,
+      "median": 0.48,
+      "p75": 0.48,
+      "p95": 0.76,
+      "mean": 0.2946447507953341,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "pKa1": {
+      "label": "一级解离常数 pKa1",
+      "unit": "—",
+      "desc": "污染物分子固有描述符",
+      "min": 1.6,
+      "max": 10.43,
+      "p05": 1.6,
+      "p25": 1.6,
+      "median": 2.2,
+      "p75": 6.36,
+      "p95": 8.43,
+      "mean": 3.6843478260869573,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "E": {
+      "label": "分子描述符 E",
+      "unit": "—",
+      "desc": "污染物分子固有描述符",
+      "min": 1.5,
+      "max": 2.13,
+      "p05": 1.89,
+      "p25": 1.89,
+      "median": 1.89,
+      "p75": 2.08,
+      "p95": 2.13,
+      "mean": 1.9744644750795335,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "S": {
+      "label": "分子描述符 S",
+      "unit": "—",
+      "desc": "污染物分子固有描述符",
+      "min": 1.82,
+      "max": 2.65,
+      "p05": 2.23,
+      "p25": 2.23,
+      "median": 2.23,
+      "p75": 2.55,
+      "p95": 2.55,
+      "mean": 2.34779427359491,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "A": {
+      "label": "分子描述符 A",
+      "unit": "—",
+      "desc": "污染物分子固有描述符",
+      "min": 0.41,
+      "max": 0.68,
+      "p05": 0.58,
+      "p25": 0.58,
+      "median": 0.58,
+      "p75": 0.65,
+      "p95": 0.68,
+      "mean": 0.6003393425238601,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "B": {
+      "label": "分子描述符 B",
+      "unit": "—",
+      "desc": "污染物分子固有描述符",
+      "min": 1.19,
+      "max": 1.53,
+      "p05": 1.29,
+      "p25": 1.29,
+      "median": 1.29,
+      "p75": 1.4,
+      "p95": 1.53,
+      "mean": 1.3534676564156947,
+      "nValid": 943,
+      "nMissing": 0
+    },
+    "V": {
+      "label": "分子描述符 V",
+      "unit": "—",
+      "desc": "污染物分子固有描述符",
+      "min": 1.1969,
+      "max": 2.0043,
+      "p05": 1.6883,
+      "p25": 1.7225,
+      "median": 1.7244,
+      "p75": 1.7244,
+      "p95": 2.0043,
+      "mean": 1.7361924708377519,
+      "nValid": 943,
+      "nMissing": 0
+    }
+  },
+  "targets": {
+    "amount": {
+      "column": "Adsorption amount",
+      "label": "吸附量 Adsorption amount",
+      "unit": "mg/g",
+      "desc": "单位质量吸附剂吸附的污染物质量",
+      "min": 0.02499293,
+      "max": 599.42402,
+      "median": 14.09233,
+      "mean": 68.79095706530964,
+      "nValid": 943
+    },
+    "capacity": {
+      "column": "Adsorption capacity",
+      "label": "吸附容量 Adsorption capacity",
+      "unit": "mg/g",
+      "desc": "吸附剂对污染物的饱和吸附容量",
+      "min": 0.2219,
+      "max": 613.45,
+      "median": 23.1,
+      "mean": 92.99678198767339,
+      "nValid": 943
+    }
+  }
+}

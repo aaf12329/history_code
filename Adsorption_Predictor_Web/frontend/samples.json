@@ -1,0 +1,226 @@
+[
+  {
+    "id": "Sulfadiazine · 组内中位样本",
+    "pollutant": "Sulfadiazine",
+    "nRecordsInGroup": 210,
+    "inputs": {
+      "Pollutant": "Sulfadiazine",
+      "SBET": 832.0,
+      "VTotal": 0.563,
+      "Dp": 2.706731,
+      "C": 51.99,
+      "H": 3.62,
+      "O": 42.51,
+      "N": 0.97,
+      "Dosage": 0.1,
+      "Initial concentration": 5.0,
+      "Temperature": 298.0,
+      "Initial pH": 6.9,
+      "MW": 250.28,
+      "Kow": -0.34,
+      "pKa1": 6.36,
+      "E": 2.08,
+      "S": 2.55,
+      "A": 0.65,
+      "B": 1.37,
+      "V": 1.7225
+    },
+    "missingFields": [],
+    "truth": {
+      "amount": 39.4224,
+      "capacity": 69.6
+    }
+  },
+  {
+    "id": "Sulfamerazine · 组内中位样本",
+    "pollutant": "Sulfamerazine",
+    "nRecordsInGroup": 36,
+    "inputs": {
+      "Pollutant": "Sulfamerazine",
+      "SBET": 25.55,
+      "VTotal": 0.03,
+      "Dp": 5.05,
+      "C": 37.53,
+      "H": 2.62,
+      "O": 33.58,
+      "N": 2.42,
+      "Dosage": 6.25,
+      "Initial concentration": 5.973955,
+      "Temperature": 298.0,
+      "Initial pH": 7.5,
+      "MW": 264.31,
+      "Kow": 0.21,
+      "pKa1": 2.22,
+      "E": 2.1,
+      "S": 2.65,
+      "A": 0.65,
+      "B": 1.42,
+      "V": 1.8634
+    },
+    "missingFields": [],
+    "truth": {
+      "amount": 0.5387,
+      "capacity": 4.8151
+    }
+  },
+  {
+    "id": "Sulfamethazine · 组内中位样本",
+    "pollutant": "Sulfamethazine",
+    "nRecordsInGroup": 87,
+    "inputs": {
+      "Pollutant": "Sulfamethazine",
+      "SBET": 0.85,
+      "VTotal": 0.004,
+      "Dp": 3.07,
+      "C": 65.98,
+      "H": 5.55,
+      "O": 23.09,
+      "N": 5.08,
+      "Dosage": 1.0,
+      "Initial concentration": 16.06703,
+      "Temperature": 298.0,
+      "Initial pH": 5.0,
+      "MW": 278.33,
+      "Kow": 0.76,
+      "pKa1": 2.65,
+      "E": 2.13,
+      "S": 2.53,
+      "A": 0.59,
+      "B": 1.53,
+      "V": 2.0043
+    },
+    "missingFields": [],
+    "truth": {
+      "amount": 5.2848,
+      "capacity": 15.656
+    }
+  },
+  {
+    "id": "Sulfamethoxazole · 组内中位样本",
+    "pollutant": "Sulfamethoxazole",
+    "nRecordsInGroup": 438,
+    "inputs": {
+      "Pollutant": "Sulfamethoxazole",
+      "SBET": 262.2,
+      "VTotal": 0.0622,
+      "Dp": 5.1708,
+      "C": 60.3,
+      "H": 1.87,
+      "O": 13.16,
+      "N": 0.52,
+      "Dosage": 2.5,
+      "Initial concentration": 174.790985,
+      "Temperature": 298.0,
+      "Initial pH": 5.0,
+      "MW": 253.28,
+      "Kow": 0.48,
+      "pKa1": 1.6,
+      "E": 1.89,
+      "S": 2.23,
+      "A": 0.58,
+      "B": 1.29,
+      "V": 1.7244
+    },
+    "missingFields": [],
+    "truth": {
+      "amount": 10.6214,
+      "capacity": 10.07
+    }
+  },
+  {
+    "id": "Sulfapyridine · 组内中位样本",
+    "pollutant": "Sulfapyridine",
+    "nRecordsInGroup": 74,
+    "inputs": {
+      "Pollutant": "Sulfapyridine",
+      "SBET": 5.75,
+      "VTotal": 0.4417,
+      "Dp": 5.243644,
+      "C": 61.55,
+      "H": 3.45,
+      "O": 13.37,
+      "N": 2.06,
+      "Dosage": 20.0,
+      "Initial concentration": 100.0,
+      "Temperature": 297.0,
+      "Initial pH": 4.6,
+      "MW": 249.29,
+      "Kow": 0.53,
+      "pKa1": 8.43,
+      "E": 2.04,
+      "S": 2.23,
+      "A": 0.59,
+      "B": 1.48,
+      "V": 1.7636
+    },
+    "missingFields": [],
+    "truth": {
+      "amount": 1.8808,
+      "capacity": 166.0
+    }
+  },
+  {
+    "id": "Sulfathiazole · 组内中位样本",
+    "pollutant": "Sulfathiazole",
+    "nRecordsInGroup": 63,
+    "inputs": {
+      "Pollutant": "Sulfathiazole",
+      "SBET": 374.7,
+      "VTotal": 0.127,
+      "Dp": 3.722,
+      "C": 50.59,
+      "H": 1.43,
+      "O": 2.05,
+      "N": 0.01,
+      "Dosage": 1.0,
+      "Initial concentration": 40.0,
+      "Temperature": 298.0,
+      "Initial pH": 4.3,
+      "MW": 255.32,
+      "Kow": 0.72,
+      "pKa1": 2.2,
+      "E": 2.11,
+      "S": 2.5,
+      "A": 0.68,
+      "B": 1.4,
+      "V": 1.6883
+    },
+    "missingFields": [],
+    "truth": {
+      "amount": 14.7918,
+      "capacity": 25.16
+    }
+  },
+  {
+    "id": "Sulfonamide · 组内中位样本",
+    "pollutant": "Sulfonamide",
+    "nRecordsInGroup": 35,
+    "inputs": {
+      "Pollutant": "Sulfonamide",
+      "SBET": 74.307,
+      "VTotal": 0.0078,
+      "Dp": 7.268,
+      "C": 73.56,
+      "H": 2.93,
+      "O": 9.85,
+      "N": 9.86,
+      "Dosage": 0.5,
+      "Initial concentration": 30.0,
+      "Temperature": 300.0,
+      "Initial pH": 5.0,
+      "MW": 172.2,
+      "Kow": -0.55,
+      "pKa1": 10.43,
+      "E": 1.5,
+      "S": 1.82,
+      "A": 0.41,
+      "B": 1.19,
+      "V": 1.1969
+    },
+    "missingFields": [],
+    "truth": {
+      "amount": 25.6366,
+      "capacity": 28.31
+    }
+  }
+]

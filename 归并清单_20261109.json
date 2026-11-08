@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-09",
+  "mode": "file snapshot; originals retained; no source Git history",
+  "source_directory": "Desktop/Adsorption_Predictor_Web",
+  "source_slides": "Desktop/生物炭吸附性能预测器_环境治理路演.pptx",
+  "excluded": [
+    "__pycache__/",
+    "*.pyc",
+    "*.pyo",
+    ".git/",
+    "virtual environments",
+    "credentials",
+    "dependency caches"
+  ],
+  "file_count": 44,
+  "total_bytes": 17351712.0,
+  "files": [
+    {
+      "archive_path": "Adsorption_Predictor_Web/.gitignore",
+      "bytes": 374,
+      "sha256": "6D5DEDE12A08A2DFC4514D7A42D8F67D62E67C2F14C98C1900573D2DF6666DD4"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/app.py",
+      "bytes": 12056,
+      "sha256": "BD60CE6E5058FCAA6C364B959B5E9934ECF829609309DF9A0CCBC54CA7114C17"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/deploy.bat",
+      "bytes": 2746,
+      "sha256": "3FFEE90F4AF9D92A2AE88F49F13F5A5F5599969BE1DBA7F80CE7F3C95E3BB17F"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/deploy.json",
+      "bytes": 2309,
+      "sha256": "D31BCEC4C02B4CEA96FB5C656E8A65C59E53D2E95FF4A357C7629C5BF07A47EB"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/deploy.py",
+      "bytes": 24078,
+      "sha256": "55B5C46393D1D09024DABE737EF07352E183767AE8D8F064DE1DC61DAEFF3B19"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/README.md",
+      "bytes": 34998,
+      "sha256": "732048CA7E6A0036F94AA67D92D576C80917687B497891DA5E296D23C15228B5"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/requirements.txt",
+      "bytes": 1695,
+      "sha256": "DE4BED726D65107C6E24B031121CE3485C6FBC84EDF08DFC2F30A2FFF5C56115"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/start.bat",
+      "bytes": 3036,
+      "sha256": "1A07284CBEF121A47AAB5FE3731DCD9638B2FAAA77476D2C43D68980CD891298"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/backend/__init__.py",
+      "bytes": 550,
+      "sha256": "28CB91C35D5064712A6D737A4D181392CF6EB42D88F889853E038EF907FB6913"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/backend/dataset_meta.py",
+      "bytes": 3591,
+      "sha256": "8E6F033AB7971A6629674F2DD95866B52CD83E45713E853E59802897A716AB6E"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/backend/features.py",
+      "bytes": 4691,
+      "sha256": "0EB92C54DDCDA9C3AC05B407B14C37D04AD70993C16B2F8F80536FE1AC809AFD"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/backend/model_registry.py",
+      "bytes": 7008,
+      "sha256": "2392714D56BD18062150E25B0B4575C74743465D4A73E593F7E0DC22F3739263"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/backend/model_store.py",
+      "bytes": 3164,
+      "sha256": "43C1AB6B3C6E73C07DCF1CC365B425EF5E68BFF9E25ADDB1E905918524EA2004"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/backend/paths.py",
+      "bytes": 1233,
+      "sha256": "091FB1C8522A38E0DEB2D376B42DF7A58CC764913D5330281F9AB52075BC653F"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/make_architecture_figure.py",
+      "bytes": 26868,
+      "sha256": "DA339EB173D2C4C7B53B8037DB3089D54C0DC8C16A5B1311D2F3FF4ED14741B3"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/make_field_meta.py",
+      "bytes": 9596,
+      "sha256": "A7D91DC7D0383E36CF1A9267A4595A8F320FA0A686FEA2FE1A576FFFA739C9B2"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/make_samples.py",
+      "bytes": 4359,
+      "sha256": "46AE6E70C7E36507C39D1AEB176312A982646098D15ED2EFDE46009265B9D307"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/measure_wgan_model.py",
+      "bytes": 8422,
+      "sha256": "1E93836B51D0BA185D8302AA474631A90F0FD70E09E1654970A4304B221BCB61"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/reproduce_metrics.py",
+      "bytes": 6950,
+      "sha256": "A9337DC037F82947E4CCB0C3FAD5CF685A47D37D46DC57D934A00587E4A70DDC"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/self_check.py",
+      "bytes": 9909,
+      "sha256": "94FA429B3FFAB82BA7FF38595BC68CCB63E5CF622EEF957C569045E98E412CA9"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/source_project.py",
+      "bytes": 3231,
+      "sha256": "A1E2CEDC1497C99122BCE87F680F40DB56021E3D64321BF7CF92EDCF2EE89C1D"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/test_api.py",
+      "bytes": 11122,
+      "sha256": "F577C464B36F8F3859128DA405FA7B2A1BAC321A892F1856483D1B13899ABBC4"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/verify_models.py",
+      "bytes": 7108,
+      "sha256": "3C31832A11D44055241C6B5A5DB7E300856968B53366B33FE1F96B0C3FF471A6"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/build/wgan_metrics.json",
+      "bytes": 277,
+      "sha256": "F8F72A5B15F91CA73949B4EAE450EBA1E428BA4C0F4E8C92229F5B35F41C00F3"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/docs/figures/图1_架构与调用关系.png",
+      "bytes": 285243,
+      "sha256": "ABD6E10978D3724CC698E6777518A25FE6C0A017A24809069CA418B7FF3A597A"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/docs/figures/图2_一次预测的数据流.png",
+      "bytes": 178373,
+      "sha256": "34FF267315793633426BA9D142B4E462F23FCB96DEB88E58C80150646C556070"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/docs/figures/图3_项目完整结构.png",
+      "bytes": 667658,
+      "sha256": "9173B0B94488A3AC17B18DA1B791DAE8627A0EF7A2170A02BE020859864F0974"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/docs/figures/图4_原理与实现对应.png",
+      "bytes": 745491,
+      "sha256": "F7EB17A22419EBAA06E9A507F04397C73CC4838A0A17F4C3E02D1DB1B5CCD4D9"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/docs/screenshots/01_吸附量预测.png",
+      "bytes": 268384,
+      "sha256": "25733A3236E4D3378423A5957EF5B38568D89E2DF644EFB2886BC58050F91AC1"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/docs/screenshots/02_吸附容量预测.png",
+      "bytes": 271313,
+      "sha256": "6EA6C5C2D329C4571508B66279C61A4F29560B403C3A6A18EE612C8BB708E2DA"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/frontend/app.js",
+      "bytes": 20742,
+      "sha256": "9A4C777AA7268FECF2493E2734D1E9815539BD4B629A6956446D3D4C9ED3E4BA"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/frontend/field_meta.json",
+      "bytes": 10414,
+      "sha256": "1A6265016D02277A033E085ADF96280C1A7A288B3C869129076FD0C2CC3095A3"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/frontend/index.html",
+      "bytes": 3988,
+      "sha256": "8891D736F648730A6B1E23FE9BFFE2889B0F9787357B04BAC8B3086BEB3A94C7"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/frontend/samples.json",
+      "bytes": 4879,
+      "sha256": "A25C22253B68F8735994CFDBE2666E1EC1DBCE46BE28A9EF222EF93A664971B2"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/frontend/style.css",
+      "bytes": 9436,
+      "sha256": "6A8A30636EB4DB29C2B437E0BEA7782D232FA31A38D662045DE907230E285832"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/models/catboost_amount.joblib",
+      "bytes": 689420,
+      "sha256": "A4CADCCF622FBAE0835B43E2499DE80DD6EB62E56937B8969D5DA1BDEBAD0999"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/models/Dataset.csv",
+      "bytes": 355279,
+      "sha256": "E5D65592122B33F3125443B2971B5422D96BB109CCCD8016AAFCFA2550926ACD"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/models/scaler_amount.joblib",
+      "bytes": 1759,
+      "sha256": "A985A344C960495D164CA40D2D8DF664535E98988B08851D1329C12875226128"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/models/scaler_capacity_wgan.joblib",
+      "bytes": 1455,
+      "sha256": "B60E06AC20BD4D2E7255CFA202828F30C597BCD50602D394CF1B0DB29CF596A5"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/models/scaler_capacity.joblib",
+      "bytes": 1759,
+      "sha256": "4471BED137F8921B8C1183D1D58151F592B7D00135E289A964A0BDE033D34ED2"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/models/xgb_amount.joblib",
+      "bytes": 3750981,
+      "sha256": "E4ACD7DA73B1B5CC26F8FB30AFF7A8D23617F023AB06559DBBCA9C8E2AD97F5F"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/models/xgb_capacity_wgan.joblib",
+      "bytes": 2913773,
+      "sha256": "5BD36D6346A4E43097DD1B92F2471C151266DF849EB0C4873214757A167951D3"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/models/xgb_capacity.joblib",
+      "bytes": 1547348,
+      "sha256": "8E186C7A916FF2D323B5B9AF98294CD355DF499C6E1307569E316AE1C55CD454"
+    },
+    {
+      "archive_path": "Adsorption_Predictor_Web/docs/生物炭吸附性能预测器_环境治理路演.pptx",
+      "bytes": 5434646,
+      "sha256": "D7F2CC33AAE6DF417F98F190CB57D5A8872B43345771C9CF7DA5C74C64E3D798"
+    }
+  ]
+}

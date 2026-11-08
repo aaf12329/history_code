@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>生物炭吸附性能预测器</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <h1>生物炭吸附性能预测器</h1>
+    <p class="subtitle">
+      基于 WGAN-GP 数据增强与可解释机器学习的磺胺类抗生素吸附量 / 吸附容量预测
+    </p>
+    <p class="meta-line" id="dataset-line">正在读取数据集信息…</p>
+  </div>
+</header>
+
+<main class="wrap layout">
+
+  <!-- ================= 左栏：输入 ================= -->
+  <section class="panel" id="form-panel">
+    <h2 class="panel-title">输入条件</h2>
+
+    <!-- 目标变量 -->
+    <div class="field-group">
+      <div class="group-head"><span class="group-name">预测目标</span></div>
+      <div class="target-switch" id="target-switch" role="tablist"></div>
+    </div>
+
+    <!-- 模型选择 -->
+    <div class="field-group">
+      <div class="group-head">
+        <span class="group-name">选择模型</span>
+        <span class="group-hint" id="model-hint"></span>
+      </div>
+      <div class="model-list" id="model-list"></div>
+    </div>
+
+    <!-- 污染物 -->
+    <div class="field-group">
+      <div class="group-head">
+        <span class="group-name">污染物</span>
+        <span class="group-hint">选择后自动带出分子描述符</span>
+      </div>
+      <label class="field">
+        <span class="field-label">磺胺类抗生素</span>
+        <select id="pollutant-select"></select>
+      </label>
+    </div>
+
+    <!-- 其余字段由 JS 按元数据渲染 -->
+    <div id="dynamic-groups"></div>
+
+    <!-- 操作按钮 -->
+    <div class="actions">
+      <button class="btn btn-primary" id="predict-btn">开始预测</button>
+      <button class="btn" id="typical-btn">填充典型值</button>
+      <button class="btn" id="reset-btn">重置</button>
+    </div>
+
+    <!-- 示例 -->
+    <div class="field-group">
+      <div class="group-head">
+        <span class="group-name">载入真实实验记录</span>
+        <span class="group-hint">可用于对照模型的预测值与实测值</span>
+      </div>
+      <div class="sample-list" id="sample-list"></div>
+    </div>
+  </section>
+
+  <!-- ================= 右栏：结果 ================= -->
+  <section class="panel" id="result-panel">
+    <h2 class="panel-title">预测结果</h2>
+
+    <div class="placeholder" id="result-placeholder">
+      <p>填写左侧条件后点击「开始预测」。</p>
+      <p class="dim">预测在本地 Python 服务中完成，不联网、不上传任何数据。</p>
+    </div>
+
+    <div class="result-body hidden" id="result-body">
+      <div class="prediction-card">
+        <div class="prediction-label" id="prediction-label"></div>
+        <div class="prediction-value">
+          <span id="prediction-number">—</span>
+          <span class="prediction-unit" id="prediction-unit"></span>
+        </div>
+        <div class="prediction-sub" id="prediction-sub"></div>
+      </div>
+
+      <div class="truth-compare hidden" id="truth-compare"></div>
+
+      <div class="result-section">
+        <h3>同一输入下的多模型对比</h3>
+        <div id="compare-table"></div>
+      </div>
+
+      <details class="result-section">
+        <summary>查看模型实际收到的特征值</summary>
+        <div id="feature-row"></div>
+      </details>
+
+      <div class="result-section">
+        <h3>模型说明</h3>
+        <div id="model-note" class="note"></div>
+      </div>
+    </div>
+
+    <div class="error-box hidden" id="error-box"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>
+      模型来源：WGAN_Boost_Xgboost 项目 ·
+      可视化与接口：本地 Flask 服务 ·
+      精度指标均取自各模型训练时的实测记录
+    </p>
+  </div>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>

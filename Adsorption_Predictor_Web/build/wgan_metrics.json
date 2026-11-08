@@ -1,0 +1,12 @@
+{
+  "capacity_wgan_xgb": {
+    "r2": 0.9614,
+    "rmse": 25.9,
+    "mae": 13.39,
+    "source": "build/measure_wgan_model.py（同口径复算，随机种子 42）",
+    "nTrain": 2352,
+    "nTest": 588,
+    "nFeatures": 19,
+    "reproductionMaxScalerDiff": 0.0
+  }
+}

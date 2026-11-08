@@ -26,3 +26,8 @@ dist/
 build/
 .env.*
 !.env.example
+
+# This project's build directory contains source scripts, not generated output.
+!/Adsorption_Predictor_Web/build/
+!/Adsorption_Predictor_Web/build/*.py
+!/Adsorption_Predictor_Web/build/*.json
